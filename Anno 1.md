@@ -20,5 +20,5 @@ banner_position: 62
 - [x] Superare POO il 24 giugno
 - [x] Finire e consegnare progetto BDD
 - [x] Finire e consegnare progetto POO
-- [ ] Superare ADE
+- [ ] Superare ADE (fo)
 ![[HOMEPAGE-1781880885898.webp|697|328x323]] ![[HOMEPAGE-1781880936025.webp|292x365]]

@@ -1,0 +1,16 @@
+views:
+  - type: cards
+    name: Tabella
+    filters:
+      and:
+        - Materia == "Programmazione Object-Oriented"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - tags
+      - Imparato
+    sort:
+      - property: Ordine
+        direction: ASC

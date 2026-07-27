@@ -1,0 +1,31 @@
+views:
+  - type: cards
+    name: Tabella
+    filters:
+      and:
+        - '!file.hasProperty("Materia")'
+        - '!file.inFolder("EXTRA")'
+        - not:
+            - file.inFolder("1.2.2 Basi di dati")
+        - and:
+            - file.fullname != "HOME.base"
+        - and:
+            - file.ext == "base"
+    order:
+      - file.basename
+    cardSize: 800
+    imageAspectRatio: 2.5
+  - type: table
+    name: Tabella 2
+    filters:
+      and:
+        - '!file.hasProperty("Materia")'
+        - '!file.inFolder("EXTRA")'
+        - not:
+            - file.inFolder("1.2.2 Basi di dati")
+        - and:
+            - file.name != "HOME.base"
+        - and:
+            - file.ext == "base"
+    cardSize: 800
+    imageAspectRatio: 2.5

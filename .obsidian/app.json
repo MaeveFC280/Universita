@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "rightToLeft": false,
+  "propertiesInDocument": "visible",
+  "promptDelete": false,
+  "openBehavior": "file:HOMEPAGE",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "EXTRA/Immagini",
+  "newLinkFormat": "shortest"
+}

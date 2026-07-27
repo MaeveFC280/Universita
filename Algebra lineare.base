@@ -1,0 +1,18 @@
+views:
+  - type: cards
+    name: Tabella
+    filters:
+      and:
+        - Materia == "Algebra Lineare"
+        - not:
+            - file.inFolder("EXTRA")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - tags
+      - Imparato
+    sort:
+      - property: Ordine
+        direction: ASC

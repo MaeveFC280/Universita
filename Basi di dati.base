@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Tabella
+    filters:
+      and:
+        - Materia == "Basi di dati"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - tags
+      - Imparato
+    sort:
+      - property: Ordine
+        direction: ASC
+    cardSize: 200

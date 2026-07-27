@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "7124462416f3e94b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e4c98538dea0621",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93c7445dad8c0472",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Anno 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d93cd3dc10b4c103",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1f9c1bdc2844542",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95ae0ec5eaaffe1c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "aa42f3defad9a389",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "7313ee06a6fbd872",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "ade0433a82c55bf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0f63619593f7b43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b330659e7210d125",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Basi di dati.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a Basi di dati"
+            }
+          },
+          {
+            "id": "45cc7bd5bead3fd2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Basi di dati/SQL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da SQL"
+            }
+          },
+          {
+            "id": "0be49337faf36d01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "150a6b908ba994fc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "4115fd95828b7a40",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Basi di dati/SQL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di SQL"
+            }
+          },
+          {
+            "id": "6abb401dd1ec909c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false,
+      "markdown-importer:Apri importazione Markdown": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "95ae0ec5eaaffe1c",
+  "lastOpenFiles": [
+    "Anno 1.md",
+    "1.2.3 Programmazione Object-Oriented/Collezioni.md",
+    "1.2.2 Basi di dati/7. PL-SQL/Strutture di iterazione.md",
+    "Basi di dati.base",
+    "HOME.base",
+    "1.2.2 Basi di dati/4. Schema logico/Mapping del modello relazionale.md",
+    "1.2.3 Programmazione Object-Oriented/DAO.md",
+    "Algebra lineare.base",
+    "Progetto UninaTaskBoard.md",
+    "Programmazione Object-Oriented.base",
+    "1.2.3 Programmazione Object-Oriented/User Interface.md",
+    "Query.md",
+    "1.2.2 Basi di dati/6. SQL/Vincoli.md",
+    "EXTRA/Immagini/DAO-1783334707133.webp",
+    "EXTRA/Immagini/DAO-1783249852936.webp",
+    "EXTRA/Immagini/DAO-1783249200494.webp",
+    "EXTRA/Immagini/DAO-1783249153937.webp",
+    "EXTRA/Immagini/DAO-1783249125308.webp",
+    "1.2.3 Programmazione Object-Oriented/Modello Entity-Boundary-Controll.md",
+    "1.2.3 Programmazione Object-Oriented/Mock-up.md",
+    "1.2.2 Basi di dati/1. Basi/Progettazione di una base di dati.md",
+    "1.2.2 Basi di dati/1. Basi/Astrazione e modelli.md",
+    "1.2.2 Basi di dati/1. Basi/Database.md",
+    "1.2.2 Basi di dati/1. Basi/Vincoli di integrità.md",
+    "1.2.2 Basi di dati/7. PL-SQL/Funzioni e procedure.md",
+    "1.2.2 Basi di dati/7. PL-SQL/PostegreSQL.md",
+    "1.2.2 Basi di dati/6. SQL/DELETE.md",
+    "1.2.2 Basi di dati/6. SQL/ALTER.md",
+    "1.2.2 Basi di dati/7. PL-SQL/Strutture condizionali.md",
+    "1.2.2 Basi di dati/7. PL-SQL/Fondamenti di PL-SQL.md",
+    "HOMEPAGE.md",
+    "AlgebraLineare.base",
+    "1.2.2 Basi di dati/2. UML/Ristrutturazione.md",
+    "1.2.3 Programmazione Object-Oriented/Progettazione.md",
+    "EXTRA/ESERCIZI/Esercitzione POO.md",
+    "EXTRA/Immagini/Esercitzione POO-1782234000628.webp",
+    "EXTRA/Immagini/Esercitzione POO-1782233291038.webp",
+    "EXTRA/Immagini/Esercitzione POO-1782228681251.webp",
+    "EXTRA/Immagini/Esercitzione POO-1782219421370.webp",
+    "EXTRA/Immagini/Esercitzione POO-1781950987207.webp",
+    "Senza nome 1.canvas",
+    "Senza nome.canvas",
+    "Excalidraw",
+    "EXTRA/Excalidraw",
+    "EXTRA/ESERCIZI",
+    "https:/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@github.com/MaeveFC280/Appunti-Universitari-Informatica-Obsidian.git",
+    "https:/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@github.com/MaeveFC280"
+  ]
+}

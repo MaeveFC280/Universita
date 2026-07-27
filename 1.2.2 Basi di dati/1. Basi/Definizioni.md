@@ -1,0 +1,7 @@
+- I **dati** sono informazioni con uno specifico significato che possono essere memorizzate 
+- Un **mini-mondo** è una porzione circoscritta del mondo reale i cui dati memorizzati fanno parte
+- Una **base di dati** sono una collezione di dati collegati tra di loro e memorizzati su un supporto permanente a cui gli utenti possono accedere
+- Una **DBMS (****_Data Base Management System_****)** è un sistema/collezione software che permette di gestire la base dati, basato su uno specifico **modello dei dati** (Gerarchico, Relazionale, NOSql, a grafo…).
+- Un **sistema di basi di dati** è l’insieme di DBMS e dei dati
+- **Metadati:** definizioni complete o descrizioni del database, memorizzate nel catalogo di sistema.
+- **Catalogo di sistema:** Contiene i la descrizione di un particolare database (strutture, vincoli, tipi, dati). Il DBMS vi accede per recuperare info in modo tale da lavorare con differenti applicazioni di basi di dati.

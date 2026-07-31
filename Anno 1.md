@@ -10,10 +10,6 @@ banner_position: 62
 ---
 # Materie
 ![[HOME.base]]
-# Obbiettivi pre-esame 
-- [x] Fare tutti esercizi di POO  
-- [x] Fare 10 esercizi di BDD
-
 # Obbiettivi annuali
 - [x] Superare Programmazione in C
 - [x] Superare BDD il 22 giugno

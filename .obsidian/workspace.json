@@ -15,15 +15,30 @@
               "type": "markdown",
               "state": {
                 "file": "Anno 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Anno 1"
             }
+          },
+          {
+            "id": "cc8d5a66c23b09f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.1.1 Architettura degli elaboratori/Come parlano codice e hardware.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Come parlano codice e hardware"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,9 +218,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95ae0ec5eaaffe1c",
+  "active": "cc8d5a66c23b09f6",
   "lastOpenFiles": [
+    "1.1.1 Architettura degli elaboratori/Da 0 a 1.md",
     "Anno 1.md",
+    "Architettura degli Elaboratori.base",
+    "1.1.1 Architettura degli elaboratori/Come parlano codice e hardware.md",
     "1.1.1 Architettura degli elaboratori/Risorse utili.md",
     "1.1.2 Analisi",
     "1.1.1 Architettura degli elaboratori",
@@ -240,9 +258,6 @@
     "1.2.2 Basi di dati/7. PL-SQL/Fondamenti di PL-SQL.md",
     "HOMEPAGE.md",
     "AlgebraLineare.base",
-    "1.2.2 Basi di dati/2. UML/Ristrutturazione.md",
-    "1.2.3 Programmazione Object-Oriented/Progettazione.md",
-    "EXTRA/ESERCIZI/Esercitzione POO.md",
     "EXTRA/Immagini/Esercitzione POO-1782234000628.webp",
     "EXTRA/Immagini/Esercitzione POO-1782233291038.webp",
     "EXTRA/Immagini/Esercitzione POO-1782228681251.webp",
@@ -251,7 +266,6 @@
     "Senza nome 1.canvas",
     "Senza nome.canvas",
     "Excalidraw",
-    "EXTRA/Excalidraw",
-    "EXTRA/ESERCIZI"
+    "EXTRA/Excalidraw"
   ]
 }

@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Tabella
+    filters:
+      and:
+        - Materia == "Architettura degli elaboratori"

@@ -57,7 +57,7 @@
       "textColor": "default"
     },
     "DML": {
-      "pillColor": "blue",
+      "pillColor": "cyan",
       "textColor": "default"
     },
     "DDL": {
@@ -85,11 +85,11 @@
       "textColor": "cyan"
     },
     "flusso_di_controllo": {
-      "pillColor": "red",
+      "pillColor": "cyan",
       "textColor": "default"
     },
     "funzioni": {
-      "pillColor": "red",
+      "pillColor": "cyan",
       "textColor": "default"
     },
     "DB": {

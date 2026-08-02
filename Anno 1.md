@@ -8,8 +8,9 @@ cssclasses:
 banner_position: 62
 ✧Ispirazione✧: Sei il tuo peggior nemico, non lasciarti abbattere
 ---
-# Materie
+# Appunti
 ![[HOME.base]]
+
 # Obbiettivi annuali
 - [x] Superare Programmazione in C
 - [x] Superare BDD il 22 giugno

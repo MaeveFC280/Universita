@@ -1,3 +1,14 @@
+formulas:
+  voto: if(file.basename == "Basi di dati", 27, if(file.basename == "Programmazione Object-Oriented", 29, if(file.basename == "Fondamenti di informatica", 23, null)))
+  CFU: if(file.basename == "Basi di dati", 9, if(file.basename == "Programmazione Object-Oriented", 9, null))
+  cfu: if(file.basename == "Basi di dati", 9, if(file.basename == "Programmazione Object-Oriented", 9, null))
+  ordine: |-
+    if(file.basename == "Fondamenti di informatica", 1,
+    if(file.basename == "Fondamenti di informatica", 1.5
+    if(file.basename == "Architettura degli Elaboratori", 2,
+    if(file.basename == "Programmazione Object-Oriented", 3,
+    if(file.basename == "Basi di dati", 4,
+    if(file.basename == "Algebra lineare", 5, 999)))))
 views:
   - type: cards
     name: Tabella
@@ -13,6 +24,10 @@ views:
             - file.ext == "base"
     order:
       - file.basename
+      - formula.voto
+    sort:
+      - property: formula.ordine
+        direction: ASC
     cardSize: 800
     imageAspectRatio: 2.5
   - type: table

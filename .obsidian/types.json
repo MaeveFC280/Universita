@@ -5,6 +5,8 @@
     "tags": "tags",
     "date": "date",
     "Imparato": "checkbox",
-    "Ordine": "number"
+    "Ordine": "number",
+    "Verbalizzato": "checkbox",
+    "Voto": "number"
   }
 }

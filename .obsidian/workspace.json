@@ -24,21 +24,62 @@
             }
           },
           {
-            "id": "cc8d5a66c23b09f6",
+            "id": "0d43e8170555b561",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Architettura degli Elaboratori.base",
+                "viewName": "Tabella"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Architettura degli Elaboratori"
+            }
+          },
+          {
+            "id": "305b108f96024a4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1.1 Architettura degli elaboratori/Come parlano codice e hardware.md",
+                "file": "1.1.1 Architettura degli elaboratori/Da 0 a 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Come parlano codice e hardware"
+              "title": "Da 0 a 1"
+            }
+          },
+          {
+            "id": "7f1955e5a8fc14d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.1.1 Architettura degli elaboratori/Logic gates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logic gates"
+            }
+          },
+          {
+            "id": "1b140d41e42afe39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.1.1 Architettura degli elaboratori/Sistemi di numerazione.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sistemi di numerazione"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -218,12 +259,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc8d5a66c23b09f6",
+  "active": "1b140d41e42afe39",
   "lastOpenFiles": [
+    "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
+    "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
+    "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",
+    "1.1.1 Architettura degli elaboratori/Logic gates.md",
+    "EXTRA/Immagini/Logic gates-1785675053477.webp",
+    "EXTRA/Immagini/Logic gates-1785674899875.webp",
+    "EXTRA/Immagini/Logic gates-1785674529626.webp",
+    "1.1.1 Architettura degli elaboratori/Sistemi di numerazione.md",
     "1.1.1 Architettura degli elaboratori/Da 0 a 1.md",
-    "Anno 1.md",
     "Architettura degli Elaboratori.base",
+    "1.2.1 Algebra/Logica rudimentale ed insiemi/Proposizioni.md",
+    "1.2.1 Algebra/Logica rudimentale ed insiemi/Partizioni.md",
+    "1.2.1 Algebra/Logica rudimentale ed insiemi/Insiemi.md",
+    "1.1.1 Architettura degli elaboratori/Assembly.md",
     "1.1.1 Architettura degli elaboratori/Come parlano codice e hardware.md",
+    "Anno 1.md",
+    "1.2.2 Basi di dati/2. UML/UML.md",
+    "1.2.2 Basi di dati/2. UML/Reticolo di specializzazione.md",
     "1.1.1 Architettura degli elaboratori/Risorse utili.md",
     "1.1.2 Analisi",
     "1.1.1 Architettura degli elaboratori",
@@ -249,20 +304,7 @@
     "1.2.2 Basi di dati/1. Basi/Progettazione di una base di dati.md",
     "1.2.2 Basi di dati/1. Basi/Astrazione e modelli.md",
     "1.2.2 Basi di dati/1. Basi/Database.md",
-    "1.2.2 Basi di dati/1. Basi/Vincoli di integrità.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Funzioni e procedure.md",
-    "1.2.2 Basi di dati/7. PL-SQL/PostegreSQL.md",
-    "1.2.2 Basi di dati/6. SQL/DELETE.md",
-    "1.2.2 Basi di dati/6. SQL/ALTER.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Strutture condizionali.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Fondamenti di PL-SQL.md",
-    "HOMEPAGE.md",
     "AlgebraLineare.base",
-    "EXTRA/Immagini/Esercitzione POO-1782234000628.webp",
-    "EXTRA/Immagini/Esercitzione POO-1782233291038.webp",
-    "EXTRA/Immagini/Esercitzione POO-1782228681251.webp",
-    "EXTRA/Immagini/Esercitzione POO-1782219421370.webp",
-    "EXTRA/Immagini/Esercitzione POO-1781950987207.webp",
     "Senza nome 1.canvas",
     "Senza nome.canvas",
     "Excalidraw",

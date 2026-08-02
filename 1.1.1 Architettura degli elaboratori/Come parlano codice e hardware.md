@@ -1,7 +1,6 @@
 ---
 Materia: Architettura degli elaboratori
 tags:
-  - ADE
 Link risorse: https://www.youtube.com/watch?v=sp3mMwo3PO0&list=PLd65gClbPwu8
 Libro: '"Digital Design and Computer Architecture"'
 Imparato: true

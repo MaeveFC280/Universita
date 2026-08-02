@@ -1,7 +1,6 @@
 ---
 Materia: Architettura degli elaboratori
 tags:
-  - ADE
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 1'
 Imparato: true
@@ -20,4 +19,4 @@ Tramite l'*astrazione* è possibile suddividere in parti un sistema complesso. U
 8. **Sistema operativo**: Device drivers
 9. **Software**: Programmi
 # Valori discreti
-Le variabili fisiche sono continue, mentre quando vengono digitalizzate bisogna scegliere degli intervalli e un numero finito di valori. I computer usano un sistema binario (2 valori) tramite un alto voltaggio "1" e basso voltaggio "0". L'informazione D con N possibili stati è misurabile in bit che sono: $D=\log_{2}N\text{ bits}$ . Quindi una variabile binaria trasmette $\log_{22}=1$ bit di informazione. Tale sistema è affiancabile alla logica booleana dove "1"=TRUE e "0"=FALSE.
+Le variabili fisiche sono continue, mentre quando vengono digitalizzate bisogna scegliere degli intervalli e un numero finito di valori. I computer usano un [[Sistemi di numerazione|sistema binario]] (2 valori) tramite un alto voltaggio "1" e basso voltaggio "0". L'informazione D con N possibili stati è misurabile in bit che sono: $D=\log_{2}N\text{ bits}$ . Quindi una variabile binaria trasmette $\log_{22}=1$ bit di informazione. Tale sistema è affiancabile alla [[Logic gates|logica booleana]] dove "1"=TRUE e "0"=FALSE.

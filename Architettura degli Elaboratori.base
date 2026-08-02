@@ -1,6 +1,13 @@
 views:
-  - type: table
+  - type: cards
     name: Tabella
     filters:
       and:
         - Materia == "Architettura degli elaboratori"
+    order:
+      - file.name
+      - Imparato
+      - tags
+    sort:
+      - property: Ordine
+        direction: ASC

@@ -78,8 +78,7 @@
               "title": "Sistemi di numerazione"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,8 +258,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b140d41e42afe39",
+  "active": "93c7445dad8c0472",
   "lastOpenFiles": [
+    "1.1.1 Architettura degli elaboratori/Sistemi di numerazione.md",
     "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
     "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
     "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",
@@ -268,7 +268,6 @@
     "EXTRA/Immagini/Logic gates-1785675053477.webp",
     "EXTRA/Immagini/Logic gates-1785674899875.webp",
     "EXTRA/Immagini/Logic gates-1785674529626.webp",
-    "1.1.1 Architettura degli elaboratori/Sistemi di numerazione.md",
     "1.1.1 Architettura degli elaboratori/Da 0 a 1.md",
     "Architettura degli Elaboratori.base",
     "1.2.1 Algebra/Logica rudimentale ed insiemi/Proposizioni.md",
@@ -298,7 +297,6 @@
     "EXTRA/Immagini/DAO-1783249852936.webp",
     "EXTRA/Immagini/DAO-1783249200494.webp",
     "EXTRA/Immagini/DAO-1783249153937.webp",
-    "EXTRA/Immagini/DAO-1783249125308.webp",
     "1.2.3 Programmazione Object-Oriented/Modello Entity-Boundary-Controll.md",
     "1.2.3 Programmazione Object-Oriented/Mock-up.md",
     "1.2.2 Basi di dati/1. Basi/Progettazione di una base di dati.md",

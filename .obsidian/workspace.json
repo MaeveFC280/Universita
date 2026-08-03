@@ -92,8 +92,22 @@
               "icon": "lucide-file",
               "title": "ALU"
             }
+          },
+          {
+            "id": "bbfe5c71a7085af4",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Programmazione Object-Oriented.base",
+                "viewName": "Tabella"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Programmazione Object-Oriented"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -168,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hub.md",
+                "file": "Programmazione Object-Oriented.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hub.md",
+                "file": "Programmazione Object-Oriented.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -230,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hub.md",
+                "file": "Programmazione Object-Oriented.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,8 +287,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93c7445dad8c0472",
+  "active": "bbfe5c71a7085af4",
   "lastOpenFiles": [
+    "Fondamenti di informatica.base",
+    "Basi di dati.base",
+    "Algebra lineare.base",
+    "Architettura degli Elaboratori.base",
+    "Analisi.base",
+    "Anno 3/TECNOLOGIE WEB/Senza nome.md",
+    "Anno 3/TECNICHE DI PROGRAMMAZIONE AVANZATA/Senza nome.md",
+    "Anno 3/RETI E PROGRAMMAZIONE DISTRIBUITA/Senza nome.md",
+    "Anno 3/INGEGNERIA DEL SOFTWARE/Senza nome.md",
+    "Anno 3/AI TECNOLOGIES/Senza nome.md",
+    "Anno 2/Sistemi operativi/Senza nome.md",
+    "Anno 2/Metodi statistici per l'informazione/Senza nome.md",
+    "Anno 2/Linguaggi di programmazione/Senza nome.md",
+    "Anno 2/INSEGNAMENTO A SCELTA/Senza nome.md",
+    "Anno 2/Geometria/Senza nome.md",
+    "Anno 2/Fisica generale 1/Senza nome.md",
+    "Anno 2/Elementi di informatica teorica/Senza nome.md",
+    "Anno 2/Analisi e progettazione di strutture dati/Senza nome.md",
+    "Anno 2/Analisi e progettazione di algoritmi/Senza nome.md",
+    "Anno 2/Analisi e progettazione degli algoritmi/Senza nome.md",
+    "Hub.md",
     "Anno 1/1 Architettura degli elaboratori/ALU.md",
     "Anno 2/INSEGNAMENTO A SCELTA",
     "Anno 3/RETI E PROGRAMMAZIONE DISTRIBUITA",
@@ -282,11 +317,6 @@
     "Anno 3/TECNICHE DI PROGRAMMAZIONE AVANZATA",
     "Anno 3/TECNOLOGIE WEB",
     "Anno 3/AI TECNOLOGIES",
-    "Anno 2/Analisi e progettazione di strutture dati",
-    "Anno 2/Sistemi operativi",
-    "Anno 2/Analisi e progettazione degli algoritmi",
-    "Anno 2/Metodi statistici per l'informazione",
-    "Hub.md",
     "Excalidraw/Drawing 2026-06-20 10.47.01.excalidraw.md",
     "Senza nome.md",
     "Anno 1/2 Basi di dati/6. SQL/DELETE.md",
@@ -301,21 +331,6 @@
     "EXTRA/Immagini/Logic gates-1785675053477.webp",
     "EXTRA/Immagini/Logic gates-1785674899875.webp",
     "EXTRA/Immagini/Logic gates-1785674529626.webp",
-    "Anno 1/1 Architettura degli elaboratori/Da 0 a 1.md",
-    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Proposizioni.md",
-    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Partizioni.md",
-    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Insiemi.md",
-    "Anno 1/1 Architettura degli elaboratori/Assembly.md",
-    "Anno 1/1 Architettura degli elaboratori/Come parlano codice e hardware.md",
-    "Anno 1/2 Basi di dati/2. UML/UML.md",
-    "Anno 1/2 Basi di dati/2. UML/Reticolo di specializzazione.md",
-    "1.1.1 Architettura degli elaboratori/Risorse utili.md",
-    "Anno 1/2 Programmazione Object-Oriented/Collezioni.md",
-    "Anno 1/2 Basi di dati/4. Schema logico/Mapping del modello relazionale.md",
-    "Anno 1/2 Programmazione Object-Oriented/DAO.md",
-    "Progetto UninaTaskBoard.md",
-    "Anno 1/2 Programmazione Object-Oriented/User Interface.md",
-    "Query.md",
     "EXTRA/Immagini/DAO-1783334707133.webp",
     "EXTRA/Immagini/DAO-1783249852936.webp",
     "EXTRA/Immagini/DAO-1783249200494.webp",

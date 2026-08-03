@@ -1,6 +1,3 @@
 views:
   - type: table
     name: Tabella
-    filters:
-      and:
-        - Materia == "Analisi"

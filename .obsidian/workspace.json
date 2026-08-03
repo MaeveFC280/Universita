@@ -15,8 +15,9 @@
               "type": "markdown",
               "state": {
                 "file": "Hub.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -167,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di dati.base",
+                "file": "Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +178,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Basi di dati"
+              "title": "Riferimenti"
             }
           },
           {
@@ -249,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",

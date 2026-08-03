@@ -14,13 +14,82 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1.md",
+                "file": "Hub.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Anno 1"
+              "title": "Hub"
+            }
+          },
+          {
+            "id": "0d43e8170555b561",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Fondamenti di informatica.base",
+                "viewName": "Tabella"
+              },
+              "icon": "lucide-table",
+              "title": "Fondamenti di informatica"
+            }
+          },
+          {
+            "id": "305b108f96024a4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 1/1 Architettura degli elaboratori/Da 0 a 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Da 0 a 1"
+            }
+          },
+          {
+            "id": "7f1955e5a8fc14d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 1/1 Architettura degli elaboratori/Logic gates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logic gates"
+            }
+          },
+          {
+            "id": "1b140d41e42afe39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 1/1 Architettura degli elaboratori/Sistemi di numerazione.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sistemi di numerazione"
+            }
+          },
+          {
+            "id": "bb336fe956389cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 1/1 Architettura degli elaboratori/ALU.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ALU"
             }
           }
         ]
@@ -117,12 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di dati/SQL.md",
+                "file": "Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da SQL"
+              "title": "Collegamenti in uscita"
             }
           },
           {
@@ -160,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di dati/SQL.md",
+                "file": "Hub.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di SQL"
+              "title": "Struttura"
             }
           },
           {
@@ -175,12 +244,12 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,54 +272,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95ae0ec5eaaffe1c",
+  "active": "93c7445dad8c0472",
   "lastOpenFiles": [
-    "Anno 1.md",
-    "1.2.3 Programmazione Object-Oriented/Collezioni.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Strutture di iterazione.md",
-    "Basi di dati.base",
-    "HOME.base",
-    "1.2.2 Basi di dati/4. Schema logico/Mapping del modello relazionale.md",
-    "1.2.3 Programmazione Object-Oriented/DAO.md",
-    "Algebra lineare.base",
+    "Anno 1/1 Architettura degli elaboratori/ALU.md",
+    "Anno 2/INSEGNAMENTO A SCELTA",
+    "Anno 3/RETI E PROGRAMMAZIONE DISTRIBUITA",
+    "Anno 3/INGEGNERIA DEL SOFTWARE",
+    "Anno 3/TECNICHE DI PROGRAMMAZIONE AVANZATA",
+    "Anno 3/TECNOLOGIE WEB",
+    "Anno 3/AI TECNOLOGIES",
+    "Anno 2/Analisi e progettazione di strutture dati",
+    "Anno 2/Sistemi operativi",
+    "Anno 2/Analisi e progettazione degli algoritmi",
+    "Anno 2/Metodi statistici per l'informazione",
+    "Hub.md",
+    "Excalidraw/Drawing 2026-06-20 10.47.01.excalidraw.md",
+    "Senza nome.md",
+    "Anno 1/2 Basi di dati/6. SQL/DELETE.md",
+    "Anno 1/2 Basi di dati/7. PL-SQL/Funzioni e procedure.md",
+    "Anno 1/2 Basi di dati/7. PL-SQL/Strutture di iterazione.md",
+    "BDD.md",
+    "Anno 1/1 Architettura degli elaboratori/Sistemi di numerazione.md",
+    "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
+    "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
+    "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",
+    "Anno 1/1 Architettura degli elaboratori/Logic gates.md",
+    "EXTRA/Immagini/Logic gates-1785675053477.webp",
+    "EXTRA/Immagini/Logic gates-1785674899875.webp",
+    "EXTRA/Immagini/Logic gates-1785674529626.webp",
+    "Anno 1/1 Architettura degli elaboratori/Da 0 a 1.md",
+    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Proposizioni.md",
+    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Partizioni.md",
+    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Insiemi.md",
+    "Anno 1/1 Architettura degli elaboratori/Assembly.md",
+    "Anno 1/1 Architettura degli elaboratori/Come parlano codice e hardware.md",
+    "Anno 1/2 Basi di dati/2. UML/UML.md",
+    "Anno 1/2 Basi di dati/2. UML/Reticolo di specializzazione.md",
+    "1.1.1 Architettura degli elaboratori/Risorse utili.md",
+    "Anno 1/2 Programmazione Object-Oriented/Collezioni.md",
+    "Anno 1/2 Basi di dati/4. Schema logico/Mapping del modello relazionale.md",
+    "Anno 1/2 Programmazione Object-Oriented/DAO.md",
     "Progetto UninaTaskBoard.md",
-    "Programmazione Object-Oriented.base",
-    "1.2.3 Programmazione Object-Oriented/User Interface.md",
+    "Anno 1/2 Programmazione Object-Oriented/User Interface.md",
     "Query.md",
-    "1.2.2 Basi di dati/6. SQL/Vincoli.md",
     "EXTRA/Immagini/DAO-1783334707133.webp",
     "EXTRA/Immagini/DAO-1783249852936.webp",
     "EXTRA/Immagini/DAO-1783249200494.webp",
     "EXTRA/Immagini/DAO-1783249153937.webp",
-    "EXTRA/Immagini/DAO-1783249125308.webp",
-    "1.2.3 Programmazione Object-Oriented/Modello Entity-Boundary-Controll.md",
-    "1.2.3 Programmazione Object-Oriented/Mock-up.md",
-    "1.2.2 Basi di dati/1. Basi/Progettazione di una base di dati.md",
-    "1.2.2 Basi di dati/1. Basi/Astrazione e modelli.md",
-    "1.2.2 Basi di dati/1. Basi/Database.md",
-    "1.2.2 Basi di dati/1. Basi/Vincoli di integrità.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Funzioni e procedure.md",
-    "1.2.2 Basi di dati/7. PL-SQL/PostegreSQL.md",
-    "1.2.2 Basi di dati/6. SQL/DELETE.md",
-    "1.2.2 Basi di dati/6. SQL/ALTER.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Strutture condizionali.md",
-    "1.2.2 Basi di dati/7. PL-SQL/Fondamenti di PL-SQL.md",
-    "HOMEPAGE.md",
-    "AlgebraLineare.base",
-    "1.2.2 Basi di dati/2. UML/Ristrutturazione.md",
-    "1.2.3 Programmazione Object-Oriented/Progettazione.md",
-    "EXTRA/ESERCIZI/Esercitzione POO.md",
-    "EXTRA/Immagini/Esercitzione POO-1782234000628.webp",
-    "EXTRA/Immagini/Esercitzione POO-1782233291038.webp",
-    "EXTRA/Immagini/Esercitzione POO-1782228681251.webp",
-    "EXTRA/Immagini/Esercitzione POO-1782219421370.webp",
-    "EXTRA/Immagini/Esercitzione POO-1781950987207.webp",
     "Senza nome 1.canvas",
-    "Senza nome.canvas",
-    "Excalidraw",
-    "EXTRA/Excalidraw",
-    "EXTRA/ESERCIZI",
-    "https:/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@github.com/MaeveFC280/Appunti-Universitari-Informatica-Obsidian.git",
-    "https:/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@github.com/MaeveFC280"
+    "Senza nome.canvas"
   ]
 }

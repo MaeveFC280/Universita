@@ -16,10 +16,10 @@ Tipi di formule:
 - **Formule be formate:** scritta correttamente
 - **Formula chiusa:** no variabili
 - **Formula aperta**: con variabili
-Altri simboli più particolari vengono usati nella logica e insiemistica
+Altri [[Logic gates|simboli]] più particolari vengono usati nella logica e insiemistica
 - **Connettivo binario**: Unisce 2 proposizioni (non necessariamente distinte)
 - **Connettivo unario**: Unisce 1 proposizione
-Proposizioni possono essere vere o false, scritte con sim boli e regole sintattiche
+Proposizioni possono essere vere o false, scritte con simboli e regole sintattiche
 
 > [!Predicato]
 > Un predicato è una frase che non ha un valore di verità definito, e dipende da una o più **variabili libere** (ad esempio $x$ ).  

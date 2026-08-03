@@ -22,7 +22,7 @@ Un modello relazionale deve rispettare dei [[Vincoli]]:
 	- [[CREATE|Struttura del DB]]
 3. Vincoli di **integrità semantica**
 	- Non sempre esprimibili nel DB con DDL
-	- Hanno bisogno di [[triggers]] o [[Vincoli|assertions]]
+	- Hanno bisogno di [[Triggers]] o [[Vincoli|assertions]]
 ## Fasi mapping
 Il mapping verso uno schema logico parte dallo schema concettuale [[Ristrutturazione|ristrutturato]].
 Il mapping prevede più fasi:

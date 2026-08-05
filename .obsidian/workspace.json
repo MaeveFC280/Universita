@@ -22,8 +22,37 @@
               "icon": "lucide-file",
               "title": "Hub"
             }
+          },
+          {
+            "id": "ca8efe82518835da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 1/1 Architettura degli elaboratori/Assembly.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Assembly"
+            }
+          },
+          {
+            "id": "886fafae86e93976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,50 +232,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96a63379d7fae374",
+  "active": "886fafae86e93976",
   "lastOpenFiles": [
-    "Anno 1.md",
+    "Anno 1/1 Architettura degli elaboratori/Assembly.md",
+    "conflict-files-obsidian-git.md",
+    "Anno 1/1 Architettura degli elaboratori/Asse.md",
     "Hub.md",
-    "Fondamenti di informatica.base",
+    "Anno 1/1 Architettura degli elaboratori/Senza nome",
+    "Anno 1/1 Analisi/Senza nome.md",
+    "Anno 1/1 Programmazione/Senza nome.md",
+    "Programmazione Object-Oriented.base",
+    "Anno 3/TECNOLOGIE WEB/Senza nome.md",
+    "Anno 3/TECNICHE DI PROGRAMMAZIONE AVANZATA/Senza nome.md",
+    "Anno 3/RETI E PROGRAMMAZIONE DISTRIBUITA/Senza nome.md",
+    "Anno 3/INGEGNERIA DEL SOFTWARE/Senza nome.md",
+    "Anno 3/AI TECNOLOGIES/Senza nome.md",
+    "Anno 3/TECNOLOGIE WEB",
+    "Anno 3/TECNICHE DI PROGRAMMAZIONE AVANZATA",
+    "Anno 3/RETI E PROGRAMMAZIONE DISTRIBUITA",
+    "Anno 3/INGEGNERIA DEL SOFTWARE",
+    "Anno 3/AI TECNOLOGIES",
+    "Anno 3",
+    "Anno 2/Sistemi operativi/Senza nome.md",
+    "Anno 2/Metodi statistici per l'informazione/Senza nome.md",
+    "Anno 2/Linguaggi di programmazione/Senza nome.md",
+    "Anno 2/INSEGNAMENTO A SCELTA/Senza nome.md",
+    "Anno 2/Geometria/Senza nome.md",
+    "Anno 2/Fisica generale 1/Senza nome.md",
+    "Anno 2/Elementi di informatica teorica/Senza nome.md",
+    "Anno 2/Analisi e progettazione di strutture dati/Senza nome.md",
+    "Anno 2/Analisi e progettazione di algoritmi/Senza nome.md",
+    "Anno 2/Analisi e progettazione degli algoritmi/Senza nome.md",
+    "Anno 2/Sistemi operativi",
+    "Anno 2/Metodi statistici per l'informazione",
+    "Anno 1.md",
     "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
     "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
     "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",
     "EXTRA/Immagini/Logic gates-1785675053477.webp",
     "EXTRA/Immagini/Logic gates-1785674899875.webp",
     "EXTRA/Immagini/Logic gates-1785674529626.webp",
-    "Architettura degli Elaboratori.base",
     "Anno 1/2 Basi di dati/7. PL-SQL/Triggers.md",
     "Anno 1/2 Basi di dati/7. PL-SQL/Strutture di iterazione.md",
     "Anno 1/2 Basi di dati/7. PL-SQL/Strutture condizionali.md",
     "Anno 1/2 Basi di dati/7. PL-SQL/SQL dinamico.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Ricorsione.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/PostegreSQL.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Manipolazione delle stringhe.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Gestione degli errori.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Funzioni e procedure.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Fondamenti di PL-SQL.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Data Dictionary.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Cursori in SQL dinamico.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL/Cursore.md",
-    "Anno 1/2 Basi di dati/6. SQL/WHERE.md",
-    "Anno 1/2 Basi di dati/6. SQL/Vincoli.md",
-    "Anno 1/2 Basi di dati/6. SQL/Unioni.md",
-    "Anno 1/2 Basi di dati/6. SQL/UPDATE.md",
-    "Anno 1/2 Basi di dati/6. SQL/SELECT.md",
-    "Anno 1/2 Basi di dati/6. SQL/Ricerca.md",
-    "Anno 1/2 Basi di dati/6. SQL/RENAME.md",
-    "Anno 1/2 Basi di dati/6. SQL/Order e group by.md",
-    "Anno 1/2 Basi di dati/6. SQL/Joins.md",
-    "Anno 1/2 Basi di dati/6. SQL/Introduzione SQL.md",
-    "Anno 1/2 Basi di dati/6. SQL/INSERT.md",
-    "Anno 1/2 Basi di dati/7. PL-SQL",
-    "Anno 1/2 Basi di dati/6. SQL",
-    "Anno 1/2 Basi di dati/5. Algebra relazionale",
-    "Anno 1/2 Basi di dati/4. Schema logico",
-    "Anno 1/2 Basi di dati/3. ER",
-    "Anno 1/2 Basi di dati/2. UML",
-    "Anno 1/2 Basi di dati/1. Basi",
-    "Anno 1/2 Algebra/Logica rudimentale ed insiemi",
     "EXTRA/Immagini/DAO-1783334707133.webp",
     "EXTRA/Immagini/DAO-1783249852936.webp",
     "EXTRA/Immagini/DAO-1783249200494.webp",

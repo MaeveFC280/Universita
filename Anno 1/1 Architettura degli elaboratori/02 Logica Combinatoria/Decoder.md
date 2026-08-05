@@ -1,8 +1,14 @@
 ---
-tags: [architettura, combinatoria, blocchi, cap2]
-capitolo: 2
-sezione: "2.8.2"
-pagine_pdf: 102-104
+Materia: Architettura degli elaboratori
+tags:
+  - logica_combinatoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.8.2'
+Imparato: false
+Ordine: 210
+aliases:
+  - decodificatore
+  - one-hot
 ---
 
 # Decoder

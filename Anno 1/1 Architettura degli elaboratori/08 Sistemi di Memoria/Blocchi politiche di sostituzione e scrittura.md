@@ -1,8 +1,16 @@
 ---
-tags: [architettura, memoria, cache, cap8]
-capitolo: 8
-sezione: "8.3.4 - 8.3.6"
-pagine_pdf: 516-524
+Materia: Architettura degli elaboratori
+tags:
+  - cache
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.3.4-8.3.6'
+Imparato: false
+Ordine: 806
+aliases:
+  - LRU
+  - write-through
+  - write-back
+  - block size
 ---
 
 # Dimensione dei blocchi, sostituzione e politiche di scrittura

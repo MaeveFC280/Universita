@@ -1,8 +1,17 @@
 ---
-tags: [architettura, arm, linguaggio-macchina, cap6]
-capitolo: 6
-sezione: "6.4"
-pagine_pdf: 345-355
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - Binario
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.4'
+Imparato: false
+Ordine: 614
+aliases:
+  - linguaggio macchina
+  - machine language
+  - formato istruzione
+  - encoding
 ---
 
 # Linguaggio macchina: i formati delle istruzioni

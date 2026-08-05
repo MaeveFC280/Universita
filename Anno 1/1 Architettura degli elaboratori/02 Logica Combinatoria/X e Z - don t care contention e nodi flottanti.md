@@ -1,8 +1,16 @@
 ---
-tags: [architettura, combinatoria, cap2]
-capitolo: 2
-sezione: "2.6"
-pagine_pdf: 89-91
+Materia: Architettura degli elaboratori
+tags:
+  - logica_combinatoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.6'
+Imparato: false
+Ordine: 207
+aliases:
+  - don't care
+  - contention
+  - nodo flottante
+  - tri-state
 ---
 
 # X e Z: contention, don't care e nodi flottanti

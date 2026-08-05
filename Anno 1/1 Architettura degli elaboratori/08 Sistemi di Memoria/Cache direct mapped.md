@@ -1,8 +1,15 @@
 ---
-tags: [architettura, memoria, cache, cap8]
-capitolo: 8
-sezione: "8.3.1"
-pagine_pdf: 510-514
+Materia: Architettura degli elaboratori
+tags:
+  - cache
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.3.1'
+Imparato: false
+Ordine: 804
+aliases:
+  - direct mapped
+  - mappatura diretta
+  - tag
 ---
 
 # Cache direct mapped

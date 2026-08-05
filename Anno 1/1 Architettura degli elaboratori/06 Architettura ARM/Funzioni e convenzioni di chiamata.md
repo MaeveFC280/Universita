@@ -1,8 +1,18 @@
 ---
-tags: [architettura, arm, assembly, funzioni, cap6]
-capitolo: 6
-sezione: "6.3.7"
-pagine_pdf: 333-336
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+  - funzioni
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.7'
+Imparato: false
+Ordine: 612
+aliases:
+  - funzioni
+  - calling convention
+  - BL
+  - LR
 ---
 
 # Funzioni e convenzioni di chiamata

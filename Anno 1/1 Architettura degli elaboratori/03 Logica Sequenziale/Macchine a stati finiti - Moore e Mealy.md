@@ -1,9 +1,17 @@
 ---
-tags: [architettura, sequenziale, fsm, cap3]
-capitolo: 3
-sezione: "3.4"
-pagine_pdf: 139-149
-aliases: [FSM, macchine a stati]
+Materia: Architettura degli elaboratori
+tags:
+  - FSM
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.4'
+Imparato: false
+Ordine: 307
+aliases:
+  - FSM
+  - macchina a stati finiti
+  - Moore
+  - Mealy
 ---
 
 # Macchine a stati finiti: Moore e Mealy

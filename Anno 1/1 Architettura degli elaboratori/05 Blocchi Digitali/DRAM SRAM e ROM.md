@@ -1,8 +1,16 @@
 ---
-tags: [architettura, memoria, blocchi, cap5]
-capitolo: 5
-sezione: "5.5.2 - 5.5.4"
-pagine_pdf: 282-287
+Materia: Architettura degli elaboratori
+tags:
+  - memoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.5.2-5.5.4'
+Imparato: false
+Ordine: 510
+aliases:
+  - DRAM
+  - SRAM
+  - ROM
+  - memoria volatile
 ---
 
 # DRAM, SRAM e ROM

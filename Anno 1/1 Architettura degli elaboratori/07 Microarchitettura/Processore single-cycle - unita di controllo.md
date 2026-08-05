@@ -1,8 +1,14 @@
 ---
-tags: [architettura, microarchitettura, single-cycle, controllo, cap7]
-capitolo: 7
-sezione: "7.3.2"
-pagine_pdf: 413-418
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.3.2'
+Imparato: false
+Ordine: 704
+aliases:
+  - control unit
+  - decoder di controllo
 ---
 
 # Processore single-cycle: l'unità di controllo

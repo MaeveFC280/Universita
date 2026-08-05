@@ -1,8 +1,18 @@
 ---
-tags: [architettura, fondamenti, numerazione, cap1]
-capitolo: 1
-sezione: "1.4"
-pagine_pdf: 26-30
+Materia: Architettura degli elaboratori
+tags:
+  - Binario
+Link risorse: https://youtu.be/QZwneRb-zqA?si=cP0ZyNW7ELlDQNCI&t=306
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.4'
+Imparato: false
+Ordine: 103
+aliases:
+  - Sistemi di numerazione
+  - numerazione binaria
+  - sistema binario
+  - esadecimale
+  - hex
+  - conversione di base
 ---
 
 # Sistemi di numerazione: binario ed esadecimale
@@ -17,6 +27,18 @@ colonna. La base si indica con un pedice per evitare ambiguità: $1101_2$, $27_{
 - **Binario (base 2)**: ogni colonna ha peso doppio della precedente ($1, 2, 4, 8, 16, \dots$).
   Un numero binario a $N$ bit rappresenta uno di $2^N$ valori: da $0$ a $2^N - 1$.
 - **Esadecimale (base 16)**: cifre `0-9` più `A-F` (A=10 … F=15).
+
+## Bit più e meno significativo
+In un numero binario si distinguono:
+
+- il **bit più significativo** (*most significant bit*, **msb**): quello più a sinistra,
+  con il peso maggiore;
+- il **bit meno significativo** (*least significant bit*, **lsb**): quello più a destra,
+  con peso $2^0 = 1$.
+
+I primi sedici valori, per prendere confidenza con la corrispondenza:
+
+![[Sistemi di numerazione-1785675970006.webp|700]]
 
 ## Perché l'esadecimale
 Un gruppo di 4 bit rappresenta uno di $2^4 = 16$ valori: quindi **una cifra
@@ -63,6 +85,13 @@ Esempio: $84_{10}$
 ```
 Leggendo dall'ultimo al primo: $1010100_2$.
 
+> [!warning] Errore da non ripetere
+> Nella vecchia nota il metodo era descritto come «la sequenza dei **quozienti**», con
+> divisioni scritte in decimale ($15/2 = 7{,}5 \rightarrow 7/2 = 3{,}5 \dots$). Sono i
+> **resti** a formare il numero binario, non i quozienti. Con $15$ il risultato veniva
+> giusto per caso (tutti i resti valgono 1); con $12$ il metodo sbagliato dà `1111`
+> invece del corretto `1100`. Le divisioni vanno fatte **intere**, tenendo il resto.
+
 ### Metodo alternativo (per sottrazione dei pesi)
 Si parte dalla potenza di 2 più grande contenuta nel numero e si sottrae.
 $84 = 64 + 16 + 4 \Rightarrow 1010100_2$.
@@ -84,4 +113,13 @@ $2ED_{16} = 2 \cdot 256 + 14 \cdot 16 + 13 = 749_{10}$
 1. Quanti bit servono per rappresentare 1000 valori distinti?
 2. Converti $C3_{16}$ in decimale e in binario.
 
-Collegato a: [[Byte nibble word e prefissi binari]] · [[Addizione binaria e overflow]]
+## Continua su
+Gli argomenti che restavano da riempire nella vecchia nota sono trattati altrove:
+
+| Argomento | Nota |
+|---|---|
+| somme | [[Addizione binaria e overflow]] |
+| numeri negativi, sottrazioni | [[Numeri con segno - segno-modulo e complemento a due]] |
+| prodotti, divisioni per potenze di 2 | [[Shifter e rotatori]] |
+| virgola | [[Notazione a virgola fissa]] · [[Virgola mobile IEEE 754]] |
+| byte, word, prefissi K/M/G | [[Byte nibble word e prefissi binari]] |

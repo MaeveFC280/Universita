@@ -1,9 +1,16 @@
 ---
-tags: [architettura, combinatoria, minimizzazione, cap2]
-capitolo: 2
-sezione: "2.7"
-pagine_pdf: 91-99
-aliases: [K-map, mappe K]
+Materia: Architettura degli elaboratori
+tags:
+  - algebra_booleana
+  - logica_combinatoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.7'
+Imparato: false
+Ordine: 208
+aliases:
+  - K-map
+  - mappa di Karnaugh
+  - minimizzazione
 ---
 
 # Mappe di Karnaugh (K-map)

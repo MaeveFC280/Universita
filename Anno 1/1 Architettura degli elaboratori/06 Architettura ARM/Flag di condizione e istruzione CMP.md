@@ -1,8 +1,16 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.3.2"
-pagine_pdf: 322-324
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.2'
+Imparato: false
+Ordine: 606
+aliases:
+  - CMP
+  - flag NZCV
+  - condition flags
 ---
 
 # Flag di condizione e istruzione CMP

@@ -1,9 +1,16 @@
 ---
-tags: [architettura, combinatoria, booleana, cap2]
-capitolo: 2
-sezione: "2.2.2 - 2.2.3"
-pagine_pdf: 75-76
-aliases: [SOP, POS, somma di prodotti, prodotto di somme]
+Materia: Architettura degli elaboratori
+tags:
+  - algebra_booleana
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.2.2-2.2.3'
+Imparato: false
+Ordine: 203
+aliases:
+  - SOP
+  - POS
+  - somma di prodotti
+  - prodotto di somme
 ---
 
 # Forme canoniche: SOP e POS

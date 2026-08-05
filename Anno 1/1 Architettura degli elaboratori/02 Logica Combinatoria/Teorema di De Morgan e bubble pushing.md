@@ -1,8 +1,14 @@
 ---
-tags: [architettura, combinatoria, booleana, cap2]
-capitolo: 2
-sezione: "2.3.3 / 2.5.2"
-pagine_pdf: 79-89
+Materia: Architettura degli elaboratori
+tags:
+  - algebra_booleana
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.3.3'
+Imparato: false
+Ordine: 205
+aliases:
+  - De Morgan
+  - bubble pushing
 ---
 
 # Teorema di De Morgan e bubble pushing

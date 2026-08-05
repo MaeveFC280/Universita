@@ -1,8 +1,16 @@
 ---
-tags: [architettura, combinatoria, timing, cap2]
-capitolo: 2
-sezione: "2.9"
-pagine_pdf: 104-108
+Materia: Architettura degli elaboratori
+tags:
+  - timing
+  - logica_combinatoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.9'
+Imparato: false
+Ordine: 211
+aliases:
+  - ritardo di propagazione
+  - cammino critico
+  - critical path
 ---
 
 # Timing combinatorio: ritardi e cammino critico

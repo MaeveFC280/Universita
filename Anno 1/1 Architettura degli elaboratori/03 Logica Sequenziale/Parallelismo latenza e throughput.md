@@ -1,8 +1,17 @@
 ---
-tags: [architettura, sequenziale, prestazioni, cap3]
-capitolo: 3
-sezione: "3.6"
-pagine_pdf: 173-177
+Materia: Architettura degli elaboratori
+tags:
+  - prestazioni
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.6'
+Imparato: false
+Ordine: 311
+aliases:
+  - latenza
+  - throughput
+  - pipelining
+  - parallelismo
 ---
 
 # Parallelismo: latenza e throughput

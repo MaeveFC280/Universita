@@ -1,8 +1,16 @@
 ---
-tags: [architettura, combinatoria, schemi, cap2]
-capitolo: 2
-sezione: "2.4 - 2.5"
-pagine_pdf: 82-89
+Materia: Architettura degli elaboratori
+tags:
+  - logica_combinatoria
+  - Logica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.4-2.5'
+Imparato: false
+Ordine: 206
+aliases:
+  - logica a due livelli
+  - logica multilivello
+  - schematico
 ---
 
 # Da equazioni a schemi: logica a due e più livelli

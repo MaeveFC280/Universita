@@ -1,8 +1,16 @@
 ---
-tags: [architettura, fondamenti, informazione, cap1]
-capitolo: 1
-sezione: "1.3"
-pagine_pdf: 24-26
+Materia: Architettura degli elaboratori
+tags:
+  - astrazione
+  - Binario
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.3'
+Imparato: false
+Ordine: 102
+aliases:
+  - astrazione digitale
+  - quantità di informazione
+  - bit
 ---
 
 # Astrazione digitale e quantità di informazione

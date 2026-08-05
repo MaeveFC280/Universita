@@ -1,11 +1,15 @@
 ---
+Materia: Architettura degli elaboratori
 tags:
   - microarchitettura
   - prestazioni
-  - cap7
-capitolo: 7
-sezione: "7.2"
-pagine_pdf: 405-406
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.2'
+Imparato: false
+Ordine: 702
+aliases:
+  - CPI
+  - tempo di esecuzione
 ---
 
 # Analisi delle prestazioni e CPI

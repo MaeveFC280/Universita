@@ -1,12 +1,17 @@
 ---
+Materia: Architettura degli elaboratori
 tags:
-  - arm
+  - ARM
   - assembly
   - memoria
-  - cap6
-capitolo: 6
-sezione: 6.3.4
-pagine_pdf: 329-331
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.4'
+Imparato: false
+Ordine: 610
+aliases:
+  - array
+  - indirizzamento indicizzato
+  - offset
 ---
 
 # Array e modalità di indirizzamento

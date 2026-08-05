@@ -1,8 +1,17 @@
 ---
-tags: [architettura, memoria, logica, cap5]
-capitolo: 5
-sezione: "5.5.5 - 5.6"
-pagine_pdf: 284-297
+Materia: Architettura degli elaboratori
+tags:
+  - memoria
+  - Logica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.5.5-5.6'
+Imparato: false
+Ordine: 511
+aliases:
+  - register file
+  - PLA
+  - FPGA
+  - logic array
 ---
 
 # Register file, memorie come logica, logic array

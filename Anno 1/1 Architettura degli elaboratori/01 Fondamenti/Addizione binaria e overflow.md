@@ -1,11 +1,16 @@
 ---
+Materia: Architettura degli elaboratori
 tags:
-  - fondamenti
+  - Binario
   - aritmetica
-  - cap1
-capitolo: 1
-sezione: 1.4.6
-pagine_pdf: 31-32
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.4.6'
+Imparato: false
+Ordine: 105
+aliases:
+  - somma binaria
+  - riporto
+  - overflow
 ---
 
 # Addizione binaria e overflow
@@ -15,6 +20,17 @@ L'addizione binaria funziona come quella decimale: si sommano le colonne da dest
 sinistra propagando il **riporto** (*carry*) quando la somma di colonna supera il
 valore massimo della base.
 
+Le quattro regole di colonna, da sapere a memoria:
+
+| Colonna | Risultato | Riporto |
+|---|---|---|
+| $0 + 0$ | 0 | 0 |
+| $0 + 1$ | 1 | 0 |
+| $1 + 1$ | 0 | **1** |
+| $1 + 1 + 1$ | 1 | **1** |
+
+Cioè: $1+1 = 10_2$ e $1+1+1 = 11_2$.
+
 ```
    1 1 1     <- carry
    0 1 1 1   (7)
@@ -22,6 +38,18 @@ valore massimo della base.
  ---------
    1 1 0 0   (12)
 ```
+
+Lo stesso conto in decimale e in binario, per convincersi che è la stessa operazione
+($35 + 7 = 42$, cioè $100011_2 + 000111_2 = 101010_2$):
+
+![[Sistemi di numerazione-1785676210811.webp]]
+
+> [!warning] Errore da non ripetere
+> La vecchia nota riportava «$1+0=0$ e $0+0=0$». La prima è sbagliata: $1+0 = 1$.
+
+> [!info] Perché serve
+> È esattamente questa meccanica che viene realizzata in hardware dai sommatori
+> (→ [[Half adder e full adder]], [[Ripple carry adder]]).
 
 ## Overflow
 I sistemi digitali operano su un **numero fisso di cifre**. Si dice che l'addizione va

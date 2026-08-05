@@ -1,9 +1,14 @@
 ---
-tags: [architettura, combinatoria, blocchi, cap2]
-capitolo: 2
-sezione: "2.8.1"
-pagine_pdf: 99-102
-aliases: [mux]
+Materia: Architettura degli elaboratori
+tags:
+  - logica_combinatoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.8.1'
+Imparato: false
+Ordine: 209
+aliases:
+  - mux
+  - lookup table
 ---
 
 # Multiplexer

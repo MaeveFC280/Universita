@@ -1,8 +1,15 @@
 ---
-tags: [architettura, combinatoria, booleana, cap2]
-capitolo: 2
-sezione: "2.3"
-pagine_pdf: 76-82
+Materia: Architettura degli elaboratori
+tags:
+  - algebra_booleana
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.3'
+Imparato: false
+Ordine: 204
+aliases:
+  - algebra di Boole
+  - teoremi booleani
+  - semplificazione
 ---
 
 # Assiomi e teoremi dell'algebra di Boole

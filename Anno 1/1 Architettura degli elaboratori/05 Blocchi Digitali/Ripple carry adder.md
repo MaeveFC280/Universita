@@ -1,8 +1,14 @@
 ---
-tags: [architettura, aritmetica, blocchi, cap5]
-capitolo: 5
-sezione: "5.2.1"
-pagine_pdf: 256-257
+Materia: Architettura degli elaboratori
+tags:
+  - aritmetica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.1'
+Imparato: false
+Ordine: 502
+aliases:
+  - ripple carry
+  - propagazione del riporto
 ---
 
 # Ripple carry adder

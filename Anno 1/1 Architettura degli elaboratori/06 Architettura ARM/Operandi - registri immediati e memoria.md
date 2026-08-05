@@ -1,8 +1,16 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.2.2 - 6.2.3"
-pagine_pdf: 314-319
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.2.2-6.2.3'
+Imparato: false
+Ordine: 603
+aliases:
+  - operandi
+  - immediati
+  - indirizzamento
 ---
 
 # Operandi: registri, immediati e memoria

@@ -1,8 +1,16 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.3.3"
-pagine_pdf: 325-328
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+  - flusso_di_controllo
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.3'
+Imparato: false
+Ordine: 608
+aliases:
+  - if else
+  - switch case
 ---
 
 # Costrutti condizionali: if, if/else, switch

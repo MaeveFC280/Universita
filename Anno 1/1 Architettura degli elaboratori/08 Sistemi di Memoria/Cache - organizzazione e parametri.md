@@ -1,8 +1,16 @@
 ---
-tags: [architettura, memoria, cache, cap8]
-capitolo: 8
-sezione: "8.3"
-pagine_pdf: 508-510
+Materia: Architettura degli elaboratori
+tags:
+  - cache
+  - memoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.3'
+Imparato: false
+Ordine: 803
+aliases:
+  - cache
+  - capacità
+  - associatività
 ---
 
 # Cache: organizzazione e parametri

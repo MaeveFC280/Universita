@@ -1,8 +1,15 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.3.1"
-pagine_pdf: 319-322
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.1'
+Imparato: false
+Ordine: 605
+aliases:
+  - AND ORR EOR
+  - LSL LSR ASR ROR
 ---
 
 # Istruzioni logiche, di shift e di moltiplicazione

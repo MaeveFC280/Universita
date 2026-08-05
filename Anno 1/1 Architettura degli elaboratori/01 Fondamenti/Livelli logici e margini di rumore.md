@@ -1,8 +1,16 @@
 ---
-tags: [architettura, fondamenti, elettronica, cap1]
-capitolo: 1
-sezione: "1.6"
-pagine_pdf: 39-43
+Materia: Architettura degli elaboratori
+tags:
+  - Logica
+  - hardware
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.6'
+Imparato: false
+Ordine: 108
+aliases:
+  - livelli logici
+  - margini di rumore
+  - noise margin
 ---
 
 # Sotto l'astrazione digitale: livelli logici e margini di rumore

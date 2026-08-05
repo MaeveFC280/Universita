@@ -1,8 +1,15 @@
 ---
-tags: [architettura, memoria, virtuale, cap8]
-capitolo: 8
-sezione: "8.4.2 - 8.4.4"
-pagine_pdf: 528-534
+Materia: Architettura degli elaboratori
+tags:
+  - memoria_virtuale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.4.2-8.4.4'
+Imparato: false
+Ordine: 808
+aliases:
+  - page table
+  - TLB
+  - tabella delle pagine
 ---
 
 # Page table, TLB e processi multipli

@@ -1,8 +1,14 @@
 ---
-tags: [architettura, sequenziale, cap3]
-capitolo: 3
-sezione: "3.2.1"
-pagine_pdf: 125-127
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.2.1'
+Imparato: false
+Ordine: 301
+aliases:
+  - bistabile
+  - elemento di memoria
 ---
 
 # Elementi bistabili

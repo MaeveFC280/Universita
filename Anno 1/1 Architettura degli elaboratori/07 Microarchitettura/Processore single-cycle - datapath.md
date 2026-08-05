@@ -1,8 +1,15 @@
 ---
-tags: [architettura, microarchitettura, single-cycle, cap7]
-capitolo: 7
-sezione: "7.3.1"
-pagine_pdf: 406-413
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+  - datapath
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.3.1'
+Imparato: false
+Ordine: 703
+aliases:
+  - single-cycle
+  - ciclo singolo
 ---
 
 # Processore single-cycle: il datapath

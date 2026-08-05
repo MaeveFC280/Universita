@@ -1,8 +1,16 @@
 ---
-tags: [architettura, fondamenti, numerazione, cap1]
-capitolo: 1
-sezione: "1.4.4 - 1.4.5"
-pagine_pdf: 30-31
+Materia: Architettura degli elaboratori
+tags:
+  - Binario
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.4.4-1.4.5'
+Imparato: false
+Ordine: 104
+aliases:
+  - byte
+  - nibble
+  - word
+  - prefissi binari
 ---
 
 # Byte, nibble, word e prefissi binari

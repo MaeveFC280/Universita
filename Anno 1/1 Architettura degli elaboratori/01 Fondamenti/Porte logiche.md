@@ -1,8 +1,18 @@
 ---
-tags: [architettura, fondamenti, logica, cap1]
-capitolo: 1
-sezione: "1.5"
-pagine_pdf: 36-39
+Materia: Architettura degli elaboratori
+tags:
+  - Logica
+Link risorse: https://youtu.be/QZwneRb-zqA?si=hfEXSbPngFlYnGYa&t=50
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.5'
+Imparato: false
+Ordine: 107
+aliases:
+  - Logic gates
+  - logica booleana
+  - logic gates
+  - NAND
+  - NOR
+  - tabella di verità
 ---
 
 # Porte logiche
@@ -35,6 +45,91 @@ uscita binaria determinata dalla funzione della porta.
 ## Porte a più ingressi
 La maggior parte delle porte si estende naturalmente a $N$ ingressi: un NOR a 3
 ingressi vale 1 solo se **tutti** gli ingressi sono 0.
+
+## Tabelle di verità
+
+### NOT
+Inverte il segnale: vero diventa falso e falso diventa vero.
+
+| INPUT | OUTPUT |
+| ----- | ------ |
+| 1     | 0      |
+| 0     | 1      |
+
+### AND
+Restituisce vero solo se **entrambi** gli input sono veri.
+
+| A   | B   | OUTPUT |
+| --- | --- | ------ |
+| 1   | 0   | 0      |
+| 0   | 1   | 0      |
+| 1   | 1   | 1      |
+| 0   | 0   | 0      |
+
+### OR
+Restituisce vero se **almeno uno** degli input è vero.
+
+| A   | B   | OUTPUT |
+| --- | --- | ------ |
+| 1   | 0   | 1      |
+| 0   | 1   | 1      |
+| 1   | 1   | 1      |
+| 0   | 0   | 0      |
+
+### NAND
+Restituisce vero se gli input **non sono entrambi** veri (contrario di AND).
+
+| A   | B   | OUTPUT |
+| --- | --- | ------ |
+| 1   | 0   | 1      |
+| 0   | 1   | 1      |
+| 1   | 1   | 0      |
+| 0   | 0   | 1      |
+
+### XOR
+Restituisce vero se **uno solo** degli input è vero.
+
+| A   | B   | OUTPUT |
+| --- | --- | ------ |
+| 1   | 0   | 1      |
+| 0   | 1   | 1      |
+| 1   | 1   | 0      |
+| 0   | 0   | 0      |
+
+## Proprietà
+Le porte logiche sono combinabili tra loro e le funzioni che realizzano obbediscono
+alle proprietà dell'algebra booleana:
+
+- **commutativa**: $A + B = B + A$, $AB = BA$
+- **associativa**: $(A+B)+C = A+(B+C)$, $(AB)C = A(BC)$
+- **distributiva**: $A(B+C) = AB + AC$
+- **idempotenza**: $A + A = A$, $AA = A$
+- **complemento**: $A + \overline{A} = 1$, $A\overline{A} = 0$
+
+L'elenco completo con le dimostrazioni è in
+[[Assiomi e teoremi dell algebra di Boole]].
+
+## NAND come porta universale
+Da soli NAND si ricavano **tutte** le altre porte: per questo NAND (e ugualmente NOR) si
+dice **porta universale**. È la ragione pratica per cui le librerie di celle standard
+sono costruite intorno a NAND e NOR.
+
+### NOT da NAND
+![[Logic gates-1785674899875.webp]]
+
+### AND da NAND
+![[Logic gates-1785674529626.webp]]
+
+### OR da NAND
+Ora che sappiamo come ricavare NOT da NAND, possiamo usarlo per ricavare a sua volta OR.
+Questo circuito è quindi ricreabile con soli NAND, sostituendo ogni NOT con lo schema
+visto sopra.
+![[Logic gates-1785675053477.webp]]
+
+> [!tip] Perché funziona
+> $\overline{A \cdot A} = \overline{A}$ dà il NOT; negando l'uscita di un NAND si ottiene
+> l'AND; negando i due ingressi di un NAND si ottiene l'OR (è
+> [[Teorema di De Morgan e bubble pushing|De Morgan]] applicato al contrario).
 
 ## Da ricordare
 - Il pallino sull'uscita = inversione.

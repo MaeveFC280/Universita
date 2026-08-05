@@ -1,8 +1,17 @@
 ---
-tags: [architettura, fondamenti, aritmetica, cap1]
-capitolo: 1
-sezione: "1.4.6"
-pagine_pdf: 32-36
+Materia: Architettura degli elaboratori
+tags:
+  - Binario
+  - aritmetica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.4.6'
+Imparato: false
+Ordine: 106
+aliases:
+  - complemento a due
+  - two's complement
+  - segno-modulo
+  - numeri negativi
 ---
 
 # Numeri con segno: segno/modulo e complemento a due

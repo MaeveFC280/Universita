@@ -1,8 +1,15 @@
 ---
-tags: [architettura, sequenziale, blocchi, cap5]
-capitolo: 5
-sezione: "5.4"
-pagine_pdf: 275-280
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.4'
+Imparato: false
+Ordine: 508
+aliases:
+  - contatore
+  - shift register
+  - registro a scorrimento
 ---
 
 # Contatori e shift register

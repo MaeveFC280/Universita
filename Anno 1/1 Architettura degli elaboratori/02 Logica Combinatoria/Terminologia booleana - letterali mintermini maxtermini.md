@@ -1,8 +1,17 @@
 ---
-tags: [architettura, combinatoria, booleana, cap2]
-capitolo: 2
-sezione: "2.2"
-pagine_pdf: 74-76
+Materia: Architettura degli elaboratori
+tags:
+  - algebra_booleana
+  - Logica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.2'
+Imparato: false
+Ordine: 202
+aliases:
+  - letterale
+  - mintermine
+  - maxtermine
+  - implicante
 ---
 
 # Terminologia booleana: letterali, mintermini, maxtermini

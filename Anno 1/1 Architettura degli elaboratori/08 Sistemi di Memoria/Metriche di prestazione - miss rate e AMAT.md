@@ -1,8 +1,16 @@
 ---
-tags: [architettura, memoria, prestazioni, cap8]
-capitolo: 8
-sezione: "8.2"
-pagine_pdf: 507-508
+Materia: Architettura degli elaboratori
+tags:
+  - memoria
+  - prestazioni
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.2'
+Imparato: false
+Ordine: 802
+aliases:
+  - miss rate
+  - hit rate
+  - AMAT
 ---
 
 # Metriche di prestazione: miss rate, hit rate e AMAT

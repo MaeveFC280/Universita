@@ -1,8 +1,16 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.3.5 - 6.3.6"
-pagine_pdf: 331-333
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.5-6.3.6'
+Imparato: false
+Ordine: 611
+aliases:
+  - ASCII
+  - LDRB
+  - stringhe
 ---
 
 # Byte, caratteri ASCII e stringhe

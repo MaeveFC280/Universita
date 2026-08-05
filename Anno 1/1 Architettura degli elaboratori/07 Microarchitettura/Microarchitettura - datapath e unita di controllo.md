@@ -1,8 +1,16 @@
 ---
-tags: [architettura, microarchitettura, cap7]
-capitolo: 7
-sezione: "7.1"
-pagine_pdf: 401-405
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+  - datapath
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.1'
+Imparato: false
+Ordine: 701
+aliases:
+  - microarchitettura
+  - datapath
+  - unità di controllo
 ---
 
 # Microarchitettura: datapath e unità di controllo

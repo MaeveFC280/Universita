@@ -1,8 +1,16 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.2.2"
-pagine_pdf: 315-317
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.2.2'
+Imparato: false
+Ordine: 602
+aliases:
+  - registri
+  - register set
+  - R0-R15
 ---
 
 # I registri ARM

@@ -1,8 +1,18 @@
 ---
-tags: [architettura, fondamenti, cap1]
-capitolo: 1
-sezione: "1.1 - 1.2"
-pagine_pdf: 21-24
+Materia: Architettura degli elaboratori
+tags:
+  - astrazione
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 1.1-1.2'
+Imparato: false
+Ordine: 101
+aliases:
+  - Da 0 a 1
+  - Astrazione
+  - astrazione
+  - gerarchia
+  - modularità
+  - regolarità
 ---
 
 # Astrazione e gestione della complessità

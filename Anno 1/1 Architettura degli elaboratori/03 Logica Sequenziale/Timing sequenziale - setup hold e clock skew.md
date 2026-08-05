@@ -1,8 +1,17 @@
 ---
-tags: [architettura, sequenziale, timing, cap3]
-capitolo: 3
-sezione: "3.5"
-pagine_pdf: 157-173
+Materia: Architettura degli elaboratori
+tags:
+  - timing
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.5'
+Imparato: false
+Ordine: 310
+aliases:
+  - setup time
+  - hold time
+  - clock skew
+  - metastabilità
 ---
 
 # Timing sequenziale: setup, hold e clock skew

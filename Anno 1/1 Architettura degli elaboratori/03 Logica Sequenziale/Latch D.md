@@ -1,8 +1,14 @@
 ---
-tags: [architettura, sequenziale, latch, cap3]
-capitolo: 3
-sezione: "3.2.3"
-pagine_pdf: 129-130
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.2.3'
+Imparato: false
+Ordine: 303
+aliases:
+  - D latch
+  - latch trasparente
 ---
 
 # Latch D

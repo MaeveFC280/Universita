@@ -1,8 +1,14 @@
 ---
-tags: [architettura, sequenziale, fsm, metodo, cap3]
-capitolo: 3
-sezione: "3.4.5"
-pagine_pdf: 156-157
+Materia: Architettura degli elaboratori
+tags:
+  - FSM
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.4.5'
+Imparato: false
+Ordine: 308
+aliases:
+  - progetto di una FSM
+  - diagramma degli stati
 ---
 
 # Procedura di progetto di una FSM

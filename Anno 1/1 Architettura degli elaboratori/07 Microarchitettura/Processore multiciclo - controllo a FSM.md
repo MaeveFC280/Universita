@@ -1,8 +1,15 @@
 ---
-tags: [architettura, microarchitettura, multiciclo, controllo, fsm, cap7]
-capitolo: 7
-sezione: "7.4.2"
-pagine_pdf: 429-437
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+  - FSM
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.4.2'
+Imparato: false
+Ordine: 707
+aliases:
+  - controllo multiciclo
+  - FSM di controllo
 ---
 
 # Processore multiciclo: l'unità di controllo a FSM

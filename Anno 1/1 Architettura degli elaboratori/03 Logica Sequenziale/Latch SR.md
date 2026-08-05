@@ -1,8 +1,14 @@
 ---
-tags: [architettura, sequenziale, latch, cap3]
-capitolo: 3
-sezione: "3.2.2"
-pagine_pdf: 127-129
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.2.2'
+Imparato: false
+Ordine: 302
+aliases:
+  - SR latch
+  - set reset
 ---
 
 # Latch SR

@@ -1,8 +1,16 @@
 ---
-tags: [architettura, arm, assembly, cap6]
-capitolo: 6
-sezione: "6.1 - 6.2"
-pagine_pdf: 311-314
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.1-6.2'
+Imparato: false
+Ordine: 601
+aliases:
+  - assembly
+  - ISA
+  - principi di progetto
 ---
 
 # Linguaggio assembly: principi di progetto

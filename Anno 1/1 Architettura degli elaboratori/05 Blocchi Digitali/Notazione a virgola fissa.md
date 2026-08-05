@@ -1,8 +1,15 @@
 ---
-tags: [architettura, aritmetica, numerazione, cap5]
-capitolo: 5
-sezione: "5.3.1"
-pagine_pdf: 271-272
+Materia: Architettura degli elaboratori
+tags:
+  - Binario
+  - aritmetica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.3.1'
+Imparato: false
+Ordine: 506
+aliases:
+  - virgola fissa
+  - fixed point
 ---
 
 # Notazione a virgola fissa (fixed-point)

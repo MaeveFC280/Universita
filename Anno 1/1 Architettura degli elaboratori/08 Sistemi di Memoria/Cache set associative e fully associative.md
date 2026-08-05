@@ -1,8 +1,15 @@
 ---
-tags: [architettura, memoria, cache, cap8]
-capitolo: 8
-sezione: "8.3.2 - 8.3.3"
-pagine_pdf: 514-516
+Materia: Architettura degli elaboratori
+tags:
+  - cache
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.3.2-8.3.3'
+Imparato: false
+Ordine: 805
+aliases:
+  - set associative
+  - fully associative
+  - vie
 ---
 
 # Cache set associative e fully associative

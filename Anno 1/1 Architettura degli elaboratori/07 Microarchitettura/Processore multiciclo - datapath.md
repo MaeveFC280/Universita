@@ -1,8 +1,15 @@
 ---
-tags: [architettura, microarchitettura, multiciclo, cap7]
-capitolo: 7
-sezione: "7.4.1"
-pagine_pdf: 422-429
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+  - datapath
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.4.1'
+Imparato: false
+Ordine: 706
+aliases:
+  - multiciclo
+  - multicycle
 ---
 
 # Processore multiciclo: il datapath

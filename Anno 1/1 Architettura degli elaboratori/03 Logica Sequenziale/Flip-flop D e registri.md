@@ -1,8 +1,15 @@
 ---
-tags: [architettura, sequenziale, flipflop, cap3]
-capitolo: 3
-sezione: "3.2.4 - 3.2.5"
-pagine_pdf: 130-131
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.2.4-3.2.5'
+Imparato: false
+Ordine: 304
+aliases:
+  - flip-flop D
+  - registro
+  - master-slave
 ---
 
 # Flip-flop D e registri

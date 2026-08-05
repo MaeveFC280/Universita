@@ -1,8 +1,18 @@
 ---
-tags: [architettura, arm, assembly, funzioni, cap6]
-capitolo: 6
-sezione: "6.3.7"
-pagine_pdf: 336-345
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+  - funzioni
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.7'
+Imparato: false
+Ordine: 613
+aliases:
+  - stack
+  - stack frame
+  - PUSH POP
+  - SP
 ---
 
 # Lo stack

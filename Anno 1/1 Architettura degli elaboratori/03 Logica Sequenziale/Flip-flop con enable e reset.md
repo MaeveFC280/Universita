@@ -1,8 +1,15 @@
 ---
-tags: [architettura, sequenziale, flipflop, cap3]
-capitolo: 3
-sezione: "3.2.6 - 3.2.7"
-pagine_pdf: 131-135
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.2.6-3.2.7'
+Imparato: false
+Ordine: 305
+aliases:
+  - enable
+  - reset sincrono
+  - reset asincrono
 ---
 
 # Flip-flop con enable e con reset

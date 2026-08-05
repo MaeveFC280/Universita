@@ -1,8 +1,17 @@
 ---
-tags: [architettura, arm, assembly, memoria, cap6]
-capitolo: 6
-sezione: "6.2.3"
-pagine_pdf: 317-319
+Materia: Architettura degli elaboratori
+tags:
+  - ARM
+  - assembly
+  - memoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 6.2.3'
+Imparato: false
+Ordine: 604
+aliases:
+  - LDR
+  - STR
+  - load store
 ---
 
 # Istruzioni di memoria: LDR e STR

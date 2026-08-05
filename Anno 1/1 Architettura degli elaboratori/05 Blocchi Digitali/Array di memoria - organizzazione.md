@@ -1,11 +1,16 @@
 ---
+Materia: Architettura degli elaboratori
 tags:
   - memoria
-  - blocchi
-  - cap5
-capitolo: 5
-sezione: 5.5.1
-pagine_pdf: 280-282
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.5.1'
+Imparato: false
+Ordine: 509
+aliases:
+  - array di memoria
+  - bit cell
+  - word line
+  - bit line
 ---
 
 # Array di memoria: organizzazione

@@ -1,7 +1,12 @@
 ---
+Materia: Architettura degli elaboratori
 tags:
   - MOC
-libro: Harris & Harris - Digital Design and Computer Architecture, ARM Edition
+Link risorse:
+Libro:
+Imparato: false
+Ordine: 0
+aliases:
 ---
 
 # 🗺️ MOC — Architettura Digitale
@@ -103,6 +108,9 @@ Il capitolo 4 (Verilog/HDL), il capitolo 9 (I/O) e le appendici non risultano an
 6. [[Blocchi politiche di sostituzione e scrittura]]
 7. [[Memoria virtuale - concetti]]
 8. [[Page table e TLB]]
+
+## 📓 9 — I/O (fuori traccia)
+1. [[Come parlano codice e hardware]] — memory-mapped I/O
 
 ---
 

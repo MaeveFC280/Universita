@@ -1,8 +1,17 @@
 ---
-tags: [architettura, memoria, virtuale, cap8]
-capitolo: 8
-sezione: "8.4"
-pagine_pdf: 524-528
+Materia: Architettura degli elaboratori
+tags:
+  - memoria_virtuale
+  - memoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.4'
+Imparato: false
+Ordine: 807
+aliases:
+  - memoria virtuale
+  - indirizzo virtuale
+  - pagina
+  - swap
 ---
 
 # Memoria virtuale: concetti

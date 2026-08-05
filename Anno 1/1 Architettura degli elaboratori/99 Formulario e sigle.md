@@ -1,7 +1,16 @@
 ---
+Materia: Architettura degli elaboratori
 tags:
   - formulario
   - ripasso
+Link risorse:
+Libro:
+Imparato: false
+Ordine: 999
+aliases:
+  - formulario
+  - sigle
+  - riepilogo
 ---
 
 # 🧮 Formulario e sigle

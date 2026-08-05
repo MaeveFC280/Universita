@@ -1,8 +1,16 @@
 ---
-tags: [architettura, sequenziale, fsm, cap3]
-capitolo: 3
-sezione: "3.4.4"
-pagine_pdf: 145-148
+Materia: Architettura degli elaboratori
+tags:
+  - FSM
+  - Binario
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.4.4'
+Imparato: false
+Ordine: 309
+aliases:
+  - codifica degli stati
+  - one-hot
+  - state encoding
 ---
 
 # Codifica degli stati: binaria e one-hot

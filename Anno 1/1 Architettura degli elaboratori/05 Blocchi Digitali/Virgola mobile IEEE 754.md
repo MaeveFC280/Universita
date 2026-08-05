@@ -1,9 +1,17 @@
 ---
-tags: [architettura, aritmetica, floatingpoint, cap5]
-capitolo: 5
-sezione: "5.3.2"
-pagine_pdf: 272-275
-aliases: [floating point, IEEE 754]
+Materia: Architettura degli elaboratori
+tags:
+  - virgola_mobile
+  - Binario
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.3.2'
+Imparato: false
+Ordine: 507
+aliases:
+  - IEEE 754
+  - floating point
+  - mantissa
+  - esponente
 ---
 
 # Virgola mobile: lo standard IEEE 754

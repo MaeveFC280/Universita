@@ -1,8 +1,15 @@
 ---
-tags: [architettura, microarchitettura, multiciclo, prestazioni, cap7]
-capitolo: 7
-sezione: "7.4.3"
-pagine_pdf: 437-441
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+  - prestazioni
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.4.3'
+Imparato: false
+Ordine: 708
+aliases:
+  - prestazioni multiciclo
+  - CPI medio
 ---
 
 # Processore multiciclo: prestazioni

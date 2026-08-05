@@ -1,8 +1,15 @@
 ---
-tags: [architettura, combinatoria, cap2]
-capitolo: 2
-sezione: "2.1"
-pagine_pdf: 71-74
+Materia: Architettura degli elaboratori
+tags:
+  - logica_combinatoria
+  - logica_sequenziale
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.1'
+Imparato: false
+Ordine: 201
+aliases:
+  - circuito combinatorio
+  - circuito sequenziale
 ---
 
 # Circuiti combinatori e sequenziali

@@ -1,8 +1,15 @@
 ---
-tags: [architettura, microarchitettura, single-cycle, prestazioni, cap7]
-capitolo: 7
-sezione: "7.3.3"
-pagine_pdf: 418-422
+Materia: Architettura degli elaboratori
+tags:
+  - microarchitettura
+  - prestazioni
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 7.3.3'
+Imparato: false
+Ordine: 705
+aliases:
+  - prestazioni single-cycle
+  - periodo di clock
 ---
 
 # Processore single-cycle: prestazioni e limiti

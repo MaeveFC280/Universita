@@ -1,8 +1,15 @@
 ---
-tags: [architettura, sequenziale, cap3]
-capitolo: 3
-sezione: "3.3"
-pagine_pdf: 135-139
+Materia: Architettura degli elaboratori
+tags:
+  - logica_sequenziale
+  - timing
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 3.3'
+Imparato: false
+Ordine: 306
+aliases:
+  - progetto sincrono
+  - race condition
 ---
 
 # Progetto sincrono e race condition

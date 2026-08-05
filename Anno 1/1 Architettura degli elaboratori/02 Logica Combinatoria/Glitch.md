@@ -1,8 +1,15 @@
 ---
-tags: [architettura, combinatoria, timing, cap2]
-capitolo: 2
-sezione: "2.9.2"
-pagine_pdf: 108-111
+Materia: Architettura degli elaboratori
+tags:
+  - timing
+  - logica_combinatoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 2.9.2'
+Imparato: false
+Ordine: 212
+aliases:
+  - glitch
+  - alea
 ---
 
 # Glitch

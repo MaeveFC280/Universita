@@ -1,8 +1,16 @@
 ---
-tags: [architettura, aritmetica, blocchi, cap5]
-capitolo: 5
-sezione: "5.2.5"
-pagine_pdf: 267-271
+Materia: Architettura degli elaboratori
+tags:
+  - aritmetica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.5'
+Imparato: false
+Ordine: 505
+aliases:
+  - shifter
+  - rotatore
+  - LSL
+  - ASR
 ---
 
 # Shifter e rotatori

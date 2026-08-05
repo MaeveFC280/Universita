@@ -1,8 +1,15 @@
 ---
-tags: [architettura, aritmetica, blocchi, cap5]
-capitolo: 5
-sezione: "5.2.1"
-pagine_pdf: 255-256
+Materia: Architettura degli elaboratori
+tags:
+  - aritmetica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.1'
+Imparato: false
+Ordine: 501
+aliases:
+  - half adder
+  - full adder
+  - sommatore
 ---
 
 # Half adder e full adder

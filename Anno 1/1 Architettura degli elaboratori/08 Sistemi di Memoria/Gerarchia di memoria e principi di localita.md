@@ -1,8 +1,15 @@
 ---
-tags: [architettura, memoria, gerarchia, cap8]
-capitolo: 8
-sezione: "8.1"
-pagine_pdf: 503-507
+Materia: Architettura degli elaboratori
+tags:
+  - memoria
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 8.1'
+Imparato: false
+Ordine: 801
+aliases:
+  - gerarchia di memoria
+  - località temporale
+  - località spaziale
 ---
 
 # Gerarchia di memoria e principi di località

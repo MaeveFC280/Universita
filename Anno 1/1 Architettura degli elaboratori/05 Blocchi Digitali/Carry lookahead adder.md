@@ -1,9 +1,15 @@
 ---
-tags: [architettura, aritmetica, blocchi, cap5]
-capitolo: 5
-sezione: "5.2.1"
-pagine_pdf: 257-262
-aliases: [CLA]
+Materia: Architettura degli elaboratori
+tags:
+  - aritmetica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.1'
+Imparato: false
+Ordine: 503
+aliases:
+  - CLA
+  - carry lookahead
+  - prefix adder
 ---
 
 # Carry-lookahead adder (CLA)

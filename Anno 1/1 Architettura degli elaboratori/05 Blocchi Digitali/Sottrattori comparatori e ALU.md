@@ -1,8 +1,16 @@
 ---
-tags: [architettura, aritmetica, blocchi, alu, cap5]
-capitolo: 5
-sezione: "5.2.2 - 5.2.4"
-pagine_pdf: 262-267
+Materia: Architettura degli elaboratori
+tags:
+  - aritmetica
+  - Logica
+Link risorse:
+Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.2-5.2.4'
+Imparato: false
+Ordine: 504
+aliases:
+  - ALU
+  - sottrattore
+  - comparatore
 ---
 
 # Sottrattori, comparatori e ALU

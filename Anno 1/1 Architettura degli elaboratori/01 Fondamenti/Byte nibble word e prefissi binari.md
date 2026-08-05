@@ -12,9 +12,6 @@ aliases:
   - word
   - prefissi binari
 ---
-
-# Byte, nibble, word e prefissi binari
-
 ## Terminologia dei raggruppamenti di bit
 - **byte** = 8 bit
 - **nibble** = 4 bit (mezzo byte)

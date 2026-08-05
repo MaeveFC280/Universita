@@ -12,9 +12,6 @@ aliases:
   - quantità di informazione
   - bit
 ---
-
-# Astrazione digitale e quantità di informazione
-
 ## Continuo vs discreto
 La maggior parte delle grandezze fisiche è **continua**: tensione, posizione, tempo
 possono assumere infiniti valori. I sistemi digitali invece rappresentano

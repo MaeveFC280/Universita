@@ -4,6 +4,11 @@ views:
     filters:
       and:
         - Materia == "Architettura degli elaboratori"
+        - not:
+            - file.basename == "Formulario e sigle"
+    groupBy:
+      property: file.folder
+      direction: ASC
     order:
       - file.name
       - Imparato

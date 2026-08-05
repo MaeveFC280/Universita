@@ -14,9 +14,6 @@ aliases:
   - NOR
   - tabella di verità
 ---
-
-# Porte logiche
-
 Le **porte logiche** sono circuiti digitali elementari: uno o più ingressi binari, una
 uscita binaria determinata dalla funzione della porta.
 

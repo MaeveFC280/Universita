@@ -13,12 +13,6 @@ aliases:
   - segno-modulo
   - numeri negativi
 ---
-
-# Numeri con segno: segno/modulo e complemento a due
-
-Servono due rappresentazioni per i numeri negativi; le due più usate sono
-**segno/modulo** e **complemento a due**.
-
 ## Segno/modulo (sign/magnitude)
 Un numero a $N$ bit usa:
 - il **msb come segno** (0 = positivo, 1 = negativo)

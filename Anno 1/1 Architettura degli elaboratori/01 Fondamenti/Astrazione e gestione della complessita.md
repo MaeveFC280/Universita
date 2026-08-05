@@ -14,9 +14,6 @@ aliases:
   - modularità
   - regolarità
 ---
-
-# Astrazione e gestione della complessità
-
 ## Idea centrale
 La tecnica fondamentale per gestire la complessità è l'**astrazione**: si nasconde il
 dettaglio irrilevante e si espone solo ciò che serve al livello superiore. Un sistema

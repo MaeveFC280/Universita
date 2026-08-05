@@ -14,9 +14,6 @@ aliases:
   - hex
   - conversione di base
 ---
-
-# Sistemi di numerazione: binario ed esadecimale
-
 ## Notazione posizionale e base
 In un sistema posizionale ogni cifra è moltiplicata per il **peso** della propria
 colonna. La base si indica con un pedice per evitare ambiguità: $1101_2$, $27_{10}$, $1B_{16}$.

@@ -12,9 +12,6 @@ aliases:
   - riporto
   - overflow
 ---
-
-# Addizione binaria e overflow
-
 ## Meccanica
 L'addizione binaria funziona come quella decimale: si sommano le colonne da destra a
 sinistra propagando il **riporto** (*carry*) quando la somma di colonna supera il

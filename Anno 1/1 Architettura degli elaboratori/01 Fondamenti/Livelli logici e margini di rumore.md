@@ -12,9 +12,6 @@ aliases:
   - margini di rumore
   - noise margin
 ---
-
-# Sotto l'astrazione digitale: livelli logici e margini di rumore
-
 L'astrazione digitale funziona solo se il circuito reale rispetta certe convenzioni
 elettriche. Qui si guarda "sotto" l'astrazione.
 

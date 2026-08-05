@@ -12,11 +12,6 @@ aliases:
   - sigle
   - riepilogo
 ---
-
-# 🧮 Formulario e sigle
-
-Foglio di riepilogo trasversale. Ogni voce rimanda alla nota che la spiega.
-
 ## Numerazione e informazione
 | Formula | Significato | Nota |
 |---|---|---|

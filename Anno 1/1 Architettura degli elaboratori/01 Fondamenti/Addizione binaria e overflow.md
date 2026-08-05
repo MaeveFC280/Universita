@@ -1,7 +1,10 @@
 ---
-tags: [architettura, fondamenti, aritmetica, cap1]
+tags:
+  - fondamenti
+  - aritmetica
+  - cap1
 capitolo: 1
-sezione: "1.4.6"
+sezione: 1.4.6
 pagine_pdf: 31-32
 ---
 

@@ -1,7 +1,9 @@
 ---
-tags: [architettura, MOC, indice]
+tags:
+  - MOC
+  - indice
 tipo: mappa-di-contenuti
-fonte: "Harris & Harris — Digital Design and Computer Architecture, ARM Edition"
+fonte: Harris & Harris — Digital Design and Computer Architecture, ARM Edition
 note_totali: 72
 ---
 

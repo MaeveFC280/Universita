@@ -1,5 +1,8 @@
 ---
-tags: [architettura, microarchitettura, prestazioni, cap7]
+tags:
+  - microarchitettura
+  - prestazioni
+  - cap7
 capitolo: 7
 sezione: "7.2"
 pagine_pdf: 405-406

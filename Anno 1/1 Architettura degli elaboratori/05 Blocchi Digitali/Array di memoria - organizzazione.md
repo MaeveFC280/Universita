@@ -1,7 +1,10 @@
 ---
-tags: [architettura, memoria, blocchi, cap5]
+tags:
+  - memoria
+  - blocchi
+  - cap5
 capitolo: 5
-sezione: "5.5.1"
+sezione: 5.5.1
 pagine_pdf: 280-282
 ---
 

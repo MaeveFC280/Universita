@@ -1,6 +1,7 @@
 ---
-tags: [MOC, architettura]
-libro: "Harris & Harris - Digital Design and Computer Architecture, ARM Edition"
+tags:
+  - MOC
+libro: Harris & Harris - Digital Design and Computer Architecture, ARM Edition
 ---
 
 # 🗺️ MOC — Architettura Digitale

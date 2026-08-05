@@ -1,7 +1,11 @@
 ---
-tags: [architettura, arm, assembly, memoria, cap6]
+tags:
+  - arm
+  - assembly
+  - memoria
+  - cap6
 capitolo: 6
-sezione: "6.3.4"
+sezione: 6.3.4
 pagine_pdf: 329-331
 ---
 

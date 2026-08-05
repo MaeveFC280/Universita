@@ -1,5 +1,7 @@
 ---
-tags: [formulario, ripasso, architettura]
+tags:
+  - formulario
+  - ripasso
 ---
 
 # 🧮 Formulario e sigle

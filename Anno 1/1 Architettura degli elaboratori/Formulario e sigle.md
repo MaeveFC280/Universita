@@ -17,7 +17,7 @@ aliases:
 |---|---|---|
 | $D = \log_2 N$ | bit di informazione di una variabile a $N$ stati | [[Astrazione digitale e quantita di informazione]] |
 | $[0,\ 2^N-1]$ | range di $N$ bit **senza segno** | [[Sistemi di numerazione binario e esadecimale]] |
-| $[-2^{N-1}+1,\ 2^{N-1}-1]$ | range **segno/modulo** | [[Numeri con segno - segno-modulo e complemento a due]] |
+| $[-2^{N-1}+1,\ 2^{N-1}-1]$ | range **segno/modulo** | [[Segno, modulo e complemento a due]] |
 | $[-2^{N-1},\ 2^{N-1}-1]$ | range **complemento a due** | idem |
 | inverti + 1 | negazione in complemento a due | idem |
 | $2^{10}=1024$ | base dei prefissi K, M, G | [[Byte nibble word e prefissi binari]] |

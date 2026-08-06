@@ -90,7 +90,7 @@ Sostituzione diretta di ogni cifra con i suoi 4 bit (e viceversa, raggruppando a
 | Argomento | Nota |
 |---|---|
 | somme | [[Addizione binaria e overflow]] |
-| numeri negativi, sottrazioni | [[Numeri con segno - segno-modulo e complemento a due]] |
+| numeri negativi, sottrazioni | [[Segno, modulo e complemento a due]] |
 | prodotti, divisioni per potenze di 2 | [[Shifter e rotatori]] |
 | virgola | [[Notazione a virgola fissa]] · [[Virgola mobile IEEE 754]] |
 | byte, word, prefissi K/M/G | [[Byte nibble word e prefissi binari]] |

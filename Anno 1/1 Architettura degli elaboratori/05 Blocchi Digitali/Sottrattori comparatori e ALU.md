@@ -17,7 +17,7 @@ aliases:
 
 ## Sottrattore
 Ricordando che $A - B = A + (-B)$ e che in complemento a due si nega **invertendo i bit
-e aggiungendo 1** (→ [[Numeri con segno - segno-modulo e complemento a due]]):
+e aggiungendo 1** (→ [[Segno, modulo e complemento a due]]):
 
 $$Y = A - B = A + \overline{B} + 1$$
 

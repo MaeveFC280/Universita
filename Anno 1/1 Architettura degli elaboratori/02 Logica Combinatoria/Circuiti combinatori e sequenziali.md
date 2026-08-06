@@ -48,10 +48,3 @@ Un circuito è combinatorio se e solo se:
 Quando il numero di bit non è rilevante o è ovvio dal contesto, si usa una linea
 singola con una **barra e un numero** che indica la larghezza del bus (es. `/8`).
 
-## Da ricordare
-- Specifica funzionale + specifica temporale = descrizione completa di un modulo.
-- Combinatorio ⇔ nessun cammino ciclico e tutti gli elementi combinatori.
-
-## Domande flash
-1. Un circuito con un solo NOT retroazionato su se stesso è combinatorio?
-2. Cosa distingue un nodo interno da un nodo di uscita?

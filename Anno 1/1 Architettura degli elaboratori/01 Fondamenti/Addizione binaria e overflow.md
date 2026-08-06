@@ -13,9 +13,7 @@ aliases:
   - overflow
 ---
 ## Meccanica
-L'addizione binaria funziona come quella decimale: si sommano le colonne da destra a
-sinistra propagando il **riporto** (*carry*) quando la somma di colonna supera il
-valore massimo della base.
+L'addizione binaria funziona come quella decimale: si sommano le colonne da destra a sinistra propagando il **riporto** (*carry*) quando la somma di colonna supera il valore massimo della base.
 
 Le quattro regole di colonna, da sapere a memoria:
 

@@ -4,7 +4,7 @@ tags:
   - Binario
 Link risorse: https://youtu.be/QZwneRb-zqA?si=cP0ZyNW7ELlDQNCI&t=306
 Libro: '"Digital Design and Computer Architecture" Capitolo 1.4'
-Imparato: false
+Imparato: true
 Ordine: 103
 aliases:
   - Sistemi di numerazione
@@ -15,8 +15,7 @@ aliases:
   - conversione di base
 ---
 ## Notazione posizionale e base
-In un sistema posizionale ogni cifra è moltiplicata per il **peso** della propria
-colonna. La base si indica con un pedice per evitare ambiguità: $1101_2$, $27_{10}$, $1B_{16}$.
+In un sistema posizionale ogni cifra è moltiplicata per il **peso** della propria colonna. La base si indica con un pedice per evitare ambiguità: $1101_2$, $27_{10}$, $1B_{16}$.
 
 - **Decimale (base 10)**: pesi $10^0, 10^1, 10^2, \dots$
   Un numero decimale a $N$ cifre rappresenta uno di $10^N$ valori: da $0$ a $10^N - 1$.
@@ -27,21 +26,13 @@ colonna. La base si indica con un pedice per evitare ambiguità: $1101_2$, $27_{
 
 ## Bit più e meno significativo
 In un numero binario si distinguono:
-
-- il **bit più significativo** (*most significant bit*, **msb**): quello più a sinistra,
-  con il peso maggiore;
-- il **bit meno significativo** (*least significant bit*, **lsb**): quello più a destra,
-  con peso $2^0 = 1$.
-
-I primi sedici valori, per prendere confidenza con la corrispondenza:
+- il **bit più significativo** (*most significant bit*, **msb**): quello più a sinistra, con il peso maggiore;
+- il **bit meno significativo** (*least significant bit*, **lsb**): quello più a destra, con peso $2^0 = 1$.
 
 ![[Sistemi di numerazione-1785675970006.webp|700]]
 
 ## Perché l'esadecimale
-Un gruppo di 4 bit rappresenta uno di $2^4 = 16$ valori: quindi **una cifra
-esadecimale corrisponde esattamente a 4 bit**. Scrivere numeri binari lunghi è
-scomodo e soggetto a errori; in esadecimale la scrittura è 4 volte più compatta e la
-conversione è meccanica.
+Un gruppo di 4 bit rappresenta uno di $2^4 = 16$ valori: quindi **una cifra esadecimale corrisponde esattamente a 4 bit**. Scrivere numeri binari lunghi è scomodo e soggetto a errori; in esadecimale la scrittura è 4 volte più compatta e la conversione è meccanica.
 
 | Hex | Bin | Dec |
 |---|---|---|
@@ -63,14 +54,15 @@ conversione è meccanica.
 | F | 1111 | 15 |
 
 ## Conversioni
-
 ### Binario → decimale
 Somma dei pesi delle colonne con bit a 1.
-$10110_2 = 16 + 4 + 2 = 22_{10}$
+*Esempio:* $10110_2 = 16 + 4 + 2 = 22_{10}$
 
-### Decimale → binario (metodo dei resti)
+### Decimale → binario
+#### Metodo dei resti
 Si divide ripetutamente per 2 partendo da destra; **il resto va nella colonna**.
-Esempio: $84_{10}$
+
+*Esempio: $84_{10}$*
 ```
 84 / 2 = 42  resto 0   -> bit 0 (lsb)
 42 / 2 = 21  resto 0
@@ -80,38 +72,20 @@ Esempio: $84_{10}$
  2 / 2 =  1  resto 0
  1 / 2 =  0  resto 1   -> msb
 ```
-Leggendo dall'ultimo al primo: $1010100_2$.
-
-> [!warning] Errore da non ripetere
-> Nella vecchia nota il metodo era descritto come «la sequenza dei **quozienti**», con
-> divisioni scritte in decimale ($15/2 = 7{,}5 \rightarrow 7/2 = 3{,}5 \dots$). Sono i
-> **resti** a formare il numero binario, non i quozienti. Con $15$ il risultato veniva
-> giusto per caso (tutti i resti valgono 1); con $12$ il metodo sbagliato dà `1111`
-> invece del corretto `1100`. Le divisioni vanno fatte **intere**, tenendo il resto.
-
-### Metodo alternativo (per sottrazione dei pesi)
+ *Leggendo dall'ultimo al primo: $1010100_2$.*
+#### Metodo per sottrazione dei pesi
 Si parte dalla potenza di 2 più grande contenuta nel numero e si sottrae.
-$84 = 64 + 16 + 4 \Rightarrow 1010100_2$.
+*Esempio: * $84 = 64 + 16 + 4 \Rightarrow 1010100_2$.
 
 ### Esadecimale ↔ binario
 Sostituzione diretta di ogni cifra con i suoi 4 bit (e viceversa, raggruppando a 4
 **partendo da destra**).
-$2ED_{16} = 0010\ 1110\ 1101_2$
+*Esempio:* $2ED_{16} = 0010\ 1110\ 1101_2$
 
 ### Esadecimale → decimale
-$2ED_{16} = 2 \cdot 256 + 14 \cdot 16 + 13 = 749_{10}$
+*Esempio:* $2ED_{16} = 2 \cdot 256 + 14 \cdot 16 + 13 = 749_{10}$
 
-## Da ricordare
-- $N$ bit → $2^N$ combinazioni, range $[0, 2^N-1]$.
-- 1 cifra hex = 4 bit, sempre.
-- Decimale→binario: divisioni successive per 2, i resti sono i bit da lsb a msb.
-
-## Domande flash
-1. Quanti bit servono per rappresentare 1000 valori distinti?
-2. Converti $C3_{16}$ in decimale e in binario.
-
-## Continua su
-Gli argomenti che restavano da riempire nella vecchia nota sono trattati altrove:
+## Operazioni
 
 | Argomento | Nota |
 |---|---|

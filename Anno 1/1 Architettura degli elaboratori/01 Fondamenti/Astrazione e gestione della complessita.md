@@ -4,7 +4,7 @@ tags:
   - astrazione
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 1.1-1.2'
-Imparato: false
+Imparato: true
 Ordine: 101
 aliases:
   - Da 0 a 1
@@ -23,17 +23,17 @@ corrispondono "mattoni" tipici.
 ## I livelli di astrazione di un sistema elettronico
 Dal basso verso l'alto:
 
-| Livello | Mattoni tipici | Disciplina |
-|---|---|---|
-| Fisica | elettroni | fisica dei dispositivi |
-| Dispositivi | diodi, transistor | elettronica |
-| Circuiti analogici | amplificatori | elettronica |
-| Circuiti digitali | porte logiche (AND, OR, NOT) | **progetto digitale** |
-| Moduli logici | sommatori, memorie, multiplexer | **progetto digitale** |
-| Microarchitettura | datapath, unità di controllo | [[Microarchitettura - datapath e unita di controllo]] |
-| Architettura | istruzioni, registri | [[Linguaggio assembly - principi di progetto]] |
-| Sistema operativo | driver, gestione memoria | informatica |
-| Applicazioni | programmi | informatica |
+| Livello            | Mattoni tipici                  | Disciplina                                            |
+| ------------------ | ------------------------------- | ----------------------------------------------------- |
+| Fisica             | elettroni                       | fisica dei dispositivi                                |
+| Dispositivi        | diodi, transistor               | elettronica                                           |
+| Circuiti analogici | amplificatori                   | elettronica                                           |
+| Circuiti digitali  | porte logiche (AND, OR, NOT)    | **progetto digitale**                                 |
+| Moduli logici      | sommatori, memorie, multiplexer | **progetto digitale**                                 |
+| Microarchitettura  | datapath, unità di controllo    | [[Microarchitettura - datapath e unita di controllo]] |
+| Architettura       | istruzioni, registri            | [[Linguaggio assembly - principi di progetto]]        |
+| Sistema operativo  | driver, gestione memoria        | informatica                                           |
+| Applicazioni       | programmi                       | informatica                                           |
 
 > [!tip] Perché conta
 > Chi progetta un processore non ragiona in termini di elettroni: lavora con porte
@@ -41,19 +41,6 @@ Dal basso verso l'alto:
 > L'astrazione è ciò che rende possibile costruire sistemi con miliardi di componenti.
 
 ## Le tre discipline di supporto
-- **Gerarchia**: si divide il sistema in moduli, e ogni modulo in sottomoduli, fino ad
-  arrivare a pezzi comprensibili.
-- **Modularità**: ogni modulo ha una funzione e un'interfaccia ben definite; non
-  produce effetti collaterali fuori dalla propria interfaccia.
-- **Regolarità**: si favorisce l'uniformità, così che i moduli si possano riusare e
-  sostituire facilmente.
-
-## Da ricordare
-- Astrazione = scegliere il livello di dettaglio giusto per il problema.
-- Gerarchia + modularità + regolarità = le tre leve pratiche.
-
-## Domande flash
-1. Qual è la differenza tra gerarchia e modularità?
-2. In che livello di astrazione si colloca un multiplexer? E una FSM?
-
-Collegato a: [[Astrazione digitale e quantita di informazione]]
+- **Gerarchia**: si divide il sistema in moduli, e ogni modulo in sottomoduli, fino ad arrivare a pezzi comprensibili.
+- **Modularità**: ogni modulo ha una funzione e un'interfaccia ben definite; non produce effetti collaterali fuori dalla propria interfaccia.
+- **Regolarità**: si favorisce l'uniformità, così che i moduli si possano riusare e sostituire facilmente.

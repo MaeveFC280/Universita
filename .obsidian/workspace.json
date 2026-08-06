@@ -27,14 +27,13 @@
             "id": "5d75b7a2e8d31344",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
-                "mode": "source",
-                "source": false
+                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+                "viewName": "Tabella"
               },
-              "icon": "lucide-file",
-              "title": "Porte logiche"
+              "icon": "lucide-layout-grid",
+              "title": "Architettura degli Elaboratori"
             }
           },
           {
@@ -249,15 +248,16 @@
   },
   "active": "5d75b7a2e8d31344",
   "lastOpenFiles": [
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Livelli logici e margini di rumore.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Segno, modulo e complemento a due.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Addizione binaria e overflow.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Sistemi di numerazione binario e esadecimale.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Byte nibble word e prefissi binari.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione digitale e quantita di informazione.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione e gestione della complessita.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Livelli logici e margini di rumore.md",
     "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
     "Anno 1/1 Architettura degli elaboratori/00 MOC - Architettura Digitale.md",

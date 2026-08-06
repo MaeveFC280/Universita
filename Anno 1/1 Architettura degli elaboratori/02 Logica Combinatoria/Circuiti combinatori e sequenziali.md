@@ -11,9 +11,6 @@ aliases:
   - circuito combinatorio
   - circuito sequenziale
 ---
-
-# Circuiti combinatori e sequenziali
-
 ## Il circuito come scatola nera
 Un circuito digitale è un **modulo** che si può vedere come una *black box* con:
 - uno o più **terminali di ingresso** a valori discreti;

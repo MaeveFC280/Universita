@@ -27,13 +27,14 @@
             "id": "5d75b7a2e8d31344",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Circuiti combinatori e sequenziali"
             }
           },
           {
@@ -248,8 +249,8 @@
   },
   "active": "5d75b7a2e8d31344",
   "lastOpenFiles": [
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Livelli logici e margini di rumore.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Segno, modulo e complemento a due.md",
@@ -275,7 +276,6 @@
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - prestazioni.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali",

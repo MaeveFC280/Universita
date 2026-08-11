@@ -5,7 +5,7 @@ tags:
   - logica_sequenziale
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 2.1'
-Imparato: false
+Imparato: true
 Ordine: 201
 aliases:
   - circuito combinatorio
@@ -18,7 +18,7 @@ Un circuito digitale è un **modulo** che si può vedere come una *black box* co
 - una **specifica funzionale** che descrive la relazione tra ingressi e uscite;
 - una **specifica temporale** che descrive il ritardo tra il cambio degli ingressi e
   il cambio delle uscite.
-
+![[Circuiti combinatori e sequenziali-1786461928431.webp]]
 ## Nodi ed elementi
 Un circuito è una rete che elabora variabili a valori discreti, ed è composto da:
 - **elementi**: essi stessi circuiti (con ingressi, uscite, specifiche);

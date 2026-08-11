@@ -10,7 +10,7 @@ banner_position: 62
 Piano B: Mi apro una pasticceria/caffè...
 ---
 # Appunti
-![[HOME.base]]
+![[Materie.base]]
 
 # Obbiettivi anno 1
 - [x] Superare Programmazione in C

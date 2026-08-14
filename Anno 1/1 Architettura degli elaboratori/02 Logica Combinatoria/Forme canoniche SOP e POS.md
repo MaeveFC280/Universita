@@ -12,9 +12,6 @@ aliases:
   - somma di prodotti
   - prodotto di somme
 ---
-
-# Forme canoniche: SOP e POS
-
 Da **qualunque** tabella di verità si può scrivere un'equazione booleana, in due modi
 duali fra loro.
 
@@ -65,13 +62,3 @@ Perché è la forma **standard** ottenibile meccanicamente dalla tabella di veri
 Non è (in generale) la forma **minima**: per minimizzare servono l'algebra di Boole o
 le mappe di Karnaugh.
 
-## Da ricordare
-- SOP ← righe a 1, mintermini, in OR.
-- POS ← righe a 0, maxtermini, in AND, **letterali invertiti**.
-- Forma canonica ≠ forma minima.
-
-## Domande flash
-1. Scrivi in SOP e in POS la funzione XOR a 2 ingressi.
-2. Perché nei maxtermini la polarità si inverte?
-
-Collegato a: [[Mappe di Karnaugh]] · [[Da equazioni a schemi - logica a due livelli]]

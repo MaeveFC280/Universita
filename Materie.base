@@ -14,14 +14,8 @@ views:
     name: Tabella
     filters:
       and:
-        - '!file.hasProperty("Materia")'
-        - '!file.inFolder("EXTRA")'
-        - not:
-            - file.inFolder("1.2.2 Basi di dati")
-        - and:
-            - file.fullname != "HOME.base"
-        - and:
-            - file.ext == "base"
+        - file.ext == "base"
+        - file.basename != "Materie"
     order:
       - file.basename
       - formula.voto

@@ -28,14 +28,13 @@
             "id": "f8051820c9ee5286",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
-                "mode": "preview",
-                "source": false
+                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+                "viewName": "Tabella"
               },
-              "icon": "lucide-file",
-              "title": "Forme canoniche SOP e POS"
+              "icon": "lucide-layout-grid",
+              "title": "Architettura degli Elaboratori"
             }
           }
         ],
@@ -221,6 +220,7 @@
   },
   "active": "f8051820c9ee5286",
   "lastOpenFiles": [
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
     "Hub.md",

@@ -4,7 +4,7 @@ tags:
   - algebra_booleana
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 2.2.2-2.2.3'
-Imparato: false
+Imparato: true
 Ordine: 203
 aliases:
   - SOP

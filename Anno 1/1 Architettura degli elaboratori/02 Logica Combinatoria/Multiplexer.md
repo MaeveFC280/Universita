@@ -10,19 +10,19 @@ aliases:
   - mux
   - lookup table
 ---
-## Funzione
 Un **multiplexer** (mux) sceglie una tra più uscite possibili in base a un segnale di
 **selezione**. È uno dei blocchi combinatori più usati.
+![[Multiplexer-1786796041455.webp]]
 
 ## Mux 2:1
-Due ingressi dati $D_0, D_1$, un ingresso di selezione $S$, un'uscita $Y$:
-$$Y = \overline{S}D_0 + S D_1$$
-- $S = 0 \Rightarrow Y = D_0$
-- $S = 1 \Rightarrow Y = D_1$
-
+Due ingressi dati $I_0, I_1$, un ingresso di selezione $S$, un'uscita $Y$:
+$$Y = \overline{S}I_0 + S I_1$$
+- $S = 0 \Rightarrow Y = I_0$
+- $S = 1 \Rightarrow Y = I_1$
+![[Multiplexer-1786796112833.webp]]
 Realizzazioni possibili: logica a due livelli (SOP), oppure con **buffer three-state**
 (uno abilitato da $S$, l'altro da $\overline{S}$: mai contemporaneamente attivi).
-
+![[Multiplexer-1786796073484.webp|228]]
 ## Mux più grandi
 Un mux **N:1** ha $N$ ingressi dati e richiede $\log_2 N$ linee di selezione.
 - mux 4:1 → 2 linee di selezione

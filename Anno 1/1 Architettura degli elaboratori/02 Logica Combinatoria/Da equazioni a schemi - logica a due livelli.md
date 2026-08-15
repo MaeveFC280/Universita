@@ -15,7 +15,7 @@ aliases:
 ## Lo schematico
 Uno **schematico** (*schematic*) è il diagramma di un circuito digitale che mostra gli
 elementi e i fili che li collegano.
-
+![[schematic t=abc...]]
 ### Convenzioni di disegno (utili anche in esame)
 - Gli **ingressi** stanno a sinistra (o in alto).
 - Le **uscite** stanno a destra (o in basso).

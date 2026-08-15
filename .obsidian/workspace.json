@@ -28,13 +28,14 @@
             "id": "f8051820c9ee5286",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Multiplexer"
             }
           }
         ],
@@ -220,8 +221,8 @@
   },
   "active": "f8051820c9ee5286",
   "lastOpenFiles": [
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
     "Hub.md",
     "Materie.base",
@@ -256,7 +257,6 @@
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Operandi - registri immediati e memoria.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Lo stack.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Linguaggio macchina - formati istruzione.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Linguaggio assembly - principi di progetto.md",
     "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
     "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
     "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",

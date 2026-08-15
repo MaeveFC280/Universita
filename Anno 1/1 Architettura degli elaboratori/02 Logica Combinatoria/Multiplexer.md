@@ -10,9 +10,6 @@ aliases:
   - mux
   - lookup table
 ---
-
-# Multiplexer
-
 ## Funzione
 Un **multiplexer** (mux) sceglie una tra più uscite possibili in base a un segnale di
 **selezione**. È uno dei blocchi combinatori più usati.

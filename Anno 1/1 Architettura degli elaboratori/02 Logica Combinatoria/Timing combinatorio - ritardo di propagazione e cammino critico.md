@@ -5,20 +5,13 @@ tags:
   - logica_combinatoria
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 2.9'
-Imparato: false
+Imparato: true
 Ordine: 211
 aliases:
   - ritardo di propagazione
   - cammino critico
   - critical path
 ---
-
-# Timing combinatorio: ritardi e cammino critico
-
-Fin qui si è parlato di **cosa** fa un circuito. Ora di **quando** lo fa: la specifica
-temporale. In pratica è ciò che determina la frequenza di clock raggiungibile.
-
-## Le due grandezze
 Un'uscita richiede tempo per reagire a un cambio dell'ingresso. Si misura il ritardo
 dal **punto al 50%** del segnale di ingresso al punto al 50% del segnale di uscita.
 
@@ -59,10 +52,3 @@ nel caso peggiore, ed è su quelli che si progetta.
 - $t_{pd}$ = massimo, dal cammino **critico**. $t_{cd}$ = minimo, dal cammino **breve**.
 - Il cammino critico limita la frequenza di clock del sistema.
 - I ritardi sono intervalli, non valori esatti: si progetta sul caso peggiore.
-
-## Domande flash
-1. Se ogni porta ha $t_{pd}=100$ ps, quanto vale $t_{pd}$ di una catena di 4 porte?
-2. Perché serve conoscere $t_{cd}$ e non basta $t_{pd}$?
-   (risposta → [[Timing sequenziale - setup hold e clock skew]])
-
-Collegato a: [[Glitch]]

@@ -13,8 +13,6 @@ aliases:
   - minimizzazione
 ---
 
-# Mappe di Karnaugh (K-map)
-
 ## Cosa sono
 Un metodo **grafico** per semplificare equazioni booleane, inventato da Maurice
 Karnaugh nel 1953. Sfruttano la capacità visiva umana di riconoscere schemi al posto

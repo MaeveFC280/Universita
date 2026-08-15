@@ -30,12 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
+                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Da equazioni a schemi - logica a due livelli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiplexer"
+              "title": "Da equazioni a schemi - logica a due livelli"
             }
           }
         ],
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "masking",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -221,14 +221,20 @@
   },
   "active": "f8051820c9ee5286",
   "lastOpenFiles": [
+    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Teorema di De Morgan e bubble pushing.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Mappe di Karnaugh.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
+    "Hub.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
     "EXTRA/Immagini/Multiplexer-1786796112833.webp",
     "EXTRA/Immagini/Multiplexer-1786796073484.webp",
     "EXTRA/Immagini/Multiplexer-1786796053621.webp",
     "EXTRA/Immagini/Multiplexer-1786796041455.webp",
-    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
-    "Hub.md",
     "Materie.base",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - datapath.md",
@@ -247,7 +253,6 @@
     "Anno 1/1 Programmazione/Senza nome.md",
     "Anno 1/1 Programmazione/Fondamenti di informatica.base",
     "Anno 1/1 Programmazione",
-    "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Memoria virtuale - concetti.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Page table e TLB.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Metriche di prestazione - miss rate e AMAT.md",
@@ -255,18 +260,12 @@
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache set associative e fully associative.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache direct mapped.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Registri ARM.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Operandi - registri immediati e memoria.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Lo stack.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Linguaggio macchina - formati istruzione.md",
     "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
     "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
     "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",
     "EXTRA/Immagini/Logic gates-1785675053477.webp",
     "EXTRA/Immagini/Logic gates-1785674899875.webp",
-    "EXTRA/Immagini/Logic gates-1785674529626.webp",
     "Senza nome 1.canvas",
     "Senza nome.canvas"
   ]

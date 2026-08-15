@@ -12,9 +12,6 @@ aliases:
   - logica multilivello
   - schematico
 ---
-
-# Da equazioni a schemi: logica a due e più livelli
-
 ## Lo schematico
 Uno **schematico** (*schematic*) è il diagramma di un circuito digitale che mostra gli
 elementi e i fili che li collegano.

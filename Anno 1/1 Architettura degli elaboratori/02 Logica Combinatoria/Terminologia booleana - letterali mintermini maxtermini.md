@@ -13,7 +13,7 @@ aliases:
   - maxtermine
   - implicante
 ---
-Le equazioni booleane trattano variabili che valgono solo TRUE o FALSE.
+Le equazioni booleane trattano variabili che valgono solo TRUE o FALSE. Un'equazione è semplificabile tramite [[Assiomi e teoremi dell algebra di Boole|algebra di Boole]].
 ## Vocabolario essenziale
 | Termine | Definizione |
 |---|---|
@@ -30,7 +30,7 @@ Dalla più alta alla più bassa:
 2. **AND**
 3. **OR**
 Quindi $Y = A + BC$ si legge $A$ OR ($B$ AND $C$), e $\overline{A} + B \ne \overline{A+B}$.
-L'ordine conta
+Simile all'algebra classica. 
 ## Tabelle di verità
 Una tabella di verità con $N$ ingressi ha $2^N$ righe, una per ogni combinazione dei
 valori d'ingresso. La specifica funzionale di un circuito combinatorio si esprime

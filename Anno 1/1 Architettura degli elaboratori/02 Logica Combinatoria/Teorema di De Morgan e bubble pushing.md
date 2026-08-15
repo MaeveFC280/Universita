@@ -4,15 +4,12 @@ tags:
   - algebra_booleana
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 2.3.3'
-Imparato: false
+Imparato: true
 Ordine: 205
 aliases:
   - De Morgan
   - bubble pushing
 ---
-
-# Teorema di De Morgan e bubble pushing
-
 ## Teorema di De Morgan (T12)
 Il complemento del **prodotto** è la **somma** dei complementi; il complemento della
 **somma** è il **prodotto** dei complementi.

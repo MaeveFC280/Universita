@@ -4,7 +4,7 @@ tags:
   - cache
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 8.3.2-8.3.3'
-Imparato: false
+Imparato: true
 Ordine: 805
 aliases:
   - set associative
@@ -74,13 +74,3 @@ libera, quindi **non esistono conflict miss**.
 Con $N > 1$ bisogna decidere **quale** dei blocchi dell'insieme espellere in caso di miss:
 è la politica di sostituzione. → [[Blocchi politiche di sostituzione e scrittura]]
 
-## Da ricordare
-- $N$-way: $S = B/N$; $N$ comparatori in parallelo + mux di selezione.
-- Direct mapped = **one-way** set associative.
-- Fully associative: $S = 1$, nessun conflict miss, costo massimo.
-- Più associatività → meno miss, ma più hardware e hit più lento.
-
-## Domande flash
-1. Una cache 4-way con 32 blocchi: quanti insiemi ha? Quanti bit di set?
-2. Perché una fully associative non ha conflict miss?
-3. Perché la direct mapped non richiede una politica di sostituzione?

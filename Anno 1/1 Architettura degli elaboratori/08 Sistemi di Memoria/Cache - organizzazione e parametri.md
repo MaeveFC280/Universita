@@ -31,7 +31,6 @@ Le cache si specificano con quattro parametri:
 | **numero di insiemi** | $S$ | numero di *set* in cui la cache è organizzata |
 | **grado di associatività** | $N = B/S$ | numero di blocchi per insieme (*ways*) |
 
-Relazioni chiave:
 $$B = \frac{C}{b} \qquad\qquad N = \frac{B}{S}$$
 
 ## Come è organizzata
@@ -43,8 +42,7 @@ informazioni di controllo (tag e bit di validità).
 > Una cache **ideale** anticiperebbe **tutti** i dati che il processore userà e li
 > avrebbe già pronti. Ma questo richiederebbe di conoscere il futuro: è impossibile.
 
-Le cache reali si affidano quindi ai **principi di località**
-(→ [[Gerarchia di memoria e principi di localita]]):
+Le cache reali si affidano quindi ai **principi di località** (→ [[Gerarchia di memoria e principi di localita]]):
 - la **località temporale** giustifica il **conservare** i dati usati di recente;
 - la **località spaziale** giustifica il **caricare blocchi** di più parole contigue:
   quando il processore accede a un dato, è probabile che acceda presto a quelli vicini.
@@ -69,11 +67,3 @@ Per ogni cache bisogna decidere:
 
 → [[Blocchi politiche di sostituzione e scrittura]]
 
-## Da ricordare
-- $C$ capacità, $b$ dimensione blocco, $B = C/b$ blocchi, $S$ insiemi, $N = B/S$ vie.
-- Le cache si classificano per **numero di blocchi per insieme**.
-- La cache ideale è impossibile: si sfruttano i principi di località.
-
-## Domande flash
-1. Una cache di 8 KB con blocchi di 4 parole (32 bit): quanti blocchi ha?
-2. Se $B=64$ e $S=16$, che tipo di cache è?

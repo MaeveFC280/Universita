@@ -17,7 +17,7 @@ Un **flip-flop D** si costruisce con **due latch D in cascata**, comandati da cl
 - il primo latch, $L_1$, è detto **master**;
 - il secondo, $L_2$, è detto **slave**;
 - il nodo intermedio si chiama $N_1$.
-
+![[Flip-flop D e registri-1787402979672.webp]]
 ## Funzionamento
 - **$CLK = 0$**: il master è **trasparente**, lo slave è **opaco**. Il valore presente su
   $D$ si propaga fino a $N_1$, ma non oltre: $Q$ resta fermo.

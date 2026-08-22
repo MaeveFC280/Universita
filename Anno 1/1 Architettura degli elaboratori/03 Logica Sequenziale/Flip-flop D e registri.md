@@ -12,7 +12,7 @@ aliases:
   - master-slave
 ---
 ## Struttura master-slave
-Un **flip-flop D** si costruisce con **due latch D in cascata**, comandati da clock
+Un **flip-flop D** si costruisce con **due [[Latch D|latch D]] in cascata**, comandati da clock
 **complementari**:
 - il primo latch, $L_1$, è detto **master**;
 - il secondo, $L_2$, è detto **slave**;
@@ -29,12 +29,12 @@ del clock viene copiato su $Q$ subito dopo il fronte. In tutto il resto del cicl
 resta stabile.
 
 ## Terminologia
+
 - Si chiama **flip-flop attivato sul fronte** (*edge-triggered*), **flip-flop D**,
   **flip-flop master-slave**, o semplicemente **registro a 1 bit**.
 - Nel simbolo, il **triangolo** indica un ingresso di clock sensibile al fronte.
 - La distinzione dei ruoli è netta: **$D$ specifica quale sarà il nuovo stato, il fronte
   di clock indica quando lo stato deve essere aggiornato.**
-
 > [!important] Latch vs flip-flop
 > | | latch D | flip-flop D |
 > |---|---|---|
@@ -45,6 +45,7 @@ resta stabile.
 > Il flip-flop è quello che rende possibile il progetto sincrono, perché garantisce che
 > lo stato cambi in **istanti discreti e noti**.
 
+![[Flip-flop D e registri-1787404107702.webp|188x193]]
 ## Registri
 Un **registro a $N$ bit** è un banco di $N$ flip-flop che condividono lo **stesso
 ingresso di clock**, così che **tutti i bit si aggiornano nello stesso istante**.
@@ -53,12 +54,3 @@ I registri sono l'elemento di stato fondamentale nei sistemi digitali: contengon
 stato di macchine a stati finiti, i dati intermedi nelle pipeline, il *register file*
 del processore.
 
-## Da ricordare
-- Flip-flop = 2 latch, clock complementari, master + slave.
-- Campiona $D$ sul **fronte di salita** del clock.
-- Registro a $N$ bit = $N$ flip-flop con clock comune.
-
-## Domande flash
-1. Cosa contiene $N_1$ quando $CLK=1$?
-2. Perché un flip-flop non è mai trasparente?
-3. Come si distinguono a colpo d'occhio i simboli di latch e flip-flop?

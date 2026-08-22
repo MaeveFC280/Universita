@@ -11,9 +11,6 @@ aliases:
   - progetto sincrono
   - race condition
 ---
-
-# Progetto sincrono e race condition
-
 ## Il problema dei circuiti asincroni
 La definizione di circuito sequenziale è per esclusione: sono sequenziali **tutti** i
 circuiti che non sono combinatori, cioè quelli le cui uscite non si possono determinare

@@ -10,9 +10,6 @@ aliases:
   - progetto di una FSM
   - diagramma degli stati
 ---
-
-# Procedura di progetto di una FSM
-
 Le macchine a stati finiti sono un modo potente e **sistematico** per progettare
 circuiti sequenziali partendo da una specifica scritta. Questa è la ricetta da seguire
 (e da usare come checklist in esame).

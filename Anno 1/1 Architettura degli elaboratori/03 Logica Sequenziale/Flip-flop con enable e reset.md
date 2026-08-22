@@ -11,9 +11,6 @@ aliases:
   - reset sincrono
   - reset asincrono
 ---
-
-# Flip-flop con enable e con reset
-
 ## Flip-flop con enable
 Aggiunge un ingresso **EN** (o **ENABLE**) che determina se il dato deve essere
 caricato sul fronte di clock.

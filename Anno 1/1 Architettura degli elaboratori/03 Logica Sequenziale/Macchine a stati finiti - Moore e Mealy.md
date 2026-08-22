@@ -13,9 +13,6 @@ aliases:
   - Moore
   - Mealy
 ---
-
-# Macchine a stati finiti: Moore e Mealy
-
 ## Struttura canonica
 Un circuito sequenziale sincrono si può sempre disegnare nella forma di una
 **macchina a stati finiti** (*finite state machine*, **FSM**), composta da:

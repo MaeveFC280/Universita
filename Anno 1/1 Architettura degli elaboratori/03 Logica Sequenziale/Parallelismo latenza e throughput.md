@@ -13,9 +13,6 @@ aliases:
   - pipelining
   - parallelismo
 ---
-
-# Parallelismo: latenza e throughput
-
 ## Le due metriche
 La velocità di un sistema si caratterizza con **latenza** e **throughput**
 dell'informazione che lo attraversa. Si definisce **token** un gruppo di ingressi che

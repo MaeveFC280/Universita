@@ -13,9 +13,6 @@ aliases:
   - clock skew
   - metastabilità
 ---
-
-# Timing sequenziale: setup, hold e clock skew
-
 ## Campionamento e finestra di apertura
 Un flip-flop copia $D$ su $Q$ sul fronte di salita del clock: si dice che
 **campiona** (*samples*) $D$ sul fronte.

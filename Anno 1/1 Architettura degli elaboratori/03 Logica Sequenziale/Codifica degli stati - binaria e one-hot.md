@@ -12,10 +12,6 @@ aliases:
   - one-hot
   - state encoding
 ---
-
-# Codifica degli stati: binaria e one-hot
-
-## Il problema
 La codifica degli stati (e delle uscite) è in linea di principio **arbitraria**: una
 scelta diversa produce un **hardware diverso**, con equazioni booleane, area e ritardi
 diversi, pur realizzando la stessa funzione.

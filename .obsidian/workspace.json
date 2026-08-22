@@ -25,29 +25,31 @@
             }
           },
           {
-            "id": "e72ced2e964e247d",
+            "id": "40d2e20bacb0490e",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Latch D"
             }
           },
           {
-            "id": "1adee959f6215eaa",
+            "id": "cd82a131f0f01b5a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Porte logiche"
             }
           }
         ],
@@ -85,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "masking",
+                "query": "inverter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +108,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -231,11 +234,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e72ced2e964e247d",
+  "active": "40d2e20bacb0490e",
   "lastOpenFiles": [
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Glitch.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch SR.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
+    "EXTRA/Immagini/Latch D-1787400336473.webp",
+    "EXTRA/Immagini/Latch D-1787400290396.webp",
+    "EXTRA/Immagini/Latch SR-1787399852638.webp",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Elementi bistabili.md",
+    "EXTRA/Immagini/Latch SR-1787399235549.webp",
     "Hub.md",
+    "EXTRA/Immagini/Elementi bistabili-1787398631387.webp",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Parallelismo latenza e throughput.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Timing sequenziale - setup hold e clock skew.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Codifica degli stati - binaria e one-hot.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Procedura di progetto di una FSM.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Macchine a stati finiti - Moore e Mealy.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Progetto sincrono e race condition.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop con enable e reset.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop D e registri.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Glitch.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Timing combinatorio - ritardo di propagazione e cammino critico.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Decoder.md",
     "EXTRA/Immagini/Decoder-1786801160458.webp",
@@ -259,25 +279,8 @@
     "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Teorema di De Morgan e bubble pushing.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
     "EXTRA/Immagini/Multiplexer-1786796112833.webp",
     "EXTRA/Immagini/Multiplexer-1786796073484.webp",
-    "EXTRA/Immagini/Multiplexer-1786796053621.webp",
-    "EXTRA/Immagini/Multiplexer-1786796041455.webp",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - datapath.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - prestazioni.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - prestazioni.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - controllo a FSM.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Microarchitettura - datapath e unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Analisi delle prestazioni e CPI.md",
-    "EXTRA/Immagini/Circuiti combinatori e sequenziali-1786461928431.webp",
-    "Anno 1/1 Programmazione/Senza nome.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Memoria virtuale - concetti.md",
-    "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
-    "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
     "Senza nome 1.canvas",
     "Senza nome.canvas"
   ]

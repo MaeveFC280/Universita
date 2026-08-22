@@ -11,9 +11,6 @@ aliases:
   - registro
   - master-slave
 ---
-
-# Flip-flop D e registri
-
 ## Struttura master-slave
 Un **flip-flop D** si costruisce con **due latch D in cascata**, comandati da clock
 **complementari**:

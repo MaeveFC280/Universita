@@ -11,10 +11,6 @@ aliases:
   - località temporale
   - località spaziale
 ---
-
-# Gerarchia di memoria e principi di località
-
-## Il problema
 Le prestazioni di un calcolatore dipendono **tanto dal sistema di memoria quanto dal
 processore**. Il processore ideale vorrebbe una memoria **grande, veloce ed economica**:
 tre requisiti **incompatibili** tra loro.
@@ -81,14 +77,3 @@ Conseguenza: quando si preleva un dato, **preleva anche i suoi vicini** (un inte
 > spaziale** caricando blocchi contigui. Sono queste due proprietà dei programmi reali —
 > non un teorema, ma un fatto statistico — a rendere efficace tutta la gerarchia.
 
-## Da ricordare
-- La gerarchia dà **l'illusione** di una memoria grande e veloce a costo contenuto.
-- Registri → cache (SRAM) → memoria principale (DRAM) → disco (HDD/SSD).
-- L'accesso alla DRAM è **1-2 ordini di grandezza** più lento del ciclo di clock.
-- **Località temporale** = riuso nel tempo. **Località spaziale** = riuso di indirizzi
-  vicini.
-
-## Domande flash
-1. Perché non si costruisce tutta la memoria in SRAM?
-2. Quale principio di località giustifica i blocchi di cache maggiori di una parola?
-3. Che illusione fornisce il disco?

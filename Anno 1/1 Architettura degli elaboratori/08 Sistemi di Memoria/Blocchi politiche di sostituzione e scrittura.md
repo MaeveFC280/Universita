@@ -12,9 +12,6 @@ aliases:
   - write-back
   - block size
 ---
-
-# Dimensione dei blocchi, sostituzione e politiche di scrittura
-
 ## La dimensione del blocco
 > Il vantaggio di una dimensione di blocco **maggiore di una parola** è che, quando si
 > verifica un miss, si caricano in cache **più parole contigue** in un solo trasferimento.
@@ -96,14 +93,4 @@ Le architetture reali usano più livelli:
 Ogni livello riduce il numero di accessi a quello successivo, e l'AMAT si calcola in modo
 **ricorsivo** (→ [[Metriche di prestazione - miss rate e AMAT]]).
 
-## Da ricordare
-- Blocchi grandi: meno compulsory miss, **più** conflict miss; esiste un ottimo.
-- **LRU**: espelli il meno recentemente usato — giustificato dalla **località temporale**.
-  Con 2 vie basta 1 bit.
-- **Write-through**: semplice, coerente, molto traffico.
-- **Write-back**: usa il **dirty bit**, molto meno traffico, è lo standard.
 
-## Domande flash
-1. Perché aumentare la dimensione del blocco può **aumentare** il miss rate?
-2. Quale bit serve al write-back e a cosa serve esattamente?
-3. Quale principio di località giustifica la politica LRU?

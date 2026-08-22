@@ -12,9 +12,6 @@ aliases:
   - ROM
   - memoria volatile
 ---
-
-# DRAM, SRAM e ROM
-
 ## La classificazione
 Le memorie si classificano in base a **come la bit cell memorizza il bit**. La
 distinzione più ampia:
@@ -91,13 +88,3 @@ Non c'è nulla da alimentare per mantenere il dato: è **non volatile** per cost
 - **Flash**: la ROM riprogrammabile dominante oggi (SSD, chiavette, firmware).
   Lettura veloce, scrittura lenta e a blocchi, numero limitato di cicli di scrittura.
 
-## Da ricordare
-- DRAM: 1T+1C, densa, lettura **distruttiva**, richiede **refresh**.
-- SRAM: 6T, inverter incrociati, veloce, **niente refresh**.
-- ROM: presenza/assenza di transistor, non volatile.
-- "RAM ad accesso casuale" e "ROM sola lettura" sono nomi storici imprecisi.
-
-## Domande flash
-1. Perché la DRAM ha bisogno del refresh e la SRAM no?
-2. Quanti transistor per bit ha una SRAM? E una DRAM?
-3. Cosa succede leggendo una cella DRAM?

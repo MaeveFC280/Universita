@@ -4,7 +4,7 @@ tags:
   - logica_sequenziale
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 3.2.4-3.2.5'
-Imparato: false
+Imparato: true
 Ordine: 304
 aliases:
   - flip-flop D

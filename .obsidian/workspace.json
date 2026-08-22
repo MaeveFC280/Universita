@@ -30,12 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop D e registri.md",
+                "file": "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flip-flop D e registri"
+              "title": "Cache - organizzazione e parametri"
             }
           },
           {
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inverter",
+                "query": "blocco",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,12 +108,12 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "ade0433a82c55bf1",
@@ -236,13 +236,18 @@
   },
   "active": "40d2e20bacb0490e",
   "lastOpenFiles": [
+    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Gerarchia di memoria e principi di localita.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/DRAM SRAM e ROM.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Register file ROM e logic array.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop D e registri.md",
     "EXTRA/Immagini/Flip-flop D e registri-1787404107702.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404102078.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404074715.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787402979672.webp",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop D e registri.md",
-    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
     "EXTRA/Immagini/Flip-flop D e registri-1787402809678.webp",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch SR.md",
@@ -264,12 +269,9 @@
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Glitch.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Timing combinatorio - ritardo di propagazione e cammino critico.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Decoder.md",
-    "EXTRA/Immagini/Decoder-1786801160458.webp",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Mappe di Karnaugh.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/X e Z - don t care contention e nodi flottanti.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Da equazioni a schemi - logica a due livelli.md",
-    "Excalidraw/schematic t=abc....md",
     "EXTRA/Immagini/aws-architecture-icons.excalidrawlib",
     "EXTRA/Immagini/system-design-template.excalidrawlib",
     "EXTRA/Immagini/system-design.excalidrawlib",
@@ -279,9 +281,6 @@
     "EXTRA/Immagini/network-topology-icons.excalidrawlib",
     "EXTRA/Immagini/it-logos.excalidrawlib",
     "EXTRA/Immagini/icons.excalidrawlib",
-    "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Teorema di De Morgan e bubble pushing.md",
     "Senza nome 1.canvas",
     "Senza nome.canvas"
   ]

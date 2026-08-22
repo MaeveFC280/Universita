@@ -5,17 +5,13 @@ tags:
   - memoria
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 8.3'
-Imparato: false
+Imparato: true
 Ordine: 803
 aliases:
   - cache
   - capacità
   - associatività
 ---
-
-# Cache: organizzazione e parametri
-
-## Cosa fa una cache
 Una **cache** conserva i dati di memoria usati più comunemente. Il numero di parole di
 dati che può contenere è la sua **capacità** ($C$).
 

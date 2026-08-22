@@ -228,8 +228,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "flashcards-obsidian:Generate flashcards": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "circuit-sketcher:Create new Circuit Sketcher file": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e72ced2e964e247d",

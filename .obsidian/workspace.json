@@ -28,13 +28,14 @@
             "id": "40d2e20bacb0490e",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Cache - organizzazione e parametri"
             }
           },
           {
@@ -86,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blocco",
+                "query": "indirizz",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -235,14 +236,16 @@
   },
   "active": "40d2e20bacb0490e",
   "lastOpenFiles": [
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache set associative e fully associative.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Array e modalita di indirizzamento.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Metriche di prestazione - miss rate e AMAT.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache set associative e fully associative.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Gerarchia di memoria e principi di localita.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/DRAM SRAM e ROM.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Register file ROM e logic array.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop D e registri.md",
     "EXTRA/Immagini/Flip-flop D e registri-1787404107702.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404102078.webp",
@@ -269,9 +272,6 @@
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop con enable e reset.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Glitch.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Timing combinatorio - ritardo di propagazione e cammino critico.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Decoder.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Mappe di Karnaugh.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
     "EXTRA/Immagini/aws-architecture-icons.excalidrawlib",
     "EXTRA/Immagini/system-design-template.excalidrawlib",
     "EXTRA/Immagini/system-design.excalidrawlib",

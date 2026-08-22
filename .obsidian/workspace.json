@@ -30,26 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
-                "mode": "source",
+                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latch D"
-            }
-          },
-          {
-            "id": "cd82a131f0f01b5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Porte logiche"
+              "title": "Multiplexer"
             }
           }
         ],
@@ -237,15 +223,15 @@
   "active": "40d2e20bacb0490e",
   "lastOpenFiles": [
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch SR.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch SR.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
+    "Hub.md",
     "EXTRA/Immagini/Latch D-1787400336473.webp",
     "EXTRA/Immagini/Latch D-1787400290396.webp",
     "EXTRA/Immagini/Latch SR-1787399852638.webp",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Elementi bistabili.md",
     "EXTRA/Immagini/Latch SR-1787399235549.webp",
-    "Hub.md",
     "EXTRA/Immagini/Elementi bistabili-1787398631387.webp",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Parallelismo latenza e throughput.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Timing sequenziale - setup hold e clock skew.md",

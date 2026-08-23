@@ -28,7 +28,7 @@ Si **cerchiano** i gruppi di 1 e si scrive un implicante per ogni cerchio.
 - Ogni cerchio è un **implicante**; il cerchio più grande possibile è un **implicante primo** (*prime implicant*).
 - Le variabili che nel cerchio compaiono **sia in forma diretta sia complementata** vengono **eliminate**; restano solo quelle costanti dentro il cerchio.
 ![[Mappe di Karnaugh-1786800913242.webp]]
-### Regole (in ordine)
+### Regole
 1. Usa il **minor numero di cerchi** necessario a coprire tutti gli 1.
 2. Tutte le caselle di ogni cerchio devono contenere 1.
 3. Ogni cerchio deve coprire un blocco **rettangolare** con lati potenza di 2 (1, 2, 4, 8…).

@@ -6,22 +6,17 @@ tags:
   - flusso_di_controllo
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.3'
-Imparato: false
+Imparato: true
 Ordine: 609
 aliases:
   - cicli
   - while
   - for
 ---
-
-# Cicli: while, do/while, for
-
-I **cicli** eseguono ripetutamente un blocco di codice in base a una condizione.
+I **cicli** eseguono ripetutamente un blocco di codice in base a una [[Branch ed esecuzione condizionale|condizione]].
 
 ## while
-Un ciclo `while` esegue ripetutamente il blocco **finché** la condizione **non** è più
-soddisfatta. Come per l'`if`, il codice assembly verifica la **condizione opposta** a
-quella del codice di alto livello.
+Un ciclo `while` esegue ripetutamente il blocco **finché** la condizione **non** è più soddisfatta. Come per l'`if`, il codice assembly verifica la **condizione opposta** a quella del codice di alto livello.
 
 ```c
 int pow = 1;
@@ -31,7 +26,7 @@ while (pow != 128) {
     x = x + 1;
 }
 ```
-```
+```armasm
         ; R0 = pow, R1 = x
         MOV  R0, #1
         MOV  R1, #0
@@ -55,8 +50,7 @@ fine
 ```
 
 ## do / while
-Il corpo si esegue **almeno una volta**, poi si verifica la condizione. È più efficiente
-in assembly, perché serve **un solo branch** per iterazione anziché due.
+Il corpo si esegue **almeno una volta**, poi si verifica la condizione. È più efficiente in assembly, perché serve **un solo branch** per iterazione anziché due.
 
 ```
 loop
@@ -66,16 +60,7 @@ loop
 ```
 
 ## for
-Un pattern estremamente comune è: **inizializzare** una variabile prima del ciclo,
-**verificarla** nella condizione e **modificarla** a ogni iterazione. Il ciclo `for`
-sintetizza questo pattern:
-
-```c
-for (inizializzazione; condizione; operazione)
-    istruzione
-```
-
-Semantica:
+Un pattern estremamente comune è: **inizializzare** una variabile prima del ciclo, **verificarla** nella condizione e **modificarla** a ogni iterazione. 
 - l'**inizializzazione** si esegue **una volta**, prima che il ciclo cominci;
 - la **condizione** si verifica **all'inizio** di ogni iterazione;
 - l'**operazione** si esegue **alla fine** di ogni iterazione.
@@ -85,22 +70,21 @@ int sum = 0;
 for (i = 0; i != 10; i = i + 1)
     sum = sum + i;
 ```
-```
-        ; R0 = i, R1 = sum
-        MOV  R1, #0        ; sum = 0
-        MOV  R0, #0        ; inizializzazione: i = 0
+```armasm
+    ; R0 = i, R1 = sum
+    MOV  R1, #0        ; sum = 0
+    MOV  R0, #0        ; inizializzazione: i = 0
 for
-        CMP  R0, #10       ; condizione
-        BEQ  done          ; esci se i == 10
-        ADD  R1, R1, R0    ; corpo: sum = sum + i
-        ADD  R0, R0, #1    ; operazione: i = i + 1
-        B    for
+    CMP  R0, #10       ; condizione
+    BEQ  done          ; esci se i == 10
+    ADD  R1, R1, R0    ; corpo: sum = sum + i
+    ADD  R0, R0, #1    ; operazione: i = i + 1
+    B    for
 done
 ```
 
-> [!tip] Ottimizzazione tipica: contare a scendere
-> Se l'ordine delle iterazioni è irrilevante, contare **verso zero** permette di
-> sfruttare il flag Z e risparmiare il `CMP`:
+> [!tip] Contare a scendere
+> Se l'ordine delle iterazioni è irrilevante, contare **verso zero** permette di sfruttare il [[Flag di condizione e istruzione CMP|flag Z]] e risparmiare il `CMP`:
 > ```
 > MOV  R0, #10
 > loop
@@ -109,14 +93,3 @@ done
 >     BNE  loop           ; nessun CMP necessario
 > ```
 
-## Da ricordare
-- La struttura è sempre: test → salta fuori se **condizione opposta** → corpo → torna
-  al test.
-- `for` = inizializzazione (una volta) + condizione (in testa) + operazione (in coda).
-- `SUBS` + `BNE` per i cicli a scendere: un'istruzione in meno per iterazione.
-
-## Domande flash
-1. Quanti branch si eseguono per iterazione in un `while`? E in un `do/while`?
-2. Traduci `for (i=0; i<n; i++) a=a+i;` in ARM.
-
-Collegato a: [[Array e modalita di indirizzamento]]

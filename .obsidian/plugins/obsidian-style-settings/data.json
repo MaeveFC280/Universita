@@ -4,5 +4,6 @@
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-sapphire",
   "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid",
   "primary-theme@@blockquote-background-color@@light": "#FFFFFF",
-  "shimmering-focus@@normal-tab-bar": false
+  "shimmering-focus@@normal-tab-bar": false,
+  "shimmering-focus@@alt-colorschemes": "colorscheme-gamma"
 }

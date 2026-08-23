@@ -120,16 +120,3 @@ Procedura per decodificare un'istruzione a 32 bit:
 3. secondo il formato, leggi `funct` per l'operazione specifica;
 4. leggi i campi registro e l'immediato.
 
-## Da ricordare
-- Tutte le istruzioni sono di **32 bit**.
-- Tre formati: **data-processing (op=00)**, **memoria (op=01)**, **branch (op=10)**.
-- `cond` nei bit **31:28** di **tutte** le istruzioni.
-- Data-processing: `I` = immediato, `cmd` = operazione, `S` = aggiorna i flag.
-- Memoria: `I,P,U,B,W,L`; **L=1 per LDR**, L=0 per STR.
-
-## Domande flash
-1. Quali bit identificano il formato dell'istruzione?
-2. Cosa significa `B=1` in un'istruzione di memoria?
-3. In che formato è codificata `ADDS R0, R1, #4`, e quali bit di `funct` valgono 1?
-
-Collegato a: [[Processore single-cycle - unita di controllo]]

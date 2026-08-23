@@ -28,8 +28,7 @@ $$D = \log_2 N \ \text{bit}$$
 - **byte** = 8 bit
 - **nibble** = 4 bit (mezzo byte)
 - una cifra esadecimale memorizza un nibble; **due cifre hex = un byte intero**
-- **word** = l'unità di dato su cui lavora il microprocessore. La dimensione dipende
-  dall'architettura: processori a 64 bit operano su word di 64 bit, i più vecchi a 32 bit.
+- **word** = l'unità di dato su cui lavora il microprocessore. La dimensione dipende dall'architettura: processori a 64 bit operano su word di 64 bit, i più vecchi a 32 bit.
 ## La scelta del binario
 Quasi tutti i calcolatori elettronici usano una rappresentazione **binaria**: una tensione alta indica `1`, una tensione bassa indica `0`. Il motivo è pratico: distinguere due soli livelli è molto più robusto al rumore che distinguerne dieci.
 

@@ -14,17 +14,15 @@ aliases:
   - Mealy
 ---
 ## Struttura canonica
-Un circuito sequenziale sincrono si può sempre disegnare nella forma di una
-**macchina a stati finiti** (*finite state machine*, **FSM**), composta da:
+Un [[Circuiti combinatori e sequenziali|circuito sequenziale]] sincrono si può sempre disegnare nella forma di una **macchina a stati finiti** (*finite state machine*, **FSM**), composta da:
 - un **registro di stato** a $k$ bit;
-- la **logica combinatoria dello stato successivo**, che calcola $S'$ da $S$ e dagli
-  ingressi;
+- la **logica combinatoria dello stato successivo**, che calcola $S'$ da $S$ e dagli ingressi;
 - la **logica combinatoria di uscita**, che calcola le uscite.
-
 Il nome deriva dal fatto che un circuito con $k$ registri può trovarsi in uno di un
 numero **finito** di stati, precisamente $2^k$.
 
-## Le due classi
+## Moore e Mealy
+
 | | **Moore** | **Mealy** |
 |---|---|---|
 | Le uscite dipendono da | **solo lo stato corrente** | **stato corrente E ingressi correnti** |
@@ -34,9 +32,10 @@ numero **finito** di stati, precisamente $2^k$.
 | Rischio di glitch sulle uscite | minore | maggiore (l'uscita segue l'ingresso in modo asincrono) |
 
 > [!tip] Come riconoscerle a vista
-> Guarda il diagramma: se le uscite sono **nei cerchi** è Moore, se sono **sugli archi**
-> è Mealy. Sullo schema: se esiste un cammino combinatorio **diretto** dagli ingressi
-> alle uscite (che non passa per il registro), è Mealy.
+> - Diagramma: se le uscite sono **nei cerchi** è Moore, se sono **sugli archi** è Mealy.
+> - Schema: se esiste un cammino combinatorio **diretto** dagli ingressi alle uscite (che non passa per il registro), è Mealy.
+
+![[Macchine a stati finiti - Moore e Mealy-1787495941186.webp]]
 
 ## Diagramma di transizione di stato
 - I **cerchi** rappresentano gli **stati**.

@@ -30,7 +30,7 @@ SUB   R0, R1, R2      ; R0 = R1 - R2
 3. **Più piccolo è più veloce**
 	Un numero **limitato** di registri veloci è preferibile a molti registri lenti. Da qui la scelta di 16 [[Registri ARM|registri]]
 4. **Un buon progetto richiede buoni compromessi** 
-	Non tutte le esigenze sono compatibili. Esempio: la regolarità vorrebbe **un solo formato** di istruzione, ma questo sarebbe troppo rigido; ARM ne definisce **[[Linguaggio macchina - formati istruzione|tre]]** 
+	Non tutte le esigenze sono compatibili. Esempio: la regolarità vorrebbe **un solo formato** di istruzione, ma questo sarebbe troppo rigido; ARM ne definisce **[[Linguaggio macchina|tre]]** 
 ## Sintassi assembly ARM
 ```
 ADD R0, R1, R2    ; questo è un commento: da ';' a fine riga

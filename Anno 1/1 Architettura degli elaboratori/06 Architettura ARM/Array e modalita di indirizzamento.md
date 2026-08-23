@@ -13,9 +13,7 @@ aliases:
   - indirizzamento indicizzato
   - offset
 ---
-Per facilità di memorizzazione e di accesso, dati **omogenei** si raggruppano in un
-**array**: elementi dello stesso tipo, in posizioni **consecutive** di memoria.
-L'accesso avviene tramite l'**indirizzo base** dell'array e l'**indice** dell'elemento.
+Per facilità di memorizzazione e di accesso, dati **omogenei** si raggruppano in u **array**: elementi dello stesso tipo, in posizioni **consecutive** di memoria. L'accesso avviene tramite l'**indirizzo base** dell'array e l'**indice** dell'elemento.
 
 ## Il calcolo dell'indirizzo
 Per un array di **word** (4 byte), l'indirizzo dell'elemento $i$ è:
@@ -23,29 +21,26 @@ Per un array di **word** (4 byte), l'indirizzo dell'elemento $i$ è:
 $$\text{indirizzo} = \text{base} + 4i$$
 
 > [!important] Il fattore 4
-> Poiché l'indice dell'array è una **variabile** ($i$), va **moltiplicato per 4** prima
-> di sommarlo all'indirizzo base. È l'errore più frequente: dimenticare lo scalamento e
-> accedere a `base + i` invece di `base + 4i`.
+> Poiché l'indice dell'array è una **variabile** ($i$), va **moltiplicato per 4** prima di sommarlo all'indirizzo base. È l'errore più frequente: dimenticare lo scalamento e accedere a `base + i` invece di `base + 4i`.
 
 ## Le tre tecniche di accesso
 
 ### 1. Offset immediato (indice costante noto)
-```
+```armasm
 LDR R1, [R0, #8]        ; R1 = array[2]   (8 = 4*2)
 ```
 
 ### 2. Registro di offset scalato (il modo idiomatico ARM)
-L'offset può essere un **registro shiftato**: si sfrutta lo shifter integrato nel
-datapath, ottenendo la moltiplicazione per 4 **gratis**.
+L'offset può essere un **registro shiftato**: si sfrutta lo shifter integrato nel datapath, ottenendo la moltiplicazione per 4 **gratis**.
 
-```
+```armasm
 ; R0 = base, R2 = i
 LDR R1, [R0, R2, LSL #2]   ; R1 = array[i]   (R2 << 2 == R2 * 4)
 ```
 Questa è la forma più efficiente e la più usata: **una sola istruzione** per indicizzare.
 
 ### 3. Aggiornamento del puntatore (pre/post-indexed)
-```
+```armasm
 LDR R1, [R0], #4        ; R1 = *R0; poi R0 += 4  (post-indexed)
 ```
 Ideale per scorrere l'array in un ciclo senza gestire un indice separato.
@@ -67,7 +62,7 @@ int arr[5];
 for (i = 0; i < 5; i++)
     arr[i] = arr[i] * 2;
 ```
-```
+```armasm
         ; R0 = indirizzo base di arr, R1 = i
         MOV  R1, #0
 loop
@@ -82,7 +77,7 @@ done
 ```
 
 ### Versione con post-indexed (più compatta)
-```
+```armasm
         MOV  R1, #5
 loop
         LDR  R2, [R0]
@@ -97,11 +92,3 @@ Un array 2D `a[R][C]` è memorizzato per **righe** (*row-major* in C). L'indiriz
 `a[i][j]` è:
 $$\text{base} + 4 \cdot (i \cdot C + j)$$
 
-## Da ricordare
-- Indirizzo elemento $i$ di un array di word: $base + 4i$.
-- `[Rn, Rm, LSL #2]` è l'idioma ARM per l'accesso indicizzato: **una istruzione**.
-- Post-indexed `[Rn], #4` per scorrere senza indice.
-
-## Domande flash
-1. Scrivi in ARM l'accesso a `a[i]` per un array di **byte** anziché di word.
-2. Perché `LDR R1, [R0, R2, LSL #2]` è preferibile a due istruzioni separate?

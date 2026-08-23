@@ -113,7 +113,7 @@ CPI del multiciclo: **LDR 5, STR 4, data-processing 4, B 3**.
 `cond` sta nei bit **31:28** di **tutte** le istruzioni.
 $BTA = (PC+8) + 4 \times imm24$.
 
-→ [[Linguaggio macchina - formati istruzione]]
+→ [[Linguaggio macchina]]
 
 ## ARM: flag e condizioni
 **N** negativo · **Z** zero · **C** carry · **V** overflow

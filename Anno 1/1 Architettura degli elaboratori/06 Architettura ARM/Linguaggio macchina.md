@@ -14,22 +14,16 @@ aliases:
   - encoding
 ---
 ## Il passaggio dall'assembly al binario
-L'assembly è comodo per gli esseri umani, ma i circuiti digitali comprendono solo
-**1 e 0**. Il programma è quindi codificato come una sequenza di numeri binari: il
-**linguaggio macchina**.
+L'assembly è comodo per gli esseri umani, ma i circuiti digitali comprendono solo **1 e 0**. Il programma è quindi codificato come una sequenza di numeri binari: il **linguaggio macchina**.
 
-Applicando il principio "**la regolarità favorisce la semplicità**", la scelta più
-regolare è **codificare tutte le istruzioni con la stessa lunghezza**: in ARM ogni
-istruzione è di **32 bit** esatti.
+Applicando il principio "**la [[Astrazione e gestione della complessita|regolarità]] favorisce la semplicità**", la scelta più regolare è **codificare tutte le istruzioni con la stessa lunghezza**: in ARM ogni istruzione è di **32 bit** esatti.
 
-Ma la regolarità pura sarebbe troppo rigida per accogliere ogni tipo di istruzione:
-qui entra in gioco il quarto principio, **un buon progetto richiede buoni compromessi**.
-ARM definisce quindi **tre formati principali** di istruzione.
+Ma la regolarità pura sarebbe troppo rigida per accogliere ogni tipo di istruzione: qui entra in gioco il quarto principio, **un buon progetto richiede buoni compromessi**. ARM definisce quindi **tre formati principali** di istruzione.
 
 ## I tre formati
 
 ### 1. Data-processing (elaborazione dati)
-Il formato **più comune**. Ha tre operandi: due sorgenti e una destinazione.
+Il formato **più comune**. Ha tre [[Operandi|operandi]]: due sorgenti e una destinazione.
 
 | Campo | Bit | Contenuto |
 |---|---|---|
@@ -48,20 +42,14 @@ Gli operandi sono codificati nei tre campi `Rn`, `Rd` e `Src2`:
 Il campo `funct` ha tre sottocampi:
 - **`I`** (*immediate*): vale **1 quando `Src2` è un immediato**, 0 quando è un registro;
 - **`cmd`** (4 bit): specifica **quale** operazione (ADD, SUB, AND, ORR, MOV, CMP…);
-- **`S`** (*set flags*): vale **1 se l'istruzione aggiorna i flag** di condizione
-  (suffisso `S`, oppure istruzioni come `CMP` che li aggiornano sempre).
+- **`S`** (*set flags*): vale **1 se l'istruzione aggiorna i flag** di condizione (suffisso `S`, oppure istruzioni come `CMP` che li aggiornano sempre).
 
 #### Le due forme di Src2
-- **`I = 1` (immediato)**: `Src2` = `rot` (4 bit) + `imm8` (8 bit); il valore effettivo è
-  `imm8` ruotato a destra di $2 \times rot$.
-- **`I = 0` (registro)**: `Src2` = `shamt5` + `sh` + `Rm`, dove `Rm` è il registro
-  sorgente e i campi di shift permettono lo **shift gratuito** del secondo operando
-  (→ [[Istruzioni logiche e di shift]]).
+- **`I = 1` (immediato)**: `Src2` = `rot` (4 bit) + `imm8` (8 bit); il valore effettivo è `imm8` ruotato a destra di $2 \times rot$.
+- **`I = 0` (registro)**: `Src2` = `shamt5` + `sh` + `Rm`, dove `Rm` è il registro sorgente e i campi di shift permettono lo **[[Istruzioni logiche e di shift|shift gratuito]]** del secondo operando.
 
 ### 2. Memory (istruzioni di memoria)
-Le istruzioni di memoria usano un formato **simile** a quello data-processing e hanno
-**tre operandi**: un **registro base**, un **offset** (immediato o registro), e un
-registro **sorgente o destinazione** del dato.
+Le istruzioni di memoria usano un formato **simile** a quello data-processing e hanno **tre operandi**: un **registro base**, un **offset** (immediato o registro), e un registro **sorgente o destinazione** del dato.
 
 | Campo | Bit | Contenuto |
 |---|---|---|
@@ -101,9 +89,7 @@ $$BTA = (PC + 8) + 4 \times imm24_{\text{sign-extended}}$$
 ## Il campo cond: condizionalità universale
 > [!important] Perché `cond` sta in tutti i formati
 > **Ogni** istruzione ARM contiene i 4 bit di condizione nei bit 31:28. È per questo che
-> **qualunque** istruzione può essere resa condizionale
-> (→ [[Branch ed esecuzione condizionale]]). Il valore `1110` (AL, *always*) significa
-> esecuzione incondizionata, ed è il default.
+> **qualunque** istruzione può avere [[Branch ed esecuzione condizionale|esecuzione condizionale]]. Il valore `1110` (AL, *always*) significa esecuzione incondizionata, ed è il default.
 
 ## Riepilogo dei codici op
 | `op` | Formato |
@@ -119,4 +105,3 @@ Procedura per decodificare un'istruzione a 32 bit:
 2. leggi `cond` (31:28) → la condizione;
 3. secondo il formato, leggi `funct` per l'operazione specifica;
 4. leggi i campi registro e l'immediato.
-

@@ -31,14 +31,12 @@ Ogni bit cell è connessa a:
 - una **wordline** (linea di parola), condivisa da tutte le celle della stessa **riga**;
 - una **bitline** (linea di bit), condivisa da tutte le celle della stessa **colonna**.
 
-Per ogni combinazione degli ingressi di indirizzo, **un [[Decoder|decoder]] attiva esattamente una
-wordline, abilitando la riga corrispondente.
+Per ogni combinazione degli ingressi di indirizzo, **un [[Decoder|decoder]] attiva esattamente una wordline, abilitando la riga corrispondente.
 
 ## Operazione di lettura
 1. La bitline viene inizialmente lasciata **flottante (Z)**.
 2. Si attiva la **wordline** della riga selezionata.
-3. La bit cell si connette alla bitline e la **tira** verso 0 o 1, secondo il bit
-   memorizzato.
+3. La bit cell si connette alla bitline e la **tira** verso 0 o 1, secondo il bit memorizzato.
 4. Il valore viene letto (e in genere amplificato da un *sense amplifier*).
 
 ## Operazione di scrittura
@@ -49,13 +47,11 @@ wordline, abilitando la riga corrispondente.
 Il driver di scrittura deve essere **più forte** della cella, per poterla ribaltare.
 
 ## Porte
-Tutte le memorie hanno una o più **porte** (*ports*). Ogni porta fornisce accesso di
-lettura e/o scrittura a **un indirizzo**.
+Tutte le memorie hanno una o più **porte** (*ports*). Ogni porta fornisce accesso di lettura e/o scrittura a **un indirizzo**.
 
 - Memoria a **porta singola**: si accede a un solo indirizzo per volta.
 - Memoria **multiporta**: si può accedere a **più indirizzi simultaneamente**.
 
 > [!important] Esempio: il register file
-> Il *register file* di un processore è tipicamente una memoria a **tre porte**: due
-> porte di **lettura** (per leggere due operandi contemporaneamente) e una porta di
-> **scrittura**. → [[Register file ROM e logic array]]
+> Il *register file* di un processore è tipicamente una memoria a **tre porte**: due porte di **lettura** (per leggere due [[Operandi|operandi]] contemporaneamente) e una porta di
+> **scrittura**, come avviene nei [[Register file ROM e logic array|register file e nelle ROM]].

@@ -97,7 +97,7 @@ Le porte logiche sono combinabili tra loro e le funzioni che realizzano obbedisc
 L'elenco completo con le dimostrazioni è in: [[Assiomi e teoremi dell algebra di Boole]].
 
 ## NAND come porta universale
-Da soli NAND si ricavano **tutte** le altre porte: per questo NAND (e ugualmente NOR) si dice **porta universale**. 
+Da soli NAND si ricavano **tutte** le altre porte: per questo NAND (e ugualmente NOR) si dice **porta universale**.
 
 ### NOT da NAND
 ![[Logic gates-1785674899875.webp]]
@@ -106,8 +106,7 @@ Da soli NAND si ricavano **tutte** le altre porte: per questo NAND (e ugualmente
 ![[Logic gates-1785674529626.webp]]
 
 ### OR da NAND
-Ora che sappiamo come ricavare NOT da NAND, possiamo usarlo per ricavare a sua volta OR.
-Questo circuito è quindi ricreabile con soli NAND, sostituendo ogni NOT con lo schema visto sopra.
+Ora che sappiamo come ricavare NOT da NAND, possiamo usarlo per ricavare a sua volta OR. Questo circuito è quindi ricreabile con soli NAND, sostituendo ogni NOT con lo schema visto sopra.
 ![[Logic gates-1785675053477.webp]]
 
 > [!tip] Perché funziona

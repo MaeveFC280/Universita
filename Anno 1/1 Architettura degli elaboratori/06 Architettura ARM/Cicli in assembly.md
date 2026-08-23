@@ -60,7 +60,7 @@ loop
 ```
 
 ## for
-Un pattern estremamente comune è: **inizializzare** una variabile prima del ciclo, **verificarla** nella condizione e **modificarla** a ogni iterazione. 
+Un pattern estremamente comune è: **inizializzare** una variabile prima del ciclo, **verificarla** nella condizione e **modificarla** a ogni iterazione.
 - l'**inizializzazione** si esegue **una volta**, prima che il ciclo cominci;
 - la **condizione** si verifica **all'inizio** di ogni iterazione;
 - l'**operazione** si esegue **alla fine** di ogni iterazione.
@@ -84,12 +84,4 @@ done
 ```
 
 > [!tip] Contare a scendere
-> Se l'ordine delle iterazioni è irrilevante, contare **verso zero** permette di sfruttare il [[Flag di condizione e istruzione CMP|flag Z]] e risparmiare il `CMP`:
-> ```
-> MOV  R0, #10
-> loop
->     SUBS R0, R0, #1     ; decrementa E aggiorna i flag
->     ...corpo...
->     BNE  loop           ; nessun CMP necessario
-> ```
-
+> Se l'ordine delle iterazioni è irrilevante, contare **verso zero** permette di sfruttare il [[Flag di condizione e istruzione CMP|flag Z]] e risparmiare il `CMP`: ``` MOV  R0, #10 loop SUBS R0, R0, #1     ; decrementa E aggiorna i flag ...corpo... BNE  loop           ; nessun CMP necessario ```

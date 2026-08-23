@@ -29,10 +29,8 @@ In sintesi: **il clock controlla quando il dato scorre attraverso il latch**.
 Il latch D è anche detto **latch trasparente** o **latch sensibile al livello** (*level-sensitive*), perché è il **livello** del clock (non il fronte) a determinare la trasparenza.
 ## Realizzazione
 Un latch D si può costruire con:
-- un [[Latch SR| latch SR]] preceduto da logica che genera $S$ e $R$ da $D$ e $CLK$ (evitando così
-  la combinazione illegale);
-- oppure, più economicamente, con un [[Multiplexer|mux 2:1]] retroazionato e un [[Porte logiche|inverter]]: quando
-  $CLK=1$ il mux seleziona $D$, quando $CLK=0$ seleziona l'uscita corrente $Q$.
+- un [[Latch SR| latch SR]] preceduto da logica che genera $S$ e $R$ da $D$ e $CLK$ (evitando così la combinazione illegale);
+- oppure, più economicamente, con un [[Multiplexer|mux 2:1]] retroazionato e un [[Porte logiche|inverter]]: quando $CLK=1$ il mux seleziona $D$, quando $CLK=0$ seleziona l'uscita corrente $Q$.
 ![[Latch D-1787400290396.webp|394x192]]![[Latch D-1787400336473.webp|215x192]]
 
 ## Il limite del latch

@@ -10,8 +10,7 @@ aliases:
   - decodificatore
   - one-hot
 ---
-Un **decoder** ha $N$ ingressi e $2^N$ uscite. Attiva **esattamente una** uscita, quella
-il cui indice corrisponde al valore binario presente sugli ingressi.
+Un **decoder** ha $N$ ingressi e $2^N$ uscite. Attiva **esattamente una** uscita, quella il cui indice corrisponde al valore binario presente sugli ingressi.
 
 *Esempio: decoder 2:4 con ingressi $A_{1:0}$:*
 
@@ -24,20 +23,18 @@ il cui indice corrisponde al valore binario presente sugli ingressi.
 
 ![[Decoder-1786801160458.webp]]
 ## Codifica one-hot
-Le uscite si dicono **[[Codifica degli stati - binaria e one-hot|one-hot]]** perché esattamente una è HIGH ("calda") in ogni istante. 
+Le uscite si dicono **[[Codifica degli stati - binaria e one-hot|one-hot]]** perché esattamente una è HIGH ("calda") in ogni istante.
 
 ## Decoder + OR = logica combinatoria
 Ogni uscita di un decoder corrisponde a un **[[Terminologia booleana - letterali mintermini maxtermini|mintermine]]**. Quindi:
 
-> Qualunque funzione booleana si realizza con un decoder seguito da porte OR che
-> raccolgono i mintermini in cui la funzione vale 1.
+> Qualunque funzione booleana si realizza con un decoder seguito da porte OR che raccolgono i mintermini in cui la funzione vale 1.
 
-Per questo, quando si costruisce logica con i decoder, conviene esprimere la funzione
-in forma **somma di mintermini** (SOP canonica).
+Per questo, quando si costruisce logica con i decoder, conviene esprimere la funzione in forma **somma di mintermini** (SOP canonica).
 
 *Esempio: $Y = \overline{A}B + A\overline{B}$ (XOR) = OR delle uscite $Y_1$ e $Y_2$ di un decoder 2:4.*
 
 ## Usi tipici
 - **Selezione di riga** nelle memorie: [[Array di memoria - organizzazione|l'indirizzo entra nel decoder, l'uscita attiva la wordline corrispondente]].
-- Decodifica delle istruzioni nell'unità di controllo.
+- Decodifica delle istruzioni nell'[[Microarchitettura - datapath e unita di controllo|unità di controllo]].
 - Abilitazione di uno tra molti dispositivi.

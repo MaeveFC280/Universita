@@ -12,11 +12,9 @@ aliases:
   - LSL LSR ASR ROR
 ---
 ## Operazioni logiche
-Le operazioni logiche ARM sono: **AND**, **ORR** ([[Porte logiche|OR]]), **EOR** ([[Porte logiche|XOR]]), **MVN** ([[Porte logiche|NOT]]) e **BIC** (bit
-clear). Operano **bit a bit** su due operandi a 32 bit.
+Le operazioni logiche ARM sono: **AND**, **ORR** ([[Porte logiche|OR]]), **EOR** ([[Porte logiche|XOR]]), **MVN** ([[Porte logiche|NOT]]) e **BIC** (bit clear). Operano **bit a bit** su due [[Operandi|operandi]] a 32 bit.
 
-La prima sorgente è **sempre un registro**, la seconda può essere un
-**registro** o un **immediato**; il risultato va in un registro di destinazione.
+La prima sorgente è **sempre un registro**, la seconda può essere un **registro** o un **immediato**; il risultato va in un registro di destinazione.
 
 ```
 AND R0, R1, R2      ; R0 = R1 AND R2
@@ -28,11 +26,11 @@ MVN R0, R1          ; R0 = NOT R1
 
 > [!important] Gli usi tipici
 > - **BIC** serve a **mascherare** (azzerare) i bit indesiderati: ogni 1 nella maschera
->   **azzera** il bit corrispondente. `BIC R0, R1, #0xFF` azzera il byte basso di R1.
+> **azzera** il bit corrispondente. `BIC R0, R1, #0xFF` azzera il byte basso di R1.
 > - **AND** serve a **isolare** un campo di bit: ogni 0 nella maschera azzera il bit
->   corrispondente. `AND R0, R1, #0xFF` mantiene **solo** il byte basso.
+> corrispondente. `AND R0, R1, #0xFF` mantiene **solo** il byte basso.
 > - **ORR** serve a **combinare campi di bit** provenienti da due registri (dopo averli
->   allineati con degli shift).
+> allineati con degli shift).
 > - **EOR** con tutti 1 equivale a complementare; EOR con se stesso azzera.
 
 Sequenza tipica per estrarre e ricomporre bitfield:
@@ -43,8 +41,7 @@ ORR  R3, R3, R2        ; inseriscilo nel risultato
 ```
 
 ## Istruzioni di shift
-Le istruzioni di shift spostano il valore di un registro a destra o a sinistra,
-**scartando** i bit che escono.
+Le istruzioni di shift spostano il valore di un registro a destra o a sinistra, **scartando** i bit che escono.
 
 | Istruzione | Nome | Riempimento |
 |---|---|---|
@@ -62,15 +59,11 @@ ROR R0, R1, R2      ; rotazione di una quantità variabile
 La quantità di shift può essere un **immediato** (0–31) o un **registro**.
 
 > [!tip] Lo shift "gratuito" del secondo operando
-> Il **secondo operando** di qualunque istruzione di elaborazione dati può essere
-> shiftato **nella stessa istruzione**, senza costo aggiuntivo in cicli:
+> Il **secondo operando** di qualunque istruzione di elaborazione dati può essere shiftato **nella stessa istruzione**, senza costo aggiuntivo in cicli:
 >
-> ```
-> ADD R0, R1, R2, LSL #3    ; R0 = R1 + (R2 << 3)  = R1 + 8*R2
-> ```
+> ``` ADD R0, R1, R2, LSL #3    ; R0 = R1 + (R2 << 3)  = R1 + 8*R2 ```
 >
-> Questo è possibile perché il datapath contiene uno shifter **in serie** al percorso
-> del secondo operando, prima dell'ALU. È estremamente utile per l'accesso agli [[Array e modalita di indirizzamento|array]].
+> Questo è possibile perché il [[Microarchitettura - datapath e unita di controllo|datapath]] contiene uno [[Shifter e rotatori|shifter]] **in serie** al percorso del secondo operando, prima dell'ALU. È estremamente utile per l'accesso agli [[Array e modalita di indirizzamento|array]].
 
 ## Moltiplicazione
 | Istruzione | Effetto |
@@ -79,4 +72,3 @@ La quantità di shift può essere un **immediato** (0–31) o un **registro**.
 | `MLA R0,R1,R2,R3` | *multiply-accumulate*: $R0 = R1 \cdot R2 + R3$ |
 | `UMULL`/`SMULL` | prodotto **lungo**: risultato a 64 bit su due registri, senza/con segno |
 Non esiste un'istruzione di **divisione** nell'ARM classico: si realizza in software.
-

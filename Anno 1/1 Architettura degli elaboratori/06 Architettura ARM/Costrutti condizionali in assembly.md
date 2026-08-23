@@ -12,12 +12,10 @@ aliases:
   - if else
   - switch case
 ---
-Le istruzioni [[Branch ed esecuzione condizionale|condizionali]] sono i mattoni con cui si traducono i costrutti dei
-linguaggi di alto livello.
+Le istruzioni [[Branch ed esecuzione condizionale|condizionali]] sono i mattoni con cui si traducono i costrutti dei linguaggi di alto livello.
 
 > [!important] Pensare al contrario
-> **Il codice assembly verifica la condizione OPPOSTA a quella del codice di alto livello.**
-> In C si dice "**se** la condizione è vera, esegui il blocco". In assembly si dice "**se** la condizione è **falsa**, **salta oltre** il blocco".
+> **Il codice assembly verifica la condizione OPPOSTA a quella del codice di alto livello.** In C si dice "**se** la condizione è vera, esegui il blocco". In assembly si dice "**se** la condizione è **falsa**, **salta oltre** il blocco".
 
 ## if
 ```c
@@ -43,8 +41,7 @@ Per blocchi brevissimi si evita il branch:
 ```
 
 ## if / else
-Eseguono **uno di due blocchi** in base a una [[Branch ed esecuzione condizionale|condizione]]. Serve un branch
-**incondizionato** alla fine del primo blocco, per scavalcare il secondo.
+Eseguono **uno di due blocchi** in base a una [[Branch ed esecuzione condizionale|condizione]]. Serve un branch **incondizionato** alla fine del primo blocco, per scavalcare il secondo.
 
 ```c
 if (i == j)
@@ -98,4 +95,3 @@ done
 
 > [!tip] L'alternativa efficiente: jump table
 > Con molti casi contigui, la catena di confronti è lenta ($O(n)$). Si usa allora una **tabella di salto** (*jump table*): un array in memoria che contiene gli indirizzi dei vari blocchi, indicizzato dal valore della variabile. Si accede in tempo **costante** con un `LDR` e un salto.
-

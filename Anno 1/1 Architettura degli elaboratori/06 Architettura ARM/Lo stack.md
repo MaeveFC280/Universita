@@ -22,12 +22,10 @@ Lo **stack** è una porzione di memoria usata per **salvare informazioni all'int
 >
 > - **allocare** spazio: `SUB SP, SP, #n`
 > - **deallocare** spazio: `ADD SP, SP, #n`
-> 
-> SP punta sempre alla cima dello stack, cioè al dato più recentemente inserito.
-
+>  SP punta sempre alla cima dello stack, cioè al dato più recentemente inserito.
 
 ## Salvare i registri
- Uno degli usi importanti dello stack è **salvare e ripristinare i [[Registri ARM|registri]]** che la [[Funzioni|funzione]] modifica.
+Uno degli usi importanti dello stack è **salvare e ripristinare i [[Registri ARM|registri]]** che la [[Funzioni|funzione]] modifica.
 
 Una [[Funzioni|funzione|funzione]] **salva i registri sullo stack prima di modificarli**, e li **ripristina dallo stack prima di terminare**.
 
@@ -65,7 +63,7 @@ Lo spazio che una funzione allocca per sé sullo stack si chiama **stack frame**
 Ogni chiamata annidata crea un nuovo frame; al ritorno il frame viene distrutto. È così che funziona la **ricorsione**: ogni invocazione ha il proprio spazio privato.
 
 ## Istruzioni multiple: LDM e STM
- Salvare e ripristinare registri sullo stack è un'operazione **così comune** che ARM fornisce istruzioni dedicate per **caricare e memorizzare più registri** in un colpo solo.
+Salvare e ripristinare registri sullo stack è un'operazione **così comune** che ARM fornisce istruzioni dedicate per **caricare e memorizzare più registri** in un colpo solo.
 
 | Istruzione | Nome |
 |---|---|
@@ -87,17 +85,7 @@ POP  {R4, R5, PC}      ; ripristina e salta all'indirizzo di ritorno
 ```
 
 > [!tip] La forma idiomatica di una funzione ARM
-> ```
-> funzione
->         PUSH {R4-R6, LR}     ; prologo
->         ...corpo...
->         POP  {R4-R6, PC}     ; epilogo + ritorno in una istruzione
-> ```
-> Da preferire alle SUB/STR manuali: più compatta, più veloce, meno errori.
+> ``` funzione PUSH {R4-R6, LR}     ; prologo ...corpo... POP  {R4-R6, PC}     ; epilogo + ritorno in una istruzione ``` Da preferire alle SUB/STR manuali: più compatta, più veloce, meno errori.
 
 ## Nota sull'ordine
-In `PUSH`/`POP` i registri sono elencati tra graffe e vengono salvati **in ordine di
-numero di registro**, indipendentemente dall'ordine in cui li scrivi. Il registro con
-numero più basso finisce all'indirizzo più basso.
-
-
+In `PUSH`/`POP` i registri sono elencati tra graffe e vengono salvati **in ordine di numero di registro**, indipendentemente dall'ordine in cui li scrivi. Il registro con numero più basso finisce all'indirizzo più basso.

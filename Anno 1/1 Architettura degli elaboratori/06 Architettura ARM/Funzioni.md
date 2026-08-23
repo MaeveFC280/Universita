@@ -21,8 +21,7 @@ Terminologia:
 - il **callee** (chiamata) esegue il lavoro e restituisce un **valore di ritorno**.
 
 > [!important] Il contratto tra caller e callee
-> 1. Una funzione deve **calcolare il valore di ritorno** e **non produrre altri effetti collaterali indesiderati**.
-> 2. **Il callee non deve interferire con il comportamento del caller**: deve cioè restituire il controllo al punto giusto e **non alterare** i registri e la memoria su cui il caller conta.
+> 1. Una funzione deve **calcolare il valore di ritorno** e **non produrre altri effetti collaterali indesiderati**. 2. **Il callee non deve interferire con il comportamento del caller**: deve cioè restituire il controllo al punto giusto e **non alterare** i registri e la memoria su cui il caller conta.
 
 ## Convenzioni ARM (AAPCS)
 | Elemento | Registro |
@@ -35,8 +34,7 @@ Terminologia:
 - Il **caller** mette gli **argomenti** in **R0–R3** prima di chiamare.
 - Il **callee** mette il **valore di ritorno** in **R0** prima di terminare.
 - Per convenzione ARM, una funzione **`void`** non restituisce nulla e non usa R0 come ritorno.
-- Quando una funzione ha **più di quattro argomenti**, gli argomenti in eccesso si
-  passano sullo [[Lo stack|stack]].
+- Quando una funzione ha **più di quattro argomenti**, gli argomenti in eccesso si passano sullo [[Lo stack|stack]].
 
 ## Istruzioni essenziali
 **`BL`** (*branch and link*) e **`MOV PC, LR`** sono le due istruzioni necessarie per chiamare una funzione e tornare al chiamante.
@@ -69,8 +67,7 @@ somma
 ```
 
 ## Funzioni annidate
-Se la funzione chiamata **chiama a sua volta** un'altra funzione, la seconda `BL` **sovrascrive LR**, distruggendo l'indirizzo di ritorno della prima. Analogamente, se il callee usa i registri R4–R11, distrugge i valori del caller.
-**La soluzione è lo** **[[Lo stack|stack]]**.
+Se la funzione chiamata **chiama a sua volta** un'altra funzione, la seconda `BL` **sovrascrive LR**, distruggendo l'indirizzo di ritorno della prima. Analogamente, se il callee usa i registri R4–R11, distrugge i valori del caller. **La soluzione è lo [[Lo stack|stack]]**.
 
 ## Riepilogo dei registri preservati
 | [[Registri ARM\|Preserved]] (**callee-saved**) | [[Registri ARM\|Nonpreserved]] (**caller-saved**) |
@@ -83,4 +80,3 @@ Se la funzione chiamata **chiama a sua volta** un'altra funzione, la seconda `BL
 Interpretazione operativa:
 - Se sei il **callee** e vuoi usare R4–R11, **devi salvarli e ripristinarli**.
 - Se sei il **caller** e ti serve un valore in R0–R3 dopo la chiamata, **salvalo prima tu**
-

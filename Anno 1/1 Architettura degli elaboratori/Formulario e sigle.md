@@ -25,35 +25,29 @@ aliases:
 ## Livelli logici
 | Formula | Significato |
 |---|---|
-| $NM_H = V_{OH} - V_{IH}$ | margine di rumore alto |
+| $NM_H = V_{OH} - V_{IH}$ | [[Livelli logici e margini di rumore|margine di rumore alto]] |
 | $NM_L = V_{IL} - V_{OL}$ | margine di rumore basso |
-
-→ [[Livelli logici e margini di rumore]]
 
 ## Logica combinatoria
 | Formula | Nome |
 |---|---|
-| $\overline{AB} = \overline{A}+\overline{B}$ ; $\overline{A+B}=\overline{A}\,\overline{B}$ | **De Morgan** (T12) |
+| $\overline{AB} = \overline{A}+\overline{B}$ ; $\overline{A+B}=\overline{A}\,\overline{B}$ | [[Assiomi e teoremi dell algebra di Boole|**De Morgan** (T12)]] |
 | $BC + B\overline{C} = B$ | **combinazione** (T10) — motore della minimizzazione |
 | $B + BC = B$ | **copertura** (T9) |
 | $BC + \overline{B}D + CD = BC + \overline{B}D$ | **consenso** (T11) |
-| $2^k$ caselle cerchiate ⇒ $k$ letterali in meno | K-map |
+| $2^k$ caselle cerchiate ⇒ $k$ letterali in meno | [[Mappe di Karnaugh|K-map]] |
 | mux N:1 ⇒ $\log_2 N$ selettori | multiplexer |
 | decoder: $N$ ingressi ⇒ $2^N$ uscite one-hot | decoder |
-
-→ [[Assiomi e teoremi dell algebra di Boole]] · [[Mappe di Karnaugh]]
 
 ## Timing
 | Formula | Significato |
 |---|---|
 | $t_{pd} = \sum$ cammino **critico** | ritardo di propagazione (max) |
 | $t_{cd} = \sum$ cammino **breve** | ritardo di contaminazione (min) |
-| $T_c \ge t_{pcq} + t_{pd} + t_{setup} (+t_{skew})$ | **vincolo di setup** — dipende dal clock |
+| $T_c \ge t_{pcq} + t_{pd} + t_{setup} (+t_{skew})$ | **[[Timing sequenziale - setup hold e clock skew|vincolo di setup]]** — dipende dal clock |
 | $t_{cd} \ge t_{hold} + t_{skew} - t_{ccq}$ | **vincolo di hold** — **NON** dipende dal clock |
 | $t_{pcq} + t_{setup}$ | overhead di sequenziamento |
 | apertura $= t_{setup} + t_{hold}$ | finestra di stabilità richiesta |
-
-→ [[Timing sequenziale - setup hold e clock skew]]
 
 ## Aritmetica
 | Formula | Significato |
@@ -62,36 +56,29 @@ aliases:
 | $C_{out} = AB + AC_{in} + BC_{in}$ | riporto del full adder (maggioranza) |
 | $t_{ripple} = N\,t_{FA}$ | ritardo del ripple-carry adder |
 | $G_i = A_iB_i$ ; $P_i = A_i + B_i$ | generate / propagate |
-| $C_i = G_i + P_i C_{i-1}$ | equazione del riporto (CLA) |
+| $C_i = G_i + P_i C_{i-1}$ | equazione del riporto ([[Carry lookahead adder|CLA]]) |
 | $A - B = A + \overline{B} + 1$ | sottrazione |
-| $V = (-1)^S \times 1.F \times 2^{E-127}$ | IEEE 754 singola precisione (bias **127**) |
+| $V = (-1)^S \times 1.F \times 2^{E-127}$ | [[Virgola mobile IEEE 754|IEEE 754]] singola precisione (bias **127**) |
 | bias 1023, campi 1/11/52 | IEEE 754 doppia precisione |
-
-→ [[Carry lookahead adder]] · [[Virgola mobile IEEE 754]]
 
 ## Prestazioni
 | Formula | Significato |
 |---|---|
-| $T_{exec} = N_{istr} \times CPI \times T_c$ | **equazione delle prestazioni** |
+| $T_{exec} = N_{istr} \times CPI \times T_c$ | **[[Analisi delle prestazioni e CPI|equazione delle prestazioni]]** |
 | $CPI = \sum_i f_i CPI_i$ | CPI medio pesato |
 | throughput $= P/L$ | con parallelismo di grado $P$ |
 
-CPI del multiciclo: **LDR 5, STR 4, data-processing 4, B 3**.
-
-→ [[Analisi delle prestazioni e CPI]] · [[Processore multiciclo - prestazioni]]
+CPI del [[Processore multiciclo - prestazioni|multiciclo]]: **LDR 5, STR 4, data-processing 4, B 3**.
 
 ## Memoria
 | Formula | Significato |
 |---|---|
 | $MR = 1 - HR$ | miss rate / hit rate |
-| $AMAT = t_{cache} + MR_{cache}(t_{MM} + MR_{MM}t_{VM})$ | tempo medio di accesso |
+| $AMAT = t_{cache} + MR_{cache}(t_{MM} + MR_{MM}t_{VM})$ | [[Metriche di prestazione - miss rate e AMAT|tempo medio di accesso]] |
 | $B = C/b$ | numero di blocchi |
 | $N = B/S$ | grado di associatività |
-| tag \| set \| block offset \| byte offset | scomposizione dell'indirizzo |
-| VPN \| page offset → PPN \| page offset | traduzione virtuale→fisica |
-
-→ [[Metriche di prestazione - miss rate e AMAT]] · [[Cache direct mapped]] ·
-[[Memoria virtuale - concetti]]
+| tag \| set \| block offset \| byte offset | [[Cache direct mapped|scomposizione dell'indirizzo]] |
+| VPN \| page offset → PPN \| page offset | [[Memoria virtuale - concetti|traduzione virtuale→fisica]] |
 
 ## ARM: registri
 | Registro | Nome | Uso |
@@ -103,28 +90,23 @@ CPI del multiciclo: **LDR 5, STR 4, data-processing 4, B 3**.
 | R14 | **LR** | indirizzo di ritorno |
 | R15 | **PC** | leggerlo restituisce **PC + 8** |
 
-## ARM: formati istruzione
+## ARM: [[Linguaggio macchina|formati istruzione]]
 | `op` (bit 27:26) | Formato | `funct` |
 |---|---|---|
 | **00** | data-processing | `I`, `cmd`(4), `S` |
 | **01** | memoria | `I,P,U,B,W,L` (**L=1 → LDR**) |
 | **10** | branch | `1L` (**L=1 → BL**) |
 
-`cond` sta nei bit **31:28** di **tutte** le istruzioni.
-$BTA = (PC+8) + 4 \times imm24$.
+`cond` sta nei bit **31:28** di **tutte** le istruzioni. $BTA = (PC+8) + 4 \times imm24$.
 
-→ [[Linguaggio macchina]]
-
-## ARM: flag e condizioni
+## ARM: [[Flag di condizione e istruzione CMP|flag e condizioni]]
 **N** negativo · **Z** zero · **C** carry · **V** overflow
 
 | con segno | senza segno |
 |---|---|
 | `GE`, `LT`, `GT`, `LE` | `HS/CS`, `LO/CC`, `HI`, `LS` |
 
-→ [[Flag di condizione e istruzione CMP]]
-
-## ASCII utili
+## [[Byte caratteri ASCII e stringhe|ASCII]] utili
 | Carattere | Hex |
 |---|---|
 | `'0'` | 0x30 |
@@ -132,8 +114,6 @@ $BTA = (PC+8) + 4 \times imm24$.
 | `'a'` | 0x61 |
 | differenza maiuscola/minuscola | **0x20** |
 | NUL (fine stringa C) | 0x00 |
-
-→ [[Byte caratteri ASCII e stringhe]]
 
 ## Sigle
 | Sigla | Sciolta |

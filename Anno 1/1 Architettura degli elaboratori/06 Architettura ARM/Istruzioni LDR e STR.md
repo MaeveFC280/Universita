@@ -24,8 +24,7 @@ L'indirizzo è specificato con:
 - un **registro base** (qui `R5`), che contiene l'indirizzo di partenza;
 - un **offset** (qui `#4`), che si somma al base.
 
-Nel calcolo dell'indirizzo l'offset è espresso in **byte**: `#4` significa "una parola
-più avanti".
+Nel calcolo dell'indirizzo l'offset è espresso in **byte**: `#4` significa "una parola più avanti".
 
 ## STR — Store Register
 Scrive il contenuto di un registro in memoria.
@@ -35,9 +34,7 @@ STR R9, [R5, #8]     ; Mem[R5 + 8] = R9
 ```
 
 > [!warning] Attenzione all'ordine degli operandi
-> In `STR Rd, [Rn, #off]` il registro `Rd` è la **sorgente** (il dato da scrivere), non
-> la destinazione. È l'unica famiglia di istruzioni ARM in cui il primo operando non è
-> la destinazione.
+> In `STR Rd, [Rn, #off]` il registro `Rd` è la **sorgente** (il dato da scrivere), non la destinazione. È l'unica famiglia di istruzioni ARM in cui il primo operando non è la destinazione.
 
 ## Le tre modalità di indirizzamento
 Oltre allo scalamento dell'indice, ARM offre tre modalità:
@@ -49,8 +46,7 @@ Oltre allo scalamento dell'indice, ARM offre tre modalità:
 | **post-indexed** | `LDR R1,[R2],#4` | $R2$ | **sì**, $R2 = R2+4$ **dopo** |
 
 > [!tip] A cosa serve pre/post-indexed
-> A **scorrere array** senza istruzioni aggiuntive: `LDR R1, [R2], #4` legge l'elemento
-> corrente e avanza il puntatore in **una sola istruzione**.
+> A **scorrere array** senza istruzioni aggiuntive: `LDR R1, [R2], #4` legge l'elemento corrente e avanza il puntatore in **una sola istruzione**.
 
 L'offset può essere un **immediato** oppure un **registro** (opzionalmente [[Istruzioni logiche e di shift|shiftato]]).
 
@@ -63,7 +59,6 @@ L'offset può essere un **immediato** oppure un **registro** (opzionalmente [[Is
 | `STRB` | scrive il **byte meno significativo** del registro in memoria |
 | `STRH` | scrive i 16 bit meno significativi |
 
-
 *Esempio completo:*
 ```c
 // C: a[2] = a[0] + a[1];  con base dell'array in R0
@@ -74,5 +69,3 @@ LDR  R2, [R0, #4]    ; R2 = a[1]
 ADD  R3, R1, R2      ; R3 = a[0] + a[1]
 STR  R3, [R0, #8]    ; a[2] = R3
 ```
-
-

@@ -18,8 +18,7 @@ Un [[Circuiti combinatori e sequenziali|circuito sequenziale]] sincrono si può 
 - un **registro di stato** a $k$ bit;
 - la **logica combinatoria dello stato successivo**, che calcola $S'$ da $S$ e dagli ingressi;
 - la **logica combinatoria di uscita**, che calcola le uscite.
-Il nome deriva dal fatto che un circuito con $k$ registri può trovarsi in uno di un
-numero **finito** di stati, precisamente $2^k$.
+Il nome deriva dal fatto che un circuito con $k$ registri può trovarsi in uno di un numero **finito** di stati, precisamente $2^k$.
 
 ## Moore e Mealy
 
@@ -40,21 +39,14 @@ numero **finito** di stati, precisamente $2^k$.
 ## Diagramma di transizione di stato
 - I **cerchi** rappresentano gli **stati**.
 - Gli **archi** rappresentano le **transizioni** tra stati.
-- Le transizioni avvengono **sul fronte di salita del [[Timing sequenziale - setup hold e clock skew|clock]]**; il clock **non si
-  disegna**, perché in un circuito sequenziale sincrono è sempre presente per
-  definizione.
-- L'arco etichettato **Reset**, che entra in uno stato "venendo dal nulla", indica lo
-  stato in cui il sistema entra al reset.
-- Se da uno stato escono **più archi**, gli archi sono etichettati con l'ingresso che
-  provoca la transizione.
-- Se da uno stato esce **un solo arco**, quella transizione avviene **sempre**,
-  indipendentemente dagli ingressi.
+- Le transizioni avvengono **sul fronte di salita del [[Timing sequenziale - setup hold e clock skew|clock]]**; il clock **non si disegna**, perché in un circuito sequenziale sincrono è sempre presente per definizione.
+- L'arco etichettato **Reset**, che entra in uno stato "venendo dal nulla", indica lo stato in cui il sistema entra al reset.
+- Se da uno stato escono **più archi**, gli archi sono etichettati con l'ingresso che provoca la transizione.
+- Se da uno stato esce **un solo arco**, quella transizione avviene **sempre**, indipendentemente dagli ingressi.
 
 ## Tabelle
-- **Tabella di transizione di stato** (*state transition table*): per ogni combinazione
-  di stato corrente e ingressi, indica lo stato successivo.
+- **Tabella di transizione di stato** (*state transition table*): per ogni combinazione di stato corrente e ingressi, indica lo stato successivo.
 - **Tabella di uscita** (*output table*): per ogni stato (Moore) indica le uscite.
-- Per una macchina di **Mealy** si scrive **una tabella combinata** di transizione e
-  uscita, perché le uscite dipendono anche dagli ingressi.
+- Per una macchina di **Mealy** si scrive **una tabella combinata** di transizione e uscita, perché le uscite dipendono anche dagli ingressi.
 
 ![[Macchine a stati finiti - Moore e Mealy-1787496975053.webp]]

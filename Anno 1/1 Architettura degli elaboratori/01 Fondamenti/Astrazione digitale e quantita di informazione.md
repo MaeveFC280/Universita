@@ -27,7 +27,7 @@ $$D = \log_2 N \ \text{bit}$$
 ## Terminologia dei raggruppamenti di bit
 - **byte** = 8 bit
 - **nibble** = 4 bit (mezzo byte)
-- una cifra esadecimale memorizza un nibble; **due cifre hex = un byte intero**
+- una cifra [[Sistemi di numerazione binario e esadecimale|esadecimale]] memorizza un nibble; **due cifre hex = un byte intero**
 - **word** = l'unità di dato su cui lavora il microprocessore. La dimensione dipende dall'architettura: processori a 64 bit operano su word di 64 bit, i più vecchi a 32 bit.
 ## La scelta del binario
 Quasi tutti i calcolatori elettronici usano una rappresentazione **binaria**: una tensione alta indica `1`, una tensione bassa indica `0`. Il motivo è pratico: distinguere due soli livelli è molto più robusto al rumore che distinguerne dieci.
@@ -45,5 +45,4 @@ Quindi in ambito digitale:
 - $2^{20}$ byte = 1 **megabyte** (MB)
 - $2^{30}$ byte = 1 **gigabyte** (GB)
 ## Logica booleana
-George Boole sviluppò un sistema di logica su variabili che possono essere solo TRUE o
-FALSE: è la [[Assiomi e teoremi dell algebra di Boole|logica booleana]], base di tutto il progetto digitale.
+George Boole sviluppò un sistema di logica su variabili che possono essere solo TRUE o FALSE: è la [[Assiomi e teoremi dell algebra di Boole|logica booleana]], base di tutto il progetto digitale.

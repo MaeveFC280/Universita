@@ -44,17 +44,13 @@ Assiomi e teoremi obbediscono al **principio di dualità**: scambiando $AND \lef
 | T12 | $\overline{B_0 B_1 B_2 \dots} = \overline{B_0}+\overline{B_1}+\overline{B_2}+\dots$ | $\overline{B_0 + B_1 + \dots} = \overline{B_0}\ \overline{B_1}\dots$ | [[Teorema di De Morgan e bubble pushing\|De Morgan]] |
 
 > [!important] I tre teoremi da avere in mano
-> **T9 copertura, T10 combinazione, T11 consenso** sono quelli che permettono di
-> eliminare variabili e termini superflui: sono il motore della minimizzazione
-> algebrica.
+> **T9 copertura, T10 combinazione, T11 consenso** sono quelli che permettono di eliminare variabili e termini superflui: sono il motore della minimizzazione algebrica.
 > - T10 è il caso più usato: due termini che differiscono per un solo letterale si
->   fondono eliminando quel letterale. È esattamente ciò che fa graficamente una
->   coppia di caselle adiacenti in una [[Mappe di Karnaugh|mappa di Karnaugh]].
+> fondono eliminando quel letterale. È esattamente ciò che fa graficamente una coppia di caselle adiacenti in una [[Mappe di Karnaugh|mappa di Karnaugh]].
 > - T11 dice che il termine $CD$ è **ridondante**: è già coperto dagli altri due.
 
 ## Come si dimostrano i teoremi
-Con **prova esaustiva** (*perfect induction*): se le variabili sono in numero finito, si verifica il teorema su tutte le combinazioni della tabella di verità.
+Con **prova esaustiva** (*perfect induction*): se le variabili sono in numero finito, si verifica il teorema su tutte le combinazioni della [[Porte logiche|tabella di verità]].
 
 ## Minimizzazione
-Un'equazione in forma [[Forme canoniche SOP e POS|SOP]] si dice **minimizzata** se usa il minimo numero possibile di implicanti, e se ogni implicante contiene il minimo numero di letterali.
-A volte, per minimizzare, è utile **espandere** un implicante (es. duplicarlo con T3) per poterlo poi combinare in due modi diversi.
+Un'equazione in forma [[Forme canoniche SOP e POS|SOP]] si dice **minimizzata** se usa il minimo numero possibile di implicanti, e se ogni implicante contiene il minimo numero di letterali. A volte, per minimizzare, è utile **espandere** un implicante (es. duplicarlo con T3) per poterlo poi combinare in due modi diversi.

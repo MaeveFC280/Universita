@@ -15,10 +15,7 @@ aliases:
   - regolarità
 ---
 ## Idea centrale
-La tecnica fondamentale per gestire la complessità è l'**astrazione**: si nasconde il
-dettaglio irrilevante e si espone solo ciò che serve al livello superiore. Un sistema
-può essere osservato da molti livelli di astrazione diversi, e a ogni livello
-corrispondono "mattoni" tipici.
+La tecnica fondamentale per gestire la complessità è l'**astrazione**: si nasconde il dettaglio irrilevante e si espone solo ciò che serve al livello superiore. Un sistema può essere osservato da molti livelli di astrazione diversi, e a ogni livello corrispondono "mattoni" tipici.
 
 ## I livelli di astrazione di un sistema elettronico
 Dal basso verso l'alto:
@@ -36,9 +33,7 @@ Dal basso verso l'alto:
 | Applicazioni       | programmi                       | informatica                                           |
 
 > [!tip] Perché conta
-> Chi progetta un processore non ragiona in termini di elettroni: lavora con porte
-> logiche e registri. Chi scrive un programma non ragiona in termini di transistor.
-> L'astrazione è ciò che rende possibile costruire sistemi con miliardi di componenti.
+> Chi progetta un processore non ragiona in termini di elettroni: lavora con [[Porte logiche|porte logiche]] e registri. Chi scrive un programma non ragiona in termini di transistor. L'astrazione è ciò che rende possibile costruire sistemi con miliardi di componenti.
 
 ## Le tre discipline di supporto
 - **Gerarchia**: si divide il sistema in moduli, e ogni modulo in sottomoduli, fino ad arrivare a pezzi comprensibili.

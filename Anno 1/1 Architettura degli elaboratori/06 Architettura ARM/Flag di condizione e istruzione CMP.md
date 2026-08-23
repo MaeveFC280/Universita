@@ -52,8 +52,7 @@ CMP R1, #10         ; confronta con un immediato
 | `TEQ Rn, Op2` | $Rn$ EOR Op2 (test di uguaglianza)  |
 
 ## Come si leggono i flag
-Le **istruzioni successive** possono eseguirsi **condizionalmente** in base allo stato dei
-flag. Con questo meccanismo si implementa `if` tramite [[Branch ed esecuzione condizionale|i cicli e i salti condizionati]].
+Le **istruzioni successive** possono eseguirsi **condizionalmente** in base allo stato dei flag. Con questo meccanismo si implementa `if` tramite [[Branch ed esecuzione condizionale|i cicli e i salti condizionati]].
 
 *Esempio dell'idioma fondamentale:*
 ```

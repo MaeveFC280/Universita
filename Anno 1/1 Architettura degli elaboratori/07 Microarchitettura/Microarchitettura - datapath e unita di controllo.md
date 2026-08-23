@@ -12,21 +12,13 @@ aliases:
   - datapath
   - unità di controllo
 ---
-L'**architettura** di un calcolatore è definita dal suo **instruction set** e dallo
-**stato architetturale**. La **microarchitettura** è il **collegamento tra la logica e
-l'architettura**: è il modo specifico in cui si realizza in hardware una data
-architettura.
+L'**architettura** di un calcolatore è definita dal suo **instruction set** e dallo **stato architetturale**. La **microarchitettura** è il **collegamento tra la logica e l'architettura**: è il modo specifico in cui si realizza in hardware una data architettura.
 
-> Una stessa architettura ammette **molte** microarchitetture diverse, con
-> caratteristiche differenti di prestazioni, costo e complessità. Ed è per questo che
-> processori diversi eseguono lo stesso software.
+> Una stessa architettura ammette **molte** microarchitetture diverse, con caratteristiche differenti di prestazioni, costo e complessità. Ed è per questo che processori diversi eseguono lo stesso software.
 
 ## Stato architetturale e stato non architetturale
-- **Stato architetturale**: ciò che il programmatore vede. In ARM: i **16 registri** a 32
-  bit (R0–R15, compreso il PC) e i **flag di stato**, più la memoria.
-- **Stato non architetturale**: registri interni che la microarchitettura aggiunge per
-  **semplificare la logica** o **migliorare le prestazioni**, e che il programmatore
-  **non vede** (registri di pipeline, registri temporanei del multiciclo, cache…).
+- **Stato architetturale**: ciò che il programmatore vede. In ARM: i **16 registri** a 32 bit (R0–R15, compreso il PC) e i **flag di stato**, più la memoria.
+- **Stato non architetturale**: registri interni che la microarchitettura aggiunge per **semplificare la logica** o **migliorare le prestazioni**, e che il programmatore **non vede** (registri di pipeline, registri temporanei del [[Processore multiciclo - datapath|multiciclo]], cache…).
 
 ## Le due parti
 Ogni microarchitettura si divide in **due parti interagenti**:
@@ -38,8 +30,7 @@ Ogni microarchitettura si divide in **due parti interagenti**:
 
 ## Il sottoinsieme ARM considerato nel capitolo
 Per rendere trattabile il progetto, si realizza un **sottoinsieme** dell'instruction set:
-- **istruzioni di elaborazione dati**: `ADD`, `SUB`, `AND`, `ORR`
-  (con secondo operando immediato o registro)
+- **istruzioni di elaborazione dati**: `ADD`, `SUB`, `AND`, `ORR` (con secondo operando immediato o registro)
 - **istruzioni di memoria**: `LDR`, `STR`
 - **branch**: `B`
 
@@ -52,17 +43,9 @@ Per rendere trattabile il progetto, si realizza un **sottoinsieme** dell'instruc
 | **PC** | logicamente parte del register file (R15), ma **realizzato come registro separato** |
 
 > [!important] Due dettagli che ricorrono in tutti gli esercizi
-> 1. **La memoria istruzioni, il register file e la memoria dati si leggono in modo
->    combinatorio**: presentato l'indirizzo, il dato appare dopo un certo ritardo, senza
->    bisogno di clock. Le **scritture** invece sono sincrone: avvengono solo sul fronte
->    di salita.
-> 2. **Il PC è logicamente R15**, ma è tenuto come registro a parte perché è letto e
->    scritto ogni ciclo. E **leggere R15 deve restituire PC + 8**, quindi serve un
->    sommatore dedicato (→ [[Registri ARM]]).
+> 1. **La memoria istruzioni, il [[Register file ROM e logic array|register file]] e la memoria dati si leggono in modo combinatorio**: presentato l'indirizzo, il dato appare dopo un certo ritardo, senza bisogno di clock. Le **scritture** invece sono sincrone: avvengono solo sul fronte di salita. 2. **Il PC è logicamente R15**, ma è tenuto come registro a parte perché è letto e scritto ogni ciclo. E **leggere R15 deve restituire PC + 8**, quindi serve un [[Half adder e full adder|sommatore]] dedicato per rispettare il comportamento di [[Registri ARM|R15]].
 
-Poiché gli elementi di stato cambiano solo sul **fronte di salita** del clock, il
-processore si può vedere come una **gigantesca macchina a stati finiti**, o come un
-insieme di FSM interagenti.
+Poiché gli elementi di stato cambiano solo sul **fronte di salita** del clock, il processore si può vedere come una **gigantesca [[Macchine a stati finiti - Moore e Mealy|macchina a stati finiti]]**, o come un insieme di FSM interagenti.
 
 ## Le tre microarchitetture del capitolo
 | Microarchitettura | Cicli per istruzione | Stato non arch. | $T_c$ |
@@ -71,22 +54,12 @@ insieme di FSM interagenti.
 | **multiciclo** | **variabile** (3–5) | diversi registri | **breve** |
 | **pipelined** | ≈1 (throughput) | registri di pipeline | breve |
 
-- Il **single-cycle** esegue un'intera istruzione in **un solo ciclo**: semplice, non
-  richiede stato non architetturale, ma il **tempo di ciclo** è dettato dall'istruzione
-  più lenta.
-- Il **multiciclo** spezza l'istruzione in più passi, aggiungendo **registri non
-  architetturali** per conservare i risultati intermedi. Riusa lo stesso hardware in
-  cicli diversi (una sola memoria, un solo sommatore).
-- Il **pipelined** applica il **pipelining** al single-cycle, ottenendo throughput
-  elevato con clock veloce (→ [[Parallelismo latenza e throughput]]).
+- Il **[[Processore single-cycle - datapath|single-cycle]]** esegue un'intera istruzione in **un solo ciclo**: semplice, non richiede stato non architetturale, ma il **tempo di ciclo** è dettato dall'istruzione più lenta.
+- Il **multiciclo** spezza l'istruzione in più passi, aggiungendo **registri non architetturali** per conservare i risultati intermedi. Riusa lo stesso hardware in cicli diversi (una sola memoria, un solo sommatore).
+- Il **pipelined** applica il **[[Parallelismo latenza e throughput|pipelining]]** al single-cycle, ottenendo throughput elevato con clock veloce.
 
 ## Da ricordare
 - Microarchitettura = ponte tra logica e architettura; molte per una sola architettura.
 - Stato **architetturale** (visibile) vs **non architetturale** (interno).
 - Datapath (dati) + unità di controllo (segnali).
 - Memorie e register file: **letture combinatorie**, **scritture sincrone**.
-
-## Domande flash
-1. Perché il PC è tenuto separato dal register file?
-2. Che cos'è lo stato non architetturale e perché lo si aggiunge?
-3. Quale microarchitettura ha CPI = 1 e perché è comunque lenta?

@@ -11,8 +11,7 @@ aliases:
   - full adder
   - sommatore
 ---
-I **circuiti aritmetici** sono i blocchi centrali dei calcolatori. Si parte dal
-sommatore a 1 bit.
+I **circuiti aritmetici** sono i blocchi centrali dei calcolatori. Si parte dal sommatore a 1 bit.
 
 ## Half adder (semisommatore)
 Due ingressi $A$, $B$; due uscite $S$ (*sum*) e $C_{out}$ (*carry out*).
@@ -26,16 +25,13 @@ $$S = A \oplus B \qquad C_{out} = AB$$
 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 0 |
 
-$S$ è il bit di somma, $C_{out}$ il riporto verso la colonna successiva.
+$S$ è il bit di somma, $C_{out}$ il [[Addizione binaria e overflow|riporto]] verso la colonna successiva.
 
 > [!warning] Il limite dell'half adder
-> **Manca l'ingresso $C_{in}$**: non può accettare il riporto proveniente dalla colonna
-> precedente, quindi non si può usare per costruire sommatori a più bit (tranne per la
-> colonna meno significativa).
+> **Manca l'ingresso $C_{in}$**: non può accettare il riporto proveniente dalla colonna precedente, quindi non si può usare per costruire sommatori a più bit (tranne per la colonna meno significativa).
 
 ## Full adder (sommatore completo)
-Aggiunge l'ingresso di riporto $C_{in}$: tre ingressi $A$, $B$, $C_{in}$; due uscite
-$S$, $C_{out}$.
+Aggiunge l'ingresso di riporto $C_{in}$: tre ingressi $A$, $B$, $C_{in}$; due uscite $S$, $C_{out}$.
 
 $$S = A \oplus B \oplus C_{in}$$
 $$C_{out} = AB + A C_{in} + B C_{in}$$
@@ -58,9 +54,3 @@ Letture utili:
 ## Da ricordare
 - $S = A \oplus B \oplus C_{in}$ (parità), $C_{out} = AB + AC_{in} + BC_{in}$ (maggioranza).
 - Half adder = senza $C_{in}$; full adder = con $C_{in}$.
-
-## Domande flash
-1. Perché $C_{out}$ si può descrivere come funzione di maggioranza?
-2. Come si costruisce un full adder con due half adder e una porta OR?
-
-Collegato a: [[Ripple carry adder]]

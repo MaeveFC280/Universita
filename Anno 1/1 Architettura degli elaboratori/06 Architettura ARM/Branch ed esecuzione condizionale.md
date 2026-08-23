@@ -31,7 +31,7 @@ Se la condizione è falsa, l'istruzione **si comporta come una NOP**: non ha alc
 
 > [!tip] Perché è utile
 >Per blocchi `if` **molto corti** l'esecuzione condizionale è **più veloce** di un
- branch, perché evita di svuotare la pipeline. È una caratteristica distintiva di ARM (poche altre architetture la offrono in modo così generale).
+branch, perché evita di svuotare la pipeline. È una caratteristica distintiva di ARM (poche altre architetture la offrono in modo così generale).
 
 ## Istruzioni di branch
 Le istruzioni di **branch** modificano il **program counter**. In altre architetture si chiamano anche *jump* (salti). ARM ha due tipi di branch:
@@ -45,8 +45,7 @@ Le istruzioni di **branch** modificano il **program counter**. In altre architet
 Un'**etichetta** indica la posizione di un'istruzione nel programma.
 
 > [!warning] Regola sintattica
-> **Le etichette non devono essere indentate**, mentre **le istruzioni devono essere
-> precedute da spazi bianchi**. È così che l'assemblatore le distingue.
+> **Le etichette non devono essere indentate**, mentre **le istruzioni devono essere precedute da spazi bianchi**. È così che l'assemblatore le distingue.
 
 ``` assembly
 	MOV  R0, #0
@@ -59,8 +58,7 @@ fine
 ```
 
 ## Branch condizionati
-I branch possono eseguirsi condizionalmente usando gli stessi **mnemonici di
-condizione** delle altre istruzioni:
+I branch possono eseguirsi condizionalmente usando gli stessi **mnemonici di condizione** delle altre istruzioni:
 
 ```
 BEQ etichetta     ; salta se uguale       (Z=1)
@@ -71,11 +69,8 @@ BLO etichetta     ; salta se minore       (senza segno)
 ```
 
 ## Come si calcola l'indirizzo di destinazione
-L'istruzione di branch contiene un **immediato a 24 bit** che è l'offset **in parole**
-rispetto al PC. L'indirizzo effettivo è:
+L'istruzione di branch contiene un **immediato a 24 bit** che è l'offset **in parole** rispetto al PC. L'indirizzo effettivo è:
 
 $$BTA = (PC + 8) + 4 \times imm24_{\text{esteso con segno}}$$
 
-dove il termine **+8** viene dalla regola [[Registri ARM|"leggere il PC dà PC+8"]]. L'assemblatore calcola l'offset automaticamente a partire dall'etichetta.
-Il range di salto è quindi di circa $\pm 32$ MB, sufficiente per la quasi totalità dei
-casi.
+dove il termine **+8** viene dalla regola [[Registri ARM|"leggere il PC dà PC+8"]]. L'assemblatore calcola l'offset automaticamente a partire dall'etichetta. Il range di salto è quindi di circa $\pm 32$ MB, sufficiente per la quasi totalità dei casi.

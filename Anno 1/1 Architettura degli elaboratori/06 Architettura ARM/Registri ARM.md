@@ -36,14 +36,12 @@ ARM ha **16 registri** a 32 bit esadecimali, denominati **R0–R15** (il nome è
 > - **R13 = SP**: punta alla cima dello [[Lo stack|stack]].
 > - **R14 = LR**: contiene l'indirizzo di ritorno di una [[Funzioni|funzione]].
 > - **R15 = PC**: **il program counter è accessibile come un normale registro**. Questa
->   è una peculiarità di ARM: scrivere in R15 provoca un salto. Viene incrementata per ogni [[Operandi|istruzione]] eseguita
+> è una peculiarità di ARM: scrivere in R15 provoca un salto. Viene incrementata per ogni [[Operandi|istruzione]] eseguita
 
 > [!warning] La regola del PC + 8
 > **Leggere R15 restituisce PC + 8**, non l'indirizzo dell'istruzione corrente.
 >
-> Il motivo è storico/implementativo: nella pipeline originale a 3 stadi, quando
-> un'istruzione era in esecuzione, il PC era già avanzato di due istruzioni
-> ($2 \times 4 = 8$ byte).
+> Il motivo è storico/implementativo: nella pipeline originale a 3 stadi, quando un'istruzione era in esecuzione, il PC era già avanzato di due istruzioni ($2 \times 4 = 8$ byte).
 >
 > Questo valore di 8 ricorre nel calcolo degli indirizzi di **branch** e nell'
 > **indirizzamento relativo al PC**.
@@ -53,4 +51,3 @@ ARM ha **16 registri** a 32 bit esadecimali, denominati **R0–R15** (il nome è
 | --------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Preserved** (*callee-saved*)    | R4–R11, R13 (SP), R14 (LR) | la funzione **[[Funzioni\|chiamata]]** deve ripristinarli            |
 | **Nonpreserved** (*caller-saved*) | R0–R3, R12                 | la funzione **[[Funzioni\|chiamatante]]** non può contare su di essi |
-

@@ -22,7 +22,7 @@ ADD R0, R1, R2      ; R0 = R1 + R2
 > **In ARM le istruzioni operano esclusivamente sui registri**: i dati in memoria vanno prima **caricati** in un registro, elaborati, e poi eventualmente **riscritti** in memoria. Questa è la caratteristica di un'architettura **load/store**.
 
 ## 2. Operandi immediati (costanti)
-Le istruzioni ARM possono usare **costanti** o **immediati** codificate direttamente nell'istruzione. In assembly l'immediato è precedute dal simbolo **`#`** e si può scrivere in decimale o in esadecimale (con prefisso `0x`).
+Le istruzioni ARM possono usare **costanti** o **immediati** codificate direttamente nell'istruzione. In assembly l'immediato è precedute dal simbolo **`#`** e si può scrivere in decimale o in [[Sistemi di numerazione binario e esadecimale|esadecimale]] (con prefisso `0x`).
 
 ```
 ADD R0, R1, #42     ; R0 = R1 + 42
@@ -46,15 +46,12 @@ Il campo immediato nelle istruzioni di elaborazione dati è di **12 bit**, ma no
 e il valore effettivo è `imm8` **ruotato a destra** di $2 \times rot$ posizioni. Questo permette di rappresentare costanti grandi ma "sparse" (come `0xFF000000`), mentre altre costanti apparentemente semplici **non** sono rappresentabili in un solo immediato e richiedono più istruzioni o un caricamento da memoria.
 
 ## 3. Operandi in memoria
-Servono per i dati che non entrano nei registri (array, strutture, variabili globali).
-Sono accessibili **solo** tramite le istruzioni [[Istruzioni LDR e STR|LDR e STR]].
+Servono per i dati che non entrano nei registri (array, strutture, variabili globali). Sono accessibili **solo** tramite le istruzioni [[Istruzioni LDR e STR|LDR e STR]].
 
 ## Il modello di memoria ARM
 - Indirizzi a **32 bit** e parole di dati a **32 bit**.
-- La memoria è **indirizzata al byte** (*byte-addressable*): ogni byte ha il suo
-  indirizzo.
-- Di conseguenza **gli indirizzi delle parole sono multipli di 4**: la parola 0 sta
-  all'indirizzo 0, la parola 1 all'indirizzo 4, la parola 2 all'indirizzo 8, e così via.
+- La memoria è **indirizzata al byte** (*byte-addressable*): ogni byte ha il suo indirizzo.
+- Di conseguenza **gli indirizzi delle parole sono multipli di 4**: la parola 0 sta all'indirizzo 0, la parola 1 all'indirizzo 4, la parola 2 all'indirizzo 8, e così via.
 
 ```
 indirizzo   contenuto (parola)

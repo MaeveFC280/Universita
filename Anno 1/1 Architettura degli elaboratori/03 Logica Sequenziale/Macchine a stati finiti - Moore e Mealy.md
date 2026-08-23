@@ -5,7 +5,7 @@ tags:
   - logica_sequenziale
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 3.4'
-Imparato: false
+Imparato: true
 Ordine: 307
 aliases:
   - FSM
@@ -35,12 +35,12 @@ numero **finito** di stati, precisamente $2^k$.
 > - Diagramma: se le uscite sono **nei cerchi** è Moore, se sono **sugli archi** è Mealy.
 > - Schema: se esiste un cammino combinatorio **diretto** dagli ingressi alle uscite (che non passa per il registro), è Mealy.
 
-![[Macchine a stati finiti - Moore e Mealy-1787495941186.webp]]
+![[Macchine a stati finiti - Moore e Mealy-1787496585407.webp|800]]
 
 ## Diagramma di transizione di stato
 - I **cerchi** rappresentano gli **stati**.
 - Gli **archi** rappresentano le **transizioni** tra stati.
-- Le transizioni avvengono **sul fronte di salita del clock**; il clock **non si
+- Le transizioni avvengono **sul fronte di salita del [[Timing sequenziale - setup hold e clock skew|clock]]**; il clock **non si
   disegna**, perché in un circuito sequenziale sincrono è sempre presente per
   definizione.
 - L'arco etichettato **Reset**, che entra in uno stato "venendo dal nulla", indica lo
@@ -57,15 +57,4 @@ numero **finito** di stati, precisamente $2^k$.
 - Per una macchina di **Mealy** si scrive **una tabella combinata** di transizione e
   uscita, perché le uscite dipendono anche dagli ingressi.
 
-## Da ricordare
-- $k$ registri ⇒ fino a $2^k$ stati.
-- Moore: uscite = f(stato). Mealy: uscite = f(stato, ingressi).
-- Nel diagramma: Moore → uscite nei cerchi; Mealy → uscite sugli archi.
-- Un solo arco uscente = transizione incondizionata.
-
-## Domande flash
-1. Una FSM di Mealy con 3 stati equivale a una di Moore con quanti stati?
-   (dipende: in generale servono più stati per "ricordare" l'ingresso)
-2. Perché il clock non appare nel diagramma di transizione?
-
-Collegato a: [[Procedura di progetto di una FSM]] · [[Codifica degli stati - binaria e one-hot]]
+![[Macchine a stati finiti - Moore e Mealy-1787496975053.webp]]

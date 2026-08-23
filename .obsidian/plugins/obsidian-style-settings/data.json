@@ -5,5 +5,7 @@
   "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid",
   "primary-theme@@blockquote-background-color@@light": "#FFFFFF",
   "shimmering-focus@@normal-tab-bar": false,
-  "shimmering-focus@@alt-colorschemes": "colorscheme-gamma"
+  "shimmering-focus@@alt-colorschemes": "colorscheme-gamma",
+  "shimmering-focus@@no-image-alttext-caption": true,
+  "shimmering-focus@@image-size": 100
 }

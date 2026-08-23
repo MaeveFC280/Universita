@@ -10,12 +10,9 @@ aliases:
   - progetto di una FSM
   - diagramma degli stati
 ---
-Le macchine a stati finiti sono un modo potente e **sistematico** per progettare
-circuiti sequenziali partendo da una specifica scritta. Questa è la ricetta da seguire
-(e da usare come checklist in esame).
+Le [[Macchine a stati finiti - Moore e Mealy|macchine a stati finiti]] sono un modo potente e **sistematico** per progettare circuiti sequenziali partendo da una specifica scritta.
 
 ## I passi
-
 1. **Identifica ingressi e uscite.**
 2. **Abbozza un diagramma di transizione di stato.**
 3. Scrivi le tabelle:
@@ -24,16 +21,13 @@ circuiti sequenziali partendo da una specifica scritta. Questa è la ricetta da 
      - tabella di uscita;
    - per una macchina di **Mealy**:
      - tabella **combinata** di transizione di stato e uscita.
-4. **Scegli la codifica degli stati.** La scelta influenza il progetto hardware
-   risultante (→ [[Codifica degli stati - binaria e one-hot]]).
-5. **Scrivi le equazioni booleane** per la logica dello stato successivo e per la
+1. **Scegli la codifica degli stati.**[[Codifica degli stati - binaria e one-hot|La scelta influenza il progetto hardware risultante]].
+2. **Scrivi le equazioni booleane** per la logica dello stato successivo e per la
    logica di uscita.
-6. **Disegna lo schema del circuito.**
+3. **Disegna lo schema del circuito.**
 
-## Il procedimento inverso: dallo schema al diagramma
-Ricavare il diagramma di transizione partendo da uno schema segue quasi esattamente
-il procedimento a rovescio:
-
+## Dallo schema al diagramma
+Ricavare il diagramma di transizione partendo da uno schema segue quasi esattamente il procedimento a rovescio:
 1. **Esamina il circuito**, individuando ingressi, uscite e bit di stato.
 2. **Scrivi le equazioni** dello stato successivo e delle uscite.
 3. **Crea le tabelle** dello stato successivo e delle uscite.
@@ -60,11 +54,3 @@ Esempio tipico: una FSM "principale" che gestisce le fasi di un'operazione, più
 Senza decomposizione, gli stati del contatore andrebbero replicati dentro la macchina
 principale, moltiplicandone il numero.
 
-## Da ricordare
-- 6 passi in avanti, 8 passi a rovescio.
-- Eliminare gli stati non raggiungibili nel reverse engineering.
-- Decomporre riduce il numero di stati e rende il progetto leggibile.
-
-## Domande flash
-1. In quale passo la scelta di Moore o Mealy fa differenza?
-2. Perché una FSM con contatore separato ha meno stati di una monolitica?

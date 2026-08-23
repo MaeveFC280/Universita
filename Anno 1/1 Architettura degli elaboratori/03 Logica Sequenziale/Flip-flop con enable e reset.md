@@ -49,13 +49,3 @@ delicato: il rilascio del reset deve essere sincronizzato per evitare metastabil
 ## Flip-flop con set
 Usato più raramente. Carica un **1** nel flip-flop quando **SET** è asserito. Esiste
 anch'esso nelle varianti sincrona e asincrona.
-
-## Da ricordare
-- Enable con **mux**, non con AND sul clock (evitare il clock gating artigianale).
-- Reset **sincrono** = logica esterna semplice; **asincrono** = struttura interna
-  modificata.
-- Il reset esiste perché lo stato iniziale dei flip-flop è indeterminato.
-
-## Domande flash
-1. Perché mettere una porta AND sul clock è pericoloso?
-2. Quale reset funziona anche con il clock fermo?

@@ -74,15 +74,3 @@ non è vincolato da registri clocchati, e in linea di principio può essere più
 In pratica è così difficile da rendere corretto che quasi tutti i sistemi reali sono
 sincroni.
 
-## Da ricordare
-- Le **4 regole** di composizione sincrona (in particolare: ogni ciclo ha un registro,
-  tutti i registri hanno lo stesso clock).
-- Race condition = corretto funzionamento dipendente dai ritardi delle porte.
-- $t_{pcq}$ = max, $t_{ccq}$ = min, dal fronte di clock all'uscita.
-- $S'$ = stato successivo.
-
-## Domande flash
-1. Un circuito con due registri comandati da clock diversi è sincrono?
-2. Perché inserire un registro in un anello elimina la race condition?
-
-Collegato a: [[Macchine a stati finiti - Moore e Mealy]] · [[Timing sequenziale - setup hold e clock skew]]

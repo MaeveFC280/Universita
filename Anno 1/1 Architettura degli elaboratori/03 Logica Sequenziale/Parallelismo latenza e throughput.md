@@ -60,15 +60,3 @@ throughput ideale è un token per ciclo.
 > lento. E ogni stadio aggiunge $t_{pcq} + t_{setup}$ di overhead
 > (→ [[Timing sequenziale - setup hold e clock skew]]), quindi oltre un certo numero
 > di stadi il guadagno svanisce.
-
-## Da ricordare
-- Latenza = tempo per un token. Throughput = token per unità di tempo.
-- Spaziale = replicare hardware; temporale = pipelining, dividere in stadi.
-- Il pipelining aumenta il throughput e **peggiora** la latenza.
-- Il clock è limitato dallo stadio più lento.
-
-## Domande flash
-1. Una pipeline a 5 stadi bilanciati: di quanto migliora il throughput ideale?
-2. Perché la latenza peggiora con il pipelining?
-
-Collegato a: [[Analisi delle prestazioni e CPI]]

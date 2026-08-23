@@ -28,13 +28,14 @@
             "id": "b42b07bacd0592f3",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Flag di condizione e istruzione CMP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Flag di condizione e istruzione CMP"
             }
           }
         ],
@@ -221,8 +222,11 @@
   },
   "active": "b42b07bacd0592f3",
   "lastOpenFiles": [
-    "Hub.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Parallelismo latenza e throughput.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Progetto sincrono e race condition.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop con enable e reset.md",
+    "Hub.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Page table e TLB.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Memoria virtuale - concetti.md",
@@ -244,9 +248,6 @@
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/DRAM SRAM e ROM.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Contatori e shift register.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Virgola mobile IEEE 754.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Notazione a virgola fissa.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Sottrattori comparatori e ALU.md",
     "EXTRA/Immagini/Flip-flop D e registri-1787404107702.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404102078.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404074715.webp",

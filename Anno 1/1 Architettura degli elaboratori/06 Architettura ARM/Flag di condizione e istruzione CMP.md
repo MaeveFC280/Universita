@@ -12,9 +12,6 @@ aliases:
   - flag NZCV
   - condition flags
 ---
-
-# Flag di condizione e istruzione CMP
-
 ## I flag
 Le istruzioni ARM possono **opzionalmente** aggiornare i **flag di condizione** (o
 *status bits*) in base al risultato prodotto. I quattro flag sono:

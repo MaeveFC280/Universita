@@ -61,8 +61,4 @@ $$t_{PA} = t_{pg} + \log_2 N \cdot t_{pg\_prefix} + t_{XOR}$$
 | Carry-lookahead | $O(N/k)$ | media |
 | Prefix | $O(\log_2 N)$ | massima |
 
-## Da ricordare
-- $G_i = A_iB_i$ (genera), $P_i = A_i + B_i$ (propaga).
-- $C_i = G_i + P_i C_{i-1}$: **l'equazione da sapere a memoria**.
-- Un blocco propaga solo se **tutte** le colonne propagano (AND).
-- CLA ≈ lineare con pendenza ridotta; prefix ≈ logaritmico.
+

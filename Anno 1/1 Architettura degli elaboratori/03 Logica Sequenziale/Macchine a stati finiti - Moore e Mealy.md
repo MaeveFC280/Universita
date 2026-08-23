@@ -22,13 +22,13 @@ Il nome deriva dal fatto che un circuito con $k$ registri può trovarsi in uno d
 
 ## Moore e Mealy
 
-| | **Moore** | **Mealy** |
-|---|---|---|
-| Le uscite dipendono da | **solo lo stato corrente** | **stato corrente E ingressi correnti** |
-| Nel diagramma le uscite si scrivono | **dentro i cerchi** (negli stati) | **sugli archi** (sulle transizioni) |
-| Reattività | l'uscita cambia solo dopo il fronte di clock | l'uscita può cambiare **subito** con l'ingresso |
-| Numero di stati | in genere **maggiore** | in genere **minore** |
-| Rischio di glitch sulle uscite | minore | maggiore (l'uscita segue l'ingresso in modo asincrono) |
+|                                         | ***Moore***                                  | ***Mealy***                                            |
+| --------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
+| *Le uscite dipendono da*              | solo lo **stato** corrente                   | **stato** corrente E **ingressi** correnti             |
+| *Nel diagramma le uscite si scrivono* | **dentro i cerchi** (negli stati)            | **sugli archi** (sulle transizioni)                    |
+| *Reattività*                          | l'uscita cambia solo dopo il fronte di clock | l'uscita può cambiare subito con l'ingresso            |
+| *Numero di stati*                     | in genere maggiore                           | in genere minore                                       |
+| *Rischio di glitch sulle uscite*      | minore                                       | maggiore (l'uscita segue l'ingresso in modo asincrono) |
 
 > [!tip] Come riconoscerle a vista
 > - Diagramma: se le uscite sono **nei cerchi** è Moore, se sono **sugli archi** è Mealy.
@@ -43,7 +43,6 @@ Il nome deriva dal fatto che un circuito con $k$ registri può trovarsi in uno d
 - L'arco etichettato **Reset**, che entra in uno stato "venendo dal nulla", indica lo stato in cui il sistema entra al reset.
 - Se da uno stato escono **più archi**, gli archi sono etichettati con l'ingresso che provoca la transizione.
 - Se da uno stato esce **un solo arco**, quella transizione avviene **sempre**, indipendentemente dagli ingressi.
-
 ## Tabelle
 - **Tabella di transizione di stato** (*state transition table*): per ogni combinazione di stato corrente e ingressi, indica lo stato successivo.
 - **Tabella di uscita** (*output table*): per ogni stato (Moore) indica le uscite.

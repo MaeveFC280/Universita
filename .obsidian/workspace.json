@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LDR",
+                "query": "S'=f(S, ingressi)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,12 +251,12 @@
   "active": "78bdd89e8722f33e",
   "lastOpenFiles": [
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Procedura di progetto di una FSM.md",
+    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Macchine a stati finiti - Moore e Mealy.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Contatori e shift register.md",
     "Hub.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Cicli in assembly.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Carry lookahead adder.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Procedura di progetto di una FSM.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Macchine a stati finiti - Moore e Mealy.md",
     "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787496975053.webp",
     "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787496585407.webp",
     "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787495941186.webp",

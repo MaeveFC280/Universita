@@ -4,7 +4,7 @@ tags:
   - FSM
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 3.4.5'
-Imparato: false
+Imparato: true
 Ordine: 308
 aliases:
   - progetto di una FSM

@@ -11,9 +11,6 @@ aliases:
   - TLB
   - tabella delle pagine
 ---
-
-# Page table, TLB e processi multipli
-
 ## La page table
 Il processore usa una **page table** (tabella delle pagine) per tradurre gli indirizzi
 virtuali in fisici.

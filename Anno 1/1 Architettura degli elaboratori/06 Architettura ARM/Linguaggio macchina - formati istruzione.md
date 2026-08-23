@@ -13,9 +13,6 @@ aliases:
   - formato istruzione
   - encoding
 ---
-
-# Linguaggio macchina: i formati delle istruzioni
-
 ## Il passaggio dall'assembly al binario
 L'assembly è comodo per gli esseri umani, ma i circuiti digitali comprendono solo
 **1 e 0**. Il programma è quindi codificato come una sequenza di numeri binari: il

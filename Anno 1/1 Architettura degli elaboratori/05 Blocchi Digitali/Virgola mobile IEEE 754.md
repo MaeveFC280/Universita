@@ -13,9 +13,6 @@ aliases:
   - mantissa
   - esponente
 ---
-
-# Virgola mobile: lo standard IEEE 754
-
 ## Analogia
 I numeri in **virgola mobile** sono analoghi alla **notazione scientifica**: come
 $4{,}1 \times 10^3$, hanno un segno, una **mantissa** ($M$), una **base** ($B$) e un

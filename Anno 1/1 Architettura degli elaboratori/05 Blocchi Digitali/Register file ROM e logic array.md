@@ -13,9 +13,6 @@ aliases:
   - FPGA
   - logic array
 ---
-
-# Register file, memorie come logica, logic array
-
 ## Register file
 I sistemi digitali usano spesso un **gruppo di registri** per memorizzare variabili
 temporanee. Questo gruppo, detto **register file**, è tipicamente realizzato come una

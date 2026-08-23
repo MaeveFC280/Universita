@@ -5,20 +5,17 @@ tags:
   - assembly
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.1'
-Imparato: false
+Imparato: true
 Ordine: 605
 aliases:
   - AND ORR EOR
   - LSL LSR ASR ROR
 ---
-
-# Istruzioni logiche, di shift e di moltiplicazione
-
 ## Operazioni logiche
-Le operazioni logiche ARM sono: **AND**, **ORR** (OR), **EOR** (XOR) e **BIC** (bit
+Le operazioni logiche ARM sono: **AND**, **ORR** ([[Porte logiche|OR]]), **EOR** ([[Porte logiche|XOR]]), **MVN** ([[Porte logiche|NOT]]) e **BIC** (bit
 clear). Operano **bit a bit** su due operandi a 32 bit.
 
-Formato: la prima sorgente è **sempre un registro**, la seconda può essere un
+La prima sorgente è **sempre un registro**, la seconda può essere un
 **registro** o un **immediato**; il risultato va in un registro di destinazione.
 
 ```
@@ -29,8 +26,7 @@ BIC R0, R1, R2      ; R0 = R1 AND (NOT R2)
 MVN R0, R1          ; R0 = NOT R1
 ```
 
-## Gli usi tipici (importanti)
-> [!important] I due idiomi da conoscere
+> [!important] Gli usi tipici
 > - **BIC** serve a **mascherare** (azzerare) i bit indesiderati: ogni 1 nella maschera
 >   **azzera** il bit corrispondente. `BIC R0, R1, #0xFF` azzera il byte basso di R1.
 > - **AND** serve a **isolare** un campo di bit: ogni 0 nella maschera azzera il bit
@@ -65,10 +61,7 @@ ROR R0, R1, R2      ; rotazione di una quantità variabile
 
 La quantità di shift può essere un **immediato** (0–31) o un **registro**.
 
-→ [[Shifter e rotatori]]
-
-## Lo shift "gratuito" del secondo operando
-> [!tip] Una caratteristica distintiva di ARM
+> [!tip] Lo shift "gratuito" del secondo operando
 > Il **secondo operando** di qualunque istruzione di elaborazione dati può essere
 > shiftato **nella stessa istruzione**, senza costo aggiuntivo in cicli:
 >
@@ -77,8 +70,7 @@ La quantità di shift può essere un **immediato** (0–31) o un **registro**.
 > ```
 >
 > Questo è possibile perché il datapath contiene uno shifter **in serie** al percorso
-> del secondo operando, prima dell'ALU. È estremamente utile per l'accesso agli array
-> (→ [[Array e modalita di indirizzamento]]).
+> del secondo operando, prima dell'ALU. È estremamente utile per l'accesso agli [[Array e modalita di indirizzamento|array]].
 
 ## Moltiplicazione
 | Istruzione | Effetto |
@@ -86,20 +78,5 @@ La quantità di shift può essere un **immediato** (0–31) o un **registro**.
 | `MUL R0,R1,R2` | moltiplica due numeri a 32 bit, produce un risultato a **32 bit** (i 32 bit **bassi** del prodotto) |
 | `MLA R0,R1,R2,R3` | *multiply-accumulate*: $R0 = R1 \cdot R2 + R3$ |
 | `UMULL`/`SMULL` | prodotto **lungo**: risultato a 64 bit su due registri, senza/con segno |
+Non esiste un'istruzione di **divisione** nell'ARM classico: si realizza in software.
 
-Nota: `MUL` **scarta** i 32 bit alti del prodotto. Se servono, si usa `UMULL`/`SMULL`.
-
-Non esiste un'istruzione di **divisione** nell'ARM classico: si realizza in software
-(o con istruzioni dedicate nelle versioni più recenti dell'architettura).
-
-## Da ricordare
-- AND / ORR / EOR / BIC + MVN. **BIC = AND con il complemento**.
-- AND per **isolare**, BIC per **azzerare**, ORR per **combinare**.
-- LSL/LSR zeri, ASR segno, ROR circolare.
-- Il **secondo operando può essere shiftato gratis** nella stessa istruzione.
-- `MUL` dà solo i 32 bit bassi; `UMULL`/`SMULL` danno 64 bit.
-
-## Domande flash
-1. Come si azzerano i bit 4–7 di R1 lasciando gli altri invariati?
-2. Che cosa fa `ADD R0, R1, R1, LSL #2`?
-3. Perché non esiste un'istruzione di divisione?

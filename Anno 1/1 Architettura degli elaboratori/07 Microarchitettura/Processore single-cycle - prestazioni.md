@@ -11,9 +11,6 @@ aliases:
   - prestazioni single-cycle
   - periodo di clock
 ---
-
-# Processore single-cycle: prestazioni e limiti
-
 ## CPI
 **Ogni istruzione** del processore single-cycle richiede **esattamente un ciclo di
 clock**, quindi:

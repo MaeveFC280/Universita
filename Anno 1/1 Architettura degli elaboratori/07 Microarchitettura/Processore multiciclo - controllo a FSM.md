@@ -11,9 +11,6 @@ aliases:
   - controllo multiciclo
   - FSM di controllo
 ---
-
-# Processore multiciclo: l'unità di controllo a FSM
-
 ## Struttura
 Come nel single-cycle, l'unità di controllo calcola i segnali a partire da `cond`, `op`,
 `funct` e `Rd`, ed è partizionata in **Decoder** e **Conditional Logic**.

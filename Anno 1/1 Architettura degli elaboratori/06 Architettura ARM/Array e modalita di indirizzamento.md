@@ -13,7 +13,6 @@ aliases:
   - indirizzamento indicizzato
   - offset
 ---
-Perché gli array
 Per facilità di memorizzazione e di accesso, dati **omogenei** si raggruppano in un
 **array**: elementi dello stesso tipo, in posizioni **consecutive** di memoria.
 L'accesso avviene tramite l'**indirizzo base** dell'array e l'**indice** dell'elemento.

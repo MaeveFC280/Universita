@@ -11,10 +11,6 @@ aliases:
   - virgola fissa
   - fixed point
 ---
-
-# Notazione a virgola fissa (fixed-point)
-
-## Il problema
 I calcolatori operano sia su **interi** sia su **frazioni**. Servono rappresentazioni
 per i numeri non interi.
 

@@ -11,9 +11,6 @@ aliases:
   - full adder
   - sommatore
 ---
-
-# Half adder e full adder
-
 I **circuiti aritmetici** sono i blocchi centrali dei calcolatori. Si parte dal
 sommatore a 1 bit.
 

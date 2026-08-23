@@ -11,9 +11,6 @@ aliases:
   - shift register
   - registro a scorrimento
 ---
-
-# Contatori e shift register
-
 Due blocchi sequenziali fondamentali costruiti a partire dai registri.
 
 ## Contatore binario

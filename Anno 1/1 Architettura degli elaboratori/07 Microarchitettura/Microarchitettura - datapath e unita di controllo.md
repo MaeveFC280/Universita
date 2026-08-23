@@ -12,10 +12,6 @@ aliases:
   - datapath
   - unità di controllo
 ---
-
-# Microarchitettura: datapath e unità di controllo
-
-## Dove si colloca
 L'**architettura** di un calcolatore è definita dal suo **instruction set** e dallo
 **stato architetturale**. La **microarchitettura** è il **collegamento tra la logica e
 l'architettura**: è il modo specifico in cui si realizza in hardware una data

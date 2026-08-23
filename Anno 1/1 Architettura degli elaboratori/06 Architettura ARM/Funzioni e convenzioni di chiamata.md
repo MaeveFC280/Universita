@@ -14,9 +14,6 @@ aliases:
   - BL
   - LR
 ---
-
-# Funzioni e convenzioni di chiamata
-
 ## Perché le funzioni
 I linguaggi di alto livello supportano le **funzioni** (o procedure) per riusare codice
 frequentemente usato e per rendere il programma leggibile e modulare.

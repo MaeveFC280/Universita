@@ -1,5 +1,9 @@
+summaries:
+  Checked: values.filter(value == true).length
+  Percentuale: (((values.filter(value == true).length / values.filter(!value.isType("null")).length) * 100).round()).toString() + "%"
+  Filled: values.filter(!value.isType("null")).length
 views:
-  - type: cards
+  - type: table
     name: Tabella
     filters:
       and:
@@ -16,3 +20,26 @@ views:
     sort:
       - property: Ordine
         direction: ASC
+    summaries:
+      Imparato: Percentuale
+    columnSize:
+      note.Imparato: 115
+  - type: cards
+    name: Schede
+    filters:
+      and:
+        - Materia == "Architettura degli elaboratori"
+        - not:
+            - file.basename == "Formulario e sigle"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Imparato
+      - tags
+    sort:
+      - property: Ordine
+        direction: ASC
+    summaries:
+      Imparato: Percentuale

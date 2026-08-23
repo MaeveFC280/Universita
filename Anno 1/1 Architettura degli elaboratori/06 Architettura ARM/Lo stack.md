@@ -14,10 +14,6 @@ aliases:
   - PUSH POP
   - SP
 ---
-
-# Lo stack
-
-## Definizione
 Lo **stack** è una porzione di memoria usata per **salvare informazioni all'interno di
 una funzione**. È una coda **LIFO** (*last-in-first-out*): come una pila di piatti,
 l'ultimo elemento inserito è il primo a essere prelevato.

@@ -10,10 +10,6 @@ aliases:
   - ripple carry
   - propagazione del riporto
 ---
-
-# Ripple carry adder
-
-## Definizione
 Un **sommatore a $N$ bit** somma due ingressi a $N$ bit, $A$ e $B$, più un riporto in
 ingresso $C_{in}$, e produce un risultato a $N$ bit $S$ e un riporto in uscita $C_{out}$.
 È detto anche **carry propagate adder** (CPA), perché il riporto si propaga da una

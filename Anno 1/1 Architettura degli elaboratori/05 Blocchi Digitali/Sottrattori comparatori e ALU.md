@@ -12,9 +12,6 @@ aliases:
   - sottrattore
   - comparatore
 ---
-
-# Sottrattori, comparatori e ALU
-
 ## Sottrattore
 Ricordando che $A - B = A + (-B)$ e che in complemento a due si nega **invertendo i bit
 e aggiungendo 1** (→ [[Segno, modulo e complemento a due]]):

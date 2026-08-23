@@ -12,10 +12,6 @@ aliases:
   - LSL
   - ASR
 ---
-
-# Shifter e rotatori
-
-## Funzione
 Gli **shifter** e i **rotatori** spostano i bit di una parola. Come suggerisce il nome,
 gli shifter **moltiplicano o dividono per potenze di 2**.
 

@@ -25,31 +25,16 @@
             }
           },
           {
-            "id": "40d2e20bacb0490e",
+            "id": "b42b07bacd0592f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
-                "mode": "source",
-                "source": false
+                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+                "viewName": "Tabella"
               },
-              "icon": "lucide-file",
-              "title": "Cache - organizzazione e parametri"
-            }
-          },
-          {
-            "id": "dd0259793b5d7a0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Latch D"
+              "icon": "lucide-table",
+              "title": "Architettura degli Elaboratori"
             }
           }
         ],
@@ -234,44 +219,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "40d2e20bacb0490e",
+  "active": "b42b07bacd0592f3",
   "lastOpenFiles": [
+    "Hub.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Array e modalita di indirizzamento.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Metriche di prestazione - miss rate e AMAT.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache set associative e fully associative.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Page table e TLB.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Memoria virtuale - concetti.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Gerarchia di memoria e principi di localita.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/DRAM SRAM e ROM.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - prestazioni.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - controllo a FSM.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - datapath.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - prestazioni.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Analisi delle prestazioni e CPI.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Microarchitettura - datapath e unita di controllo.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Array e modalita di indirizzamento.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Byte caratteri ASCII e stringhe.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni e convenzioni di chiamata.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Linguaggio macchina - formati istruzione.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Lo stack.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Register file ROM e logic array.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop D e registri.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/DRAM SRAM e ROM.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Contatori e shift register.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Virgola mobile IEEE 754.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Notazione a virgola fissa.md",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Sottrattori comparatori e ALU.md",
     "EXTRA/Immagini/Flip-flop D e registri-1787404107702.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404102078.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787404074715.webp",
     "EXTRA/Immagini/Flip-flop D e registri-1787402979672.webp",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch D.md",
     "EXTRA/Immagini/Flip-flop D e registri-1787402809678.webp",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Latch SR.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
-    "Hub.md",
     "EXTRA/Immagini/Latch D-1787400336473.webp",
     "EXTRA/Immagini/Latch D-1787400290396.webp",
     "EXTRA/Immagini/Latch SR-1787399852638.webp",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Elementi bistabili.md",
     "EXTRA/Immagini/Latch SR-1787399235549.webp",
     "EXTRA/Immagini/Elementi bistabili-1787398631387.webp",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Parallelismo latenza e throughput.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Timing sequenziale - setup hold e clock skew.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Codifica degli stati - binaria e one-hot.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Procedura di progetto di una FSM.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Macchine a stati finiti - Moore e Mealy.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Progetto sincrono e race condition.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop con enable e reset.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Glitch.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Timing combinatorio - ritardo di propagazione e cammino critico.md",
     "EXTRA/Immagini/aws-architecture-icons.excalidrawlib",
     "EXTRA/Immagini/system-design-template.excalidrawlib",
     "EXTRA/Immagini/system-design.excalidrawlib",

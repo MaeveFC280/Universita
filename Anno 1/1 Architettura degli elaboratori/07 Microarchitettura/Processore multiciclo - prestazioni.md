@@ -11,9 +11,6 @@ aliases:
   - prestazioni multiciclo
   - CPI medio
 ---
-
-# Processore multiciclo: prestazioni
-
 ## Il tempo di esecuzione
 > Il tempo di esecuzione di un'istruzione dipende **sia dal numero di cicli** che
 > richiede **sia dalla durata del ciclo**.

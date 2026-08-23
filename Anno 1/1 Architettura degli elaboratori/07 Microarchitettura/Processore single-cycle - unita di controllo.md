@@ -10,10 +10,6 @@ aliases:
   - control unit
   - decoder di controllo
 ---
-
-# Processore single-cycle: l'unità di controllo
-
-## Che cosa fa
 L'**unità di controllo** calcola i segnali di controllo a partire dai campi
 **`cond`**, **`op`** e **`funct`** dell'istruzione, più i flag di stato. Contiene
 inoltre i **flag di stato correnti** e li **aggiorna** quando l'istruzione lo richiede.

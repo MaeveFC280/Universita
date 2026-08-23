@@ -13,10 +13,6 @@ aliases:
   - pagina
   - swap
 ---
-
-# Memoria virtuale: concetti
-
-## Perché esiste
 La maggior parte dei calcolatori moderni ha un **disco** (magnetico o a stato solido)
 come livello più basso della gerarchia. Rispetto alla DRAM il disco è **enormemente più
 capiente** ed **enormemente più lento**.

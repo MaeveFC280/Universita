@@ -11,9 +11,6 @@ aliases:
   - single-cycle
   - ciclo singolo
 ---
-
-# Processore single-cycle: il datapath
-
 Il datapath si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta.
 Questo è il modo giusto di studiarlo (e di ricostruirlo in esame).
 

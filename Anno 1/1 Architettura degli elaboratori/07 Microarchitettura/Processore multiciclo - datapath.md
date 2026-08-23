@@ -11,10 +11,6 @@ aliases:
   - multiciclo
   - multicycle
 ---
-
-# Processore multiciclo: il datapath
-
-## L'idea
 Il processore **multiciclo** spezza ogni istruzione in **più passi**, ciascuno eseguito
 in un ciclo di clock **breve**. Vantaggi:
 - il tempo di ciclo è dettato dal passo più lento, non dall'istruzione più lunga;

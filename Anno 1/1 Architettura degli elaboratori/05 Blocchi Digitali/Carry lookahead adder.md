@@ -11,10 +11,6 @@ aliases:
   - carry lookahead
   - prefix adder
 ---
-
-# Carry-lookahead adder (CLA)
-
-## L'idea
 Il **carry-lookahead adder** è un sommatore a propagazione del riporto che risolve il
 problema del ritardo lineare. L'osservazione chiave:
 

@@ -11,9 +11,6 @@ aliases:
   - CPI
   - tempo di esecuzione
 ---
-
-# Analisi delle prestazioni e CPI
-
 ## Come si misurano le prestazioni
 Il modo corretto di misurare le prestazioni è **misurare il tempo di esecuzione di un
 programma di interesse**. Collezioni di programmi scelti come riferimento si chiamano

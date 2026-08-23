@@ -12,10 +12,6 @@ aliases:
   - LDRB
   - stringhe
 ---
-
-# Byte, caratteri ASCII e stringhe
-
-## Perché i byte
 I numeri nell'intervallo $[-128, 127]$ si possono memorizzare in un **singolo byte**
 anziché in un'intera word: si risparmia memoria (4× per gli array grandi).
 

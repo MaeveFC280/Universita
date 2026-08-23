@@ -11,7 +11,7 @@ aliases:
   - single-cycle
   - ciclo singolo
 ---
-Il [[Microarchitettura - datapath e unita di controllo|datapath]] si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta. Questo è il modo giusto di studiarlo (e di ricostruirlo in esame).
+Il [[Datapath e unita di controllo|datapath]] si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta. Questo è il modo giusto di studiarlo (e di ricostruirlo in esame).
 
 ## Passo 0 — Fetch dell'istruzione
 Il **program counter** contiene l'indirizzo dell'istruzione da eseguire. Il PC alimenta la memoria istruzioni, che restituisce l'istruzione corrente, `Instr`.

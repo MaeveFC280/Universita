@@ -45,7 +45,7 @@ Ruota il numero **in circolo**, in modo che le posizioni liberate siano riempite
 Uno shifter a $N$ bit si costruisce con $N$ [[Multiplexer|multiplexer]] $N$:1 (uno per bit di uscita), oppure — più efficientemente — con un **barrel shifter**: una cascata di $\log_2 N$ livelli di mux 2:1, dove il livello $j$ sposta di $2^j$ posizioni se il bit $j$ della quantità di shift è 1.
 
 ## Nota su ARM
-Nell'architettura ARM lo shifter è **integrato nel [[Microarchitettura - datapath e unita di controllo|datapath]]**: il secondo operando di un'istruzione può essere [[Istruzioni logiche e di shift|shiftato "gratis"]], nella stessa istruzione.
+Nell'architettura ARM lo shifter è **integrato nel [[Datapath e unita di controllo|datapath]]**: il secondo operando di un'istruzione può essere [[Istruzioni logiche e di shift|shiftato "gratis"]], nella stessa istruzione.
 
 ## Da ricordare
 - LSL / LSR riempiono con 0; ASR replica il **segno**; ROR ricircola i bit.

@@ -12,7 +12,7 @@ aliases:
   - FSM di controllo
 ---
 ## Struttura
-Come nel [[Processore single-cycle - datapath|single-cycle]], l'[[Microarchitettura - datapath e unita di controllo|unità di controllo]] calcola i segnali a partire da `cond`, `op`, `funct` e `Rd`, ed è partizionata in **[[Decoder|Decoder]]** e **Conditional Logic**.
+Come nel [[Processore single-cycle - datapath|single-cycle]], l'[[Datapath e unita di controllo|unità di controllo]] calcola i segnali a partire da `cond`, `op`, `funct` e `Rd`, ed è partizionata in **[[Decoder|Decoder]]** e **Conditional Logic**.
 
 **La differenza fondamentale**: nel [[Processore multiciclo - datapath|multiciclo]] il Decoder contiene una **[[Macchine a stati finiti - Moore e Mealy|macchina a stati finiti]]** — la **Main FSM** — perché i segnali di controllo dipendono non solo dall'istruzione ma anche **dal ciclo corrente** dell'esecuzione.
 

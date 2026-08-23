@@ -36,5 +36,5 @@ Per questo, quando si costruisce logica con i decoder, conviene esprimere la fun
 
 ## Usi tipici
 - **Selezione di riga** nelle memorie: [[Array di memoria - organizzazione|l'indirizzo entra nel decoder, l'uscita attiva la wordline corrispondente]].
-- Decodifica delle istruzioni nell'[[Microarchitettura - datapath e unita di controllo|unità di controllo]].
+- Decodifica delle istruzioni nell'[[Datapath e unita di controllo|unità di controllo]].
 - Abilitazione di uno tra molti dispositivi.

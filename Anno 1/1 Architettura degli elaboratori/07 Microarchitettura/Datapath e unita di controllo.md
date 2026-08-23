@@ -58,8 +58,5 @@ Poiché gli elementi di stato cambiano solo sul **fronte di salita** del clock, 
 - Il **multiciclo** spezza l'istruzione in più passi, aggiungendo **registri non architetturali** per conservare i risultati intermedi. Riusa lo stesso hardware in cicli diversi (una sola memoria, un solo sommatore).
 - Il **pipelined** applica il **[[Parallelismo latenza e throughput|pipelining]]** al single-cycle, ottenendo throughput elevato con clock veloce.
 
-## Da ricordare
-- Microarchitettura = ponte tra logica e architettura; molte per una sola architettura.
-- Stato **architetturale** (visibile) vs **non architetturale** (interno).
-- Datapath (dati) + unità di controllo (segnali).
-- Memorie e register file: **letture combinatorie**, **scritture sincrone**.
+
+![[Datapath e unita di controllo-1787502063076.webp]]

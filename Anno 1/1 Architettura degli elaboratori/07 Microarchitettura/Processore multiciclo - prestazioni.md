@@ -36,7 +36,7 @@ $$CPI = \sum_i f_i \cdot CPI_i$$
 $$CPI = 0{,}25(5) + 0{,}10(4) + 0{,}52(4) + 0{,}13(3) = 1{,}25 + 0{,}40 + 2{,}08 + 0{,}39 = 4{,}12$$
 
 ## Il cammino critico
-Esaminando il [[Microarchitettura - datapath e unita di controllo|datapath]] si individuano **due possibili cammini critici** che limitano il tempo di ciclo:
+Esaminando il [[Datapath e unita di controllo|datapath]] si individuano **due possibili cammini critici** che limitano il tempo di ciclo:
 
 1. **Il cammino attraverso l'ALU**: lettura del [[Register file ROM e logic array|register file]] (o dei registri non architetturali) → [[Multiplexer|multiplexer]] → ALU → setup di `ALUOut`.
 2. **Il cammino attraverso la memoria**: `ALUOut` → multiplexer di indirizzo → memoria → setup di `Instr`/`Data`.

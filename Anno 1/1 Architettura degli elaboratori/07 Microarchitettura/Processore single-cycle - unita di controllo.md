@@ -10,7 +10,7 @@ aliases:
   - control unit
   - decoder di controllo
 ---
-L'**[[Microarchitettura - datapath e unita di controllo|unità di controllo]]** calcola i segnali di controllo a partire dai campi **`cond`**, **`op`** e **`funct`** dell'istruzione, più i flag di stato. Contiene inoltre i **flag di stato correnti** e li **aggiorna** quando l'istruzione lo richiede.
+L'**[[Datapath e unita di controllo|unità di controllo]]** calcola i segnali di controllo a partire dai campi **`cond`**, **`op`** e **`funct`** dell'istruzione, più i flag di stato. Contiene inoltre i **flag di stato correnti** e li **aggiorna** quando l'istruzione lo richiede.
 
 ## La partizione in due parti
 L'unità di controllo si divide in due parti principali:

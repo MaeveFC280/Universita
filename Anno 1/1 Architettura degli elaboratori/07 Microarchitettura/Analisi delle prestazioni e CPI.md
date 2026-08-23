@@ -58,5 +58,5 @@ Molti altri elementi influenzano le prestazioni complessive di un calcolatore: l
 
 ## Da ricordare
 - $T_{exec} = N_{istr} \times CPI \times T_c$: **l'equazione da sapere**.
-- Numero di istruzioni ← compilatore + ISA; CPI ← [[Microarchitettura - datapath e unita di controllo|microarchitettura]]; $T_c$ ← microarchitettura + tecnologia.
+- Numero di istruzioni ← compilatore + ISA; CPI ← [[Datapath e unita di controllo|microarchitettura]]; $T_c$ ← microarchitettura + tecnologia.
 - Non giudicare un processore dalla sola frequenza.

@@ -16,7 +16,7 @@ Il processore **multiciclo** spezza ogni istruzione in **più passi**, ciascuno 
 - **l'hardware si riusa** in cicli diversi: **una sola memoria** e **un solo [[Half adder e full adder|sommatore]]** (l'ALU) bastano;
 - le istruzioni brevi impiegano **meno cicli**.
 
-Il prezzo: servono **registri non architetturali** per conservare i risultati intermedi tra un ciclo e il successivo, più un'[[Microarchitettura - datapath e unita di controllo|unità di controllo]] a **FSM**.
+Il prezzo: servono **registri non architetturali** per conservare i risultati intermedi tra un ciclo e il successivo, più un'[[Datapath e unita di controllo|unità di controllo]] a **FSM**.
 
 ## I registri non architetturali aggiunti
 | Registro | Contenuto |

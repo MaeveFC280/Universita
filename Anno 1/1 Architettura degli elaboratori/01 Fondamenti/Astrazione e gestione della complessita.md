@@ -27,7 +27,7 @@ Dal basso verso l'alto:
 | Circuiti analogici | amplificatori                   | elettronica                                           |
 | Circuiti digitali  | porte logiche (AND, OR, NOT)    | **progetto digitale**                                 |
 | Moduli logici      | sommatori, memorie, multiplexer | **progetto digitale**                                 |
-| Microarchitettura  | datapath, unità di controllo    | [[Microarchitettura - datapath e unita di controllo]] |
+| Microarchitettura  | datapath, unità di controllo    | [[Datapath e unita di controllo]] |
 | Architettura       | istruzioni, registri            | [[Principi di assembly]]        |
 | Sistema operativo  | driver, gestione memoria        | informatica                                           |
 | Applicazioni       | programmi                       | informatica                                           |

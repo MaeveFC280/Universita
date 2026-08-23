@@ -63,7 +63,7 @@ La quantità di shift può essere un **immediato** (0–31) o un **registro**.
 >
 > ``` ADD R0, R1, R2, LSL #3    ; R0 = R1 + (R2 << 3)  = R1 + 8*R2 ```
 >
-> Questo è possibile perché il [[Microarchitettura - datapath e unita di controllo|datapath]] contiene uno [[Shifter e rotatori|shifter]] **in serie** al percorso del secondo operando, prima dell'ALU. È estremamente utile per l'accesso agli [[Array e modalita di indirizzamento|array]].
+> Questo è possibile perché il [[Datapath e unita di controllo|datapath]] contiene uno [[Shifter e rotatori|shifter]] **in serie** al percorso del secondo operando, prima dell'ALU. È estremamente utile per l'accesso agli [[Array e modalita di indirizzamento|array]].
 
 ## Moltiplicazione
 | Istruzione | Effetto |

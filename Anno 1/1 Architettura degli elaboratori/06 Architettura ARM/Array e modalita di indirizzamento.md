@@ -31,7 +31,7 @@ LDR R1, [R0, #8]        ; R1 = array[2]   (8 = 4*2)
 ```
 
 ### 2. Registro di offset scalato (il modo idiomatico ARM)
-L'offset può essere un **registro shiftato**: si sfrutta lo [[Shifter e rotatori|shifter]] integrato nel [[Microarchitettura - datapath e unita di controllo|datapath]], ottenendo la moltiplicazione per 4 **gratis**.
+L'offset può essere un **registro shiftato**: si sfrutta lo [[Shifter e rotatori|shifter]] integrato nel [[Datapath e unita di controllo|datapath]], ottenendo la moltiplicazione per 4 **gratis**.
 
 ```armasm
 ; R0 = base, R2 = i

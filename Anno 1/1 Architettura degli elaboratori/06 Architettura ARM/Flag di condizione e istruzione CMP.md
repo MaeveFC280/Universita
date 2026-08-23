@@ -13,8 +13,7 @@ aliases:
   - condition flags
 ---
 ## I flag
-Le istruzioni ARM possono **opzionalmente** aggiornare i **flag di condizione** (o
-*status bits*) in base al risultato prodotto. I quattro flag sono:
+Le istruzioni ARM possono **opzionalmente** aggiornare i **flag di condizione** (o *status bits*) in base al risultato prodotto. I quattro flag sono:
 
 | Flag | Nome | Vale 1 quando |
 |---|---|---|
@@ -28,8 +27,7 @@ I flag risiedono nel registro di stato del processore (**CPSR**).
 ## Come si impostano i flag
 
 ### Con il suffisso S
-Aggiungendo **`S`** al mnemonico, l'istruzione aggiorna i flag oltre a scrivere il
-risultato:
+Aggiungendo **`S`** al mnemonico, l'istruzione aggiorna i flag oltre a scrivere il risultato:
 ```
 ADDS R0, R1, R2     ; R0 = R1 + R2  E aggiorna N,Z,C,V
 SUBS R0, R1, R2     ; idem per la sottrazione
@@ -44,17 +42,17 @@ CMP R1, R2          ; calcola R1 - R2, aggiorna i flag, SCARTA il risultato
 CMP R1, #10         ; confronta con un immediato
 ```
 
-`CMP` **sottrae** il secondo operando dal primo e aggiorna i flag, ma **non memorizza**
-il risultato in alcun registro. Serve unicamente a preparare i flag per un'istruzione
+`CMP` **sottrae** il secondo operando dal primo e aggiorna i flag, ma **non memorizza** il risultato in alcun registro. Serve unicamente a preparare i flag per un'istruzione
 condizionale successiva.
 
-Istruzioni analoghe:
-| Istruzione | Operazione (risultato scartato) |
-|---|---|
-| `CMP Rn, Op2` | $Rn -$ Op2 |
-| `CMN Rn, Op2` | $Rn +$ Op2 (*compare negative*) |
-| `TST Rn, Op2` | $Rn$ AND Op2 (test di bit) |
-| `TEQ Rn, Op2` | $Rn$ EOR Op2 (test di uguaglianza) |
+*Istruzioni analoghe:*
+
+| Istruzione    | **Operazione (risultato scartato)** |
+| ------------- | ----------------------------------- |
+| `CMP Rn, Op2` | $Rn -$ Op2                          |
+| `CMN Rn, Op2` | $Rn +$ Op2 (*compare negative*      |
+| `TST Rn, Op2` | $Rn$ AND Op2 (test di bit)          |
+| `TEQ Rn, Op2` | $Rn$ EOR Op2 (test di uguaglianza)  |
 
 ## Come si leggono i flag
 Le **istruzioni successive** possono eseguirsi **condizionalmente** in base allo stato dei

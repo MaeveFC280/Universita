@@ -56,7 +56,4 @@ $$T_{exec} = 100 \times 10^9 \times 4 \times 1 \times 10^{-9} = 400\ \text{s}$$
 ## Altri fattori
 Molti altri elementi influenzano le prestazioni complessive di un calcolatore: la **[[Gerarchia di memoria e principi di localita|gerarchia di memoria]]**, le [[Metriche di prestazione - miss rate e AMAT|metriche di accesso alla memoria]], il sistema di I/O, il sistema operativo, la qualità del compilatore.
 
-## Da ricordare
-- $T_{exec} = N_{istr} \times CPI \times T_c$: **l'equazione da sapere**.
-- Numero di istruzioni ← compilatore + ISA; CPI ← [[Datapath e unita di controllo|microarchitettura]]; $T_c$ ← microarchitettura + tecnologia.
-- Non giudicare un processore dalla sola frequenza.
+

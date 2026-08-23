@@ -5,7 +5,7 @@ tags:
   - datapath
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 7.1'
-Imparato: false
+Imparato: true
 Ordine: 701
 aliases:
   - microarchitettura
@@ -28,11 +28,11 @@ Ogni microarchitettura si divide in **due parti interagenti**:
 | **datapath** | opera sulle **parole di dati**: contiene memorie, registri, ALU, multiplexer | prevalentemente **combinatoria**, più gli elementi di stato |
 | **unità di controllo** | riceve l'**istruzione corrente** dal datapath e gli dice **come eseguirla**, generando i segnali di multiplexer, di abilitazione registri e di scrittura in memoria | **FSM** o logica combinatoria |
 
-## Il sottoinsieme ARM considerato nel capitolo
+## Il sottoinsieme ARM
 Per rendere trattabile il progetto, si realizza un **sottoinsieme** dell'instruction set:
-- **istruzioni di elaborazione dati**: `ADD`, `SUB`, `AND`, `ORR` (con secondo operando immediato o registro)
-- **istruzioni di memoria**: `LDR`, `STR`
-- **branch**: `B`
+- **[[Operandi|istruzioni di elaborazione dati]]**: `ADD`, `SUB`, `AND`, `ORR` (con secondo operando immediato o registro)
+- **[[Istruzioni LDR e STR|istruzioni di memoria]]**: `LDR`, `STR`
+- **[[Branch ed esecuzione condizionale|branch]]**: `B`
 
 ## Gli elementi di stato
 | Elemento | Caratteristica |
@@ -47,7 +47,8 @@ Per rendere trattabile il progetto, si realizza un **sottoinsieme** dell'instruc
 
 Poiché gli elementi di stato cambiano solo sul **fronte di salita** del clock, il processore si può vedere come una **gigantesca [[Macchine a stati finiti - Moore e Mealy|macchina a stati finiti]]**, o come un insieme di FSM interagenti.
 
-## Le tre microarchitetture del capitolo
+## Le tre microarchitetture
+
 | Microarchitettura | Cicli per istruzione | Stato non arch. | $T_c$ |
 |---|---|---|---|
 | **single-cycle** | **1** (CPI = 1) | **nessuno** | molto **lungo** |

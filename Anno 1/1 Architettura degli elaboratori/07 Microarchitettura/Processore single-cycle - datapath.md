@@ -77,8 +77,3 @@ Il blocco Extend necessita quindi di un'**ulteriore modalità** per l'immediato 
 | `RegWrite` | abilita la scrittura nel register file |
 | `PCSrc` | prossimo PC: PC+4 o indirizzo di branch |
 
-## Da ricordare
-- Si costruisce **istruzione per istruzione**: fetch → decode/lettura registri → esecuzione ALU → memoria → write-back → aggiornamento PC.
-- Ogni istruzione nuova aggiunge tipicamente **un multiplexer** e **un segnale di controllo**.
-- Servono **due sommatori** oltre all'ALU: PC+4 e PC+8.
-- L'unico blocco davvero "nuovo" rispetto al capitolo 5 è **Extend**.

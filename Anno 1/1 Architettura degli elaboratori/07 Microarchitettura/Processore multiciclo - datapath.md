@@ -83,8 +83,4 @@ Anche qui vale la regola ARM: **leggere R15 restituisce PC + 8** e **scrivere R1
 | $T_c$ | lungo | **breve** |
 | unità di controllo | combinatoria | **FSM** |
 
-## Da ricordare
-- Registri non architetturali: **Instr, ALUOut, Data**.
-- Cicli: **LDR 5, STR 4, data-processing 4, B 3**.
-- Una **sola** memoria e un **solo** sommatore, riusati in cicli diversi.
-- `ExtImm` non ha bisogno di registro perché è funzione combinatoria di `Instr`.
+

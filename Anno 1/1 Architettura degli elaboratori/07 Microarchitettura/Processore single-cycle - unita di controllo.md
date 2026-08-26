@@ -72,8 +72,4 @@ ALUFlags          ──> Conditional Logic (registro dei flag)
 
 (La tabella completa del libro include anche `RegSrc` e `ALUOp`; questa è la struttura essenziale da ricostruire.)
 
-## Da ricordare
-- Controllo = **[[Decoder|Decoder]]** (Main + ALU + PC Logic) + **Conditional Logic**.
-- La condizionalità si realizza **azzerando RegWrite, MemWrite, PCSrc**.
-- $PCS = (Rd{=}15 \cdot RegW) + Branch$: scrivere in R15 **è** un salto.
-- `ALUOp = 0` → l'ALU somma (serve per LDR/STR/B).
+

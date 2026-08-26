@@ -49,7 +49,3 @@ Il single-cycle è **il progetto più semplice da capire e da verificare**, ed �
 
 Il **[[Processore multiciclo - datapath|multiciclo]]** risolve tutti e tre i problemi: riusa lo stesso hardware in cicli diversi (un solo [[Half adder e full adder|sommatore]], una sola memoria) e adatta il numero di cicli all'istruzione.
 
-## Da ricordare
-- $CPI = 1$, ma $T_c$ dettato da **LDR** (l'istruzione più lunga).
-- Il [[Timing combinatorio - ritardo di propagazione e cammino critico|cammino critico]] attraversa: memoria istruzioni → register file → ALU → memoria dati → mux → setup RF.
-- Le **3 debolezze**: ciclo lungo, tre sommatori, due memorie.

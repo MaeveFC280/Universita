@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Hub.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
@@ -38,8 +38,7 @@
               "title": "Processore single-cycle - datapath"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,14 +219,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "acd71df34f9d30ff",
+  "active": "93c7445dad8c0472",
   "lastOpenFiles": [
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
+    "EXTRA/Immagini/Processore single-cycle - datapath-1787751198550.webp",
     "EXTRA/Immagini/Processore single-cycle - datapath-1787749128341.webp",
     "EXTRA/Immagini/Processore single-cycle - datapath-1787749081759.webp",
     "EXTRA/Immagini/Processore single-cycle - datapath-1787749078738.webp",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Datapath e unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Analisi delle prestazioni e CPI.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
     "Hub.md",
@@ -250,7 +250,6 @@
     "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787495941186.webp",
     "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787495937855.webp",
     "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787495908675.webp",
-    "EXTRA/Immagini/Macchine a stati finiti - Moore e Mealy-1787495906064.webp",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Progetto sincrono e race condition.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Costrutti condizionali in assembly.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Linguaggio macchina.md",
@@ -258,7 +257,6 @@
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Array di memoria - organizzazione.md",
     "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione digitale e quantita di informazione.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Flip-flop con enable e reset.md",
-    "EXTRA/Immagini/Flip-flop D e registri-1787404107702.webp",
     "EXTRA/Immagini/aws-architecture-icons.excalidrawlib",
     "EXTRA/Immagini/system-design-template.excalidrawlib",
     "EXTRA/Immagini/system-design.excalidrawlib",

@@ -25,3 +25,6 @@ Piano B: Mi apro una pasticceria/caffè...
 - [ ] Capire che materia a scelta voglio fare
 - [ ] Superare analisi
 - [ ] Superare algebra
+# Risorse utili
+### Architettura degli elaboratori
+- https://siliconfromscratch.com/ 

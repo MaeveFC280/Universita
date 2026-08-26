@@ -30,7 +30,7 @@ Il blocco Extend deve gestire **più formati** (immediato a 12 bit di LDR/STR, i
 
 ## Passo 3 — LDR: calcolo dell'indirizzo
 L'**ALU** somma base e offset e produce `ALUResult` a 32 bit. Per `LDR`, `ALUControl` vale il codice dell'**addizione** (00).
-
+![[Processore single-cycle - datapath-1787751198550.webp]]
 ## Passo 4 — LDR: accesso alla memoria dati
 `ALUResult` è l'indirizzo per la memoria dati. Il dato letto compare sul bus `ReadData`.
 

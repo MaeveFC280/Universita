@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "datapa",
+                "query": "RISC-V",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +108,7 @@
               "title": "Segnalibri"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,13 +233,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "acd71df34f9d30ff",
+  "active": "758c73a0165cdd32",
   "lastOpenFiles": [
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Datapath e unita di controllo.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
+    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Sottrattori comparatori e ALU.md",
     "EXTRA/Immagini/Sottrattori comparatori e ALU-1787753783380.webp",
     "EXTRA/Immagini/Sottrattori comparatori e ALU-1787753748972.webp",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Sottrattori comparatori e ALU.md",
-    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Registri ARM.md",
     "EXTRA/Immagini/Sottrattori comparatori e ALU-1787752697459.webp",
     "EXTRA/Immagini/Sottrattori comparatori e ALU-1787752527431.webp",
@@ -253,8 +253,6 @@
     "EXTRA/Immagini/Half adder e full adder-1787751995485.webp",
     "EXTRA/Immagini/Half adder e full adder-1787751947297.webp",
     "EXTRA/Immagini/Processore single-cycle - datapath-1787751198550.webp",
-    "EXTRA/Immagini/Processore single-cycle - datapath-1787749128341.webp",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Datapath e unita di controllo.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Analisi delle prestazioni e CPI.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Flag di condizione e istruzione CMP.md",

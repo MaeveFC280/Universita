@@ -30,7 +30,6 @@ Il blocco Extend deve gestire **più formati** (immediato a 12 bit di LDR/STR, i
 
 ## Passo 3 — LDR: calcolo dell'indirizzo
 L'**[[Sottrattori comparatori e ALU|ALU]]** somma base e offset e produce `ALUResult` a 32 bit. Per `LDR`, `ALUControl` vale il codice dell'**addizione** (00).
-![[Processore single-cycle - datapath-1787751198550.webp]]
 ## Passo 4 — LDR: accesso alla memoria dati
 `ALUResult` è l'indirizzo per la memoria dati. Il dato letto compare sul bus `ReadData`.
 
@@ -68,15 +67,15 @@ Il branch:
 Il blocco Extend necessita quindi di un'**ulteriore modalità** per l'immediato a 24 bit esteso con segno e moltiplicato per 4. E serve un multiplexer sull'ingresso del PC, comandato da **`PCSrc`**, per scegliere tra PC+4 e l'indirizzo di destinazione.
 
 ## Riepilogo dei multiplexer e dei loro segnali
-| Segnale | Sceglie |
-|---|---|
-| `RegSrc` | quale registro leggere sulle porte del register file (Rm vs Rd vs R15) |
-| `ImmSrc` | come estendere l'immediato (12 bit / 8 bit+rot / 24 bit×4) |
-| `ALUSrc` | secondo operando dell'ALU: registro o `ExtImm` |
-| `ALUControl` | quale operazione esegue l'ALU |
-| `MemWrite` | abilita la scrittura in memoria dati |
-| `MemtoReg` | dato di write-back: `ReadData` o `ALUResult` |
-| `RegWrite` | abilita la scrittura nel register file |
-| `PCSrc` | prossimo PC: PC+4 o indirizzo di branch |
+| Segnale      | Sceglie                                                                |
+| ------------ | ---------------------------------------------------------------------- |
+| `RegSrc`     | quale registro leggere sulle porte del register file (Rm vs Rd vs R15) |
+| `ImmSrc`     | come estendere l'immediato (12 bit / 8 bit+rot / 24 bit×4)             |
+| `ALUSrc`     | secondo operando dell'ALU: registro o `ExtImm`                         |
+| `ALUControl` | quale operazione esegue l'ALU                                          |
+| `MemWrite`   | abilita la scrittura in memoria dati                                   |
+| `MemtoReg`   | dato di write-back: `ReadData` o `ALUResult`                           |
+| `RegWrite`   | abilita la scrittura nel register file                                 |
+| `PCSrc`      | prossimo PC: PC+4 o indirizzo di branch                                |
 
 ![[Datapath e unita di controllo-1787502063076.webp]]

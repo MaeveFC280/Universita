@@ -60,3 +60,6 @@ Poiché gli elementi di stato cambiano solo sul **fronte di salita** del clock, 
 
 
 ![[Datapath e unita di controllo-1787502063076.webp]]
+## Datapath
+Il **datapath è la strada che percorrono i dati dentro la CPU mentre viene eseguita un'istruzione**.
+$$PC​→Instruction Memory​→Register File​→ALU​→Data Memory​$$

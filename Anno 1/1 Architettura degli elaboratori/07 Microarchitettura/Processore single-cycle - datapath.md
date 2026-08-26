@@ -11,32 +11,35 @@ aliases:
   - single-cycle
   - ciclo singolo
 ---
-Il [[Datapath e unita di controllo|datapath]] si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta. 
-
-## Passo 0 — Fetch dell'istruzione
-Il **program counter** contiene l'indirizzo dell'istruzione da eseguire. Il PC alimenta la memoria istruzioni, che restituisce l'istruzione corrente, `Instr`.
+Il [[Datapath e unita di controllo|datapath]] si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta. Di seguito i passaggi necessari in ordine.
+## Fetch
+Il **program counter** contiene l'indirizzo dell'istruzione da eseguire. Il PC alimenta la memoria istruzioni, che restituisce l'istruzione corrente, la memoria restituisce i 32 bit dell'istruzione:`Instr`.
 
 ```
 PC --> [Memoria Istruzioni] --> Instr
 ```
-
-## Passo 1 — LDR: lettura del registro base
+> [!important] Contenuto di un'istruzione
+Un'istruzione ARM  occupa 32 bit=4 byte quindi si possono avere istruzioni tipo:
+`0x1000    SUB R0,R1,R2`
+`0x1004    ADD R3,R4,R5`
+`0x1008    ...`
+## LDR: lettura del registro base
 Per l'istruzione `LDR` il passo successivo è **leggere il registro sorgente** che contiene l'indirizzo base. Il campo `Rn` (bit 19:16) di `Instr` alimenta l'indirizzo della **porta 1** del [[Register file ROM e logic array|register file]], che produce il valore su `RD1`.
 
-## Passo 2 — LDR: l'offset
+## LDR: l'offset
 `LDR` richiede anche un **offset**, memorizzato nel campo immediato dell'istruzione (bit 11:0). Poiché l'offset è a 12 bit senza segno e i dati sono a 32 bit, un blocco **Extend** lo estende a 32 bit producendo `ExtImm`.
 
 Il blocco Extend deve gestire **più formati** (immediato a 12 bit di LDR/STR, immediato a 8 bit con rotazione dei data-processing, immediato a 24 bit dei branch): è quindi comandato dal segnale **`ImmSrc`**.
 
-## Passo 3 — LDR: calcolo dell'indirizzo
+## LDR: calcolo dell'indirizzo
 L'**[[Sottrattori comparatori e ALU|ALU]]** somma base e offset e produce `ALUResult` a 32 bit. Per `LDR`, `ALUControl` vale il codice dell'**addizione** (00).
-## Passo 4 — LDR: accesso alla memoria dati
+## LDR: accesso alla memoria dati
 `ALUResult` è l'indirizzo per la memoria dati. Il dato letto compare sul bus `ReadData`.
 
-## Passo 5 — LDR: write-back
+## LDR: write-back
 Il dato letto viene **scritto nel register file** all'indirizzo `Rd` (bit 15:12), sulla porta di scrittura, abilitata da `RegWrite`.
 
-## Passo 6 — Incremento del PC
+## Incremento del PC
 Il PC deve avanzare all'istruzione successiva: serve un [[Half adder e full adder|sommatore]] che calcoli **PC + 4**.
 
 > [!important] Il secondo sommatore: PC + 8
@@ -44,12 +47,12 @@ Il PC deve avanzare all'istruzione successiva: serve un [[Half adder e full adde
 
 ![[Processore single-cycle - datapath-1787749081759.webp|163]]![[Processore single-cycle - datapath-1787749128341.webp]]
 
-## Passo 7 — STR
+## STR
 Come `LDR`, `STR` legge l'indirizzo base dalla porta 1 del register file ed estende l'offset. **La novità**: deve leggere anche il **dato da scrivere**, che sta nel campo `Rd`. Si aggiunge quindi un [[Multiplexer|multiplexer]] sull'indirizzo della **porta 2** di lettura (segnale **`RegSrc`**), per poter leggere `Rd` anziché `Rm`.
 
 Il dato letto va all'ingresso `WriteData` della memoria dati, abilitata da `MemWrite`.
 
-## Passo 8 — Istruzioni di elaborazione dati
+## Istruzioni di elaborazione dati
 Come `LDR`, leggono il primo operando dalla porta 1. La differenza è il **secondo operando**:
 - con **[[Operandi|indirizzamento]] immediato**: usano un immediato a **8 bit** (non 12), quindi il blocco Extend ha una modalità in più;
 - con **indirizzamento a registro**: il secondo operando viene dal register file (campo `Rm`, bit 3:0).
@@ -58,7 +61,7 @@ Serve quindi un multiplexer comandato da **`ALUSrc`** che scelga tra `ExtImm` e 
 
 Inoltre le istruzioni di elaborazione dati scrivono **`ALUResult`** nel register file (non `ReadData`): serve un multiplexer sul dato di [[Blocchi politiche di sostituzione e scrittura|write-back]], comandato da **`MemtoReg`**.
 
-## Passo 9 — Branch (B)
+## Branch (B)
 Il branch:
 - legge **PC + 8** e un **immediato a 24 bit**;
 - li somma (l'immediato scalato di 4 e **esteso con segno**) per ottenere l'indirizzo di destinazione;
@@ -66,7 +69,6 @@ Il branch:
 
 Il blocco Extend necessita quindi di un'**ulteriore modalità** per l'immediato a 24 bit esteso con segno e moltiplicato per 4. E serve un multiplexer sull'ingresso del PC, comandato da **`PCSrc`**, per scegliere tra PC+4 e l'indirizzo di destinazione.
 
-## Riepilogo dei multiplexer e dei loro segnali
 | Segnale      | Sceglie                                                                |
 | ------------ | ---------------------------------------------------------------------- |
 | `RegSrc`     | quale registro leggere sulle porte del register file (Rm vs Rd vs R15) |

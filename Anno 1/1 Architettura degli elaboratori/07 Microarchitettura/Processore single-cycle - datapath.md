@@ -43,6 +43,8 @@ Il PC deve avanzare all'istruzione successiva: serve un [[Half adder e full adde
 > [!important] Il secondo sommatore: PC + 8
 > Poiché **leggere R15 deve restituire PC + 8**, serve un **ulteriore sommatore** che calcoli PC + 8, il cui risultato è instradato verso il register file quando l'istruzione legge [[Registri ARM|R15]].
 
+![[Processore single-cycle - datapath-1787749081759.webp|163]]![[Processore single-cycle - datapath-1787749128341.webp]]
+
 ## Passo 7 — STR
 Come `LDR`, `STR` legge l'indirizzo base dalla porta 1 del register file ed estende l'offset. **La novità**: deve leggere anche il **dato da scrivere**, che sta nel campo `Rd`. Si aggiunge quindi un [[Multiplexer|multiplexer]] sull'indirizzo della **porta 2** di lettura (segnale **`RegSrc`**), per poter leggere `Rd` anziché `Rm`.
 

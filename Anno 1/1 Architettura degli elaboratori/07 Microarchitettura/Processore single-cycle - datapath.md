@@ -11,7 +11,7 @@ aliases:
   - single-cycle
   - ciclo singolo
 ---
-Il [[Datapath e unita di controllo|datapath]] si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta. Questo è il modo giusto di studiarlo (e di ricostruirlo in esame).
+Il [[Datapath e unita di controllo|datapath]] si costruisce **incrementalmente**, aggiungendo un'istruzione alla volta. 
 
 ## Passo 0 — Fetch dell'istruzione
 Il **program counter** contiene l'indirizzo dell'istruzione da eseguire. Il PC alimenta la memoria istruzioni, che restituisce l'istruzione corrente, `Instr`.
@@ -77,3 +77,4 @@ Il blocco Extend necessita quindi di un'**ulteriore modalità** per l'immediato 
 | `RegWrite` | abilita la scrittura nel register file |
 | `PCSrc` | prossimo PC: PC+4 o indirizzo di branch |
 
+![[Datapath e unita di controllo-1787502063076.webp]]

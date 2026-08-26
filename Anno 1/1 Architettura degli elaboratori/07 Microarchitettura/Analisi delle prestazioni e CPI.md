@@ -5,7 +5,7 @@ tags:
   - prestazioni
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 7.2'
-Imparato: false
+Imparato: true
 Ordine: 702
 aliases:
   - CPI

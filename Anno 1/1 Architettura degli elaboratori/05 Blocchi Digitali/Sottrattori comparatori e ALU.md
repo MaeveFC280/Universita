@@ -43,7 +43,7 @@ Combinando il bit di segno con i flag di zero e overflow si ottengono tutte le r
 
 ## ALU (Arithmetic/Logical Unit)
 Un'**ALU** combina in un unico blocco una varietà di operazioni matematiche e logiche. Un'ALU tipica esegue **addizione, sottrazione, AND e OR**.
-![[Sottrattori comparatori e ALU-1787752697459.webp]]
+![[Sottrattori comparatori e ALU-1787752697459.webp|322x340]]
 ### Struttura tipica
 - un **sommatore** condiviso per ADD e SUB (con inverter e mux su $B$);
 - porte **AND** e **OR** bit a bit;
@@ -56,19 +56,18 @@ Un'**ALU** combina in un unico blocco una varietà di operazioni matematiche e l
 | 10 | AND |
 | 11 | OR |
 
-(La codifica esatta varia; questa è quella usata nel processore del capitolo 7.)
+![[Sottrattori comparatori e ALU-1787753783380.webp|277]]
 
 ### I flag di stato
 L'ALU produce anche i **flag di condizione**, indispensabili per i salti condizionati:
-| Flag | Significato |
-|---|---|
-| **N** (*negative*) | il risultato è negativo (msb = 1) |
-| **Z** (*zero*) | il risultato è zero (NOR di tutti i bit) |
-| **C** (*carry*) | c'è stato riporto in uscita (aritmetica senza segno) |
-| **V** (*overflow*) | overflow in complemento a due |
 
-## Da ricordare
-- $A - B = A + \overline{B} + 1$: stesso sommatore, con inverter e $C_{in}=1$.
-- Uguaglianza: XNOR bit a bit + AND globale.
-- Magnitudine: sottrai e guarda il segno.
-- ALU = sommatore + logiche + mux, comandata da ALUControl; produce N, Z, C, V.
+| Flag               | Significato                                          |
+| ------------------ | ---------------------------------------------------- |
+| **N** (*negative*) | il risultato è negativo (msb = 1)                    |
+| **Z** (*zero*)     | il risultato è zero (NOR di tutti i bit)             |
+| **C** (*carry*)    | c'è stato riporto in uscita (aritmetica senza segno) |
+| **V** (*overflow*) | overflow in complemento a due                        |
+
+
+
+![[Sottrattori comparatori e ALU-1787753748972.webp|393]]

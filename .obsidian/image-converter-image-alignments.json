@@ -1,1 +1,36 @@
-{}
+{
+  "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Half adder e full adder.md": {
+    "dda6fee06cc605f50d0ef48f219b04cb": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9512bdc08d2a9e2616415ed6c91a06fc": {
+      "position": "right",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dc39b3745979ef194239df14234f5d96": {
+      "position": "center",
+      "width": "610px",
+      "height": "483px",
+      "wrap": false
+    },
+    "e63129a7b1bf080eacb26b651c1011c4": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Ripple carry adder.md": {
+    "6d3390f7cb32c2a96793430ef625ebd0": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  }
+}

@@ -22,6 +22,8 @@ Realizzazione: si usa un **normale [[Half adder e full adder|sommatore]]**, si i
 > [!tip] Conseguenza architetturale
 > Lo **stesso hardware** somma e sottrae. Basta un segnale di controllo che decide se invertire $B$ e mettere il carry in ingresso a 1. È il motivo per cui il complemento a due ha vinto.
 
+
+![[Sottrattori comparatori e ALU-1787752527431.webp]]
 ## Comparatori
 Un **comparatore** determina se due numeri binari sono uguali o se uno è maggiore o minore dell'altro.
 
@@ -41,7 +43,7 @@ Combinando il bit di segno con i flag di zero e overflow si ottengono tutte le r
 
 ## ALU (Arithmetic/Logical Unit)
 Un'**ALU** combina in un unico blocco una varietà di operazioni matematiche e logiche. Un'ALU tipica esegue **addizione, sottrazione, AND e OR**.
-
+![[Sottrattori comparatori e ALU-1787752697459.webp]]
 ### Struttura tipica
 - un **sommatore** condiviso per ADD e SUB (con inverter e mux su $B$);
 - porte **AND** e **OR** bit a bit;

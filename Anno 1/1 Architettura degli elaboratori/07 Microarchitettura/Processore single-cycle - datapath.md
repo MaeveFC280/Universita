@@ -29,7 +29,7 @@ Per l'istruzione `LDR` il passo successivo è **leggere il registro sorgente** c
 Il blocco Extend deve gestire **più formati** (immediato a 12 bit di LDR/STR, immediato a 8 bit con rotazione dei data-processing, immediato a 24 bit dei branch): è quindi comandato dal segnale **`ImmSrc`**.
 
 ## Passo 3 — LDR: calcolo dell'indirizzo
-L'**ALU** somma base e offset e produce `ALUResult` a 32 bit. Per `LDR`, `ALUControl` vale il codice dell'**addizione** (00).
+L'**[[Sottrattori comparatori e ALU|ALU]]** somma base e offset e produce `ALUResult` a 32 bit. Per `LDR`, `ALUControl` vale il codice dell'**addizione** (00).
 ![[Processore single-cycle - datapath-1787751198550.webp]]
 ## Passo 4 — LDR: accesso alla memoria dati
 `ALUResult` è l'indirizzo per la memoria dati. Il dato letto compare sul bus `ReadData`.

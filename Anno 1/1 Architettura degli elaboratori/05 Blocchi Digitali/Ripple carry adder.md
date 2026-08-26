@@ -4,7 +4,7 @@ tags:
   - aritmetica
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.1'
-Imparato: false
+Imparato: true
 Ordine: 502
 aliases:
   - ripple carry
@@ -14,31 +14,12 @@ Un **[[Half adder e full adder|sommatore]] a $N$ bit** somma due ingressi a $N$ 
 
 ## Costruzione
 Il modo **più semplice** di costruire un CPA a $N$ bit è mettere in **catena** $N$ full adder, collegando il $C_{out}$ di ciascuno al $C_{in}$ del successivo. Questo si chiama **ripple-carry adder** (sommatore a propagazione del riporto).
-
-```
-      A3 B3      A2 B2      A1 B1      A0 B0
-       |  |       |  |       |  |       |  |
-Cout <-FA<--C3---FA<--C2----FA<--C1----FA<-- Cin
-       |          |          |          |
-       S3         S2         S1         S0
-```
-
-## Prestazioni: il problema
+![[Ripple carry adder-1787752352610.webp|544]]
+## Prestazioni
 Il ritardo del ripple-carry adder **cresce linearmente con il numero di bit**, perché nel caso peggiore il riporto deve attraversare **tutti** gli stadi:
 
 $$t_{ripple} = N \cdot t_{FA}$$
 
 dove $t_{FA}$ è il ritardo di un full adder (precisamente il ritardo da $C_{in}$ a $C_{out}$).
 
-Esempio: con $t_{FA} = 300$ ps, un sommatore a 32 bit ha $t_{ripple} = 9{,}6$ ns. Su un processore da 1 GHz il ciclo di clock è 1 ns: inaccettabile.
-
-## Vantaggi e svantaggi
-| Pro | Contro |
-|---|---|
-| semplicissimo, regolare, modulare | **lento**: $O(N)$ |
-| area minima | il ritardo domina il cammino critico del processore |
-
-## Da ricordare
-- $t_{ripple} = N \cdot t_{FA}$: ritardo **lineare** in $N$.
-- È il sommatore più semplice e il più lento.
-- La soluzione al problema è il **carry-lookahead**.
+*Esempio: con $t_{FA} = 300$ ps, un sommatore a 32 bit ha $t_{ripple} = 9{,}6$ ns. Su un processore da 1 GHz il ciclo di clock è 1 ns: inaccettabile.*

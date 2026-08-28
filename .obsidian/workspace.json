@@ -30,16 +30,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Virgola mobile IEEE 754.md",
+                "file": "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Lo stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virgola mobile IEEE 754"
+              "title": "Lo stack"
+            }
+          },
+          {
+            "id": "4428edff45d7f199",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/esercizi schifosi.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "esercizi schifosi"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IEEE",
+                "query": "push",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,10 +232,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bcea3242d1604a2b",
+  "active": "4428edff45d7f199",
   "lastOpenFiles": [
-    "EXTRA/Immagini/Virgola mobile IEEE 754-1787915219442.webp",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Lo stack.md",
+    "Excalidraw/esercizi schifosi.md",
+    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Array e modalita di indirizzamento.md",
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Virgola mobile IEEE 754.md",
+    "Excalidraw/schematic t=abc....md",
+    "EXTRA/Immagini/Virgola mobile IEEE 754-1787915219442.webp",
     "Hub.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - datapath.md",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - prestazioni.md",
@@ -243,7 +260,6 @@
     "EXTRA/Immagini/Half adder e full adder-1787752188388.webp",
     "EXTRA/Immagini/Half adder e full adder-1787751995485.webp",
     "EXTRA/Immagini/Half adder e full adder-1787751947297.webp",
-    "EXTRA/Immagini/Processore single-cycle - datapath-1787751198550.webp",
     "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Analisi delle prestazioni e CPI.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Flag di condizione e istruzione CMP.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni.md",
@@ -251,14 +267,10 @@
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Branch ed esecuzione condizionale.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Istruzioni logiche e di shift.md",
     "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Operandi.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Array e modalita di indirizzamento.md",
     "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Mappe di Karnaugh.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Procedura di progetto di una FSM.md",
     "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Macchine a stati finiti - Moore e Mealy.md",
     "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Contatori e shift register.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Cicli in assembly.md",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali/Carry lookahead adder.md",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale/Progetto sincrono e race condition.md",
     "EXTRA/Immagini/aws-architecture-icons.excalidrawlib",
     "EXTRA/Immagini/system-design-template.excalidrawlib",
     "EXTRA/Immagini/system-design.excalidrawlib",

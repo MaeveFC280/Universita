@@ -27,30 +27,19 @@ Nel formato IEEE 754 la base è **2** e la mantissa è **binaria**. Il vantaggio
 | **esponente** | 30:23 | 8 bit |
 | **frazione** | 22:0 | 23 bit |
 ![[Virgola mobile IEEE 754-1787915219442.webp|445x334]]
-### Le due convenzioni chiave
-
-#### 1. Il leading one implicito
 In virgola mobile binaria, il **primo bit della mantissa** (quello a sinistra del punto binario) è **sempre 1** per un numero normalizzato. Essendo sempre 1, **non viene memorizzato**: si guadagna un bit di precisione gratis.
 
 Quindi la mantissa vale $1.\text{frazione}$, e nei 23 bit si memorizza solo la parte **frazionaria**. La precisione effettiva è di 24 bit.
 
-#### 2. L'esponente polarizzato (biased)
 L'esponente non è memorizzato in [[Segno, modulo e complemento a due|complemento a due]], ma con un **bias**:
 
 $$E_{memorizzato} = E_{reale} + 127$$
 
 Il bias per la precisione singola è **127** ($2^{8-1}-1$). Vantaggio: gli esponenti così codificati si possono confrontare come **interi senza segno**, il che semplifica enormemente il confronto tra numeri in virgola mobile.
 
-### Valore rappresentato
+
 $$V = (-1)^{S} \times 1.F \times 2^{(E - 127)}$$
 
-### Esempio: convertire $228_{10}$
-1. In binario: $11100100_2$
-2. Normalizzato: $1{,}1100100 \times 2^7$
-3. Segno: 0 (positivo)
-4. Esponente memorizzato: $7 + 127 = 134 = 10000110_2$
-5. Frazione (i 23 bit dopo il punto): $1100100\,0000\dots$
-6. Risultato: `0 10000110 11001000000000000000000`
 
 ### Casi speciali
 Lo standard IEEE riserva alcune combinazioni di esponente per valori che non esistono come numeri normali:

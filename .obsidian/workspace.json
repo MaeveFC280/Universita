@@ -8,16 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "93c7445dad8c0472",
+            "id": "96a63379d7fae374",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Hub.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "mode": "source",
+                "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -25,29 +24,17 @@
             }
           },
           {
-            "id": "e72ced2e964e247d",
+            "id": "82bf8da04f758ba0",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
+                "file": "Hub.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
-            }
-          },
-          {
-            "id": "1adee959f6215eaa",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-                "viewName": "Tabella"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "Architettura degli Elaboratori"
+              "icon": "lucide-file",
+              "title": "Hub"
             }
           }
         ],
@@ -85,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "masking",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione Object-Oriented.base",
+                "file": "Basi di dati.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti"
+              "title": "Riferimenti a Basi di dati"
             }
           },
           {
@@ -145,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione Object-Oriented.base",
+                "file": "Basi di dati/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita"
+              "title": "Collegamenti in uscita da SQL"
             }
           },
           {
@@ -161,7 +148,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -188,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione Object-Oriented.base",
+                "file": "Basi di dati/SQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Struttura di SQL"
             }
           },
           {
@@ -208,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -228,55 +215,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "flashcards-obsidian:Generate flashcards": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "circuit-sketcher:Create new Circuit Sketcher file": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e72ced2e964e247d",
+  "active": "82bf8da04f758ba0",
   "lastOpenFiles": [
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Glitch.md",
-    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-    "Hub.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Timing combinatorio - ritardo di propagazione e cammino critico.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Decoder.md",
-    "EXTRA/Immagini/Decoder-1786801160458.webp",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Multiplexer.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Mappe di Karnaugh.md",
-    "EXTRA/Immagini/Mappe di Karnaugh-1786800913242.webp",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Terminologia booleana - letterali mintermini maxtermini.md",
-    "EXTRA/Immagini/Mappe di Karnaugh-1786800841780.webp",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/X e Z - don t care contention e nodi flottanti.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Da equazioni a schemi - logica a due livelli.md",
+    "Untitled.circuit-sketcher",
+    "Excalidraw/Libraries/local-library.excalidrawlib",
     "Excalidraw/schematic t=abc....md",
-    "EXTRA/Immagini/aws-architecture-icons.excalidrawlib",
-    "EXTRA/Immagini/system-design-template.excalidrawlib",
+    "Excalidraw/Libraries",
+    "Excalidraw",
     "EXTRA/Immagini/system-design.excalidrawlib",
+    "EXTRA/Immagini/system-design-template.excalidrawlib",
     "EXTRA/Immagini/stick-figures.excalidrawlib",
     "EXTRA/Immagini/software-architecture.excalidrawlib",
     "EXTRA/Immagini/post-it.excalidrawlib",
     "EXTRA/Immagini/network-topology-icons.excalidrawlib",
     "EXTRA/Immagini/it-logos.excalidrawlib",
-    "EXTRA/Immagini/icons.excalidrawlib",
-    "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Teorema di De Morgan e bubble pushing.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Forme canoniche SOP e POS.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
     "EXTRA/Immagini/Multiplexer-1786796112833.webp",
     "EXTRA/Immagini/Multiplexer-1786796073484.webp",
     "EXTRA/Immagini/Multiplexer-1786796053621.webp",
     "EXTRA/Immagini/Multiplexer-1786796041455.webp",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - datapath.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - prestazioni.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - datapath.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - prestazioni.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore multiciclo - controllo a FSM.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Microarchitettura - datapath e unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Analisi delle prestazioni e CPI.md",
+    "EXTRA/Immagini/Mappe di Karnaugh-1786800913242.webp",
+    "EXTRA/Immagini/Mappe di Karnaugh-1786800841780.webp",
+    "EXTRA/Immagini/Decoder-1786801160458.webp",
+    "Hub.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
     "EXTRA/Immagini/Circuiti combinatori e sequenziali-1786461928431.webp",
-    "Anno 1/1 Programmazione/Senza nome.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione digitale e quantita di informazione.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Sistemi di numerazione binario e esadecimale.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Livelli logici e margini di rumore.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Segno, modulo e complemento a due.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Addizione binaria e overflow.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Byte nibble word e prefissi binari.md",
+    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione e gestione della complessita.md",
+    "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
+    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
+    "Anno 1/1 Architettura degli elaboratori/00 MOC - Architettura Digitale.md",
+    "Anno 1/1 Architettura degli elaboratori/Come parlano codice e hardware.md",
+    "Anno 1/1 Architettura degli elaboratori/Architettura Digitale/01 Fondamenti/Addizione binaria e overflow.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Page table e TLB.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Metriche di prestazione - miss rate e AMAT.md",
     "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Memoria virtuale - concetti.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Gerarchia di memoria e principi di localita.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache set associative e fully associative.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache direct mapped.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
+    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
+    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
     "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
     "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
     "Senza nome 1.canvas",

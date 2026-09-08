@@ -1,5 +1,4 @@
 [
-  "mlir-syntax-highlight",
   "table-editor-obsidian",
   "tag-wrangler",
   "url-into-selection",
@@ -9,10 +8,10 @@
   "obsidian-style-settings",
   "obsidian-latex-suite",
   "ink",
-  "heatmap-calendar",
   "url-formatter",
   "obsidian-excalidraw-plugin",
-  "execute-code",
   "image-converter",
-  "obsidian-git"
+  "obsidian-git",
+  "extended-markdown-syntax",
+  "extended-code-highlight"
 ]

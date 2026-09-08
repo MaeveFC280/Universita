@@ -16,15 +16,12 @@ Un circuito digitale è un **modulo** che si può vedere come una *black box* co
 - uno o più **terminali di ingresso** a valori discreti;
 - uno o più **terminali di uscita** a valori discreti;
 - una **specifica funzionale** che descrive la relazione tra ingressi e uscite;
-- una **specifica temporale** che descrive il ritardo tra il cambio degli ingressi e
-  il cambio delle uscite.
+- una **specifica temporale** che descrive il ritardo tra il cambio degli ingressi e il cambio delle uscite.
 ![[Circuiti combinatori e sequenziali-1786461928431.webp]]
 ## Nodi ed elementi
 Un circuito è una rete che elabora variabili a valori discreti, ed è composto da:
 - **elementi**: essi stessi circuiti (con ingressi, uscite, specifiche);
-- **nodi**: i fili che collegano gli elementi. Un nodo è classificato come
-  **ingresso**, **uscita** o **interno** (nodo di collegamento non visibile
-  dall'esterno).
+- **nodi**: i fili che collegano gli elementi. Un nodo è classificato come **ingresso**, **uscita** o **interno** (nodo di collegamento non visibile dall'esterno).
 
 ## La classificazione fondamentale
 | Tipo | Le uscite dipendono da… | Ha memoria? |
@@ -35,16 +32,11 @@ Un circuito è una rete che elabora variabili a valori discreti, ed è composto 
 ## Regole di composizione combinatoria
 Un circuito è combinatorio se e solo se:
 1. ogni suo elemento è **esso stesso combinatorio**;
-2. ogni nodo è o un ingresso del circuito, o è connesso a **esattamente una** uscita di
-   un elemento;
-3. il circuito **non contiene cammini ciclici**: ogni percorso attraversa ogni nodo al
-   massimo una volta.
+2. ogni nodo è o un ingresso del circuito, o è connesso a **esattamente una** uscita di un elemento;
+3. il circuito **non contiene cammini ciclici**: ogni percorso attraversa ogni nodo al massimo una volta.
 
 > [!warning] Il punto 3 è quello che discrimina
-> Un anello di retroazione (*cyclic path*) rende il circuito sequenziale, non
-> combinatorio. → [[Progetto sincrono e race condition]]
+> Un anello di retroazione (*cyclic path*) rende il circuito sequenziale, non combinatorio, ed è rilevante nel [[Progetto sincrono e race condition|progetto sincrono]].
 
 ## Notazione dei bus
-Quando il numero di bit non è rilevante o è ovvio dal contesto, si usa una linea
-singola con una **barra e un numero** che indica la larghezza del bus (es. `/8`).
-
+Quando il numero di bit non è rilevante o è ovvio dal contesto, si usa una linea singola con una **barra e un numero** che indica la larghezza del bus (es. `/8`).

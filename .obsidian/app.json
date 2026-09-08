@@ -6,5 +6,8 @@
   "openBehavior": "file:HOMEPAGE",
   "newFileLocation": "current",
   "attachmentFolderPath": "EXTRA/Immagini",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "showLineNumber": false
 }

@@ -17,11 +17,8 @@ aliases:
 ## Notazione posizionale e base
 In un sistema posizionale ogni cifra è moltiplicata per il **peso** della propria colonna. La base si indica con un pedice per evitare ambiguità: $1101_2$, $27_{10}$, $1B_{16}$.
 
-- **Decimale (base 10)**: pesi $10^0, 10^1, 10^2, \dots$
-  Un numero decimale a $N$ cifre rappresenta uno di $10^N$ valori: da $0$ a $10^N - 1$.
-  Questo intervallo si chiama **range**.
-- **Binario (base 2)**: ogni colonna ha peso doppio della precedente ($1, 2, 4, 8, 16, \dots$).
-  Un numero binario a $N$ bit rappresenta uno di $2^N$ valori: da $0$ a $2^N - 1$.
+- **Decimale (base 10)**: pesi $10^0, 10^1, 10^2, \dots$ Un numero decimale a $N$ cifre rappresenta uno di $10^N$ valori: da $0$ a $10^N - 1$. Questo intervallo si chiama **range**.
+- **Binario (base 2)**: ogni colonna ha peso doppio della precedente ($1, 2, 4, 8, 16, \dots$). Un numero binario a $N$ bit rappresenta uno di $2^N$ valori: da $0$ a $2^N - 1$.
 - **Esadecimale (base 16)**: cifre `0-9` più `A-F` (A=10 … F=15).
 
 ## Bit più e meno significativo
@@ -55,8 +52,7 @@ Un gruppo di 4 bit rappresenta uno di $2^4 = 16$ valori: quindi **una cifra esad
 
 ## Conversioni
 ### Binario → decimale
-Somma dei pesi delle colonne con bit a 1.
-*Esempio:* $10110_2 = 16 + 4 + 2 = 22_{10}$
+Somma dei pesi delle colonne con bit a 1. *Esempio:* $10110_2 = 16 + 4 + 2 = 22_{10}$
 
 ### Decimale → binario
 #### Metodo dei resti
@@ -72,15 +68,12 @@ Si divide ripetutamente per 2 partendo da destra; **il resto va nella colonna**.
  2 / 2 =  1  resto 0
  1 / 2 =  0  resto 1   -> msb
 ```
- *Leggendo dall'ultimo al primo: $1010100_2$.*
+*Leggendo dall'ultimo al primo: $1010100_2$.*
 #### Metodo per sottrazione dei pesi
-Si parte dalla potenza di 2 più grande contenuta nel numero e si sottrae.
-*Esempio: * $84 = 64 + 16 + 4 \Rightarrow 1010100_2$.
+Si parte dalla potenza di 2 più grande contenuta nel numero e si sottrae. *Esempio: * $84 = 64 + 16 + 4 \Rightarrow 1010100_2$.
 
 ### Esadecimale ↔ binario
-Sostituzione diretta di ogni cifra con i suoi 4 bit (e viceversa, raggruppando a 4
-**partendo da destra**).
-*Esempio:* $2ED_{16} = 0010\ 1110\ 1101_2$
+Sostituzione diretta di ogni cifra con i suoi 4 bit (e viceversa, raggruppando a 4 **partendo da destra**). *Esempio:* $2ED_{16} = 0010\ 1110\ 1101_2$
 
 ### Esadecimale → decimale
 *Esempio:* $2ED_{16} = 2 \cdot 256 + 14 \cdot 16 + 13 = 749_{10}$

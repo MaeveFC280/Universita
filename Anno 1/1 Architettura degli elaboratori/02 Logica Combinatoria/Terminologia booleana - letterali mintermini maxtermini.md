@@ -29,9 +29,6 @@ Dalla più alta alla più bassa:
 1. **NOT**
 2. **AND**
 3. **OR**
-Quindi $Y = A + BC$ si legge $A$ OR ($B$ AND $C$), e $\overline{A} + B \ne \overline{A+B}$.
-Simile all'algebra classica. 
+Quindi $Y = A + BC$ si legge $A$ OR ($B$ AND $C$), e $\overline{A} + B \ne \overline{A+B}$. Simile all'algebra classica.
 ## Tabelle di verità
-Una tabella di verità con $N$ ingressi ha $2^N$ righe, una per ogni combinazione dei
-valori d'ingresso. La specifica funzionale di un circuito combinatorio si esprime
-tipicamente come tabella di verità o come equazione booleana.
+Una [[Porte logiche|tabella di verità]] con $N$ ingressi ha $2^N$ righe, una per ogni combinazione dei valori d'ingresso. La specifica funzionale di un [[Circuiti combinatori e sequenziali|circuito combinatorio]] si esprime tipicamente come tabella di verità o come equazione booleana.

@@ -21,3 +21,25 @@ while(x>=0){
 y+=3;
 
 ```
+
+void modifica(int *p) {
+    if (*p >= 4) {
+        *p = *p + 2;
+    }
+    else {
+        p = p + 1;
+    }
+}
+```
+PUSH(R1)
+LDR R1 [R0]
+CMP R1 #4
+BLT ELSE
+ADD R1 R1 #2
+STR R1 [R0]
+B END
+ELSE
+ADD R0 R0 #4
+END
+POP(R1)
+```

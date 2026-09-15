@@ -16,8 +16,7 @@ views:
       and:
         - file.ext == "base"
         - file.basename != "Materie"
-        - formula.voto.isEmpty()
-        - file.basename != "Esami superati"
+        - "!formula.voto.isEmpty()"
     order:
       - file.basename
       - formula.voto

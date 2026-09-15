@@ -9,22 +9,16 @@ banner_position: 62
 ✧Ispirazione✧: Sei il tuo peggior nemico, non lasciarti abbattere
 Piano B: Mi apro una pasticceria/caffè...
 ---
-# Appunti
+# In corso
 ![[Materie.base]]
-
-# Obbiettivi anno 1
-- [x] Superare Programmazione in C
-- [x] Superare BDD il 22 giugno
-- [x] Superare POO il 24 giugno
-- [x] Finire e consegnare progetto BDD
-- [x] Finire e consegnare progetto POO
-- [ ] Superare ADE 
 ![[HOMEPAGE-1781880885898.webp|697|328x323]] ![[HOMEPAGE-1781880936025.webp|292x365]]
 
-# Obbiettivi anno 2
-- [ ] Capire che materia a scelta voglio fare
+# Obbiettivi anno: 2
+- [x] Capire che materia a scelta voglio fare
 - [ ] Superare analisi
+- [ ] Superare fisica
+- [ ] Superare geometria
+- [ ] Superare architettura degli elaboratori
 - [ ] Superare algebra
-# Risorse utili
-### Architettura degli elaboratori
-- https://siliconfromscratch.com/ 
+# Superati
+![[Esami superati.base]]

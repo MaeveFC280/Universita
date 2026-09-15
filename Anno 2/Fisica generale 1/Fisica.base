@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: Schede
+    filters:
+      and:
+        - Materia == "Fisica"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    sort:
+      - property: Ordine
+        direction: ASC

@@ -127,3 +127,6 @@ $$
 y \underline{\subset}B\ \ f^{-1}(y)=\{x \in A|f(a)\in y\}
 $$
 controiimagine o immagini inversa di y mediante f
+
+
+freccia storta: relazione sul ingolo elemento

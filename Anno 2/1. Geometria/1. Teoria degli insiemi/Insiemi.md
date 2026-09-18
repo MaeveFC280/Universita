@@ -130,3 +130,5 @@ controiimagine o immagini inversa di y mediante f
 
 
 freccia storta: relazione sul ingolo elemento
+
+## comporre applicazioni

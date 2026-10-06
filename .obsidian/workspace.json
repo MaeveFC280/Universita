@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Hub.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -24,45 +24,45 @@
             }
           },
           {
-            "id": "5d75b7a2e8d31344",
+            "id": "d3558e1e62a6fc8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
+                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare uniforme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Circuiti combinatori e sequenziali"
+              "title": "Moto circolare uniforme"
             }
           },
           {
-            "id": "47acb5bff35661df",
+            "id": "c48aad6d65259c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Sistemi di numerazione binario e esadecimale.md",
+                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemi di numerazione binario e esadecimale"
+              "title": "Moti particolari"
             }
           },
           {
-            "id": "31df3c0a90a0d1be",
+            "id": "8f2563ca31559378",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione digitale e quantita di informazione.md",
+                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Astrazione digitale e quantita di informazione"
+              "title": "Velocità e accelerazione"
             }
           }
         ],
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "funzione pari",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "ade0433a82c55bf1",
@@ -233,6 +232,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Apri selettore rapido": false,
       "daily-notes:Apri nota giornaliera": false,
       "graph:Apri vista grafo": false,
@@ -240,60 +240,57 @@
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "bases:Crea nuova Base": false,
-      "markdown-importer:Apri importazione Markdown": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "flashcards-obsidian:Generate flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5d75b7a2e8d31344",
+  "active": "d3558e1e62a6fc8f",
   "lastOpenFiles": [
-    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Livelli logici e margini di rumore.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Segno, modulo e complemento a due.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Addizione binaria e overflow.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Sistemi di numerazione binario e esadecimale.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Byte nibble word e prefissi binari.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione digitale e quantita di informazione.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione e gestione della complessita.md",
-    "Anno 1/1 Architettura degli elaboratori/Formulario e sigle.md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Assiomi e teoremi dell algebra di Boole.md",
-    "Anno 1/1 Architettura degli elaboratori/00 MOC - Architettura Digitale.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare uniforme.md",
+    "Anno 2/1. Fisica generale 1/Fisica.base",
+    "EXTRA/Immagini/Moto circolare-1791271490507.webp",
+    "Anno 2/1. Fisica generale 1/Formulario.md",
+    "EXTRA/Immagini/Moto circolare-1791269114705.webp",
+    "EXTRA/Immagini/Moto circolare-1791269019916.webp",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
     "Hub.md",
-    "Anno 1/1 Architettura degli elaboratori/Come parlano codice e hardware.md",
-    "Anno 1/1 Architettura degli elaboratori/Architettura Digitale/01 Fondamenti/Addizione binaria e overflow.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Page table e TLB.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Metriche di prestazione - miss rate e AMAT.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Memoria virtuale - concetti.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Gerarchia di memoria e principi di localita.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache set associative e fully associative.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache direct mapped.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Cache - organizzazione e parametri.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria/Blocchi politiche di sostituzione e scrittura.md",
-    "Anno 1/1 Architettura degli elaboratori/08 Sistemi di Memoria",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Processore single-cycle - prestazioni.md",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM",
-    "Anno 1/1 Architettura degli elaboratori/05 Blocchi Digitali",
-    "Anno 1/1 Architettura degli elaboratori/03 Logica Sequenziale",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti",
-    "EXTRA/basi",
-    "Anno 1/1 Architettura degli elaboratori/Architettura Digitale/08 Sistemi di Memoria",
-    "EXTRA/Immagini/Sistemi di numerazione-1785676210811.webp",
-    "EXTRA/Immagini/Sistemi di numerazione-1785675970006.webp",
-    "EXTRA/Immagini/Sistema di numerazione binario-1785675238165.webp",
-    "EXTRA/Immagini/Logic gates-1785675053477.webp",
-    "EXTRA/Immagini/Logic gates-1785674899875.webp",
-    "EXTRA/Immagini/Logic gates-1785674529626.webp",
-    "EXTRA/Immagini/DAO-1783334707133.webp",
-    "EXTRA/Immagini/DAO-1783249852936.webp",
-    "EXTRA/Immagini/DAO-1783249200494.webp",
-    "EXTRA/Immagini/DAO-1783249153937.webp",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Movimento unidirezionale.md",
+    "Anno 2/1. Fisica generale 1/Qualcosa.md",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori e spazi vettoriali.md",
+    "Anno 2/1. Geometria/Geometria.base",
+    "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Operazioni.md",
+    "Anno 2/1. Geometria.zip",
+    "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Matrici.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Insiemi.md",
+    "Anno 1/1 Analisi/Analisi.base",
+    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
+    "Anno 1/1 Analisi/Funzioni elementari.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Proprietà delle funzioni reali.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Funzioni.md",
+    "Anno 1/1 Analisi.zip",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/boh.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Relazioni.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari",
+    "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche",
+    "EXTRA/Immagini/Vettori-1790939959238.webp",
+    "EXTRA/Immagini/Vettori-1790939919483.webp",
+    "Anno 1/2 Basi di dati/Basi di dati.base",
+    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Vettori.md",
+    "EXTRA/Immagini/Vettori-1790780304805.webp",
+    "EXTRA/Immagini/Vettori-1790780048975.webp",
+    "EXTRA/Immagini/Vettori-1790779878428.webp",
+    "EXTRA/Immagini/Vettori-1790779713030.webp",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
+    "EXTRA/Immagini/Moto in più direzioni-1790778471547.webp",
+    "EXTRA/Excalidraw/triangolo.md",
+    "Anno 2/1. Fisica generale 1/Basi.md",
+    "Excalidraw/Drawing 2026-09-29 09.31.38.excalidraw.md",
+    "Anno 2/1. Geometria/1. Vettori e spazi Euclidei/Senza nome 1.base",
     "Senza nome 1.canvas",
     "Senza nome.canvas"
   ]

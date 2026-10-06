@@ -7,6 +7,7 @@
     "Imparato": "checkbox",
     "Ordine": "number",
     "Verbalizzato": "checkbox",
-    "Voto": "number"
+    "Voto": "number",
+    "Materia": "multitext"
   }
 }

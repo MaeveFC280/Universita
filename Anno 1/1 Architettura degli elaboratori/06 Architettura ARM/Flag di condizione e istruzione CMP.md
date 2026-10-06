@@ -5,19 +5,15 @@ tags:
   - assembly
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 6.3.2'
-Imparato: false
+Imparato: true
 Ordine: 606
 aliases:
   - CMP
   - flag NZCV
   - condition flags
 ---
-
-# Flag di condizione e istruzione CMP
-
 ## I flag
-Le istruzioni ARM possono **opzionalmente** aggiornare i **flag di condizione** (o
-*status bits*) in base al risultato prodotto. I quattro flag sono:
+Le istruzioni ARM possono **opzionalmente** aggiornare i **flag di condizione** (o *status bits*) in base al risultato prodotto. I quattro flag sono:
 
 | Flag | Nome | Vale 1 quando |
 |---|---|---|
@@ -31,8 +27,7 @@ I flag risiedono nel registro di stato del processore (**CPSR**).
 ## Come si impostano i flag
 
 ### Con il suffisso S
-Aggiungendo **`S`** al mnemonico, l'istruzione aggiorna i flag oltre a scrivere il
-risultato:
+Aggiungendo **`S`** al mnemonico, l'istruzione aggiorna i flag oltre a scrivere il risultato:
 ```
 ADDS R0, R1, R2     ; R0 = R1 + R2  E aggiorna N,Z,C,V
 SUBS R0, R1, R2     ; idem per la sottrazione
@@ -47,30 +42,25 @@ CMP R1, R2          ; calcola R1 - R2, aggiorna i flag, SCARTA il risultato
 CMP R1, #10         ; confronta con un immediato
 ```
 
-`CMP` **sottrae** il secondo operando dal primo e aggiorna i flag, ma **non memorizza**
-il risultato in alcun registro. Serve unicamente a preparare i flag per un'istruzione
-condizionale successiva.
+`CMP` **sottrae** il secondo operando dal primo e aggiorna i flag, ma **non memorizza** il risultato in alcun registro. Serve unicamente a preparare i flag per un'istruzione condizionale successiva.
 
-Istruzioni analoghe:
-| Istruzione | Operazione (risultato scartato) |
-|---|---|
-| `CMP Rn, Op2` | $Rn -$ Op2 |
-| `CMN Rn, Op2` | $Rn +$ Op2 (*compare negative*) |
-| `TST Rn, Op2` | $Rn$ AND Op2 (test di bit) |
-| `TEQ Rn, Op2` | $Rn$ EOR Op2 (test di uguaglianza) |
+| Istruzione    | **Operazione (risultato scartato)** |
+| ------------- | ----------------------------------- |
+| `CMP Rn, Op2` | $Rn -$ Op2                          |
+| `CMN Rn, Op2` | $Rn +$ Op2 (*compare negative*      |
+| `TST Rn, Op2` | $Rn$ AND Op2 (test di bit)          |
+| `TEQ Rn, Op2` | $Rn$ EOR Op2 (test di uguaglianza)  |
 
 ## Come si leggono i flag
-Le **istruzioni successive** possono eseguirsi **condizionalmente** in base allo stato dei
-flag. È il meccanismo che implementa `if`, i cicli e i salti condizionati
-(→ [[Branch ed esecuzione condizionale]]).
+Le **istruzioni successive** possono eseguirsi **condizionalmente** in base allo stato dei flag. Con questo meccanismo si implementa `if` tramite [[Branch ed esecuzione condizionale|i cicli e i salti condizionati]].
 
-Esempio dell'idioma fondamentale:
+*Esempio dell'idioma fondamentale:*
 ```
 CMP  R1, R2         ; confronta
-BEQ  uguali         ; salta se erano uguali (Z=1)
+BEQ  uguali         ; salta se sono uguali (Z=1)
 ```
 
-## Le principali condizioni
+### Le principali condizioni
 | Suffisso | Significato | Flag |
 |---|---|---|
 | `EQ` | uguale | $Z=1$ |
@@ -90,15 +80,3 @@ BEQ  uguali         ; salta se erano uguali (Z=1)
 
 > [!warning] Con segno vs senza segno
 > `GT/LT/GE/LE` sono per numeri **con segno**; `HI/LO/HS/LS` per numeri **senza segno**.
-> Usare la coppia sbagliata è un bug classico e silenzioso.
-
-## Da ricordare
-- **N, Z, C, V**.
-- I flag si aggiornano con il suffisso **`S`** o con **`CMP`/`CMN`/`TST`/`TEQ`**.
-- `CMP` = sottrazione con risultato scartato.
-- Coppie con segno (GE/LT/GT/LE) ≠ senza segno (HS/LO/HI/LS).
-
-## Domande flash
-1. Che differenza c'è tra `SUB` e `SUBS`?
-2. Dopo `CMP R1, R2` con R1=5 e R2=5: quali flag sono a 1?
-3. Perché servono condizioni distinte per numeri con e senza segno?

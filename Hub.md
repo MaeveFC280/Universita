@@ -9,19 +9,9 @@ banner_position: 62
 ✧Ispirazione✧: Sei il tuo peggior nemico, non lasciarti abbattere
 Piano B: Mi apro una pasticceria/caffè...
 ---
-# Appunti
-![[HOME.base]]
-
-# Obbiettivi anno 1
-- [x] Superare Programmazione in C
-- [x] Superare BDD il 22 giugno
-- [x] Superare POO il 24 giugno
-- [x] Finire e consegnare progetto BDD
-- [x] Finire e consegnare progetto POO
-- [ ] Superare ADE 
+# In corso
+![[Materie.base]]
 ![[HOMEPAGE-1781880885898.webp|697|328x323]] ![[HOMEPAGE-1781880936025.webp|292x365]]
 
-# Obbiettivi anno 2
-- [ ] Capire che materia a scelta voglio fare
-- [ ] Superare analisi
-- [ ] Superare algebra
+# Superati
+![[Esami superati.base]]

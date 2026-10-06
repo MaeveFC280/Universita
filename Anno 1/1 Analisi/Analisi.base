@@ -1,3 +1,14 @@
 views:
-  - type: table
+  - type: cards
     name: Tabella
+    filters:
+      and:
+        - Materia.contains("Analisi")
+    order:
+      - file.name
+      - Imparato
+      - tags
+    sort:
+      - property: Ordine
+        direction: ASC
+    cardSize: 220

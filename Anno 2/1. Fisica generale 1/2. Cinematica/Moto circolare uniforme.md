@@ -26,7 +26,6 @@ le seguenti:
 
 
 
-
 $$  
 |\vec r|=R=\text{costante}  
 $$

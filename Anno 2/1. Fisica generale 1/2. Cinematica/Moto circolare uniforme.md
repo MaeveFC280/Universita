@@ -17,8 +17,7 @@ $$
 
 Nel moto circolare, invece, anche se il **modulo della velocità** rimane costante, il vettore velocità cambia continuamente direzione. 
 
----
-## Moto circolare
+
 Consideriamo un punto materiale che si muove lungo una circonferenza di raggio $R$.
 
 $$  
@@ -32,6 +31,8 @@ $$
 $$
 
 La posizione del punto può essere descritta tramite l'angolo $\theta(t)$ misurato rispetto all'asse $x$.
+
+![[Moto circolare uniforme-1791289026748.webp|305x267]]
 
 Per convenzione:
 - rotazione **antioraria** $\rightarrow \omega>0$;
@@ -231,6 +232,8 @@ L'unità di misura è:
 $$  
 [\alpha]=\text{rad/s}^2  
 $$
+
+![[Moto circolare uniforme-1791289070200.webp]]
 
 ---
 
@@ -620,7 +623,9 @@ dove:
 - $\phi$ = **fase iniziale**;
     
 - $\Phi(t)=\omega t+\phi$ = **fase**.
-    
+
+
+![[Moto circolare uniforme-1791289048629.webp]]
 
 ---
 

@@ -17,15 +17,7 @@ $$
 
 Nel moto circolare, invece, anche se il **modulo della velocità** rimane costante, il vettore velocità cambia continuamente direzione. 
 
-
 Consideriamo un punto materiale che si muove lungo una circonferenza di raggio $R$.
-
-Chiamiamo $\theta (t)$ l’angolo (in radianti) che descrive la posizione del punto materiale sulla circonferenza in funzione del tempo ed il raggio.
-Lo spazio percorso (lunghezza arco) e la velocità scalare sono quindi 
-le seguenti:
-
-
-
 $$  
 |\vec r|=R=\text{costante}  
 $$
@@ -35,6 +27,21 @@ $$
 $$
 \vec{ v} \text{ cambia per seguire traiettoria}
 $$
+
+
+Chiamiamo $\theta (t)$ l’angolo (in radianti) che descrive la posizione del punto materiale sulla circonferenza in funzione del tempo ed il raggio.
+
+L'angolo di rotazione per unità di tempo è la **velocità angolare**: $$\omega(t)=\ddot{\theta}=R\omega(t)$$
+La sua unità di misura sono i $\text{rad/s}$
+
+Lo **spazio percorso** (lunghezza arco) e la **velocità scalare** sono quindi 
+le seguenti:
+$$  
+s(t)=R\theta(t)  
+$$
+$$v(t)=\frac{ds}{dt}=R \frac{d\theta}{dt}=R \omega(t)$$
+
+
 
 La posizione del punto può essere descritta tramite l'angolo $\theta(t)$ misurato rispetto all'asse $x$.
 
@@ -64,58 +71,9 @@ R\sin\theta(t)
 \end{pmatrix}  }
 $$
 
-Lo spazio percorso lungo la circonferenza è:
 
-$$  
-s(t)=R\theta(t)  
-$$
 
-dove $\theta$ deve essere espresso in **radianti**.
-
-Quindi angolo e spazio percorso sono legati da $s=R\theta$
-
----
-## Velocità angolare
-
-Definiamo la **velocità angolare**:
-
-$$  
-\boxed{\omega(t)=\frac{d\theta}{dt}}  
-$$
-
-La sua unità di misura sono i $\text{rad/s}$
-
-Dato che:
-
-$$  
-s(t)=R\theta(t)  
-$$
-
-derivando rispetto al tempo otteniamo:
-
-$$  
-v(t)=\frac{ds}{dt}  
-$$
-
-quindi:
-
-$$  
-v(t)=R\frac{d\theta}{dt}  
-$$
-
-e quindi:
-
-$$  
-\boxed{v(t)=R\omega(t)}  
-$$
-
-Questa è la relazione tra **velocità tangenziale** e **velocità angolare**.
-
----
-
-# Vettore velocità
-
-Partiamo da:
+Scegliendo un sistema che pone la propria origine al centro della circonferenza partiamo da:
 
 $$  
 \vec r(t)=  
@@ -125,29 +83,19 @@ R\sin\theta(t)
 \end{pmatrix}  
 $$
 
-Derivando rispetto al tempo:
-
-$$  
-\vec v(t)=\frac{d\vec r}{dt}  
-$$
+Derivando rispetto al tempo $\vec v(t)=\frac{d\vec r}{dt}$
 
 otteniamo:
 
 $$  
 \vec v(t)=  
 \begin{pmatrix}  
--R\sin\theta(t)\frac{d\theta}{dt}\  
+-R\sin\theta(t)\frac{d\theta}{dt}\\  
 R\cos\theta(t)\frac{d\theta}{dt}  
 \end{pmatrix}  
 $$
 
-Poiché:
-
-$$  
-\omega(t)=\frac{d\theta}{dt}  
-$$
-
-si ha:
+Poiché $\omega(t)=\frac{d\theta}{dt}$ si ha:
 
 $$  
 \vec v(t)=  
@@ -158,7 +106,7 @@ R\omega(t)
 \end{pmatrix}  
 $$
 
-Definiamo il **versore tangente**:
+Definiamo il **[[Vettori|versore]] tangente**:
 
 $$  
 \boxed{  
@@ -185,8 +133,7 @@ $$
 La velocità è quindi sempre **tangente alla traiettoria**.
 
 ---
-
-# Versore normale
+## Versore normale
 
 Oltre al versore tangente $\hat u_T$, introduciamo il **versore normale** $\hat u_N$.
 
@@ -203,47 +150,31 @@ $$
 $$
 
 Quindi:
-
 - $\hat u_T$ è tangente alla traiettoria;
-    
 - $\hat u_N$ è perpendicolare alla traiettoria e punta verso il centro.
-    
 
 I due versori cambiano continuamente direzione durante il moto.
 
 ---
-
-# Accelerazione angolare
-
+## Accelerazione angolare
 Se la velocità angolare cambia nel tempo definiamo l'**accelerazione angolare**:
 
 $$  
 \boxed{\alpha(t)=\frac{d\omega}{dt}}  
 $$
 
-Poiché:
-
-$$  
-\omega=\frac{d\theta}{dt}  
-$$
-
-si ha anche:
+Poiché $\omega=\frac{d\theta}{dt}$ si ha anche:
 
 $$  
 \boxed{\alpha(t)=\frac{d^2\theta}{dt^2}}  
 $$
 
-L'unità di misura è:
-
-$$  
-[\alpha]=\text{rad/s}^2  
-$$
+L'unità di misura è $[\alpha]=\text{rad/s}^2$
 
 ![[Moto circolare uniforme-1791289070200.webp]]
 
 ---
-
-# Accelerazione nel moto circolare
+## Accelerazione nel moto circolare
 
 La velocità è:
 
@@ -280,15 +211,10 @@ $$
 $$
 
 L'accelerazione possiede quindi **due componenti**:
+- accelerazione tangenziale $R\alpha$;
+- accelerazione normale o centripeta $R\omega^2$.
 
-- accelerazione tangenziale;
-    
-- accelerazione normale o centripeta.
-    
-
----
-
-## Accelerazione tangenziale
+### Accelerazione tangenziale
 
 La componente tangenziale è:
 
@@ -320,9 +246,7 @@ $$
 
 L'accelerazione tangenziale descrive quindi quanto rapidamente cambia il **modulo** della velocità.
 
----
-
-## Accelerazione normale o centripeta
+### Accelerazione normale o centripeta
 
 La componente normale è:
 
@@ -359,8 +283,7 @@ $$
 Questa accelerazione esiste anche quando il modulo della velocità rimane costante, perché cambia la **direzione** del vettore velocità.
 
 ---
-
-# Accelerazione totale
+## Accelerazione totale
 
 Poiché $\hat u_T$ e $\hat u_N$ sono perpendicolari:
 
@@ -395,64 +318,15 @@ $$
 }  
 $$
 
----
-
-# Moto circolare uniforme
-
-Nel **moto circolare uniforme** il modulo della velocità è costante:
-
-$$  
-v=\text{costante}  
-$$
-
-Di conseguenza anche la velocità angolare è costante:
-
-$$  
-\omega=\text{costante}  
-$$
-
-Quindi:
-
-$$  
-\alpha=0  
-$$
-
-e:
-
-$$  
-a_T=0  
-$$
-
-Rimane però l'accelerazione centripeta:
-
-$$  
-\boxed{\vec a=R\omega^2\hat u_N}  
-$$
-
-con modulo:
-
-$$  
-\boxed{a_N=R\omega^2=\frac{v^2}{R}}  
-$$
-
 Quindi nel moto circolare uniforme:
-
-- il **modulo** della velocità è costante;
-    
+- il **modulo** della velocità è costante;    
 - la **direzione** della velocità cambia continuamente;
-    
 - l'accelerazione tangenziale è nulla;
-    
 - esiste sempre l'accelerazione centripeta.
-    
-
-![[Moto circolare-1791271490507.webp]]
-
 ---
+## Periodo
 
-# Periodo
-
-Il moto circolare uniforme è un **moto periodico**, perché dopo un certo intervallo di tempo il punto ritorna nella stessa posizione.
+Il moto circolare uniforme è un **[[Moti particolari|moto periodico]]**, perché dopo un certo intervallo di tempo il punto ritorna nella stessa posizione.
 
 La lunghezza della circonferenza è:
 
@@ -492,9 +366,7 @@ $$
 \boxed{T=\frac{2\pi}{\omega}}  
 $$
 
----
-
-# Frequenza
+### Frequenza
 
 La **frequenza** indica quanti giri vengono compiuti in un secondo.
 
@@ -530,65 +402,29 @@ $$
 \boxed{\omega=2\pi f}  
 $$
 
----
-
-# Esempio: giostra
-
-Consideriamo una giostra rigida che ruota.
-
-Due punti posti a distanze diverse dal centro hanno la **stessa velocità angolare**:
-
-$$  
-\omega_1=\omega_2  
-$$
-
-perché compiono un giro nello stesso tempo.
-
-La velocità tangenziale però è:
-
-$$  
-v=R\omega  
-$$
-
-Quindi, a parità di $\omega$, chi si trova più lontano dal centro ha velocità tangenziale maggiore.
-
-Se:
-
-$$  
-R_2>R_1  
-$$
-
-allora:
-
-$$  
-v_2>v_1  
-$$
-
-Anche l'accelerazione centripeta:
-
-$$  
-a_N=R\omega^2  
-$$
-
+> [!example]- Esempio della giostra
+> Consideriamo una giostra rigida che ruota.
+> Due punti posti a distanze diverse dal centro hanno la **stessa velocità angolare** $\omega_1=\omega_2$ perché compiono un giro nello stesso tempo.
+> La velocità tangenziale però è $v=R\omega$, quindi, a parità di $\omega$, chi si trova più lontano dal centro ha velocità tangenziale maggiore. Se $R_2>R_1$ allora:
+>$$  
+>v_2>v_1  
+>$$
+>Anche l'accelerazione centripeta:
+>$$  
+>a_N=R\omega^2  
+>$$
 è maggiore per chi si trova più lontano dal centro.
-
 Quindi:
+>$$  
+>\boxed{  
+>R\uparrow \quad\Rightarrow\quad v\uparrow,\quad a_N\uparrow  
+>}  
+>$$
+>a parità di $\omega$.
 
-$$  
-\boxed{  
-R\uparrow \quad\Rightarrow\quad v\uparrow,\quad a_N\uparrow  
-}  
-$$
+###  Moto circolare uniforme e moto armonico
 
-a parità di $\omega$.
-
----
-
-# Moto circolare uniforme e moto armonico
-
-Il moto circolare uniforme **non è un moto armonico**.
-
-La **proiezione** del moto circolare uniforme su uno degli assi, invece, è un moto armonico.
+Il moto circolare uniforme **non è un moto armonico**, ma la **proiezione** del moto circolare uniforme su uno degli assi, invece, è un moto armonico.
 
 Nel moto circolare uniforme:
 
@@ -621,13 +457,9 @@ $$
 $$
 
 dove:
-
 - $A$ = **ampiezza**;
-    
 - $\omega$ = **pulsazione**;
-    
 - $\phi$ = **fase iniziale**;
-    
 - $\Phi(t)=\omega t+\phi$ = **fase**.
 
 
@@ -635,7 +467,7 @@ dove:
 
 ---
 
-# Coordinate cartesiane e coordinate polari
+## Coordinate cartesiane e coordinate polari
 
 Nel piano cartesiano descriviamo la posizione mediante:
 
@@ -687,18 +519,14 @@ $$
 
 quindi basta conoscere $\theta(t)$ per determinare la posizione del punto.
 
----
-
-# Descrizione intrinseca della traiettoria
+### Descrizione intrinseca della traiettoria
 
 Il ragionamento fatto per la circonferenza può essere esteso a una traiettoria generica.
 
 In ogni punto della traiettoria possiamo definire:
 
 - un **versore tangente** $\hat u_T$;
-    
 - un **versore normale** $\hat u_N$.
-    
 
 La velocità è sempre tangente alla traiettoria:
 
@@ -726,9 +554,7 @@ $$
 
 In questo caso $R$ non è necessariamente il raggio di una vera circonferenza percorsa dal corpo, ma rappresenta il **raggio di curvatura** della traiettoria in quel punto.
 
----
-
-# Cerchio osculatore
+### Cerchio osculatore
 
 Una traiettoria generica può essere approssimata **localmente** mediante una circonferenza.
 
@@ -756,9 +582,7 @@ $$
 
 L'accelerazione normale descrive quindi il cambiamento della **direzione** della velocità.
 
----
-
-# Collegamento con il moto parabolico
+### Collegamento con il moto parabolico
 
 Anche nel moto di un proiettile la velocità è sempre **tangente alla traiettoria**.
 
@@ -793,93 +617,3 @@ $$
 $$
 
 Questa descrizione segue direttamente la traiettoria, invece di utilizzare assi cartesiani fissi $x$ e $y$.
-
----
-
-# Formule fondamentali
-
-Velocità:
-
-$$  
-\boxed{\vec v=\frac{d\vec r}{dt}}  
-$$
-
-Accelerazione:
-
-$$  
-\boxed{\vec a=\frac{d\vec v}{dt}=\frac{d^2\vec r}{dt^2}}  
-$$
-
-Spazio percorso sulla circonferenza:
-
-$$  
-\boxed{s=R\theta}  
-$$
-
-Velocità angolare:
-
-$$  
-\boxed{\omega=\frac{d\theta}{dt}}  
-$$
-
-Velocità tangenziale:
-
-$$  
-\boxed{v=R\omega}  
-$$
-
-Accelerazione angolare:
-
-$$  
-\boxed{\alpha=\frac{d\omega}{dt}=\frac{d^2\theta}{dt^2}}  
-$$
-
-Accelerazione tangenziale:
-
-$$  
-\boxed{a_T=R\alpha=\frac{dv}{dt}}  
-$$
-
-Accelerazione normale:
-
-$$  
-\boxed{a_N=R\omega^2=\frac{v^2}{R}}  
-$$
-
-Accelerazione totale:
-
-$$  
-\boxed{\vec a=a_T\hat u_T+a_N\hat u_N}  
-$$
-
-Nel **moto circolare uniforme**:
-
-$$  
-\boxed{\alpha=0}  
-$$
-
-$$  
-\boxed{a_T=0}  
-$$
-
-$$  
-\boxed{a=a_N=R\omega^2=\frac{v^2}{R}}  
-$$
-
-Periodo:
-
-$$  
-\boxed{T=\frac{2\pi}{\omega}}  
-$$
-
-Frequenza:
-
-$$  
-\boxed{f=\frac1T}  
-$$
-
-Relazione tra pulsazione e frequenza:
-
-$$  
-\boxed{\omega=2\pi f}  
-$$

@@ -20,6 +20,13 @@ Nel moto circolare, invece, anche se il **modulo della velocità** rimane costan
 
 Consideriamo un punto materiale che si muove lungo una circonferenza di raggio $R$.
 
+Chiamiamo $\theta (t)$ l’angolo (in radianti) che descrive la posizione del punto materiale sulla circonferenza in funzione del tempo ed il raggio.
+Lo spazio percorso (lunghezza arco) e la velocità scalare sono quindi 
+le seguenti:
+
+
+
+
 $$  
 |\vec r|=R=\text{costante}  
 $$

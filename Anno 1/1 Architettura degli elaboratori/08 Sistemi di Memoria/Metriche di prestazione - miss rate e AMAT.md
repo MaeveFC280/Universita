@@ -25,7 +25,7 @@ $$HR = \frac{\text{numero di hit}}{\text{numero totale di accessi}} = 1 - MR$$
 ## AMAT
 L'**AMAT** (*average memory access time*, tempo medio di accesso alla memoria) è il tempo medio che il processore deve attendere per un accesso in lettura o scrittura.
 
-Nel caso di una [[Astrazione e gestione della complessita|gerarchia]] a tre livelli (cache, memoria principale, [[Memoria virtuale - concetti|memoria virtuale]]):
+Nel caso di una [[Astrazione e gestione della complessita|gerarchia]] a tre livelli (cache, memoria principale, [[Memoria virtuale|memoria virtuale]]):
 
 $$AMAT = t_{cache} + MR_{cache}\big(t_{MM} + MR_{MM}\, t_{VM}\big)$$
 

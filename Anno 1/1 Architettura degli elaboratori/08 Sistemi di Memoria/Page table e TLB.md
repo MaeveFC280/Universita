@@ -23,7 +23,7 @@ Struttura logica:
   - bit di **protezione** e di stato (lettura/scrittura/esecuzione, dirty, accessed).
 
 ### Procedura di traduzione
-1. Estrai il **VPN** dall'[[Memoria virtuale - concetti|indirizzo virtuale]].
+1. Estrai il **VPN** dall'[[Memoria virtuale|indirizzo virtuale]].
 2. Usa il VPN come **indice** nella page table.
 3. Se $V = 1$: prendi il **PPN** dalla voce e concatenalo all'**offset** → indirizzo fisico.
 4. Se $V = 0$: **page fault** — il sistema operativo carica la pagina dal disco.

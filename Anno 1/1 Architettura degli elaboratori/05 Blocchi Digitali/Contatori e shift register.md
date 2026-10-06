@@ -4,7 +4,7 @@ tags:
   - logica_sequenziale
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 5.4'
-Imparato: false
+Imparato: true
 Ordine: 508
 aliases:
   - contatore

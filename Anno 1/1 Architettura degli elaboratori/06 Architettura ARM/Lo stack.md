@@ -25,16 +25,16 @@ Lo **stack** è una porzione di memoria usata per **salvare informazioni all'int
 >  SP punta sempre alla cima dello stack, cioè al dato più recentemente inserito.
 
 ## Salvare i registri
-Uno degli usi importanti dello stack è **salvare e ripristinare i [[Registri ARM|registri]]** che la [[Funzioni|funzione]] modifica.
+Uno degli usi importanti dello stack è **salvare e ripristinare i [[Registri ARM|registri]]** che la [[Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni|funzione]] modifica.
 
-Una [[Funzioni|funzione|funzione]] **salva i registri sullo stack prima di modificarli**, e li **ripristina dallo stack prima di terminare**.
+Una [[Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni|funzione|funzione]] **salva i registri sullo stack prima di modificarli**, e li **ripristina dallo stack prima di terminare**.
 
 ## I cinque passi canonici
 Una funzione che deve usare registri preservati:
 
 1. **Fa spazio** sullo stack per memorizzare i [[Astrazione digitale e quantita di informazione|valori]] di uno o più [[Registri ARM|registri]].
 2. **Memorizza** i valori dei [[Registri ARM|registri]] sullo stack.
-3. **Esegue** la [[Funzioni|funzione]] usando quei [[Registri ARM|registri]].
+3. **Esegue** la [[Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni|funzione]] usando quei [[Registri ARM|registri]].
 4. **Ripristina** i valori originali dei [[Registri ARM|registri]] dallo stack.
 5. **Dealloca** lo spazio sullo stack.
 

@@ -43,8 +43,3 @@ Variante: $K$ stati con $K$ bit, di cui esattamente uno è **FALSE**.
 > un [[Contatori e shift register|contatore]] modulo 16 con codifica binaria usa 4 flip-flop, con one-hot ne userebbe 16).
 > - **One-hot**: quando gli stati sono pochi, si vuole logica veloce e semplice, o si
 > lavora su **FPGA**, dove i flip-flop sono abbondanti e "gratis" mentre la logica combinatoria è la risorsa scarsa.
-
-## Da ricordare
-- Non esiste una regola per la codifica ottima; si va per ispezione o con il CAD.
-- Binaria: pochi flip-flop, più logica. One-hot: molti flip-flop, poca logica.
-- Buona euristica: fai condividere bit a stati/uscite correlati.

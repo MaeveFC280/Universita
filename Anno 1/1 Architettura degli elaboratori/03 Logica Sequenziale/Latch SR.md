@@ -11,7 +11,7 @@ aliases:
   - set reset
 ---
 ## Struttura
-Uno dei circuiti sequenziali più semplici. È composto da **due porte NOR incrociate**. Ha due ingressi, $S$ e $R$, e due uscite, $Q$ e $\overline{Q}$.
+Uno dei circuiti sequenziali più semplici. È composto da **due porte NOR incrociate**. Ha due ingressi, $S$ e $R$ e due uscite, $Q$ e $\overline{Q}$.
 ![[Latch SR-1787399235549.webp|313]]
 È simile agli inverter incrociati, ma con la differenza cruciale che il suo stato **può essere controllato** tramite $S$ e $R$.
 ## Significato degli ingressi

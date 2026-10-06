@@ -47,7 +47,4 @@ Uno shifter a $N$ bit si costruisce con $N$ [[Multiplexer|multiplexer]] $N$:1 (u
 ## Nota su ARM
 Nell'architettura ARM lo shifter è **integrato nel [[Datapath e unita di controllo|datapath]]**: il secondo operando di un'istruzione può essere [[Istruzioni logiche e di shift|shiftato "gratis"]], nella stessa istruzione.
 
-## Da ricordare
-- LSL / LSR riempiono con 0; ASR replica il **segno**; ROR ricircola i bit.
-- Shift sinistro = ×$2^k$; shift destro = ÷$2^k$ (ASR per i numeri con segno).
-- Barrel shifter: $\log_2 N$ livelli di mux.
+

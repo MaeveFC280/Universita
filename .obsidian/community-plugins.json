@@ -2,16 +2,14 @@
   "table-editor-obsidian",
   "tag-wrangler",
   "url-into-selection",
-  "obsidian-outliner",
   "pretty-properties",
-  "flashcards-obsidian",
   "obsidian-style-settings",
   "obsidian-latex-suite",
   "ink",
   "url-formatter",
   "obsidian-excalidraw-plugin",
   "image-converter",
-  "obsidian-git",
   "extended-markdown-syntax",
-  "extended-code-highlight"
+  "extended-code-highlight",
+  "obsidian-git"
 ]

@@ -24,31 +24,45 @@
             }
           },
           {
-            "id": "ba405148678a0d5b",
+            "id": "d3558e1e62a6fc8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Geometria/1. Teoria degli insiemi/Insiemi.md",
+                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare uniforme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insiemi"
+              "title": "Moto circolare uniforme"
             }
           },
           {
-            "id": "2899ca9408266e23",
+            "id": "c48aad6d65259c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Insiemi.md",
+                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insiemi"
+              "title": "Moti particolari"
+            }
+          },
+          {
+            "id": "8f2563ca31559378",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Velocità e accelerazione"
             }
           }
         ],
@@ -86,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "funzione pari",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,61 +239,57 @@
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "bases:Crea nuova Base": false,
-      "markdown-importer:Apri importazione Markdown": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "flashcards-obsidian:Generate flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "95ae0ec5eaaffe1c",
+  "active": "d3558e1e62a6fc8f",
   "lastOpenFiles": [
-    "Anno 2/1. Geometria/5. Affini a spazi euclidei",
-    "Anno 2/1. Geometria/4. Mappe lineari",
-    "Anno 2/1. Geometria/3. Matrici",
-    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei",
-    "Anno 2/1. Geometria/1. Teoria degli insiemi",
-    "Anno 1/2 Algebra/Logica rudimentale ed insiemi/Insiemi.md",
-    "Anno 2/1. Geometria/1. Teoria degli insiemi/Insiemi.md",
-    "Anno 1/2 Algebra/Algebra lineare.base",
-    "Hub.md",
-    "esercizio.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare uniforme.md",
     "Anno 2/1. Fisica generale 1/Fisica.base",
-    "Anno 2/1. Analisi e progettazione di strutture dati/Basi.md",
-    "Anno 2/1. Fisica generale 1/1. Metrologia/Tempo.md",
-    "Anno 2/1. Fisica generale 1/1. Metrologia/Lunghezza.md",
-    "Esami superati.base",
-    "Materie.base",
-    "Anno 2/1. Elementi di informatica teorica/Basi.md",
-    "Anno 2/1. Elementi di informatica teorica/Modelli di calcolo",
-    "Anno 2/1. Elementi di informatica teorica/Calcolabilità",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/Cinematica.md",
-    "Anno 2/1. Fisica generale 1/1. Metrologia/Grandezze fisiche.md",
+    "EXTRA/Immagini/Moto circolare-1791271490507.webp",
+    "Anno 2/1. Fisica generale 1/Formulario.md",
+    "EXTRA/Immagini/Moto circolare-1791269114705.webp",
+    "EXTRA/Immagini/Moto circolare-1791269019916.webp",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
+    "Hub.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Movimento unidirezionale.md",
+    "Anno 2/1. Fisica generale 1/Qualcosa.md",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori e spazi vettoriali.md",
+    "Anno 2/1. Geometria/Geometria.base",
+    "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Operazioni.md",
+    "Anno 2/1. Geometria.zip",
+    "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Matrici.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Insiemi.md",
+    "Anno 1/1 Analisi/Analisi.base",
+    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
+    "Anno 1/1 Analisi/Funzioni elementari.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Proprietà delle funzioni reali.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Funzioni.md",
+    "Anno 1/1 Analisi.zip",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/boh.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Relazioni.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari",
+    "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche",
+    "EXTRA/Immagini/Vettori-1790939959238.webp",
+    "EXTRA/Immagini/Vettori-1790939919483.webp",
+    "Anno 1/2 Basi di dati/Basi di dati.base",
+    "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Vettori.md",
+    "EXTRA/Immagini/Vettori-1790780304805.webp",
+    "EXTRA/Immagini/Vettori-1790780048975.webp",
+    "EXTRA/Immagini/Vettori-1790779878428.webp",
+    "EXTRA/Immagini/Vettori-1790779713030.webp",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
+    "EXTRA/Immagini/Moto in più direzioni-1790778471547.webp",
+    "EXTRA/Excalidraw/triangolo.md",
     "Anno 2/1. Fisica generale 1/Basi.md",
-    "EXTRA/basi/Base.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Addizione binaria e overflow.md",
-    "conflict-files-obsidian-git.md",
-    "EXTRA/Excalidraw/esercizi schifosi.md",
-    "EXTRA/Immagini/Virgola mobile IEEE 754-1787915219442.webp",
-    "EXTRA/Immagini/Sottrattori comparatori e ALU-1787753783380.webp",
-    "EXTRA/Immagini/Sottrattori comparatori e ALU-1787753748972.webp",
-    "EXTRA/Immagini/Sottrattori comparatori e ALU-1787752697459.webp",
-    "EXTRA/Immagini/Sottrattori comparatori e ALU-1787752527431.webp",
-    "EXTRA/Immagini/Ripple carry adder-1787752352610.webp",
-    "EXTRA/Immagini/Processore single-cycle - datapath-1787751198550.webp",
-    "EXTRA/Immagini/Processore single-cycle - datapath-1787749128341.webp",
-    "EXTRA/Immagini/Processore single-cycle - datapath-1787749081759.webp",
-    "EXTRA/Immagini/Processore single-cycle - datapath-1787749078738.webp",
-    "Anno 1/1 Architettura degli elaboratori/07 Microarchitettura/Datapath e unita di controllo.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Principi di assembly.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Operandi.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Linguaggio macchina.md",
-    "Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni.md",
-    "EXTRA/Excalidraw/schematic t=abc....md",
-    "Anno 1/1 Architettura degli elaboratori/02 Logica Combinatoria/Circuiti combinatori e sequenziali.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Astrazione digitale e quantita di informazione.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Sistemi di numerazione binario e esadecimale.md",
-    "Anno 1/1 Architettura degli elaboratori/01 Fondamenti/Porte logiche.md",
+    "Excalidraw/Drawing 2026-09-29 09.31.38.excalidraw.md",
+    "Anno 2/1. Geometria/1. Vettori e spazi Euclidei/Senza nome 1.base",
     "Senza nome 1.canvas",
     "Senza nome.canvas"
   ]

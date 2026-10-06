@@ -4,7 +4,7 @@ tags:
   - Misure
 Link risorse:
 Libro:
-Imparato: false
+Imparato: true
 Ordine: 1
 aliases:
   - Misure di grandezza
@@ -137,14 +137,14 @@ $$
 ---
 
 # Sistema Internazionale
-
+A ogni valore numerico deve sempre essere associata la relativa **unità di misura**.
 Il **Sistema Internazionale (SI)** stabilisce le unità di misura fondamentali utilizzate in fisica.
 
 | Grandezza fondamentale | Unità SI    | Simbolo |
 | ---------------------- | ----------- | ------- |
-| [[Lunghezza]]          | metro       | $m$     |
+| Lunghezza              | metro       | $m$     |
 | Massa                  | chilogrammo | $kg$    |
-| [[Tempo]]              | secondo     | $s$     |
+| Tempo                  | secondo     | $s$     |
 | Corrente elettrica     | ampere      | $A$     |
 | Temperatura            | kelvin      | $K$     |
 | Quantità di sostanza   | mole        | $mol$   |
@@ -158,10 +158,9 @@ $$
 \frac{m}{s}
 $$
 
-## Grandezze fondamentali
 
 ---
 # Dimensioni delle grandezze
 Nel rappresentare le grandezze. Le adimensionali non sono associabili.
-Se faccio calcoli con una grandezza deve essere restituità tale grandezza
+Se faccio calcoli con una grandezza deve essere restituita tale grandezza
 

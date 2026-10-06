@@ -39,7 +39,7 @@ Le istruzioni di **branch** modificano il **program counter**. In altre architet
 | Istruzione     | Nome              | Effetto                                                                                                                        |
 | -------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | `B etichetta`  | *branch*          | salta all'etichetta                                                                                                            |
-| `BL etichetta` | *branch and link* | salta **e salva** l'indirizzo di ritorno in **LR** ( usato per le chiamate a [[Funzioni\|funzione]]) |
+| `BL etichetta` | *branch and link* | salta **e salva** l'indirizzo di ritorno in **LR** ( usato per le chiamate a [[Anno 1/1 Architettura degli elaboratori/06 Architettura ARM/Funzioni\|funzione]]) |
 
 ## Etichette (labels)
 Un'**etichetta** indica la posizione di un'istruzione nel programma.

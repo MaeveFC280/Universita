@@ -66,8 +66,3 @@ Le interconnessioni programmabili collegano gli elementi logici tra loro e ai pi
 | prestazioni | **massime** | medie | medie |
 | tempo di sviluppo | mesi | giorni | giorni |
 
-## Da ricordare
-- Register file = piccola SRAM multiporta, 2 letture + 1 scrittura.
-- ROM/mux come **lookup table**: qualunque funzione di $N$ variabili.
-- PLA = AND array + OR array, solo combinatoria.
-- FPGA = LUT + flip-flop + interconnessioni programmabili.

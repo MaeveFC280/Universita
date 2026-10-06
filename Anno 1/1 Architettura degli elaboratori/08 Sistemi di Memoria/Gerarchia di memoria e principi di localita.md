@@ -4,7 +4,7 @@ tags:
   - memoria
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 8.1'
-Imparato: false
+Imparato: true
 Ordine: 801
 aliases:
   - gerarchia di memoria
@@ -19,7 +19,7 @@ Le prestazioni di un calcolatore dipendono **tanto dal sistema di memoria quanto
 
 Questo divario — il *memory wall* — è cresciuto nel tempo, perché la velocità dei processori è aumentata più rapidamente di quella delle DRAM.
 
-## La soluzione: la gerarchia
+## Gerarchia
 Si costruisce un sistema di memoria a **livelli**: memorie piccole e veloci vicino al processore, memorie grandi e lente lontano.
 
 > L'insieme dei livelli, se ben progettato, **fornisce l'illusione** di una memoria grande **e** veloce, **a un costo minore** di una singola memoria grande e veloce.
@@ -31,7 +31,7 @@ Si costruisce un sistema di memoria a **livelli**: memorie piccole e veloci vici
 | **memoria principale** | **DRAM** | GB | decine-centinaia di cicli |
 | **disco** (memoria virtuale) | HDD magnetico / **SSD** flash | TB | milioni di cicli |
 
-Le memorie dei calcolatori sono realizzate principalmente con **[[DRAM SRAM e ROM|DRAM** e **SRAM]]**.
+Le memorie dei calcolatori sono realizzate principalmente con [[DRAM SRAM e ROM|DRAM e SRAM]].
 
 ## I livelli in dettaglio
 - La **memoria principale** è costruita con chip **DRAM**.
@@ -39,10 +39,12 @@ Le memorie dei calcolatori sono realizzate principalmente con **[[DRAM SRAM e RO
 - Il **terzo livello** della [[Astrazione e gestione della complessita|gerarchia]] è il **disco**:
   - **hard disk drive (HDD)**, basato su memorizzazione **magnetica**;
   - **solid state drive (SSD)**, basato sulla tecnologia **flash**, alternativa cada volta più diffusa perché molto più veloce (pur restando lentissimo rispetto alla DRAM).
-  - Il disco **fornisce l'illusione di una [[Cache - organizzazione e parametri|capacità]] maggiore di quella realmente disponibile** in memoria principale, tramite la **[[Memoria virtuale - concetti|memoria virtuale]]**.
+  - Il disco **fornisce l'illusione di una [[Cache - organizzazione e parametri|capacità]] maggiore di quella realmente disponibile** in memoria principale, tramite la **[[Memoria virtuale|memoria virtuale]]**.
 
 ## I due principi di località
 Perché la gerarchia funzioni, gli accessi del programma devono essere **prevedibili**. E lo sono, per due ragioni empiriche fondamentali:
+- Località temporale
+- località spaziale
 
 ### Località temporale
 > Se un dato è stato usato **di recente**, è probabile che venga usato **ancora presto**.

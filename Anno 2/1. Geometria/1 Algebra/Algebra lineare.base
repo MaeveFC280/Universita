@@ -1,0 +1,15 @@
+views:
+  - type: cards
+    name: Tabella
+    filters:
+      and:
+        - Materia.contains("Algebra Lineare")
+        - not:
+            - file.inFolder("EXTRA")
+    order:
+      - file.name
+      - tags
+      - Imparato
+    sort:
+      - property: Ordine
+        direction: ASC

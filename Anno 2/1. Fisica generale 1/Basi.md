@@ -1,5 +1,0 @@
-- Imparare a schematizzare e suddividere problwemi complessi in + smeplici, come in programmazione
-- contattare prof per DSA
-- Iscriversi al corso online
-- esame orale obbligatorio +-4 punti a partire da un massimo di 26. scritto vale solo per l'appello per cui sostenuto
-- ci sono 2 prove intercorso. se +18/30 ad entrambe si pò fare orale

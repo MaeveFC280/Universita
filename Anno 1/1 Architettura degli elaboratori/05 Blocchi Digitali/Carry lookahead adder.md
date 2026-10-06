@@ -4,7 +4,7 @@ tags:
   - aritmetica
 Link risorse:
 Libro: '"Digital Design and Computer Architecture" Capitolo 5.2.1'
-Imparato: false
+Imparato: true
 Ordine: 503
 aliases:
   - CLA

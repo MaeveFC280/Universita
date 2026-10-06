@@ -13,12 +13,5 @@ Piano B: Mi apro una pasticceria/caffè...
 ![[Materie.base]]
 ![[HOMEPAGE-1781880885898.webp|697|328x323]] ![[HOMEPAGE-1781880936025.webp|292x365]]
 
-# Obbiettivi anno: 2
-- [x] Capire che materia a scelta voglio fare
-- [ ] Superare analisi
-- [ ] Superare fisica
-- [ ] Superare geometria
-- [ ] Superare architettura degli elaboratori
-- [ ] Superare algebra
 # Superati
 ![[Esami superati.base]]

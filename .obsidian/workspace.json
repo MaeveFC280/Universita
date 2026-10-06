@@ -232,6 +232,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Apri selettore rapido": false,
       "daily-notes:Apri nota giornaliera": false,
       "graph:Apri vista grafo": false,

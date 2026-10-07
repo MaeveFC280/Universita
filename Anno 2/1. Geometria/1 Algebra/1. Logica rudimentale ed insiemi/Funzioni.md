@@ -7,7 +7,7 @@ tags:
   - funzioni
 Link risorse:
 Libro:
-Imparato: false
+Imparato: true
 Ordine: 2
 aliases:
 ---

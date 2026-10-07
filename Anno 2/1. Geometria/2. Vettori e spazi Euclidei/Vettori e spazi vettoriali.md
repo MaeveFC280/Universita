@@ -21,6 +21,10 @@ L'insieme di tutti i vettori liberi si indica con $V$
 ![[Vettori-1790939919483.webp]]
 
 ---
+## Vettori applicati
+Fisso con origine nello spazio
+
+---
 ## Operazioni con i vettori
 ### Somma di vettori
 L'addizione tra vettori è un'[[Operazioni|operazione interna]].

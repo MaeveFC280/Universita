@@ -39,7 +39,7 @@ M_{mn}(X)=\{(a^i_{j})|a^i_{j}\in X,i\in\{1,\dots,m\} ,j\in\{1,\dots,n\} \}
 $$
 
 ---
-## Matrici su campo
+## Operazioni con le matrici
 Sia $K$ un [[Strutture algebriche#^1ed1df|campo]].
 
 L'insieme delle matrici di tipo $m\times n$ a coefficienti in $K$ si indica con
@@ -132,7 +132,7 @@ $$
 è uno **spazio vettoriale su $K$**.
 
 ---
-## Matrice trasposta
+### Matrice trasposta
 Sia
 
 $$

@@ -5,7 +5,7 @@ Materia:
 tags:
 Link risorse:
 Libro:
-Imparato: false
+Imparato: true
 Ordine: 7
 aliases:
 ---

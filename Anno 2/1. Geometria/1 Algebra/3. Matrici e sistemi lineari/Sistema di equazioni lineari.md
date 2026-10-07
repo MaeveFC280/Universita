@@ -5,7 +5,7 @@ Materia:
 tags:
 Link risorse:
 Libro:
-Imparato: false
+Imparato: true
 Ordine: 10
 aliases:
 ---
@@ -17,6 +17,7 @@ $$ \Sigma:\begin{cases}a_{11}x_1+a_{12}x_2+\dots+a_{1n}x_n=0\\a_{21}x_1+a_{22}x_
 
 - $\Sigma$ è **compatibile** quando ammette almeno una soluzione ($S\ne\oslash$).
 - Due sistemi $\Sigma_{1},\Sigma_{2}$ sono **equivalenti** e hanno le stesso soluzioni $S_{1}=S_{2}$.
+- Un sistema lineare è **omogeneo** quando tutti i termini noti sono uguali a zero.
 
 >[!example]-
 >$n=4\qquad K=\mathbb{Q}\qquad m=1\qquad 2x_{2}-x_{3}+3x_{4}=1\Leftrightarrow x_{3}=2x_{1}+3x_{4}-1$
@@ -151,6 +152,35 @@ Se ci sono colonne senza pivot, le corrispondenti incognite sono **variabili lib
 > $$
 > \boxed{S=\{(1,2)\}}
 > $$
+
+>[!tip]- Dimostrazione che si ottiene sistema equivalente
+>$\underline{x}=(x_{1},x_{2},\dots)$ e $e_{1}(x)=a_{1}^1$ e altre e sono i polinomi. quindi si può scrivere
+>$$\Sigma=
+>\begin{cases}
+>e_{1}(\underline{x})=0 \\
+>e_{2}(\underline{x})=0 \\ \\
+>\dots \\
+>e_{m}(\underline{x})=0 \\
+>\end{cases}
+>$$
+>$$
+>S=S_{1}\cap S_{2}\cap\dots S_{m}=S_{2}\cap S_{1}\cap\dots S_{m}
+>$$
+>poi operiamo su matrice tipo $a^2\to a^2+\lambda a^1$
+>$$\Sigma=
+>\begin{cases}
+>e_{1}(\underline{x})=0 \\
+>e_{2}(\underline{x})+\lambda_{1}(\underline{x})=0 \\ \\
+>\dots \\
+>e_{m}(\underline{x})=0 \\
+>\end{cases}
+>$$
+>$$
+>y\in S |Leftrightarrow e_{1}(\underline{y})=0,e_{2}(\underline{y})=0\dots
+>$$
+>quindi soluzione primo sistema anche del primo
+>
+>poi proviamolo per il prodotto $\beta \underline{\alpha}^\text{->beta^{-1}(beta undalpha)}=\underline{ \alpha_{2}}$ $b \underline{e_{2}}(\underline{y})=\beta_{0}=0$
 
 ---
 ## Metodo Gauss-Jordan

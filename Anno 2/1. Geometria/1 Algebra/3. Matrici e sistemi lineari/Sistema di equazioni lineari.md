@@ -113,7 +113,7 @@ Se ci sono colonne senza pivot, le corrispondenti incognite sono **variabili lib
 >
 > Eliminiamo il $2$ sotto il primo pivot:
 > $$
-> R_2\to R_2-2R_1
+> \underline{a}_2\to \underline{a}_2-2\underline{a}_1
 > $$
 >
 > Otteniamo:
@@ -182,6 +182,8 @@ Se ci sono colonne senza pivot, le corrispondenti incognite sono **variabili lib
 >
 >poi proviamolo per il prodotto $\beta \underline{\alpha}^\text{->beta^{-1}(beta undalpha)}=\underline{ \alpha_{2}}$ $b \underline{e_{2}}(\underline{y})=\beta_{0}=0$
 
+Non scegliamo noi di quali $x$ trovare la soluzione è quella che è già decisa dal destino.
+
 ---
 ## Metodo Gauss-Jordan
 
@@ -228,7 +230,7 @@ A differenza del metodo di Gauss, non è necessario tornare al sistema e procede
 > \right)
 > $$
 >
-> La matrice ora va portata in forma ridotta, prima facendo $R_{2}=R_{2}-3R_{3}$ e $R_{1}=R_{1}+R_{3}$:
+> La matrice ora va portata in forma ridotta, prima facendo $\underline{a}_{2}=a\underline{a}_{2}-3\underline{a}_{3}$ e $\underline{a}_{1}=\underline{a}_{1}+\underline{a}_{3}$:
 > $$
 > \left(
 > \begin{array}{ccc|c}
@@ -239,7 +241,7 @@ A differenza del metodo di Gauss, non è necessario tornare al sistema e procede
 > \right)
 > $$
 > 
-> Per ridurre completamente la matrice fai $R_{1}=R_{1}+R2$ e $R_{1}=\frac{1}{2}R_{1}$:
+> Per ridurre completamente la matrice fai $\underline{a}_{1}=\underline{a}_{1}+\underline{a}2$ e $\underline{a}_{1}=\frac{1}{2}\underline{a}_{1}$:
 > $$
 > \left(
 > \begin{array}{ccc|c}

@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
+                "file": "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistema di equazioni lineari"
+              "title": "Prodotto tra matrici"
             }
           }
         ],
@@ -219,9 +219,10 @@
   "active": "7eb1e85bc23b7e1b",
   "lastOpenFiles": [
     "Anno 2/1. Geometria/Geometria.base",
-    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori e spazi vettoriali.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Matrici.md",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori e spazi vettoriali.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Polinomi.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Operazioni.md",
@@ -261,7 +262,6 @@
     "Anno 1/1 Architettura degli elaboratori/Architettura degli Elaboratori.base",
     "EXTRA/Immagini/Vettori-1790780304805.webp",
     "EXTRA/Immagini/Vettori-1790780048975.webp",
-    "EXTRA/Excalidraw/triangolo.md",
     "Anno 2/1. Geometria/1. Vettori e spazi Euclidei/Senza nome 1.base",
     "Senza nome 1.canvas",
     "Senza nome.canvas"

@@ -195,3 +195,12 @@ $$
 $$
 
 Quindi nel moto armonico l'accelerazione è sempre proporzionale alla posizione ma ha **verso opposto**.
+
+---
+## Piano inclinato
+
+>[!warning] Nota
+>- Mettere asse della $x$ parallelo al piano è l'opzione più comoda.
+>- Ricorda come funzionano gli angolo complementari
+
+

@@ -27,14 +27,13 @@
             "id": "ccaea9d24ad2637d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/ancncxskjncns.md",
-                "mode": "source",
-                "source": false
+                "file": "Anno 2/1. Fisica generale 1/Fisica.base",
+                "viewName": "Schede"
               },
-              "icon": "lucide-file",
-              "title": "ancncxskjncns"
+              "icon": "lucide-layout-grid",
+              "title": "Fisica"
             }
           }
         ],
@@ -218,9 +217,9 @@
   },
   "active": "ccaea9d24ad2637d",
   "lastOpenFiles": [
+    "Anno 2/1. Fisica generale 1/2. Cinematica/ancncxskjncns.md",
     "Anno 2/1. Fisica generale 1/Fisica.base",
     "Hub.md",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/ancncxskjncns.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare uniforme.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
     "Anno 2/1. Geometria/Geometria.base",

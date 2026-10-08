@@ -16,7 +16,7 @@ $$
 - **Simmetrico all'origine**: $\forall x\in A\implies-x\in A$
 - **Pari**: $f(x)=f(-x)\ \ \forall x\in\mathbb R$ : simmetrico rispetto all'asse $y$ (non può essere iniettiva) 
 - **Dispari**: $f(x)=-f(-x)\ \ \forall x\in\mathbb R$ : simmetrico rispetto all'origine (può essere iniettiva)
-- **Periodica**: di periodo $t>0$ se $f(x)=f(x+t)\ \ \forall x\in\mathbb R$ :(non può essere iniettiva)
+- **Periodica**: di periodo $t>0$ se $f(x)=f(x+T)\ \ \forall x\in\mathbb R$ :(non può essere iniettiva)
 ## Grafico della funzione
 $$
 Gr(f)\underline{\subset}\mathbb R\times\mathbb R\implies\{(x,f(x)),\forall x\in A\}

@@ -24,60 +24,48 @@
             }
           },
           {
-            "id": "ccaea9d24ad2637d",
+            "id": "668a2420f64f1b47",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "Anno 2/1. Fisica generale 1/Fisica.base",
-                "viewName": "Schede"
+                "file": "Anno 1/1 Analisi/Analisi.base",
+                "viewName": "Tabella"
               },
               "icon": "lucide-layout-grid",
-              "title": "Fisica"
+              "title": "Analisi"
             }
           },
           {
-            "id": "0a96f432b056c553",
+            "id": "70a3cbd734477633",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Fisica generale 1/esercizio.md",
+                "file": "Anno 1/1 Analisi/Goniometria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "esercizio"
+              "title": "Goniometria"
             }
           },
           {
-            "id": "f594f9cf9bb13b14",
+            "id": "c2af2b84a8750c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Fisica generale 1/Formulario.md",
+                "file": "Anno 1/1 Analisi/Goniometria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Formulario"
-            }
-          },
-          {
-            "id": "6df49bc5d19128f6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "EXTRA/Excalidraw/Drawing 2026-10-07 16.55.37.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-07 16.55.37.excalidraw"
+              "title": "Goniometria"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -255,16 +243,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0a96f432b056c553",
+  "active": "c2af2b84a8750c92",
   "lastOpenFiles": [
+    "Anno 1/1 Analisi/Analisi.base",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Proprietà delle funzioni reali.md",
+    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Funzioni.md",
+    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
+    "Anno 1/1 Analisi/Goniometria.md",
+    "Anno 1/1 Analisi/Funzioni elementari.md",
+    "Hub.md",
+    "EXTRA/Excalidraw/Drawing 2026-10-07 16.55.37.excalidraw.md",
     "Anno 2/1. Fisica generale 1/Formulario.md",
     "Anno 2/1. Fisica generale 1/esercizio.md",
     "Anno 2/1. Fisica generale 1/Fisica.base",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare uniforme.md",
-    "EXTRA/Excalidraw/Drawing 2026-10-07 16.55.37.excalidraw.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/ancncxskjncns.md",
-    "Hub.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
     "Anno 2/1. Geometria/Geometria.base",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
@@ -273,25 +267,19 @@
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Polinomi.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Operazioni.md",
-    "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Funzioni.md",
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Relazioni.md",
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Insiemi.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Vettori.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/momentaneo.md",
     "EXTRA/Immagini/Moto circolare uniforme-1791289070200.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289048629.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289026748.webp",
     "EXTRA/Immagini/Moto circolare-1791271490507.webp",
     "EXTRA/Immagini/Moto circolare-1791269114705.webp",
     "EXTRA/Immagini/Moto circolare-1791269019916.webp",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/Movimento unidirezionale.md",
-    "Anno 2/1. Fisica generale 1/Qualcosa.md",
     "Anno 2/1. Geometria.zip",
-    "Anno 1/1 Analisi/Analisi.base",
-    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
     "Anno 1/1 Analisi.zip",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche",

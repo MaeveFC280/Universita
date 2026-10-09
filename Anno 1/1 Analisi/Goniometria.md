@@ -5,7 +5,6 @@ Imparato:
 tags:
 Ordine: 5
 ---
-porcodio mi ammazzo
 ## Formule addizione e sottrazione
 
 $$

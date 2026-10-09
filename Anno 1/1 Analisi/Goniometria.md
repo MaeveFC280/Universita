@@ -61,3 +61,10 @@ sono stanco
 ## arctan
 
 ## segno di N
+
+
+## definizione
+diciamo che $P_{n}$ è vera definitivamente se è vera $\forall n ≥n_{0}$ per un certo $n_{0}\in \mathbb{N}$ diciamo che $P_{n}$ è vera ferquentemente se è vera per infiniti valori di $n$.
+
+esempio
+$n^2-2n+1≥0$ $foall n≥1 = (n-1)^2≥0$ $(-3)^2+1>0$ frequentemente non definitivamente

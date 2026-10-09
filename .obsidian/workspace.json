@@ -71,7 +71,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,6 +233,7 @@
   "active": "668a2420f64f1b47",
   "lastOpenFiles": [
     "Anno 1/1 Analisi/Analisi.base",
+    "Anno 1/1 Analisi/Limiti.md",
     "Anno 1/1 Analisi/Goniometria.md",
     "Anno 1/1 Analisi/Equazioni e disequazioni.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Lineare.md",
@@ -259,7 +260,6 @@
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Insiemi.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Vettori.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
     "EXTRA/Immagini/Moto circolare uniforme-1791289070200.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289048629.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289026748.webp",

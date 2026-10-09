@@ -40,13 +40,14 @@
             "id": "d640b86be0b39e87",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Geometria/Geometria.base",
-                "viewName": "Tabella"
+                "file": "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Lezione di oggi.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Geometria"
+              "icon": "lucide-file",
+              "title": "Lezione di oggi"
             }
           }
         ],
@@ -230,6 +231,9 @@
   },
   "active": "d640b86be0b39e87",
   "lastOpenFiles": [
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori e spazi vettoriali.md",
+    "Anno 2/1. Geometria/Geometria.base",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Lezione di oggi.md",
     "Hub.md",
     "Anno 1/1 Analisi/Analisi.base",
     "Anno 1/1 Analisi/Goniometria.md",
@@ -245,10 +249,8 @@
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/ancncxskjncns.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
-    "Anno 2/1. Geometria/Geometria.base",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Matrici.md",
-    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori e spazi vettoriali.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Polinomi.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Operazioni.md",
@@ -257,7 +259,6 @@
     "Anno 2/1. Fisica generale 1/2. Cinematica/Vettori.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Velocità e accelerazione.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
     "EXTRA/Immagini/Moto circolare uniforme-1791289070200.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289048629.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289026748.webp",

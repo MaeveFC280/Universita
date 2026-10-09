@@ -41,3 +41,7 @@ w si dice finitamente generato se esiste S subset Xtale che la sua cardinalità 
 
 dfinizione
 considerati vettori v con 1 c vìcon h in Vessi si dicono linearmente indioendenti se il vettore nullo si scrive come comb. linerare di essi SOLO mediante scalari tutti nulli ossia $lpha_{1}\dots\in K$ $\alpha v\dots=\underline{0}$ quindi $\alpha_{1}=0,\alpha_{n}=0$.altrimenti sono linearmente dipendenti.
+
+
+definizione
+una base di V è un suo sistema di generatori linearmente indipendenti

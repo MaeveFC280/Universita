@@ -1,6 +1,7 @@
 ---
 Materia:
   - Geometria
+  - Algebra Lineare
 tags:
 Link risorse:
 Libro:
@@ -36,3 +37,7 @@ Sia W sottospazo di V un sistema di [generatori] di W è un sottoinsieme di X su
 
 $M_{m,n}(K)=L \begin{pmatrix}1 & 0 & 0 \\  0 & \dots & \dots \\  0 & \dots & 0\end{pmatrix},\begin{pmatrix}0 & 1 & 0 \\  \dots \\  \dots\end{pmatrix}, \dots, \begin{pmatrix}0 & \dots & 0 \\  \dots \\  0 & \dots & 1\end{pmatrix}$
 w si dice finitamente generato se esiste S subset Xtale che la sua cardinalità sia finita e sia sistema di generatori $|S|<+\infty,L(S)=W$ ossia ammete sistema di generatori finito.
+
+
+dfinizione
+considerati vettori v con 1 c vìcon h in Vessi si dicono linearmente indioendenti se il vettore nullo si scrive come comb. linerare di essi SOLO mediante scalari tutti nulli ossia $lpha_{1}\dots\in K$ $\alpha v\dots=\underline{0}$ quindi $\alpha_{1}=0,\alpha_{n}=0$.altrimenti sono linearmente dipendenti.

@@ -40,17 +40,18 @@
             "id": "a06c37002ea1a86d",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 1/1 Analisi/Analisi.base",
-                "viewName": "Tabella"
+                "file": "Anno 1/1 Analisi/Limiti.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Analisi"
+              "icon": "lucide-file",
+              "title": "Limiti"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,13 +229,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fe05286c5fa16d55",
+  "active": "a06c37002ea1a86d",
   "lastOpenFiles": [
-    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare.md",
-    "Anno 2/1. Fisica generale 1/Fisica.base",
     "Anno 1/1 Analisi/Analisi.base",
-    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
     "Anno 1/1 Analisi/Goniometria.md",
+    "Anno 2/1. Fisica generale 1/Fisica.base",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare.md",
+    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
     "Hub.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",

@@ -27,14 +27,13 @@
             "id": "fe05286c5fa16d55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
-                "mode": "source",
-                "source": false
+                "file": "Anno 2/1. Fisica generale 1/Fisica.base",
+                "viewName": "Schede"
               },
-              "icon": "lucide-file",
-              "title": "Moto del proiettile"
+              "icon": "lucide-layout-grid",
+              "title": "Fisica"
             }
           }
         ],
@@ -218,8 +217,10 @@
   },
   "active": "fe05286c5fa16d55",
   "lastOpenFiles": [
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare.md",
     "Anno 2/1. Fisica generale 1/Fisica.base",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
+    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
     "Hub.md",
     "Anno 2/1. Geometria/Geometria.base",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
@@ -232,7 +233,6 @@
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/lineare 2.0.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Sottospazi vettoriali.md",
-    "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori liberi ed operazioni.md",
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Relazioni.md",
@@ -245,7 +245,6 @@
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Funzioni.md",
     "Anno 1/1 Analisi/Funzioni elementari.md",
     "EXTRA/Excalidraw/Drawing 2026-10-07 16.55.37.excalidraw.md",
-    "Anno 2/1. Fisica generale 1/Formulario.md",
     "EXTRA/Immagini/Moto circolare uniforme-1791289070200.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289048629.webp",
     "EXTRA/Immagini/Moto circolare uniforme-1791289026748.webp",

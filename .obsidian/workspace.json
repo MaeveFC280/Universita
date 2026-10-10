@@ -35,6 +35,19 @@
               "icon": "lucide-layout-grid",
               "title": "Fisica"
             }
+          },
+          {
+            "id": "a06c37002ea1a86d",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Anno 1/1 Analisi/Analisi.base",
+                "viewName": "Tabella"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Analisi"
+            }
           }
         ],
         "currentTab": 1
@@ -219,9 +232,12 @@
   "lastOpenFiles": [
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto circolare.md",
     "Anno 2/1. Fisica generale 1/Fisica.base",
+    "Anno 1/1 Analisi/Analisi.base",
+    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
+    "Anno 1/1 Analisi/Goniometria.md",
+    "Hub.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto in più direzioni.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moto del proiettile.md",
-    "Hub.md",
     "Anno 2/1. Geometria/Geometria.base",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Strutture algebriche.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Spazi e sottospazi vettoriali.md",
@@ -237,10 +253,7 @@
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Vettori liberi ed operazioni.md",
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Relazioni.md",
     "Anno 1/2 Programmazione Object-Oriented/Collezioni.md",
-    "Anno 1/1 Analisi/Goniometria.md",
-    "Anno 1/1 Analisi/Analisi.base",
     "Anno 1/1 Analisi/Limiti.md",
-    "Anno 1/1 Analisi/Equazioni e disequazioni.md",
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Proprietà delle funzioni reali.md",
     "Anno 2/1. Geometria/1 Algebra/1. Logica rudimentale ed insiemi/Funzioni.md",
     "Anno 1/1 Analisi/Funzioni elementari.md",

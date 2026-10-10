@@ -337,7 +337,7 @@ A differenza del metodo di Gauss, non è necessario tornare al sistema e procede
 > \right)
 > $$
 >
-> La matrice ora va portata in forma ridotta, prima facendo $\underline{a}_{2}=a\underline{a}_{2}-3\underline{a}_{3}$ e $\underline{a}_{1}=\underline{a}_{1}+\underline{a}_{3}$:
+> La matrice ora va portata in forma ridotta:
 > $$
 > \left(
 > \begin{array}{ccc|c}

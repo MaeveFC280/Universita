@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
+                "file": "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistema di equazioni lineari"
+              "title": "Prodotto tra matrici"
             }
           }
         ],
@@ -219,6 +219,7 @@
   "active": "e06c2a37c18e44e0",
   "lastOpenFiles": [
     "Anno 2/1. Geometria/Geometria.base",
+    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Spazi e sottospazi vettoriali.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Lineare.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/lineare 2.0.md",
@@ -243,7 +244,6 @@
     "Anno 2/1. Fisica generale 1/2. Cinematica/Moti particolari.md",
     "Anno 2/1. Fisica generale 1/2. Cinematica/ancncxskjncns.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",
-    "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Sistema di equazioni lineari.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Matrici.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Polinomi.md",
     "EXTRA/Immagini/Moto circolare uniforme-1791289070200.webp",

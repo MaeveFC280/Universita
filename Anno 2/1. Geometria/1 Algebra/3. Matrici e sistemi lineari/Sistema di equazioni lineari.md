@@ -363,3 +363,93 @@ A differenza del metodo di Gauss, non è necessario tornare al sistema e procede
 >$$ \boxed{x=0\qquad y=-1 \qquad z=0} $$
 
 
+---
+## Teorema di struttura delle soluzioni di un sistema lineare
+
+Dato un sistema lineare $\Sigma$, si dice **sistema omogeneo associato** il sistema $\Sigma_0$ ottenuto ponendo tutti i termini noti uguali a zero, senza modificare i coefficienti delle incognite.
+
+Consideriamo:
+$$
+\Sigma:Ax=b,\qquad \Sigma_0:Ax=0
+$$
+Indichiamo con $S$ e $S_0$ i rispettivi insiemi delle soluzioni, entrambi sottoinsiemi di $K^n$.
+
+>[!info] Teorema di struttura delle soluzioni
+>Se $\Sigma$ è compatibile e $y\in S$ è una sua soluzione particolare, allora:
+>$$
+>\boxed{S=\{y+z\mid z\in S_0\}}
+>$$
+>Quindi **ogni soluzione del sistema $\Sigma$ si ottiene sommando a una soluzione particolare $y$ una soluzione $z$ del sistema omogeneo associato $\Sigma_0$**.
+
+>[!tip] Dimostrazione
+>Vogliamo dimostrare l'uguaglianza verificando entrambe le inclusioni.
+>**1. Dimostriamo che $\{y+z\mid z\in S_0\}\subseteq S$.**
+>Poiché $y\in S$, per ogni equazione $i=1,\dots,m$ vale:
+>$$
+>a_{i1}y_1+\dots+a_{in}y_n=b_i
+>$$
+>Poiché $z\in S_0$, vale anche:
+>$$
+>a_{i1}z_1+\dots+a_{in}z_n=0
+>$$
+>Sommando membro a membro:
+>$$
+>a_{i1}(y_1+z_1)+\dots+a_{in}(y_n+z_n)=b_i
+>$$
+>Quindi $y+z$ soddisfa tutte le equazioni di $\Sigma$ ed è una sua soluzione:
+>$$
+>y+z\in S
+>$$
+>**2. Dimostriamo che $S\subseteq\{y+z\mid z\in S_0\}$.**
+>Prendiamo una qualsiasi soluzione $w\in S$.
+>Poiché sia $w$ sia $y$ soddisfano $\Sigma$, abbiamo:
+>$$
+>a_{i1}w_1+\dots+a_{in}w_n=b_i
+>$$
+>$$
+>a_{i1}y_1+\dots+a_{in}y_n=b_i
+>$$
+>Sottraendo membro a membro:
+>$$
+>a_{i1}(w_1-y_1)+\dots+a_{in}(w_n-y_n)=0
+>$$
+>Quindi $w-y$ è soluzione del sistema omogeneo associato:
+>$$
+>z=w-y\in S_0
+>$$
+>Da cui:
+>$$
+>w=y+z,\qquad z\in S_0
+>$$
+>Pertanto ogni soluzione $w\in S$ si può scrivere come somma di $y$ e di un elemento di $S_0$.
+>**Conclusione.** Poiché valgono entrambe le inclusioni:
+>$$
+>\boxed{S=\{y+z\mid z\in S_0\}}
+>$$
+
+>[!example]- Esempio
+>Consideriamo il sistema:
+>$$
+>\Sigma:x+y=2
+>$$
+>Il sistema omogeneo associato è:
+>$$
+>\Sigma_0:x+y=0
+>$$
+>Una soluzione particolare di $\Sigma$ è:
+>$$
+>y_0=(2,0)
+>$$
+>Le soluzioni del sistema omogeneo sono:
+>$$
+>S_0=\{(t,-t)\mid t\in\mathbb R\}
+>$$
+>Applicando il teorema:
+>$$
+>S=\{y_0+z\mid z\in S_0\}
+>$$
+>Quindi:
+>$$
+>\boxed{S=\{(2+t,-t)\mid t\in\mathbb R\}}
+>$$
+>Abbiamo così ottenuto tutte le soluzioni del sistema originale.

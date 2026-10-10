@@ -31,7 +31,7 @@ $$
 
 Chiamiamo $\theta (t)$ l’angolo (in radianti) che descrive la posizione del punto materiale sulla circonferenza in funzione del tempo ed il raggio.
 
-L'angolo di rotazione per unità di tempo è la **velocità angolare**: $$\omega(t)=\ddot{\theta}=R\omega(t)$$
+L'angolo di rotazione per unità di tempo è la **velocità angolare**: $$\omega(t)=\dot{\theta}(t)= \frac{d\theta}{dt}$$
 La sua unità di misura sono i $\text{rad/s}$
 
 Lo **spazio percorso** (lunghezza arco) e la **velocità scalare** sono quindi 

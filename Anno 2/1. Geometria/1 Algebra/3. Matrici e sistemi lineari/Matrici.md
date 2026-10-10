@@ -193,7 +193,7 @@ $$
 A\in M_{m\times n}(K)
 $$
 
-possono essere considerate come [[Vettori e spazi vettoriali|vettori]] di $K^n$.
+possono essere considerate come [[Vettori liberi ed operazioni|vettori]] di $K^n$.
 
 La $i$-esima riga è
 

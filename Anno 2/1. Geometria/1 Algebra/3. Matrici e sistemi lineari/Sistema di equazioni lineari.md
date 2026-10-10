@@ -9,29 +9,72 @@ Imparato: true
 Ordine: 10
 aliases:
 ---
+## Sistema lineare
 >[!info] Definizione
->Considerando il [[Strutture algebriche#^1ed1df|campo]] $(K,+,\cdot)$ e $m,n\in \mathbb{N}$
->Un **sistema lineare** di $m$ equazioni su $K$ in $n$ incognite è una [[n-upla]] di equazioni lineari su $K$.
-$$ \Sigma:\begin{cases}a_{11}x_1+a_{12}x_2+\dots+a_{1n}x_n=0\\a_{21}x_1+a_{22}x_2+\dots+a_{2n}x_n=0\\\vdots\\a_{m1}x_1+a_{m2}x_2+\dots+a_{mn}x_n=0\end{cases} $$
-> Una soluzione di $\Sigma$ è una [[n-upla]] che risulta essere soluzione di tutte le equazioni di $\Sigma$ .
+>Dato un [[Strutture algebriche#^1ed1df|campo]] $(K,+,\cdot)$ e due numeri naturali $m,n\geq1$, un **sistema lineare** di $m$ equazioni in $n$ incognite è una **m-upla di equazioni lineari** su $K$.
+>Un sistema lineare generico si scrive:
+>$$
+>\Sigma:\begin{cases}
+>a_{11}x_1+a_{12}x_2+\dots+a_{1n}x_n=b_1\\
+>a_{21}x_1+a_{22}x_2+\dots+a_{2n}x_n=b_2\\
+>\vdots\\
+>a_{m1}x_1+a_{m2}x_2+\dots+a_{mn}x_n=b_m
+>\end{cases}
+>$$
+>dove:
+>- $x_1,\dots,x_n$ sono le **incognite**;
+>- $a_{ij}\in K$ sono i **coefficienti**;
+>- $b_1,\dots,b_m\in K$ sono i **termini noti**.
+>Una **soluzione** del sistema $\Sigma$ è una [[n-upla]] $(s_1,\dots,s_n)\in K^n$ che, sostituita alle incognite, soddisfa contemporaneamente tutte le $m$ equazioni.
+>L'insieme di tutte le soluzioni è indicato con $S_\Sigma\subseteq K^n$.
 
-- $\Sigma$ è **compatibile** quando ammette almeno una soluzione ($S\ne\oslash$).
-- Due sistemi $\Sigma_{1},\Sigma_{2}$ sono **equivalenti** e hanno le stesso soluzioni $S_{1}=S_{2}$.
-- Un sistema lineare è **omogeneo** quando tutti i termini noti sono uguali a zero.
+- Un sistema $\Sigma$ è **compatibile** quando ammette almeno una soluzione, cioè $S_\Sigma\neq\varnothing$.
+- Un sistema è **incompatibile** quando non ammette soluzioni, cioè $S_\Sigma=\varnothing$.
+- Due sistemi $\Sigma_1$ e $\Sigma_2$, nelle stesse incognite e sullo stesso campo, sono **equivalenti** quando hanno lo stesso insieme delle soluzioni: $S_{\Sigma_1}=S_{\Sigma_2}$.
+- Un sistema è **omogeneo** quando tutti i termini noti sono nulli, cioè $b_1=\dots=b_m=0$. Un sistema omogeneo è sempre compatibile, perché ammette almeno la soluzione nulla $(0,\dots,0)$.
 
->[!example]-
->$n=4\qquad K=\mathbb{Q}\qquad m=1\qquad 2x_{2}-x_{3}+3x_{4}=1\Leftrightarrow x_{3}=2x_{1}+3x_{4}-1$
->$$S=\{(\overline x_{1},\overline x_{2},2\overline x_{2}+3\overline x_{4},-1,\overline x_{4}|\overline x_{1},\overline x_{2},\overline x_{4}\in \mathbb{Q}\})$$
->Modo alternativo per risolverlo: $2x_{2}=x_{3}-3x_{4}+1\to x_{2}=\frac{1}{2}x_{3}-\frac{3}{2}x_{4}+\frac{1}{2}$
->$$S=\left\{ (\overline x_{1}, \frac{1}{2}x_{3}-\frac{3}{2}x_{4}+\frac{1}{2},\overline x_{3},\overline x_{4}|\overline x_{1},\overline x_{3},\overline x_{4}\in \mathbb{Q} \right\})$$
+>[!example]- Esempio
+>Consideriamo il sistema con $m=1$, $n=4$ e $K=\mathbb{Q}$:
+>$$
+>2x_2-x_3+3x_4=1
+>$$
+>Abbiamo una sola equazione in quattro incognite. Per descrivere tutte le soluzioni possiamo scegliere liberamente tre incognite e ricavare la quarta.
+>**Primo metodo: ricaviamo $x_3$.**
+>$$
+>x_3=2x_2+3x_4-1
+>$$
+>Assegniamo valori arbitrari:
+>$$
+>x_1=s,\quad x_2=t,\quad x_4=u
+>$$
+>con $s,t,u\in\mathbb Q$. Di conseguenza:
+>$$
+>x_3=2t+3u-1
+>$$
+>L'insieme delle soluzioni è:
+>$$
+>\boxed{S_\Sigma=\{(s,t,2t+3u-1,u)\mid s,t,u\in\mathbb Q\}}
+>$$
+>**Secondo metodo: ricaviamo $x_2$.**
+>Partiamo dalla stessa equazione:
+>$$
+>2x_2=x_3-3x_4+1
+>$$
+>quindi:
+>$$
+>x_2=\frac{x_3-3x_4+1}{2}
+>$$
+>Questa volta scegliamo liberamente $x_1=s$, $x_3=t$ e $x_4=u$, ottenendo:
+>$$
+>\boxed{S_\Sigma=\left\{\left(s,\frac{t-3u+1}{2},t,u\right)\mid s,t,u\in\mathbb Q\right\}}
+>$$
+>Le due rappresentazioni descrivono **lo stesso insieme di soluzioni**: abbiamo soltanto scelto incognite libere differenti.
 
 ---
 ## Matrice associata a un sistema
-Consideriamo il sistema:
-
+Consideriamo il sistema lineare:
 $$
-\Sigma:
-\begin{cases}
+\Sigma:\begin{cases}
 a_{11}x_1+\dots+a_{1n}x_n=b_1\\
 a_{21}x_1+\dots+a_{2n}x_n=b_2\\
 \vdots\\
@@ -39,33 +82,49 @@ a_{m1}x_1+\dots+a_{mn}x_n=b_m
 \end{cases}
 $$
 
-I coefficienti delle incognite possono essere raccolti nella **[[Matrici|matrice]] dei coefficienti**:
 
+I coefficienti delle incognite possono essere raccolti nella **[[Matrici|matrice dei coefficienti]]**:
 $$
-A=
-\begin{pmatrix}
+A=\begin{pmatrix}
 a_{11}&a_{12}&\dots&a_{1n}\\
 a_{21}&a_{22}&\dots&a_{2n}\\
 \vdots&\vdots&&\vdots\\
 a_{m1}&a_{m2}&\dots&a_{mn}
-\end{pmatrix}
+\end{pmatrix}\in M_{m\times n}(K)
 $$
 
 Se aggiungiamo anche i termini noti otteniamo la **[[Matrici|matrice]] completa** del sistema:
 
 $$
-A|b=
-\left(
-\begin{array}{cccc|c}
+C=(A|b)=
+\left(\begin{array}{cccc|c}
 a_{11}&a_{12}&\dots&a_{1n}&b_1\\
 a_{21}&a_{22}&\dots&a_{2n}&b_2\\
 \vdots&\vdots&&\vdots&\vdots\\
 a_{m1}&a_{m2}&\dots&a_{mn}&b_m
-\end{array}
-\right).
+\end{array}\right)
 $$
 
-Quindi **ogni riga della matrice completa corrisponde a un'equazione del sistema** e **ogni colonna, esclusa l'ultima, corrisponde a un'incognita**. L'ultima colonna contiene invece i termini noti.
+
+Quindi:
+- ogni **riga** della matrice completa corrisponde a un'equazione;
+- ogni **colonna** di $A$ corrisponde a un'incognita;
+- **l'ultima colonna** contiene i termini noti.
+
+
+
+
+Indichiamo con:
+$$
+x=\begin{pmatrix}x_1\\\vdots\\x_n\end{pmatrix},
+\qquad
+b=\begin{pmatrix}b_1\\\vdots\\b_m\end{pmatrix}
+$$
+Allora il sistema può essere scritto nella forma compatta:
+$$
+\boxed{Ax=b}
+$$
+dove il prodotto è il [[Prodotto tra matrici|prodotto righe per colonne]].
 
 
 L'obiettivo è **trasformare il sistema in uno equivalente** ma più semplice da risolvere.
@@ -80,8 +139,8 @@ $$
 
 Se $\Sigma'$ viene ottenuto da $\Sigma$ applicando un numero finito di [[Matrici#^119330|operazioni elementari]] alle righe della sua matrice completa, allora:$\boxed{S_\Sigma=S_{\Sigma'}}$ e quindi i due sistemi sono equivalenti, per questo motivo possiamo modificare la matrice.
 
----
-## Metodo Gauss
+
+### Metodo Gauss
 
 Questo procedimento è alla base del **metodo di eliminazione di Gauss**:
 1. si scrive la **matrice completa** del sistema;
@@ -153,39 +212,87 @@ Se ci sono colonne senza pivot, le corrispondenti incognite sono **variabili lib
 > \boxed{S=\{(1,2)\}}
 > $$
 
->[!tip]- Dimostrazione che si ottiene sistema equivalente
->$\underline{x}=(x_{1},x_{2},\dots)$ e $e_{1}(x)=a_{1}^1$ e altre e sono i polinomi. quindi si può scrivere
->$$\Sigma=
->\begin{cases}
->e_{1}(\underline{x})=0 \\
->e_{2}(\underline{x})=0 \\ \\
->\dots \\
->e_{m}(\underline{x})=0 \\
+
+>[!tip] Dimostrazione
+>Vogliamo dimostrare che le operazioni elementari sulle righe conservano l'insieme delle soluzioni del sistema.
+>**1. Scriviamo il sistema usando delle funzioni**
+>Indichiamo con $x=(x_1,\dots,x_n)\in K^n$ il vettore delle incognite e definiamo:
+>$$
+>e_i(x)=a_{i1}x_1+\dots+a_{in}x_n-b_i
+>$$
+>Possiamo quindi riscrivere il sistema come:
+>$$
+>\Sigma:\begin{cases}
+>e_1(x)=0\\
+>e_2(x)=0\\
+>\vdots\\
+>e_m(x)=0
 >\end{cases}
 >$$
+>Una n-upla $y\in K^n$ è soluzione del sistema se e solo se soddisfa tutte le equazioni:
 >$$
->S=S_{1}\cap S_{2}\cap\dots S_{m}=S_{2}\cap S_{1}\cap\dots S_{m}
+>y\in S_\Sigma\iff e_1(y)=e_2(y)=\dots=e_m(y)=0
 >$$
->poi operiamo su matrice tipo $a^2\to a^2+\lambda a^1$
->$$\Sigma=
->\begin{cases}
->e_{1}(\underline{x})=0 \\
->e_{2}(\underline{x})+\lambda_{1}(\underline{x})=0 \\ \\
->\dots \\
->e_{m}(\underline{x})=0 \\
->\end{cases}
+>**2. Scambio di due righe**
+>Scambiare due righe significa cambiare l'ordine delle equazioni.
+>Se $S_i=\{x\in K^n\mid e_i(x)=0\}$, allora:
 >$$
+>S_\Sigma=S_1\cap S_2\cap\dots\cap S_m
 >$$
->y\in S |Leftrightarrow e_{1}(\underline{y})=0,e_{2}(\underline{y})=0\dots
+>Poiché l'intersezione è commutativa, scambiare due insiemi non modifica il risultato. Quindi lo scambio di due righe conserva le soluzioni.
+>**3. Moltiplicazione di una riga per uno scalare non nullo**
+>Consideriamo l'operazione:
 >$$
->quindi soluzione primo sistema anche del primo
->
->poi proviamolo per il prodotto $\beta \underline{\alpha}^\text{->beta^{-1}(beta undalpha)}=\underline{ \alpha_{2}}$ $b \underline{e_{2}}(\underline{y})=\beta_{0}=0$
+>R_i\to\beta R_i,\qquad\beta\neq0
+>$$
+>La corrispondente equazione diventa:
+>$$
+>\beta e_i(x)=0
+>$$
+>Poiché $K$ è un campo e $\beta\neq0$, esiste $\beta^{-1}$ e quindi:
+>$$
+>\beta e_i(x)=0\iff e_i(x)=0
+>$$
+>Le due equazioni hanno esattamente le stesse soluzioni.
+>**4. Somma a una riga di un multiplo di un'altra**
+>Consideriamo l'operazione:
+>$$
+>R_i\to R_i+\lambda R_j,\qquad i\neq j
+>$$
+>La nuova equazione è:
+>$$
+>e_i(x)+\lambda e_j(x)=0
+>$$
+>La $j$-esima equazione rimane invariata: $e_j(x)=0$.
+>Se $y$ è soluzione del sistema originale, allora:
+>$$
+>e_i(y)=0,\qquad e_j(y)=0
+>$$
+>Di conseguenza:
+>$$
+>e_i(y)+\lambda e_j(y)=0+\lambda\cdot0=0
+>$$
+>Quindi $y$ è soluzione anche del sistema trasformato.
+>Viceversa, se $y$ è soluzione del sistema trasformato:
+>$$
+>e_i(y)+\lambda e_j(y)=0,\qquad e_j(y)=0
+>$$
+>Sostituendo $e_j(y)=0$ otteniamo:
+>$$
+>e_i(y)=0
+>$$
+>Quindi $y$ soddisfa anche il sistema originale.
+>**Conclusione**
+>Ogni operazione elementare è reversibile e conserva l'insieme delle soluzioni. Di conseguenza, anche una successione finita di tali operazioni produce un sistema equivalente:
+>$$
+>\boxed{S_\Sigma=S_{\Sigma'}}
+>$$
+
 
 Non scegliamo noi di quali $x$ trovare la soluzione è quella che è già decisa dal destino.
 
----
-## Metodo Gauss-Jordan
+
+### Metodo Gauss-Jordan
 
 Il metodo di Gauss-Jordan prosegue il metodo di Gauss fino a ottenere una matrice a gradini ridotta.
 
@@ -255,171 +362,4 @@ A differenza del metodo di Gauss, non è necessario tornare al sistema e procede
 >Quindi
 >$$ \boxed{x=0\qquad y=-1 \qquad z=0} $$
 
----
-## Teorema di Rouché-Capelli
-
->[!tip] Teorema di Rouché-Capelli
->Un sistema lineare $\Sigma$ è compatibile se e solo se
->$$
->\operatorname{rg}(A)=\operatorname{rg}(A|b).
->$$
-
-Quindi:
-
-$$
-\boxed{
-\Sigma \text{ compatibile}
-\iff
-\operatorname{rg}(A)=\operatorname{rg}(A|b)
-}
-$$
-
-Se invece $\operatorname{rg}(A)\neq\operatorname{rg}(A|b)$ il sistema è incompatibile.
-
-Se aggiungendo la colonna dei termini noti il rango aumenta, significa che compare una nuova condizione indipendente che non può essere soddisfatta dalle incognite. Quindi il sistema non ha soluzioni. Se invece il rango non cambia, il sistema è compatibile.
-
-### Numero di soluzioni
-
-Supponiamo che
-
-$$
-\operatorname{rg}(A)=\operatorname{rg}(A|b)=r.
-$$
-
-Allora il sistema è compatibile.
-
-Bisogna confrontare $r$ con il numero $n$ delle incognite.
-
-#### Caso $r=n$
-
-Se
-
-$$
-r=n,
-$$
-
-il sistema ha **una sola soluzione**.
-
-Quindi:
-
-$$
-\boxed{
-\operatorname{rg}(A)=\operatorname{rg}(A|b)=n
-\Rightarrow
-\text{soluzione unica}
-}
-$$
-
-#### Caso $r<n$
-
-Se
-
-$$
-r<n,
-$$
-
-il sistema ha **infinite soluzioni**.
-
-Il numero di variabili libere è
-
-$$
-n-r.
-$$
-
-Quindi:
-
-$$
-\boxed{
-\operatorname{rg}(A)=\operatorname{rg}(A|b)<n
-\Rightarrow
-\text{infinite soluzioni}
-}
-$$
-
-#### Caso ranghi diversi
-
-Se
-
-$$
-\operatorname{rg}(A)\neq\operatorname{rg}(A|b),
-$$
-
-il sistema non ha soluzioni.
-
-$$
-\boxed{
-\operatorname{rg}(A)\neq\operatorname{rg}(A|b)
-\Rightarrow
-\text{nessuna soluzione}
-}
-$$
-
-
-### Schema riassuntivo
-
-Sia
-
-$$
-r=\operatorname{rg}(A),
-\qquad
-r'=\operatorname{rg}(A|b).
-$$
-
-Allora:
-
-$$
-\begin{array}{c|c}
-\text{Condizione} & \text{Conclusione}\\
-\hline
-r\neq r' & \text{nessuna soluzione}\\
-r=r'=n & \text{una sola soluzione}\\
-r=r'<n & \text{infinite soluzioni}
-\end{array}
-$$
-
-
-
->[!example] Esempio
->Consideriamo
->$$
->\begin{cases}
->x+y=2\\
->2x+2y=4
->\end{cases}
->$$
->
->La matrice dei coefficienti è
->$$
->A=
->\begin{pmatrix}
->1 & 1\\
->2 & 2
->\end{pmatrix}
->$$
->
->e la matrice completa è
->$$
->(A|b)=
->\begin{pmatrix}
->1 & 1 & 2\\
->2 & 2 & 4
->\end{pmatrix}.
->$$
->
->La seconda riga è multipla della prima, quindi
->$$
->\operatorname{rg}(A)=1
->$$
->e
->$$
->\operatorname{rg}(A|b)=1.
->$$
->
->I ranghi sono uguali, quindi il sistema è compatibile.
->
->Poiché
->$$
->1<2=n,
->$$
->il sistema ha infinite soluzioni.
 

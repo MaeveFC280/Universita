@@ -1,6 +1,10 @@
 ---
 Materia:
+  - Fisica
+  - Geometria
+  - Algebra Lineare
 tags:
+  - Vettori
 Link risorse:
 Libro:
 Imparato: false
@@ -9,14 +13,30 @@ aliases:
 ---
 In generale le misure si dividono tra **scalari** (lavoro, energia, calore, distanza...) e **vettori** (velocità, movimento, forza...).
 
-Un vettore è una grandezza caratterizzata da:
-- **modulo**;
-- **direzione**;
-- **verso**.
-
 Un vettore può essere scomposto nelle sue componenti lungo gli assi del sistema di riferimento.
 
 Per trovare le componenti di un vettore si considera il sistema di coordinate e si proietta il vettore lungo ciascun asse.
+
+>[!info] Definizione vettore libero
+>Un vettore è una grandezza che rappresenta lo spostamento da un punto ad un altro, esso ha caratteristiche
+>- Direzione
+>- Verso
+>- Modulo
+
+È anche possibile definire un vettore tramite le [[Relazioni#^classeEquivalenza|classe di equivalenza|classi di equivalenza]].
+>[!info] Definizione di un vettore libero alternativa
+Un **vettore libero** è una classe di equivalenza di segmenti orientati aventi:
+>- stessa direzione;
+>- stesso verso;
+>- stessa lunghezza.
+
+L'insieme di tutti i vettori liberi si indica con $V$
+![[Vettori-1790939919483.webp]]
+
+
+---
+## Vettori applicati
+Fisso con origine nello spazio
 
 ---
 ## Versori
@@ -50,9 +70,25 @@ $$
 ![[Moto in più direzioni-1790778471547.webp]]
 
 ---
-## Somma di vettori
-![[Moto in più direzioni-1790769132192.webp|right]]
+## Operazioni
+### Somma di vettori
+L'addizione tra vettori è un'[[Operazioni|operazione interna]].
+$$  
++\times V\to V  
+$$
+Poiché un vettore è una classe di equivalenza di segmenti orientati, **possiamo cambiare rappresentante, traslando il vettore, senza cambiare il vettore stesso**.
+
+Questo permette di scegliere rappresentanti con lo stesso punto di applicazione e applicare la regola del parallelogramma.
+
 La somma di due vettori può essere rappresentata geometricamente mediante la **regola del parallelogramma** (o punta-coda).
+![[Moto in più direzioni-1790769132192.webp|right]]
+
+
+Questo significa che per ogni $u,v,w\in V$ valgono:
+- Associatività: $(u+v)+w=u+(v+w)$
+- Elemento neutro: $0\in V\qquad u+0=0+u=u$
+- Elemento opposto: $\forall u\in V\exists-u\in V:u+(-u)=0$
+- Commutatività: $u+v=v+u$
 
 Per calcolare la **differenza** tra due vettori è possibile applicare la stessa tecnica usando l'inverso del secondo vettore.
 
@@ -77,9 +113,20 @@ $$
 $$
 
 
+La struttura $(V,+)$ è un **[[Strutture algebriche#^0826fd|gruppo abeliano]]**.
 
----
-## Prodotto scalare
+### Prodotto scalare
+Si definisce un'[[Operazioni|operazione esterna]]:
+
+$$
+\cdot:\mathbb R\times V\to V.
+$$
+
+Dato $\alpha\in\mathbb R$ e $v\in V$:
+
+- se $\alpha>0$, $\alpha v$ ha stessa direzione e stesso verso di $v$, con lunghezza moltiplicata per $\alpha$;
+- se $\alpha<0$, ha stessa direzione ma verso opposto;
+- se $\alpha=0$, si ottiene il vettore nullo.
 ### Scalare per vettore
 Il prodotto definisce un nuovo vettore con stessa direzione e verso ma lunghezza uguale al prodotto della lunghezza del vettore iniziale per lo scalare (verso opposto se lo scalare è negativo).
 
@@ -96,8 +143,8 @@ $$
 
 
 
----
-## Prodotto vettoriale
+
+### Prodotto vettoriale
 Vettore la cui intensità data dal prodotto dei corpi per il seno dell'angolo  dell'angolo alpha
 $$
 \boxed{|\vec{v_{1}}\cdot \vec{v_{2}}|=|\vec{v_{1}}||\vec{v_{2}}|\sin \alpha}

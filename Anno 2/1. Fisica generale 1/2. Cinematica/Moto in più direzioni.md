@@ -27,7 +27,7 @@ Nel caso di moto nel piano sono sufficienti due coordinate: $x(t),y(t)$
 
 ---
 ## Vettore posizione
-Nel moto in più dimensioni, la posizione e il movimento di un corpo vengono descritti mediante [[Anno 2/1. Fisica generale 1/2. Cinematica/Vettori|Vettori]].
+Nel moto in più dimensioni, la posizione e il movimento di un corpo vengono descritti mediante [[Vettori|Vettori]].
 
 Il **vettore posizione** è determinato dalle coordinate del punto nel sistema di riferimento scelto.
 

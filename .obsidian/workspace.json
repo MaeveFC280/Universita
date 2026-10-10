@@ -27,13 +27,14 @@
             "id": "e06c2a37c18e44e0",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Anno 2/1. Geometria/Geometria.base",
-                "viewName": "Tabella"
+                "file": "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Spazi e sottospazi vettoriali.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Geometria"
+              "icon": "lucide-file",
+              "title": "Spazi e sottospazi vettoriali"
             }
           }
         ],
@@ -217,9 +218,9 @@
   },
   "active": "e06c2a37c18e44e0",
   "lastOpenFiles": [
-    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Lineare.md",
     "Anno 2/1. Geometria/Geometria.base",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Operazioni.md",
+    "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Lineare.md",
     "Anno 2/1. Geometria/1 Algebra/2. Strutture algebriche/Polinomi.md",
     "Anno 2/1. Geometria/2. Vettori e spazi Euclidei/Spazi e sottospazi vettoriali.md",
     "Anno 2/1. Geometria/1 Algebra/3. Matrici e sistemi lineari/Prodotto tra matrici.md",

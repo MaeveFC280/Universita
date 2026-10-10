@@ -5,7 +5,7 @@ tags:
 Imparato:
 Ordine: 9
 ---
-
+## Spazio vettoriale
 >[!info] Definizione
 Dato un [[Strutture algebriche#^1ed1df|campo]] $(K,+,\cdot)$, uno **spazio vettoriale** su $K$ è una [[Strutture algebriche|struttura]] (quaterna) $(V,K,\boxplus,\boxdot)$ tale che $V$ è un insieme non vuoto e sono definite:
 >- $\boxplus:V\times V\to V$ tale che $(V,\boxplus)$ è un gruppo abeliano con $\underline{0}$ vettore nullo
@@ -453,7 +453,7 @@ $$
 
 
 ---
-
+## Sottospazio vettoriale
 Un sottoinsieme $W\subseteq V$ si dice **sottospazio vettoriale** di $V$ se, con le stesse operazioni $\boxplus$ e $\boxdot$ definite su $V$, è a sua volta uno spazio vettoriale su $K$.
 
 >[!tip] Criterio di sottospazio
@@ -537,3 +537,36 @@ $$
 $$
 
 
+## Soluzioni di un sistema lineare omogeneo
+Sia $A\in M_{m\times n}(K)$ e consideriamo il sistema omogeneo $A\underline{x}=\underline 0$.
+Indichiamo con:
+$$
+S_0=\{\underline{x}\in K^n\mid A\underline{x}=\underline 0\}
+$$
+l'insieme delle sue soluzioni.
+
+> [!info] Proposizione
+> L'insieme $S_0$ delle soluzioni di un sistema lineare omogeneo è un **sottospazio vettoriale** di $K^n$.
+
+> [!tip] Dimostrazione
+> Verifichiamo le condizioni del [[Spazi e sottospazi vettoriali|criterio di sottospazio]].
+> **1. Non è vuoto.** Il vettore nullo $\underline 0\in K^n$ è soluzione perché:
+> $$
+> A\underline 0=\underline 0.
+> $$
+> Quindi $S_0\neq\varnothing$.
+> **2. È chiuso rispetto alla somma.** Siano $\underline y,\underline z\in S_0$. Allora:
+> $$
+> A\underline y=\underline 0,\qquad A\underline z=\underline 0.
+> $$
+> Per la distributività del [[Prodotto tra matrici|prodotto righe per colonne]]:
+> $$
+> A(\underline y+\underline z)=A\underline y+A\underline z=\underline 0+\underline 0=\underline 0.
+> $$
+> Dunque $\underline y+\underline z\in S_0$.
+> **3. È chiuso rispetto al prodotto per scalare.** Siano $\lambda\in K$ e $\underline y\in S_0$. Per la compatibilità del prodotto con gli scalari:
+> $$
+> A(\lambda\underline y)=\lambda(A\underline y)=\lambda\underline 0=\underline 0.
+> $$
+> Dunque $\lambda\underline y\in S_0$.
+> **Conclusione:** $S_0$ è non vuoto e chiuso rispetto alle due operazioni; pertanto è un sottospazio vettoriale di $K^n$.

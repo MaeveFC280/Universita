@@ -185,7 +185,7 @@ $$
 > \end{pmatrix}.
 > $$
 
----
+
 ## Righe e colonne come vettori
 Le righe di una matrice
 

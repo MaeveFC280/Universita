@@ -9,109 +9,137 @@ Imparato: true
 Ordine: 7
 aliases:
 ---
-Un **termine** in $n$ variabili $x_1,\dots,x_n$ è un prodotto di potenze delle variabili:
+Sia $(K,+,\cdot)$ un [[Strutture algebriche#^1ed1df|campo]] e siano $x_1,\dots,x_n$ delle variabili. Indichiamo con $\mathbb N_0=\{0,1,2,\dots\}$ l'insieme degli interi non negativi.
 
-$$
-\tau=x_1^{\alpha_1}x_2^{\alpha_2}\cdots x_n^{\alpha_n},
-\qquad \alpha_1,\dots,\alpha_n\in\mathbb N.
-$$
+## Termini, monomi e polinomi
+>[!info] Definizioni
+>Un **termine** in $n$ variabili è un prodotto di potenze delle variabili:
+>$$
+>\tau=x_1^{\alpha_1}x_2^{\alpha_2}\cdots x_n^{\alpha_n},\qquad \alpha_1,\dots,\alpha_n\in\mathbb N_0.
+>$$
+>Un **monomio** è un termine moltiplicato per un coefficiente $\gamma\in K$:
+>$$
+>\boxed{\gamma\,x_1^{\alpha_1}x_2^{\alpha_2}\cdots x_n^{\alpha_n}}
+>$$
+>Un **polinomio** su $K$ nelle variabili $x_1,\dots,x_n$ è una **somma finita di monomi**:
+>$$
+>\boxed{p(x_1,\dots,x_n)=\sum_{j=1}^{r}\gamma_j\tau_j,\qquad \gamma_j\in K.}
+>$$
+>Per definizione, $\tau_j$ sono termini nelle variabili considerate; per il polinomio nullo tutti i coefficienti sono zero (si può anche usare la somma vuota).
 
-Un **monomio** è un termine moltiplicato per un elemento di $K$:
+I monomi che hanno **lo stesso termine** (le stesse variabili con gli stessi esponenti) sono *simili* e si possono raccogliere sommando i coefficienti. Per determinare il grado di un polinomio bisogna considerarlo dopo avere raccolto i monomi simili.
 
-$$
-\gamma x_1^{\alpha_1}\gamma x_2^{\alpha_2}\cdots \gamma x_n^{\alpha_n},
-\qquad \gamma\in K.
-$$
-
-Un **polinomio su $K$ in $n$ variabili** è una somma finita di monomi:
-
-$$
-p=\sum_{i=1}^{d}\gamma_{i}\tau_i,
-$$
----
 ## Grado
-- Il grado di un **termine** è la somma degli esponenti che in esso compaiono
-- Il grado di un **monomio** è il grado del termine da cui è composto
-- Il grado di un **polinomio** è il massimo dei gradi dei termini che in esso compaiono con coefficiente non nullo
->[!example]- Esempio
->Considerando $K=\mathbb{R}$ e $p=-3x_{1}^2x_{5}^4x_{4}^1+\pi x_{2}^1x_{3}^1-\sqrt{ 5 }x_{2}^1x_{4}^1$
->- Grado 7: $-3x_{1}^2x_{5}^4x_{4}^1$
->- Grado 2: $\pi x_{2}^1x_{3}^1$
->- Grado 6: $\sqrt{ 5 }x_{2}^1x_{4}^1$
->Il grado del polinomio è $fr(p)=7$
+- Il **grado di un termine** è la somma dei suoi esponenti:
+  $$\deg(\tau)=\alpha_1+\dots+\alpha_n.$$
+- Il **grado di un monomio non nullo** è il grado del suo termine.
+- Il **grado di un polinomio non nullo** è il massimo dei gradi dei termini che compaiono con coefficiente non nullo, dopo avere raccolto i monomi simili:
+  $$\boxed{\deg(p)=\max\{\deg(\tau_j)\mid\gamma_j\ne0\}.}$$
 
+Un polinomio costante non nullo ha grado $0$. Il polinomio nullo non ha un grado definito; in alcune convenzioni si pone $\deg(0)=-\infty$.
 
----
-## Polinomi ad un'incognita
-Sia $K$ un campo, l'insieme dei polinomi in una sola incognita $t$ con coefficienti in $K$ si indica con
+>[!example]- Esempio: grado in più variabili
+>Consideriamo $K=\mathbb R$ e il polinomio in cinque variabili:
+>$$
+>p=-3x_1^2x_5^4x_4+\pi x_2x_3-\sqrt5\,x_2x_4.
+>$$
+>- Il primo monomio ha grado $2+4+1=7$.
+>- Il secondo monomio ha grado $1+1=2$.
+>- Il terzo monomio ha grado $1+1=2$.
+>Quindi:
+>$$
+>\boxed{\deg(p)=7}
+>$$
+
+## Polinomi in una sola variabile
+Sia $t$ una sola variabile. L'insieme dei polinomi in $t$ con coefficienti nel campo $K$ si indica con **$K[t]$**:
 $$
-K[t].
+\boxed{K[t]=\left\{\sum_{i=0}^{d}a_it^i\ \middle|\ d\in\mathbb N_0,\ a_i\in K\right\}.}
 $$
-
-Un polinomio ha la forma
+Qui $t^0=1$, quindi il coefficiente $a_0$ rappresenta il **termine costante**. Un polinomio può essere scritto nella forma:
 $$
-p(t)=a_0+a_1t+a_2t^2+\dots+a_nt^n,
-\qquad a_i\in K.
+p(t)=a_0+a_1t+a_2t^2+\dots+a_dt^d.
 $$
-
-Quindi $K[t]$ è l'insieme di tutti i polinomi in $t$ con coefficienti appartenenti a $K$.
-
-$$
-K[t]=\left\{   \sum^d_{i=1}\gamma_{i}t^i\ |\ d\in \mathbb{N}\{0\} , \gamma_{i}\in K,\forall i\in\{ 1,\dots,d \}   \right\}
-$$
->[!example]- Esempio
-$$>K=\mathbb{R}\qquad a\cdot t\qquad 7-t^2+t^8+0\cdot t^{10} \text{  grado 8}$$
-
-
-
-
----
-## Operazioni con i Polinomi
-Avendo 
-- $p_{1}(t)=a_{0}+a_{1}t+\dots a_{n}t_{n}^k$
-- $p_{2}(t)=b_{0}+b_{1}t+\dots b_{n}t^k$
-
-La somma è
-$$
-+:K[t]\times K[t]\to K[t] \qquad (p_{1}(t),p_{2}(t))\rightsquigarrow p_{1}(t)+p_{2}(t)=a_{0}+b_{0}+(a_{1}+b_{1})t+\dots
-$$
+Se $a_d\ne0$, il grado è $d$ e $a_d$ è detto **coefficiente direttore**.
 
 >[!example]- Esempio
-$$(5t-\sqrt{ 2 }t^3+11t^{14})+(-2+6t+t^2-7t^5)=$$
-$$-2+11t+t^2-\sqrt{ 2 }t^3-7t^5+11t^14$$
+>In $\mathbb R[t]$ consideriamo:
+>$$
+>p(t)=7-t^2+t^8+0\cdot t^{10}.
+>$$
+>Il termine di grado $10$ ha coefficiente nullo, quindi non conta ai fini del grado:
+>$$
+>\boxed{\deg(p)=8}
+>$$
 
-- $(K[t],+)$ è un gruppo abeliano.
-- $(K[t],+,\cdot)$ è un anello commutativo unitario.
-
----
-## Equazioni lineari
-
-Sia $K$ un campo, un'equazione lineare in $n$ incognite $x_1,\dots,x_n$ è un'equazione del tipo
-
+## Operazioni con i polinomi
+Siano:
 $$
-a_1x_1+a_2x_2+\dots+a_nx_n=b,
-\qquad a_1,\dots,a_n,b\in K.
-$$
-
-Una **soluzione** è una n-upla di scalari che sostituiti ordinatamente alle variabili rende l'equazione un'uguaglianza.
-$$
-(x_1,\dots,x_n)\in K^n
+p(t)=\sum_{i=0}^{d}a_it^i,\qquad q(t)=\sum_{j=0}^{e}b_jt^j.
 $$
 
->[!example]- Esempio
-$$3x_{1}-x_{2}+2x_{4}-2=0$$
-$$\text{Soluzioni: }(1,3,1)$$
+### Addizione
+L'addizione è un'operazione interna:
+$$
++:K[t]\times K[t]\longrightarrow K[t].
+$$
+Si sommano i coefficienti dei termini con la **stessa potenza** di $t$. Se una potenza manca in uno dei due polinomi, il suo coefficiente è considerato zero:
+$$
+p(t)+q(t)=\sum_{k=0}^{\max(d,e)}(a_k+b_k)t^k.
+$$
 
----
-## Sistema di equazioni
-Un sistema lineare di $m$ equazioni su $K$ in $n$ incognite è una [[n-upla|n-upla]] di equazioni lineari su $K$.
+>[!example]- Esempio: somma
+>$$
+>\begin{aligned}
+>&(5t-\sqrt2\,t^3+11t^{14})+(-2+6t+t^2-7t^5)\\
+>&=-2+11t+t^2-\sqrt2\,t^3-7t^5+11t^{14}.
+>\end{aligned}
+>$$
+
+L'opposto di $p(t)$ è il polinomio $-p(t)$ ottenuto cambiando segno a tutti i coefficienti. Lo zero è il polinomio con tutti i coefficienti nulli. Perciò $(K[t],+)$ è un **gruppo abeliano**.
+
+### Moltiplicazione tra polinomi
+La moltiplicazione è un'altra operazione interna:
 $$
-\sum:
-\begin{cases}
-a_{11}x_1+a_{12}x_2+\dots+a_{1n}x_n=0\\
-a_{21}x_1+a_{22}x_2+\dots+a_{2n}x_n=0\\
-\vdots\\
-a_{m1}x_1+a_{m2}x_2+\dots+a_{mn}x_n=0
-\end{cases}
+\cdot:K[t]\times K[t]\longrightarrow K[t].
 $$
-Una soluzione di $\Sigma$ è una n-upla che risulta essere soluzione di tutte le equazioni di $\Sigma$, ovvero se le soluzioni avendo$S_{1},\dots S_{n}$ allora $S=S_{1}\cap\dots\cap S_{n}$ (intersezione delle soluzioni del sistema).
+Si applica la proprietà distributiva e si usa $t^it^j=t^{i+j}$. Raccogliendo i termini dello stesso grado otteniamo:
+$$
+\boxed{p(t)q(t)=\sum_{k=0}^{d+e}\left(\sum_{\substack{i+j=k\\0\le i\le d,\;0\le j\le e}}a_ib_j\right)t^k.}
+$$
+In pratica, **il coefficiente di $t^k$ è la somma dei prodotti $a_ib_j$ per tutti gli indici con $i+j=k$**.
+
+>[!example]- Esempio: prodotto
+>$$
+>\begin{aligned}
+>(1+2t)(3-t+t^2)
+>&=3-t+t^2+6t-2t^2+2t^3\\
+>&=\boxed{3+5t-t^2+2t^3}
+>\end{aligned}
+>$$
+
+### Struttura algebrica e prodotto per scalare
+- $(K[t],+,\cdot)$ è un **[[Strutture algebriche|anello commutativo unitario]]**: l'elemento neutro della moltiplicazione è il polinomio costante $1$.
+- In generale $K[t]$ **non è un campo**: per esempio il polinomio $t$ non ammette inverso in $K[t]$.
+- Possiamo anche moltiplicare un polinomio per uno **scalare** $\lambda\in K$, moltiplicando tutti i coefficienti:
+  $$
+  \lambda p(t)=\sum_{i=0}^{d}(\lambda a_i)t^i.
+  $$
+  Con l'addizione e questa moltiplicazione per scalare, $K[t]$ è uno [[Spazi e sottospazi vettoriali|spazio vettoriale]] su $K$.
+
+## Collegamento alle equazioni lineari
+Un'equazione lineare in $n$ incognite può essere scritta come:
+$$
+a_1x_1+\dots+a_nx_n-b=0,\qquad a_1,\dots,a_n,b\in K.
+$$
+È un'equazione polinomiale il cui polinomio ha **grado al più $1$** (quando non è nullo). Il suo studio, insieme ai sistemi di equazioni, prosegue in [[Sistema di equazioni lineari]].
+
+>[!example]- Esempio: una soluzione
+>Consideriamo:
+>$$
+>3x_1-x_2+2x_4-2=0.
+>$$
+>È un'equazione in **quattro incognite**, anche se $x_3$ non compare (ha coefficiente zero). La $4$-upla $(1,3,0,1)$ è una soluzione, perché:
+>$$
+>3\cdot1-3+2\cdot1-2=0.
+>$$

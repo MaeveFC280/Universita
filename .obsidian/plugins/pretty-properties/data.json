@@ -6,7 +6,9 @@
     "icon",
     "cover",
     "cssclasses",
-    "banner_position"
+    "banner_position",
+    "tags",
+    "materia"
   ],
   "propertyPillColors": {},
   "propertyLongtextColors": {

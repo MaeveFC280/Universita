@@ -39,7 +39,7 @@ M_{mn}(X)=\{(a^i_{j})|a^i_{j}\in X,i\in\{1,\dots,m\} ,j\in\{1,\dots,n\} \}
 $$
 
 ---
-## Operazioni con le matrici
+## Matrici su campo
 Sia $K$ un [[Strutture algebriche#^1ed1df|campo]].
 
 L'insieme delle matrici di tipo $m\times n$ a coefficienti in $K$ si indica con
@@ -132,7 +132,7 @@ $$
 è uno **spazio vettoriale su $K$**.
 
 ---
-### Matrice trasposta
+## Matrice trasposta
 Sia
 
 $$
@@ -185,7 +185,7 @@ $$
 > \end{pmatrix}.
 > $$
 
-
+---
 ## Righe e colonne come vettori
 Le righe di una matrice
 
@@ -193,7 +193,7 @@ $$
 A\in M_{m\times n}(K)
 $$
 
-possono essere considerate come [[Vettori liberi ed operazioni|vettori]] di $K^n$.
+possono essere considerate come [[Vettori e spazi vettoriali|vettori]] di $K^n$.
 
 La $i$-esima riga è
 

@@ -12,8 +12,12 @@ Ordine: 2
 aliases:
 ---
 >[!info] Funzione
->Dati due insiemi $A$ a un insieme $B$ una funzione/applicazione è una [[Relazioni|relazione]] $f\subseteq A\times B$  tale che $\forall a\in A,\ \exists! b\in B \text{ tale che } (a,b)\in f$  dove $\exists!$ significa **esiste ed è unico**.
->Si scrive $f\to B$ e, se all'elemento $a\in A$ viene associato $b\in B$, $f(a)=b$  
+>Dati due insiemi non vuoti $A$ a un insieme $B$ una funzione/applicazione è una [[Relazioni|relazione]] $f\subseteq A\times B$  tale che $\forall a\in A,\ \exists! b\in B \text{ tale che } (a,b)\in f$.
+
+
+Si scrive $f\to B$ e, se all'elemento $a\in A$ viene associato $b\in B$, $f(a)=b$.
+
+Il **dominio**/campo di esistenza della funzione è l'insieme di valori attribuibili alla variabile indipendente.
 
 ---
 ## Composizione di funzioni
@@ -73,7 +77,7 @@ $$
 Ogni retta parallela all'asse delle $x$ incontra il grafico in un solo
 punto.
 
-![[Drawing 2026-09-24 14.07.58.excalidraw]]
+
 ### Crescenti e decrescenti
 Sia $f(x)$ una funzione di dominio $D$, diciamo che la funzione è
 - **Monotona crescente in senso stretto** se due valori $x_{1},x_{2}$ tali che $x_{1}<x_{2}$ allora $f(x_{1})<f(x_{2})$

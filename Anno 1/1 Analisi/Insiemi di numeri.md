@@ -5,24 +5,24 @@ tags:
   - Insiemi
 Link risorse:
 Libro:
-Imparato: false
+Imparato: true
 Ordine: -35
 aliases:
 ---
-Numeri naturali $\mathbb{N}$
+Numeri **naturali** $\mathbb{N}$
 $$
 \mathbb{N}=\{0,1,2,3,4\dots\}
 $$
-Numeri interi relativi
+Numeri interi **relativi**
 $$
 \mathbb{Z}=\{-2,-1,0,1,2\dots\}
 $$
-Numeri interi relativi
+Numeri **razionali**
 $$
 \mathbb{Q}=\{\frac mn,m,n\in\mathbb{Z},n\ne 0\}
 $$
 
-Numeri reali
+Numeri **reali** sono numeri ai quali è possibile attribuire uno sviluppo decimale finito o infinito
 
 I gruppi includono l'altro con inclusione stretta.
 $$
